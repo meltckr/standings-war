@@ -337,8 +337,10 @@
     }).join("") : '<span class="tk-g">No finals</span>';
     document.querySelector(".tk-lab").textContent = L.lastNight;
     var p = asOfParts();
-    $("stamp").textContent = p.date + " · " + p.time;
-    $("stamp-short").textContent = p.time;
+    // A last-refresh stamp, not a clock: "Updated 10:05 AM AZ", with the pull's weekday once the reader's day has moved on.
+    var wd = new Date(D.war.as_of).toLocaleDateString("en-US", { weekday: "short", timeZone: "America/Phoenix" });
+    $("stamp").textContent = "Updated " + p.date + " · " + p.time;
+    $("stamp-short").textContent = "Updated " + (L.stale ? wd + " " : "") + p.time;
     $("season-label").textContent = D.war.season;
   }
 
@@ -567,6 +569,11 @@
       function rank(g) { return g.kind === "suns" ? 0 : gameHasFav(g) ? 1 : 2; }
       return rank(a) - rank(b) || w.tonight.games.indexOf(a) - w.tonight.games.indexOf(b);
     });
+    // Phones fold the board: the lead game stays up (the Suns game, else the first game with a Phoenix stake in this order)
+    // and the rest wait behind one disclosure. Desktop never folds (CSS: the fold rules live in the phone breakpoint only).
+    var lead = games.filter(function (g) { return g.kind === "suns"; })[0] || games.filter(function (g) { return g.kind === "stake"; })[0] || null;
+    var matter = games.filter(function (g) { return g.kind === "suns" || g.kind === "stake"; }).length;
+    var foldable = games.length > (lead ? 1 : 0);
     var rows = games.map(function (g) {
       var st = g.status, root = g.root, live = st === "in_progress", fin = st === "final";
       var stx;
@@ -602,7 +609,7 @@
         tags += '<span class="going ' + (g.verdict === "Helped" ? "good" : "bad") + '">' + g.verdict + "</span>";
       }
       var why = g.kind === "suns" ? D.war.lens.tonight : g.why;
-      return '<div class="tb-r k-' + g.kind + (gameHasFav(g) ? " fav" : "") + '" role="row" data-game="' + esc(g.id) + '" data-answer="' + esc(g.answer) +
+      return '<div class="tb-r k-' + g.kind + (gameHasFav(g) ? " fav" : "") + (g === lead ? " tb-lead" : " tb-fold") + '" role="row" data-game="' + esc(g.id) + '" data-answer="' + esc(g.answer) +
         '" data-status="' + st + '" data-tip="' + esc(g.tip_az) + '">' +
         '<span class="tb-t" role="cell">' + stx + "</span>" +
         '<span class="tb-m" role="cell">' + tside(g.away) + '<span class="at" aria-hidden="true">@</span>' + tside(g.home) + "</span>" +
@@ -614,8 +621,11 @@
       " Arizona time (AZ). Scores as of " + esc(L.stale ? w.as_of_display : asOfParts().time) + ".";
     $("rooting").innerHTML = head("01", "Rooting guide · " + plural(games.length, "game", "games") + (L.stale ? " on " + esc(w.today.short) : " tonight"),
         L.stale ? "The board for " + esc(w.today.short) : "Tonight&rsquo;s board", "rooting-h", dayText(w.lens.board), lede) +
-      (games.length ? '<div class="tb" role="table" aria-label="' + (L.stale ? "Games on " + esc(w.today.short) : "Tonight&rsquo;s games") + '"><div class="tb-h" role="row"><span role="columnheader">Time</span><span role="columnheader">Matchup</span>' +
-        '<span role="columnheader">Root for</span><span role="columnheader">Why it matters to Phoenix</span></div>' + rows + "</div>"
+      (games.length ? '<div class="tb' + (foldable && !open["board-all"] ? " folded" : "") + '" id="board-all" role="table" aria-label="' + (L.stale ? "Games on " + esc(w.today.short) : "Tonight&rsquo;s games") + '"><div class="tb-h" role="row"><span role="columnheader">Time</span><span role="columnheader">Matchup</span>' +
+        '<span role="columnheader">Root for</span><span role="columnheader">Why it matters to Phoenix</span></div>' + rows + "</div>" +
+        (foldable ? '<div class="tb-fold-ctl">' + disclose("board-all", [plural(games.length, "game", "games") + (L.stale ? " on " + w.today.short : " tonight") + " · " +
+          (matter === 1 ? "1 matters" : matter + " matter") + " to Phoenix", "All " + plural(games.length, "game", "games") + (L.stale ? " on " + w.today.short : " tonight")], "",
+          [lead ? "Show the full list" : "Show the games", "Showing the full list"]) + "</div>" : "")
         : '<p class="empty-note">No NBA games are on the schedule ' + (L.stale ? "on " + esc(w.today.short) : "tonight") + ".</p>");
   }
 
@@ -1057,7 +1067,7 @@
     var srcSub = "ESPN standings, schedules and scoreboard, " + p.time + " · NBA.com cross-check · Simulation in the same refresh";
     $("sources").innerHTML = '<h2 class="sr" id="sources-h">Sources</h2>' + disclose("sources-more", ["Sources", "Hide sources"], notes.length + " notes", [srcSub, srcSub]) +
       panel("sources-more", '<div class="src-g" id="sources-body">' + notes.map(function (n) { return "<div><h3>" + nw(n[0]) + "</h3>" + n[1] + "</div>"; }).join("") + "</div>") +
-      '<p class="colo">Standings War · Built for Mat Ishbia · Private and confidential</p>';
+      '<p class="colo">Standings War · Built for Mat Ishbia · Private and confidential<span class="ver" title="Standings War 1.0.0"> · <span>v1.0</span></span></p>';
   }
 
   // ------------------------------------------------------------ events
@@ -1081,7 +1091,7 @@
     $("hiw-open-slot").innerHTML =
       '<button type="button" class="hiw-open" id="hiw-open" aria-haspopup="dialog" aria-controls="hiw-dlg">' +
       '<span class="hiw-play" aria-hidden="true"></span><span class="hiw-open-t">Watch how it works</span>' +
-      '<span class="hiw-open-d"><span class="sr">, </span>1:03</span></button>';
+      '<span class="hiw-open-d"><span class="sr">, </span>1:02</span></button>';
   }
   function filmFocusables() {
     return Array.prototype.filter.call($("hiw-dlg").querySelectorAll("button, a[href], video[controls]"),
@@ -1098,10 +1108,10 @@
     dlg.className = "hiw-dlg" + (vert ? " vert" : "");
     dlg.innerHTML =
       '<div class="hiw-panel">' +
-      '<div class="hiw-top"><p class="hiw-title" id="hiw-dlg-t">How it works <span class="hiw-dur">· 63-second tour</span></p>' +
+      '<div class="hiw-top"><p class="hiw-title" id="hiw-dlg-t">How it works <span class="hiw-dur">· 62-second tour</span></p>' +
       '<button type="button" class="hiw-x" id="hiw-close" aria-label="Close the film"><span aria-hidden="true">&times;</span></button></div>' +
       '<div class="hiw-frame"><video id="hiw-video" controls playsinline preload="auto" poster="' + c.poster + '" width="' + c.w + '" height="' + c.h +
-      '" data-cut="' + c.cut + '" aria-label="Standings War: how it works, 63 seconds' + (vert ? ", captions on the picture" : "") + '">' +
+      '" data-cut="' + c.cut + '" aria-label="Standings War: how it works, 62 seconds' + (vert ? ", captions on the picture" : "") + '">' +
       '<source src="' + c.src + '" type="video/mp4">' + track + '<a href="' + c.src + '">Watch the film (MP4)</a></video></div>' +
       '<div class="hiw-bar"><div class="hiw-speed" role="group" aria-label="Playback speed"><span class="hiw-k">Speed</span>' + speeds + "</div>" +
       '<div class="hiw-share"><button type="button" class="hiw-btn" id="hiw-share">Share</button>' +
@@ -1167,7 +1177,7 @@
   // beside it is the file itself.
   function shareFilm() {
     var url = filmPageURL(), status = $("hiw-status");
-    var data = { title: "Standings War: how it works", text: "A 63-second tour of Standings War.", url: url };
+    var data = { title: "Standings War: how it works", text: "A 62-second tour of Standings War.", url: url };
     function copied(ok) { status.textContent = ok ? "Link copied: " + url : "Copy this link: " + url; }
     if (navigator.share) {
       navigator.share(data).then(function () { status.textContent = "Shared."; }, function () {});
@@ -1285,6 +1295,15 @@
     }
     var btn = document.querySelector('.disc[data-disc="' + id + '"]'), p = $(id);
     btn.setAttribute("aria-expanded", String(open[id]));
+    if (id === "board-all") {   // the board folds by class (its lead row stays), not by hiding one panel
+      btn.classList.toggle("open", open[id]);
+      btn.querySelector(".dc-t").textContent = open[id] ? "Hide" : "Show";
+      btn.querySelector(".dc-b").textContent = JSON.parse(btn.getAttribute("data-labels"))[open[id] ? 1 : 0];
+      btn.querySelector(".dc-s").textContent = JSON.parse(btn.getAttribute("data-subs"))[open[id] ? 1 : 0];
+      p.classList.toggle("folded", !open[id]);
+      if (open[id]) Array.prototype.forEach.call(p.querySelectorAll(".tb-fold"), reveal);
+      return;
+    }
     btn.classList.toggle("open", open[id]);
     btn.querySelector(".dc-t").textContent = open[id] ? "Hide" : "Show";
     var i = open[id] ? 1 : 0;

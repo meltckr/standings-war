@@ -579,3 +579,7 @@ body.film-open{position:fixed;left:0;right:0;overflow:hidden}
 }
 /* The big number's glyph box reaches up under the welcome line; keep the film button on top so taps land on it. */
 .welcome-row{position:relative;z-index:2}
+/* Tonight's board folds on phones only: the lead game stays, one disclosure opens the rest. Desktop is unchanged. */
+.tb-fold-ctl{display:none}
+@media (max-width:600px){.tb-fold-ctl{display:block}.tb-fold-ctl .disc{margin-top:12px}.tb.folded .tb-fold{display:none}.tb.folded .tb-lead{order:-1}}
+.colo .ver span{text-transform:none;letter-spacing:.06em}   /* the version stays lowercase v, muted like the colophon */
