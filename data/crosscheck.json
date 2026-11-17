@@ -1,0 +1,450 @@
+{
+ "as_of": "2026-11-17T10:05:21-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 10:05 AM AZ",
+ "timezone": "America/Phoenix",
+ "sources": {
+  "espn": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?seasontype=2&level=2",
+  "espn_page": "https://www.espn.com/nba/standings",
+  "nba_com": "https://www.nba.com/team/<team id> (W, L, CONF_RANK in the page data)",
+  "nba_com_standings_page": "https://www.nba.com/standings",
+  "nba_com_games_page": "https://www.nba.com/games?date=2026-11-17",
+  "nba_com_games_page_error": null
+ },
+ "games_in_progress": [],
+ "teams": [
+  {
+   "team": "SAS",
+   "seed": 1,
+   "espn": {
+    "wins": 12,
+    "losses": 2
+   },
+   "espn_game_results": {
+    "wins": 12,
+    "losses": 2
+   },
+   "nba_com": {
+    "wins": 12,
+    "losses": 2,
+    "conf_rank": 1,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": {
+    "wins": 12,
+    "losses": 2,
+    "game_status": "8:00 pm ET"
+   },
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": true
+   }
+  },
+  {
+   "team": "LAL",
+   "seed": 2,
+   "espn": {
+    "wins": 12,
+    "losses": 2
+   },
+   "espn_game_results": {
+    "wins": 12,
+    "losses": 2
+   },
+   "nba_com": {
+    "wins": 12,
+    "losses": 2,
+    "conf_rank": 2,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": {
+    "wins": 12,
+    "losses": 2,
+    "game_status": "11:00 pm ET"
+   },
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": true
+   }
+  },
+  {
+   "team": "HOU",
+   "seed": 3,
+   "espn": {
+    "wins": 11,
+    "losses": 4
+   },
+   "espn_game_results": {
+    "wins": 11,
+    "losses": 4
+   },
+   "nba_com": {
+    "wins": 11,
+    "losses": 4,
+    "conf_rank": 3,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "MIN",
+   "seed": 4,
+   "espn": {
+    "wins": 10,
+    "losses": 4
+   },
+   "espn_game_results": {
+    "wins": 10,
+    "losses": 4
+   },
+   "nba_com": {
+    "wins": 10,
+    "losses": 4,
+    "conf_rank": 4,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": {
+    "wins": 10,
+    "losses": 4,
+    "game_status": "8:00 pm ET"
+   },
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": true
+   }
+  },
+  {
+   "team": "MEM",
+   "seed": 5,
+   "espn": {
+    "wins": 10,
+    "losses": 4
+   },
+   "espn_game_results": {
+    "wins": 10,
+    "losses": 4
+   },
+   "nba_com": {
+    "wins": 10,
+    "losses": 4,
+    "conf_rank": 5,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "POR",
+   "seed": 6,
+   "espn": {
+    "wins": 9,
+    "losses": 4
+   },
+   "espn_game_results": {
+    "wins": 9,
+    "losses": 4
+   },
+   "nba_com": {
+    "wins": 9,
+    "losses": 4,
+    "conf_rank": 6,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": {
+    "wins": 9,
+    "losses": 4,
+    "game_status": "8:00 pm ET"
+   },
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": true
+   }
+  },
+  {
+   "team": "OKC",
+   "seed": 7,
+   "espn": {
+    "wins": 9,
+    "losses": 5
+   },
+   "espn_game_results": {
+    "wins": 9,
+    "losses": 5
+   },
+   "nba_com": {
+    "wins": 9,
+    "losses": 5,
+    "conf_rank": 7,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "DEN",
+   "seed": 8,
+   "espn": {
+    "wins": 7,
+    "losses": 5
+   },
+   "espn_game_results": {
+    "wins": 7,
+    "losses": 5
+   },
+   "nba_com": {
+    "wins": 7,
+    "losses": 5,
+    "conf_rank": 8,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "GSW",
+   "seed": 9,
+   "espn": {
+    "wins": 8,
+    "losses": 6
+   },
+   "espn_game_results": {
+    "wins": 8,
+    "losses": 6
+   },
+   "nba_com": {
+    "wins": 8,
+    "losses": 6,
+    "conf_rank": 9,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "DAL",
+   "seed": 10,
+   "espn": {
+    "wins": 7,
+    "losses": 7
+   },
+   "espn_game_results": {
+    "wins": 7,
+    "losses": 7
+   },
+   "nba_com": {
+    "wins": 7,
+    "losses": 7,
+    "conf_rank": 10,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "PHX",
+   "seed": 11,
+   "espn": {
+    "wins": 6,
+    "losses": 7
+   },
+   "espn_game_results": {
+    "wins": 6,
+    "losses": 7
+   },
+   "nba_com": {
+    "wins": 6,
+    "losses": 7,
+    "conf_rank": 11,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "NOP",
+   "seed": 12,
+   "espn": {
+    "wins": 5,
+    "losses": 10
+   },
+   "espn_game_results": {
+    "wins": 5,
+    "losses": 10
+   },
+   "nba_com": {
+    "wins": 5,
+    "losses": 10,
+    "conf_rank": 13,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "LAC",
+   "seed": 13,
+   "espn": {
+    "wins": 4,
+    "losses": 8
+   },
+   "espn_game_results": {
+    "wins": 4,
+    "losses": 8
+   },
+   "nba_com": {
+    "wins": 4,
+    "losses": 8,
+    "conf_rank": 12,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": {
+    "wins": 4,
+    "losses": 8,
+    "game_status": "10:30 pm ET"
+   },
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": true
+   }
+  },
+  {
+   "team": "SAC",
+   "seed": 14,
+   "espn": {
+    "wins": 1,
+    "losses": 12
+   },
+   "espn_game_results": {
+    "wins": 1,
+    "losses": 12
+   },
+   "nba_com": {
+    "wins": 1,
+    "losses": 12,
+    "conf_rank": 14,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": null,
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": null
+   }
+  },
+  {
+   "team": "UTA",
+   "seed": 15,
+   "espn": {
+    "wins": 1,
+    "losses": 13
+   },
+   "espn_game_results": {
+    "wins": 1,
+    "losses": 13
+   },
+   "nba_com": {
+    "wins": 1,
+    "losses": 13,
+    "conf_rank": 15,
+    "season": "2026-27"
+   },
+   "nba_com_games_page": {
+    "wins": 1,
+    "losses": 13,
+    "game_status": "10:30 pm ET"
+   },
+   "game_in_progress": false,
+   "match": {
+    "espn_game_results": true,
+    "nba_com": true,
+    "nba_com_games_page": true
+   }
+  }
+ ],
+ "league": {
+  "source": "https://www.nba.com/games?date=YYYY-MM-DD",
+  "espn_standings_vs_scoreboard": {
+   "teams_checked": 24,
+   "teams_in_progress": [],
+   "mismatches": [],
+   "events_left_out": []
+  },
+  "nba_com_records": {
+   "ran": true,
+   "pages": [
+    "2026-11-17",
+    "2026-11-16",
+    "2026-11-15"
+   ],
+   "teams_checked": 30,
+   "teams_matched": 30,
+   "mismatches": [],
+   "not_found": [],
+   "teams_in_progress": []
+  },
+  "nba_com_scores": {
+   "ran": true,
+   "finals_checked": 8,
+   "finals_matched": 8,
+   "mismatches": [],
+   "missing": []
+  },
+  "nba_com_tips": {
+   "ran": true,
+   "tips_checked": 5,
+   "tips_matched": 5,
+   "mismatches": []
+  }
+ }
+}

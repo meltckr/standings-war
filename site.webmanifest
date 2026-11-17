@@ -1,0 +1,14 @@
+{
+  "name": "Standings War",
+  "short_name": "Standings War",
+  "description": "The owner's war room for the Phoenix Suns season.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0E0835",
+  "theme_color": "#0E0835",
+  "icons": [
+    { "src": "brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
