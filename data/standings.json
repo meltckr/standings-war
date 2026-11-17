@@ -1,16 +1,17 @@
 {
- "as_of": "2026-11-17T10:05:21-07:00",
- "as_of_display": "Tue Nov 17, 2026, 10:05 AM AZ",
+ "as_of": "2026-11-17T16:33:41-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 4:33 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
- "source": "ESPN",
- "source_url": "https://www.espn.com/nba/standings",
+ "source": "balldontlie",
+ "source_url": "https://www.balldontlie.io/",
  "conference": "West",
  "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
-   "espn_id": "24",
+   "bdl_id": 27,
+   "espn_id": null,
    "name": "San Antonio Spurs",
    "city": "San Antonio",
    "nickname": "Spurs",
@@ -36,7 +37,8 @@
   },
   {
    "team": "LAL",
-   "espn_id": "13",
+   "bdl_id": 14,
+   "espn_id": null,
    "name": "Los Angeles Lakers",
    "city": "Los Angeles",
    "nickname": "Lakers",
@@ -62,7 +64,8 @@
   },
   {
    "team": "HOU",
-   "espn_id": "10",
+   "bdl_id": 11,
+   "espn_id": null,
    "name": "Houston Rockets",
    "city": "Houston",
    "nickname": "Rockets",
@@ -88,7 +91,8 @@
   },
   {
    "team": "MIN",
-   "espn_id": "16",
+   "bdl_id": 18,
+   "espn_id": null,
    "name": "Minnesota Timberwolves",
    "city": "Minnesota",
    "nickname": "Timberwolves",
@@ -114,7 +118,8 @@
   },
   {
    "team": "MEM",
-   "espn_id": "29",
+   "bdl_id": 15,
+   "espn_id": null,
    "name": "Memphis Grizzlies",
    "city": "Memphis",
    "nickname": "Grizzlies",
@@ -140,7 +145,8 @@
   },
   {
    "team": "POR",
-   "espn_id": "22",
+   "bdl_id": 25,
+   "espn_id": null,
    "name": "Portland Trail Blazers",
    "city": "Portland",
    "nickname": "Trail Blazers",
@@ -166,7 +172,8 @@
   },
   {
    "team": "OKC",
-   "espn_id": "25",
+   "bdl_id": 21,
+   "espn_id": null,
    "name": "Oklahoma City Thunder",
    "city": "Oklahoma City",
    "nickname": "Thunder",
@@ -177,7 +184,7 @@
    "win_pct": 0.643,
    "seed": 7,
    "point_diff_total": 71,
-   "point_diff_per_game": 5.0,
+   "point_diff_per_game": 5.1,
    "games_behind": "3",
    "streak": "W1",
    "last_10": "5-5",
@@ -192,7 +199,8 @@
   },
   {
    "team": "DEN",
-   "espn_id": "7",
+   "bdl_id": 8,
+   "espn_id": null,
    "name": "Denver Nuggets",
    "city": "Denver",
    "nickname": "Nuggets",
@@ -203,7 +211,7 @@
    "win_pct": 0.583,
    "seed": 8,
    "point_diff_total": 8,
-   "point_diff_per_game": 0.6,
+   "point_diff_per_game": 0.7,
    "games_behind": "4",
    "streak": "L1",
    "last_10": "6-4",
@@ -218,7 +226,8 @@
   },
   {
    "team": "GSW",
-   "espn_id": "9",
+   "bdl_id": 10,
+   "espn_id": null,
    "name": "Golden State Warriors",
    "city": "Golden State",
    "nickname": "Warriors",
@@ -244,7 +253,8 @@
   },
   {
    "team": "DAL",
-   "espn_id": "6",
+   "bdl_id": 7,
+   "espn_id": null,
    "name": "Dallas Mavericks",
    "city": "Dallas",
    "nickname": "Mavericks",
@@ -270,7 +280,8 @@
   },
   {
    "team": "PHX",
-   "espn_id": "21",
+   "bdl_id": 24,
+   "espn_id": null,
    "name": "Phoenix Suns",
    "city": "Phoenix",
    "nickname": "Suns",
@@ -295,34 +306,9 @@
    "game_in_progress": false
   },
   {
-   "team": "NOP",
-   "espn_id": "3",
-   "name": "New Orleans Pelicans",
-   "city": "New Orleans",
-   "nickname": "Pelicans",
-   "wins": 5,
-   "losses": 10,
-   "games_played": 15,
-   "games_remaining": 67,
-   "win_pct": 0.333,
-   "seed": 12,
-   "point_diff_total": -106,
-   "point_diff_per_game": -7.1,
-   "games_behind": "7.5",
-   "streak": "W1",
-   "last_10": "4-6",
-   "home": "4-6",
-   "road": "1-4",
-   "conf_record": "4-8",
-   "conf_wins": 4,
-   "conf_losses": 8,
-   "games_listed": 80,
-   "games_unscheduled": 2,
-   "game_in_progress": false
-  },
-  {
    "team": "LAC",
-   "espn_id": "12",
+   "bdl_id": 13,
+   "espn_id": null,
    "name": "LA Clippers",
    "city": "LA",
    "nickname": "Clippers",
@@ -331,7 +317,7 @@
    "games_played": 12,
    "games_remaining": 70,
    "win_pct": 0.333,
-   "seed": 13,
+   "seed": 12,
    "point_diff_total": -50,
    "point_diff_per_game": -4.2,
    "games_behind": "7",
@@ -347,8 +333,36 @@
    "game_in_progress": false
   },
   {
+   "team": "NOP",
+   "bdl_id": 19,
+   "espn_id": null,
+   "name": "New Orleans Pelicans",
+   "city": "New Orleans",
+   "nickname": "Pelicans",
+   "wins": 5,
+   "losses": 10,
+   "games_played": 15,
+   "games_remaining": 67,
+   "win_pct": 0.333,
+   "seed": 13,
+   "point_diff_total": -106,
+   "point_diff_per_game": -7.1,
+   "games_behind": "7.5",
+   "streak": "W1",
+   "last_10": "4-6",
+   "home": "4-6",
+   "road": "1-4",
+   "conf_record": "4-8",
+   "conf_wins": 4,
+   "conf_losses": 8,
+   "games_listed": 80,
+   "games_unscheduled": 2,
+   "game_in_progress": false
+  },
+  {
    "team": "SAC",
-   "espn_id": "23",
+   "bdl_id": 26,
+   "espn_id": null,
    "name": "Sacramento Kings",
    "city": "Sacramento",
    "nickname": "Kings",
@@ -359,7 +373,7 @@
    "win_pct": 0.077,
    "seed": 14,
    "point_diff_total": -175,
-   "point_diff_per_game": -13.4,
+   "point_diff_per_game": -13.5,
    "games_behind": "10.5",
    "streak": "L6",
    "last_10": "1-9",
@@ -374,7 +388,8 @@
   },
   {
    "team": "UTA",
-   "espn_id": "26",
+   "bdl_id": 29,
+   "espn_id": null,
    "name": "Utah Jazz",
    "city": "Utah",
    "nickname": "Jazz",
@@ -400,155 +415,275 @@
   }
  ],
  "league_records": {
-  "MIL": {
-   "wins": 1,
-   "losses": 13,
-   "conference": "East"
-  },
-  "WAS": {
-   "wins": 4,
-   "losses": 11,
-   "conference": "East"
-  },
-  "BKN": {
-   "wins": 3,
-   "losses": 10,
-   "conference": "East"
-  },
-  "CHI": {
-   "wins": 3,
-   "losses": 10,
-   "conference": "East"
-  },
-  "CHA": {
-   "wins": 4,
-   "losses": 9,
-   "conference": "East"
-  },
-  "IND": {
-   "wins": 5,
-   "losses": 9,
-   "conference": "East"
-  },
-  "TOR": {
-   "wins": 5,
-   "losses": 8,
-   "conference": "East"
-  },
-  "ORL": {
-   "wins": 6,
-   "losses": 7,
-   "conference": "East"
-  },
-  "NYK": {
-   "wins": 7,
-   "losses": 6,
-   "conference": "East"
-  },
-  "CLE": {
-   "wins": 8,
-   "losses": 7,
-   "conference": "East"
-  },
-  "MIA": {
-   "wins": 8,
-   "losses": 6,
-   "conference": "East"
-  },
   "ATL": {
    "wins": 8,
    "losses": 6,
-   "conference": "East"
-  },
-  "DET": {
-   "wins": 8,
-   "losses": 4,
-   "conference": "East"
-  },
-  "BOS": {
-   "wins": 11,
-   "losses": 3,
-   "conference": "East"
-  },
-  "PHI": {
-   "wins": 12,
-   "losses": 3,
-   "conference": "East"
-  },
-  "UTA": {
-   "wins": 1,
-   "losses": 13,
-   "conference": "West"
-  },
-  "SAC": {
-   "wins": 1,
-   "losses": 12,
-   "conference": "West"
-  },
-  "NOP": {
-   "wins": 5,
-   "losses": 10,
-   "conference": "West"
-  },
-  "LAC": {
-   "wins": 4,
-   "losses": 8,
-   "conference": "West"
-  },
-  "PHX": {
-   "wins": 6,
-   "losses": 7,
-   "conference": "West"
+   "conference": "East",
+   "bdl_id": 1,
+   "name": "Atlanta Hawks",
+   "city": "Atlanta",
+   "nickname": "Hawks"
   },
   "DAL": {
    "wins": 7,
    "losses": 7,
-   "conference": "West"
+   "conference": "West",
+   "bdl_id": 7,
+   "name": "Dallas Mavericks",
+   "city": "Dallas",
+   "nickname": "Mavericks"
   },
   "DEN": {
    "wins": 7,
    "losses": 5,
-   "conference": "West"
+   "conference": "West",
+   "bdl_id": 8,
+   "name": "Denver Nuggets",
+   "city": "Denver",
+   "nickname": "Nuggets"
+  },
+  "BOS": {
+   "wins": 11,
+   "losses": 3,
+   "conference": "East",
+   "bdl_id": 2,
+   "name": "Boston Celtics",
+   "city": "Boston",
+   "nickname": "Celtics"
   },
   "GSW": {
    "wins": 8,
    "losses": 6,
-   "conference": "West"
+   "conference": "West",
+   "bdl_id": 10,
+   "name": "Golden State Warriors",
+   "city": "Golden State",
+   "nickname": "Warriors"
   },
-  "OKC": {
-   "wins": 9,
-   "losses": 5,
-   "conference": "West"
+  "CHI": {
+   "wins": 3,
+   "losses": 10,
+   "conference": "East",
+   "bdl_id": 5,
+   "name": "Chicago Bulls",
+   "city": "Chicago",
+   "nickname": "Bulls"
   },
-  "POR": {
-   "wins": 9,
-   "losses": 4,
-   "conference": "West"
-  },
-  "MIN": {
-   "wins": 10,
-   "losses": 4,
-   "conference": "West"
-  },
-  "MEM": {
-   "wins": 10,
-   "losses": 4,
-   "conference": "West"
+  "BKN": {
+   "wins": 3,
+   "losses": 10,
+   "conference": "East",
+   "bdl_id": 3,
+   "name": "Brooklyn Nets",
+   "city": "Brooklyn",
+   "nickname": "Nets"
   },
   "HOU": {
    "wins": 11,
    "losses": 4,
-   "conference": "West"
-  },
-  "SAS": {
-   "wins": 12,
-   "losses": 2,
-   "conference": "West"
+   "conference": "West",
+   "bdl_id": 11,
+   "name": "Houston Rockets",
+   "city": "Houston",
+   "nickname": "Rockets"
   },
   "LAL": {
    "wins": 12,
    "losses": 2,
-   "conference": "West"
+   "conference": "West",
+   "bdl_id": 14,
+   "name": "Los Angeles Lakers",
+   "city": "Los Angeles",
+   "nickname": "Lakers"
+  },
+  "CHA": {
+   "wins": 4,
+   "losses": 9,
+   "conference": "East",
+   "bdl_id": 4,
+   "name": "Charlotte Hornets",
+   "city": "Charlotte",
+   "nickname": "Hornets"
+  },
+  "LAC": {
+   "wins": 4,
+   "losses": 8,
+   "conference": "West",
+   "bdl_id": 13,
+   "name": "LA Clippers",
+   "city": "LA",
+   "nickname": "Clippers"
+  },
+  "CLE": {
+   "wins": 8,
+   "losses": 7,
+   "conference": "East",
+   "bdl_id": 6,
+   "name": "Cleveland Cavaliers",
+   "city": "Cleveland",
+   "nickname": "Cavaliers"
+  },
+  "DET": {
+   "wins": 8,
+   "losses": 4,
+   "conference": "East",
+   "bdl_id": 9,
+   "name": "Detroit Pistons",
+   "city": "Detroit",
+   "nickname": "Pistons"
+  },
+  "MEM": {
+   "wins": 10,
+   "losses": 4,
+   "conference": "West",
+   "bdl_id": 15,
+   "name": "Memphis Grizzlies",
+   "city": "Memphis",
+   "nickname": "Grizzlies"
+  },
+  "WAS": {
+   "wins": 4,
+   "losses": 11,
+   "conference": "East",
+   "bdl_id": 30,
+   "name": "Washington Wizards",
+   "city": "Washington",
+   "nickname": "Wizards"
+  },
+  "SAS": {
+   "wins": 12,
+   "losses": 2,
+   "conference": "West",
+   "bdl_id": 27,
+   "name": "San Antonio Spurs",
+   "city": "San Antonio",
+   "nickname": "Spurs"
+  },
+  "ORL": {
+   "wins": 6,
+   "losses": 7,
+   "conference": "East",
+   "bdl_id": 22,
+   "name": "Orlando Magic",
+   "city": "Orlando",
+   "nickname": "Magic"
+  },
+  "NYK": {
+   "wins": 7,
+   "losses": 6,
+   "conference": "East",
+   "bdl_id": 20,
+   "name": "New York Knicks",
+   "city": "New York",
+   "nickname": "Knicks"
+  },
+  "MIN": {
+   "wins": 10,
+   "losses": 4,
+   "conference": "West",
+   "bdl_id": 18,
+   "name": "Minnesota Timberwolves",
+   "city": "Minnesota",
+   "nickname": "Timberwolves"
+  },
+  "MIA": {
+   "wins": 8,
+   "losses": 6,
+   "conference": "East",
+   "bdl_id": 16,
+   "name": "Miami Heat",
+   "city": "Miami",
+   "nickname": "Heat"
+  },
+  "NOP": {
+   "wins": 5,
+   "losses": 10,
+   "conference": "West",
+   "bdl_id": 19,
+   "name": "New Orleans Pelicans",
+   "city": "New Orleans",
+   "nickname": "Pelicans"
+  },
+  "IND": {
+   "wins": 5,
+   "losses": 9,
+   "conference": "East",
+   "bdl_id": 12,
+   "name": "Indiana Pacers",
+   "city": "Indiana",
+   "nickname": "Pacers"
+  },
+  "PHX": {
+   "wins": 6,
+   "losses": 7,
+   "conference": "West",
+   "bdl_id": 24,
+   "name": "Phoenix Suns",
+   "city": "Phoenix",
+   "nickname": "Suns"
+  },
+  "MIL": {
+   "wins": 1,
+   "losses": 13,
+   "conference": "East",
+   "bdl_id": 17,
+   "name": "Milwaukee Bucks",
+   "city": "Milwaukee",
+   "nickname": "Bucks"
+  },
+  "UTA": {
+   "wins": 1,
+   "losses": 13,
+   "conference": "West",
+   "bdl_id": 29,
+   "name": "Utah Jazz",
+   "city": "Utah",
+   "nickname": "Jazz"
+  },
+  "SAC": {
+   "wins": 1,
+   "losses": 12,
+   "conference": "West",
+   "bdl_id": 26,
+   "name": "Sacramento Kings",
+   "city": "Sacramento",
+   "nickname": "Kings"
+  },
+  "PHI": {
+   "wins": 12,
+   "losses": 3,
+   "conference": "East",
+   "bdl_id": 23,
+   "name": "Philadelphia 76ers",
+   "city": "Philadelphia",
+   "nickname": "76ers"
+  },
+  "POR": {
+   "wins": 9,
+   "losses": 4,
+   "conference": "West",
+   "bdl_id": 25,
+   "name": "Portland Trail Blazers",
+   "city": "Portland",
+   "nickname": "Trail Blazers"
+  },
+  "OKC": {
+   "wins": 9,
+   "losses": 5,
+   "conference": "West",
+   "bdl_id": 21,
+   "name": "Oklahoma City Thunder",
+   "city": "Oklahoma City",
+   "nickname": "Thunder"
+  },
+  "TOR": {
+   "wins": 5,
+   "losses": 8,
+   "conference": "East",
+   "bdl_id": 28,
+   "name": "Toronto Raptors",
+   "city": "Toronto",
+   "nickname": "Raptors"
   }
  }
 }

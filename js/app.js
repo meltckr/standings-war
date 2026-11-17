@@ -450,7 +450,7 @@
       var nxt = D.suns.games.filter(function (g) { return g.date_az >= L.today && (L.stale || g.date_az > D.war.today.date) && g.status === "scheduled"; })[0];
       if (!nxt) {
         $("tonight-strip").innerHTML = '<div class="ts-l"><span class="ts-k">' + esc(L.stale ? "Next game" : L.tonight) + '</span><span class="ts-t">' +
-          (L.stale ? "Not on ESPN&rsquo;s schedule yet" : "No Suns game") + "</span></div>" +
+          (L.stale ? "Not on the schedule yet" : "No Suns game") + "</span></div>" +
           '<p class="ts-lens"><span class="lens-k">Phoenix lens</span><span>' + nw(lensLine) + "</span></p>";
         return;
       }
@@ -505,7 +505,7 @@
     }
     var n = nextFor(code);
     if (n === false) return '<div class="fv-c"><span class="fv-k">Next game</span><div class="fv-v"><div><span>Comes in with the next refresh</span></div></div></div>';
-    if (!n) return '<div class="fv-c"><span class="fv-k">Next game</span><div class="fv-v"><div><span>Not on ESPN\'s schedule yet</span></div></div></div>';
+    if (!n) return '<div class="fv-c"><span class="fv-k">Next game</span><div class="fv-v"><div><span>Not on the schedule yet</span></div></div></div>';
     return '<div class="fv-c"><span class="fv-k">' + (n.date_az === L.today ? "Tonight" : "Next game") + '</span><div class="fv-v">' + plate(n.opp, 28) + "<div><b>" +
       (n.home_away === "home" ? "vs " : "at ") + n.opp + "</b><span>" + dowDate(n.date_az) + " · " + esc(n.tip_az) + "</span></div></div></div>";
   }
@@ -908,7 +908,7 @@
       var n = nextFor("CLE");
       body = '<span class="cf-k">' + (n && n.date_az === L.today ? "Cleveland tonight" : "Cleveland next") + '</span><div class="cf-s">' +
         (n ? '<span class="fin">' + dowDate(n.date_az) + " · " + esc(n.tip_az) + "</span><b>" + (n.home_away === "home" ? n.opp + " at CLE" : "CLE at " + n.opp) + "</b>"
-          : n === false ? "<b>Comes in with the next refresh</b>" : "<b>Not on ESPN's schedule yet</b>") + "</div>";
+          : n === false ? "<b>Comes in with the next refresh</b>" : "<b>Not on the schedule yet</b>") + "</div>";
     }
     return '<div class="cle-f">' + plate("CLE", 40) + '<div class="cf-b">' + body + "</div></div>";
   }
@@ -936,8 +936,8 @@
     $("pick").innerHTML = head("05", "2027 Pick Watch · All 30 teams", "The draft board", "pick-h", D.war.lens.pick,
         "Phoenix owns the least favorable of three 2027 firsts: Utah&rsquo;s (top-5 protected), Cleveland&rsquo;s and Minnesota&rsquo;s.") +
       '<div class="p3" id="pick-three">' + cards + "</div>" +
-      disclose("order-more", ["Full draft order", "Hide draft order"], "All 30 teams", ["Worst record first, from the same ESPN pull · " + marks,
-        "Worst record first, from the same ESPN pull · " + marks]) +
+      disclose("order-more", ["Full draft order", "Hide draft order"], "All 30 teams", ["Worst record first, from the same balldontlie pull · " + marks,
+        "Worst record first, from the same balldontlie pull · " + marks]) +
       panel("order-more", '<ol class="dboard" id="pick-order" aria-label="Draft order by record, worst first">' + chips + "</ol>" +
         '<ul class="dkey" aria-label="Draft order marks"><li><i class="k-pick"></i>2027 pick teams</li><li><i class="k-land"></i>Phoenix&rsquo;s pick today</li>' +
         '<li><i class="k-suns"></i>Phoenix</li><li>Ties share a place. No lottery odds are shown.</li></ul><p class="fine" id="order-note">' + nw(p.order_note) + "</p>");
@@ -988,7 +988,7 @@
     var lastG = s.games[s.games.length - 1];
     var lede = "Upcoming games pick up a What-if badge when you choose a result above.";
     if (s.games_unscheduled > 0) {
-      lede = "ESPN lists " + s.games_listed + " of 82 games. The league sets the other " + s.games_unscheduled +
+      lede = "balldontlie lists " + s.games_listed + " of 82 games. The league sets the other " + s.games_unscheduled +
         " after NBA Cup group play, so they are not on the board yet. " + lede;
     }
     $("schedule").innerHTML = head("06", "Suns schedule · This week and next", "Week by week", "sched-h", dayText(D.war.lens.schedule), nw(lede)) + ssn +
@@ -1014,40 +1014,35 @@
     }
     var ok = 0, bad = [];
     c.teams.forEach(function (r) {
-      if (["nba_com", "nba_com_games_page"].some(function (k) { return r.match[k] === true; })) ok++; else bad.push(r.team);
+      if (r.match && r.match.bdl_game_results === true) ok++; else bad.push(r.team);
     });
-    var cross = "At that time " + ok + " of 15 West records matched nba.com." + (bad.length ? " Not matched on nba.com: " + bad.join(", ") + "." : "");
+    var cross = "At that time " + ok + " of " + c.teams.length + " records matched the results derived from the same balldontlie games pull." + (bad.length ? " Not matched: " + bad.join(", ") + "." : "");
     var live = D.standings.games_in_progress;
     if (live.length) cross += " Games in progress at that time are not counted: " + live.map(function (g) { return g.away + " at " + g.home; }).join(", ") + ".";
-    var links = h.source_urls.map(function (u, i) { return '<a class="nw" href="' + esc(u) + '" rel="noopener">' + seasons[i] + "</a>"; }).join(", ");
-    var eastLinks = he.source_urls.map(function (u, i) { return '<a class="nw" href="' + esc(u) + '" rel="noopener">' + seasons[i] + "</a>"; }).join(", ");
-    // The pull reads ESPN's scoreboard API; the links open the same days on espn.com.
-    var boards = ws.scoreboard_urls.map(function (u, i) {
-      var d = /[?&]dates=(\d{8})/.exec(u);
-      var page = d ? "https://www.espn.com/nba/scoreboard/_/date/" + d[1] : "https://www.espn.com/nba/scoreboard";
-      return '<a class="nw" href="' + esc(page) + '" rel="noopener">' + esc(i ? w.yesterday.short : w.today.short) + "</a>";
-    }).join(" and ");
+    var links = seasons.join(", ");
+    var eastLinks = seasons.join(", ");
+    var boards = [w.today.short, w.yesterday.short].map(function (lab) { return esc(lab); }).join(" and ");
     var m = o.method;
     var notes = [
-      ["Standings, schedules and scores", '<p>ESPN (<a href="https://www.espn.com/nba/standings" rel="noopener">espn.com/nba/standings</a> and each team\'s schedule), pulled ' +
+      ["Standings, schedules and scores", '<p>balldontlie (<a href="https://www.balldontlie.io/" rel="noopener">balldontlie.io</a> standings and games), pulled ' +
         esc(D.standings.as_of_display) + ". " + esc(cross) + "</p>"],
-      ["Tonight's games and last night's scores", "<p>ESPN's scoreboard for " + boards + ", pulled " + esc(w.as_of_display) +
+      ["Tonight's games and last night's scores", "<p>balldontlie games for " + boards + ", pulled " + esc(w.as_of_display) +
         " in the same pull as the standings, so every section on this page agrees. Tip times are converted to Arizona time (AZ). " + esc(ws.crosscheck) + "</p>"],
       ["Pace lines", "<p>Each pace line is the median final win total of the team that finished at that West seed over the last five full 82-game seasons of the play-in era: " +
-        seasons.join(", ") + ". The 2019-20 and 2020-21 seasons are left out because they were shortened. Win totals come from ESPN's final standings for each season (" +
-        links + "), last checked " + nw(h.last_verified) + ". ESPN is the only source for these totals.</p>" + paceTable(h)],
+        seasons.join(", ") + ". The 2019-20 and 2020-21 seasons are left out because they were shortened. Win totals come from balldontlie season standings (" +
+        links + "), last checked " + nw(h.last_verified) + ". balldontlie is the only source for these totals.</p>" + paceTable(h)],
       ["Wins still needed", "<p>Wins still needed is the pace line minus current wins, never below zero. Games left is 82 minus games played. " +
         "A line is out of reach when the wins still needed are more than the games left.</p>"],
       ["Seeding rule", "<p>" + nw(ws.seeding_rule) + "</p>"],
       ["Pick rule", "<p>" + esc(ws.pick_rule) + "</p>"],
       ["Helped, Hurt and No stake", "<p>" + esc(ws.marks_rule) + "</p>"],
       ["Pick Watch", "<p>" + esc(ws.pick_facts) + " " + esc(ws.order_rule) + "</p>"],
-      ["East table", "<p>The East board comes from the same ESPN pull and uses the same math as the West board. East pace lines are the median final win total " +
-        "at each East seed over the same five seasons, from ESPN's final standings (" + eastLinks + "), last checked " + nw(he.last_verified) +
+      ["East table", "<p>The East board comes from the same balldontlie pull and uses the same math as the West board. East pace lines are the median final win total " +
+        "at each East seed over the same five seasons, from balldontlie season standings (" + eastLinks + "), last checked " + nw(he.last_verified) +
         ". East chances come from " + D.east.odds.n_sims.toLocaleString("en-US") + " simulated runs of the remaining East schedule, using the method under Estimated chances.</p>" + paceTable(he)],
       ["Phoenix lens", "<p>Each Phoenix lens line is written by the refresh from the same pull: the standings, both scoreboards, the Suns schedule and the pace lines. " +
         "None of them is typed in by hand.</p>"],
-      ["Favorites", "<p>Stars are saved only in this browser, on this device. Nothing is sent anywhere. Next and last games for a starred team come from that team's ESPN schedule in the same pull.</p>"],
+      ["Favorites", "<p>Stars are saved only in this browser, on this device. Nothing is sent anywhere. Next and last games for a starred team come from that team's schedule in the same balldontlie pull.</p>"],
       ["Win rates in the what-if", "<p>Each <span class=\"nw\">what-if</span> card takes the wins Phoenix still needs for that seed line over the games left, before and after the picked games, " +
         "and shows the win rate that takes, rounded to the whole percent with halves up, the same way as the pace rows in the Phoenix lens. " +
         "A line shows Reached once the wins are banked and Out of reach once the wins needed are more than the games left. Otherwise it is In play.</p>"],
@@ -1056,18 +1051,17 @@
         "The chance that team A beats team B is a(1-b) divided by a(1-b) + b(1-a), where a and b are the two strengths. There is no home-court adjustment. " +
         "Games the league has not scheduled yet are played against a .500 opponent. Ties in the final standings go to the team with more conference wins, then to a random draw, " +
         "which is simpler than the NBA's real tiebreak rules. The model does not know about injuries, trades or rest.</p>"],
-      ["Schedule and All-Star break", "<p>The Suns schedule is from ESPN, with tip times converted to Arizona time. " +
-        (D.suns.games_unscheduled > 0 ? "ESPN lists " + D.suns.games_listed + " of 82 games. The league sets the other " + D.suns.games_unscheduled +
-          " after NBA Cup group play ends, and neither ESPN nor NBA.com lists them yet, so they are left off the week board. NBA Cup group games are on the board and tagged. " : "") +
-        'All-Star dates are from the <a href="https://www.nba.com/news/key-dates" rel="noopener">NBA.com key dates</a> page (All-Star break February 19 through 24, 2027) and the ' +
-        '<a href="https://nbaevents.nba.com/nba-all-star-2027" rel="noopener">NBA All-Star 2027 event page</a> (game on Sunday, February 21, at Mortgage Matchup Center in Phoenix).</p>'],
+      ["Schedule and All-Star break", "<p>The Suns schedule is from balldontlie, with tip times converted to Arizona time. " +
+        (D.suns.games_unscheduled > 0 ? "balldontlie lists " + D.suns.games_listed + " of 82 games. The league sets the other " + D.suns.games_unscheduled +
+          " after NBA Cup group play ends, so they are left off the week board. NBA Cup group games are on the board and tagged. " : "") +
+        "All-Star dates: break February 19 through 24, 2027; game on Sunday, February 21, at Mortgage Matchup Center in Phoenix.</p>"],
       ["Playoff format", "<p>Seeds 1 through 6 in each conference go straight to the playoffs. Seeds 7 through 10 play in: 7 hosts 8 and the winner is in, the loser then hosts the winner of 9 against 10 for the last spot.</p>"]
     ];
     var p = asOfParts();
-    var srcSub = "ESPN standings, schedules and scoreboard, " + p.time + " · NBA.com cross-check · Simulation in the same refresh";
+    var srcSub = "balldontlie standings, schedules and scores, " + p.time + " · Internal consistency check · Simulation in the same refresh";
     $("sources").innerHTML = '<h2 class="sr" id="sources-h">Sources</h2>' + disclose("sources-more", ["Sources", "Hide sources"], notes.length + " notes", [srcSub, srcSub]) +
       panel("sources-more", '<div class="src-g" id="sources-body">' + notes.map(function (n) { return "<div><h3>" + nw(n[0]) + "</h3>" + n[1] + "</div>"; }).join("") + "</div>") +
-      '<p class="colo">Standings War · Built for Mat Ishbia · Private and confidential<span class="ver" title="Standings War 1.0.0"> · <span>v1.0</span></span></p>';
+      '<p class="colo">Standings War · Built for Mat Ishbia<span class="ver" title="Standings War 1.1.0"> · <span>v1.1</span></span></p>';
   }
 
   // ------------------------------------------------------------ events

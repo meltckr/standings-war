@@ -1,450 +1,500 @@
 {
- "as_of": "2026-11-17T10:05:21-07:00",
- "as_of_display": "Tue Nov 17, 2026, 10:05 AM AZ",
+ "as_of": "2026-11-17T16:33:41-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 4:33 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
-  "espn": "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings?seasontype=2&level=2",
-  "espn_page": "https://www.espn.com/nba/standings",
-  "nba_com": "https://www.nba.com/team/<team id> (W, L, CONF_RANK in the page data)",
-  "nba_com_standings_page": "https://www.nba.com/standings",
-  "nba_com_games_page": "https://www.nba.com/games?date=2026-11-17",
-  "nba_com_games_page_error": null
+  "standings": "https://api.balldontlie.io/v1/standings?season=2026",
+  "games": "https://api.balldontlie.io/v1/games",
+  "provider": "balldontlie",
+  "docs": "https://www.balldontlie.io/"
  },
  "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
    "seed": 1,
-   "espn": {
+   "bdl": {
     "wins": 12,
     "losses": 2
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 12,
     "losses": 2
-   },
-   "nba_com": {
-    "wins": 12,
-    "losses": 2,
-    "conf_rank": 1,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": {
-    "wins": 12,
-    "losses": 2,
-    "game_status": "8:00 pm ET"
    },
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": true
+    "bdl_game_results": true
    }
   },
   {
    "team": "LAL",
    "seed": 2,
-   "espn": {
+   "bdl": {
     "wins": 12,
     "losses": 2
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 12,
     "losses": 2
-   },
-   "nba_com": {
-    "wins": 12,
-    "losses": 2,
-    "conf_rank": 2,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": {
-    "wins": 12,
-    "losses": 2,
-    "game_status": "11:00 pm ET"
    },
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": true
+    "bdl_game_results": true
    }
   },
   {
    "team": "HOU",
    "seed": 3,
-   "espn": {
+   "bdl": {
     "wins": 11,
     "losses": 4
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 11,
     "losses": 4
    },
-   "nba_com": {
-    "wins": 11,
-    "losses": 4,
-    "conf_rank": 3,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "MIN",
    "seed": 4,
-   "espn": {
+   "bdl": {
     "wins": 10,
     "losses": 4
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 10,
     "losses": 4
-   },
-   "nba_com": {
-    "wins": 10,
-    "losses": 4,
-    "conf_rank": 4,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": {
-    "wins": 10,
-    "losses": 4,
-    "game_status": "8:00 pm ET"
    },
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": true
+    "bdl_game_results": true
    }
   },
   {
    "team": "MEM",
    "seed": 5,
-   "espn": {
+   "bdl": {
     "wins": 10,
     "losses": 4
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 10,
     "losses": 4
    },
-   "nba_com": {
-    "wins": 10,
-    "losses": 4,
-    "conf_rank": 5,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "POR",
    "seed": 6,
-   "espn": {
+   "bdl": {
     "wins": 9,
     "losses": 4
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 9,
     "losses": 4
-   },
-   "nba_com": {
-    "wins": 9,
-    "losses": 4,
-    "conf_rank": 6,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": {
-    "wins": 9,
-    "losses": 4,
-    "game_status": "8:00 pm ET"
    },
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": true
+    "bdl_game_results": true
    }
   },
   {
    "team": "OKC",
    "seed": 7,
-   "espn": {
+   "bdl": {
     "wins": 9,
     "losses": 5
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 9,
     "losses": 5
    },
-   "nba_com": {
-    "wins": 9,
-    "losses": 5,
-    "conf_rank": 7,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "DEN",
    "seed": 8,
-   "espn": {
+   "bdl": {
     "wins": 7,
     "losses": 5
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 7,
     "losses": 5
    },
-   "nba_com": {
-    "wins": 7,
-    "losses": 5,
-    "conf_rank": 8,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "GSW",
    "seed": 9,
-   "espn": {
+   "bdl": {
     "wins": 8,
     "losses": 6
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 8,
     "losses": 6
    },
-   "nba_com": {
-    "wins": 8,
-    "losses": 6,
-    "conf_rank": 9,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "DAL",
    "seed": 10,
-   "espn": {
+   "bdl": {
     "wins": 7,
     "losses": 7
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 7,
     "losses": 7
    },
-   "nba_com": {
-    "wins": 7,
-    "losses": 7,
-    "conf_rank": 10,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "PHX",
    "seed": 11,
-   "espn": {
+   "bdl": {
     "wins": 6,
     "losses": 7
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 6,
     "losses": 7
    },
-   "nba_com": {
-    "wins": 6,
-    "losses": 7,
-    "conf_rank": 11,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
-   }
-  },
-  {
-   "team": "NOP",
-   "seed": 12,
-   "espn": {
-    "wins": 5,
-    "losses": 10
-   },
-   "espn_game_results": {
-    "wins": 5,
-    "losses": 10
-   },
-   "nba_com": {
-    "wins": 5,
-    "losses": 10,
-    "conf_rank": 13,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
-   "game_in_progress": false,
-   "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "LAC",
-   "seed": 13,
-   "espn": {
+   "seed": 12,
+   "bdl": {
     "wins": 4,
     "losses": 8
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 4,
     "losses": 8
-   },
-   "nba_com": {
-    "wins": 4,
-    "losses": 8,
-    "conf_rank": 12,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": {
-    "wins": 4,
-    "losses": 8,
-    "game_status": "10:30 pm ET"
    },
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": true
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "NOP",
+   "seed": 13,
+   "bdl": {
+    "wins": 5,
+    "losses": 10
+   },
+   "bdl_game_results": {
+    "wins": 5,
+    "losses": 10
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
    }
   },
   {
    "team": "SAC",
    "seed": 14,
-   "espn": {
+   "bdl": {
     "wins": 1,
     "losses": 12
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 1,
     "losses": 12
    },
-   "nba_com": {
-    "wins": 1,
-    "losses": 12,
-    "conf_rank": 14,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": null,
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": null
+    "bdl_game_results": true
    }
   },
   {
    "team": "UTA",
    "seed": 15,
-   "espn": {
+   "bdl": {
     "wins": 1,
     "losses": 13
    },
-   "espn_game_results": {
+   "bdl_game_results": {
     "wins": 1,
     "losses": 13
-   },
-   "nba_com": {
-    "wins": 1,
-    "losses": 13,
-    "conf_rank": 15,
-    "season": "2026-27"
-   },
-   "nba_com_games_page": {
-    "wins": 1,
-    "losses": 13,
-    "game_status": "10:30 pm ET"
    },
    "game_in_progress": false,
    "match": {
-    "espn_game_results": true,
-    "nba_com": true,
-    "nba_com_games_page": true
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "PHI",
+   "seed": 1,
+   "bdl": {
+    "wins": 12,
+    "losses": 3
+   },
+   "bdl_game_results": {
+    "wins": 12,
+    "losses": 3
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "BOS",
+   "seed": 2,
+   "bdl": {
+    "wins": 11,
+    "losses": 3
+   },
+   "bdl_game_results": {
+    "wins": 11,
+    "losses": 3
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "DET",
+   "seed": 3,
+   "bdl": {
+    "wins": 8,
+    "losses": 4
+   },
+   "bdl_game_results": {
+    "wins": 8,
+    "losses": 4
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "MIA",
+   "seed": 4,
+   "bdl": {
+    "wins": 8,
+    "losses": 6
+   },
+   "bdl_game_results": {
+    "wins": 8,
+    "losses": 6
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "ATL",
+   "seed": 5,
+   "bdl": {
+    "wins": 8,
+    "losses": 6
+   },
+   "bdl_game_results": {
+    "wins": 8,
+    "losses": 6
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "NYK",
+   "seed": 6,
+   "bdl": {
+    "wins": 7,
+    "losses": 6
+   },
+   "bdl_game_results": {
+    "wins": 7,
+    "losses": 6
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "CLE",
+   "seed": 7,
+   "bdl": {
+    "wins": 8,
+    "losses": 7
+   },
+   "bdl_game_results": {
+    "wins": 8,
+    "losses": 7
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "ORL",
+   "seed": 8,
+   "bdl": {
+    "wins": 6,
+    "losses": 7
+   },
+   "bdl_game_results": {
+    "wins": 6,
+    "losses": 7
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "TOR",
+   "seed": 9,
+   "bdl": {
+    "wins": 5,
+    "losses": 8
+   },
+   "bdl_game_results": {
+    "wins": 5,
+    "losses": 8
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "IND",
+   "seed": 10,
+   "bdl": {
+    "wins": 5,
+    "losses": 9
+   },
+   "bdl_game_results": {
+    "wins": 5,
+    "losses": 9
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "CHA",
+   "seed": 11,
+   "bdl": {
+    "wins": 4,
+    "losses": 9
+   },
+   "bdl_game_results": {
+    "wins": 4,
+    "losses": 9
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "WAS",
+   "seed": 12,
+   "bdl": {
+    "wins": 4,
+    "losses": 11
+   },
+   "bdl_game_results": {
+    "wins": 4,
+    "losses": 11
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "BKN",
+   "seed": 13,
+   "bdl": {
+    "wins": 3,
+    "losses": 10
+   },
+   "bdl_game_results": {
+    "wins": 3,
+    "losses": 10
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "CHI",
+   "seed": 14,
+   "bdl": {
+    "wins": 3,
+    "losses": 10
+   },
+   "bdl_game_results": {
+    "wins": 3,
+    "losses": 10
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "MIL",
+   "seed": 15,
+   "bdl": {
+    "wins": 1,
+    "losses": 13
+   },
+   "bdl_game_results": {
+    "wins": 1,
+    "losses": 13
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
    }
   }
  ],
  "league": {
-  "source": "https://www.nba.com/games?date=YYYY-MM-DD",
-  "espn_standings_vs_scoreboard": {
-   "teams_checked": 24,
-   "teams_in_progress": [],
-   "mismatches": [],
-   "events_left_out": []
-  },
-  "nba_com_records": {
-   "ran": true,
-   "pages": [
-    "2026-11-17",
-    "2026-11-16",
-    "2026-11-15"
-   ],
-   "teams_checked": 30,
-   "teams_matched": 30,
-   "mismatches": [],
-   "not_found": [],
-   "teams_in_progress": []
-  },
-  "nba_com_scores": {
-   "ran": true,
-   "finals_checked": 8,
-   "finals_matched": 8,
-   "mismatches": [],
-   "missing": []
-  },
-  "nba_com_tips": {
-   "ran": true,
-   "tips_checked": 5,
-   "tips_matched": 5,
-   "mismatches": []
-  }
+  "provider": "balldontlie",
+  "records_checked": 30,
+  "records_matched": 30,
+  "note": "Single source: balldontlie. Cross-check is standings vs results derived from the same games pull."
  }
 }

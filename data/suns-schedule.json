@@ -1,16 +1,15 @@
 {
- "as_of": "2026-11-17T10:05:21-07:00",
- "as_of_display": "Tue Nov 17, 2026, 10:05 AM AZ",
+ "as_of": "2026-11-17T16:33:41-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 4:33 PM AZ",
  "timezone": "America/Phoenix",
  "team": "PHX",
- "season": "2026-27",
  "record": {
   "wins": 6,
   "losses": 7
  },
  "games_listed": 80,
  "games_unscheduled": 2,
- "unscheduled_note": "ESPN lists 80 of 82 games. The other 2 are set by the league after NBA Cup group play ends.",
+ "unscheduled_note": "balldontlie lists 80 of 82 games. The other 2 are set by the league after NBA Cup group play ends.",
  "all_star": {
   "break_start": "2027-02-19",
   "break_end": "2027-02-24",
@@ -22,19 +21,19 @@
   "week_end": "2026-11-21",
   "is_current_week": true,
   "game_ids": [
-   "401910018",
-   "401909311"
+   "21718142",
+   "21718153",
+   "21718177",
+   "21718190"
   ],
   "week_game_ids": [
-   "401909986",
-   "401910001",
-   "401910018",
-   "401909311"
+   "21718142",
+   "21718153"
   ]
  },
  "games": [
   {
-   "id": "401909841",
+   "id": "21717930",
    "date_az": "2026-10-21",
    "day": "Wed",
    "week_start": "2026-10-18",
@@ -46,10 +45,10 @@
    "result": "L",
    "score": "83-124",
    "note": null,
-   "venue": "Moda Center"
+   "venue": null
   },
   {
-   "id": "401909860",
+   "id": "21717954",
    "date_az": "2026-10-24",
    "day": "Sat",
    "week_start": "2026-10-18",
@@ -61,10 +60,10 @@
    "result": "W",
    "score": "131-122",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401909873",
+   "id": "21717967",
    "date_az": "2026-10-26",
    "day": "Mon",
    "week_start": "2026-10-25",
@@ -76,10 +75,10 @@
    "result": "L",
    "score": "114-125",
    "note": null,
-   "venue": "Paycom Center"
+   "venue": null
   },
   {
-   "id": "401909286",
+   "id": "21718000",
    "date_az": "2026-10-30",
    "day": "Fri",
    "week_start": "2026-10-25",
@@ -90,11 +89,11 @@
    "status": "final",
    "result": "L",
    "score": "120-127",
-   "note": "NBA Cup - Group Play",
-   "venue": "Mortgage Matchup Center"
+   "note": "West Group A",
+   "venue": null
   },
   {
-   "id": "401909919",
+   "id": "21718024",
    "date_az": "2026-11-02",
    "day": "Mon",
    "week_start": "2026-11-01",
@@ -106,10 +105,10 @@
    "result": "L",
    "score": "113-116",
    "note": null,
-   "venue": "Chase Center"
+   "venue": null
   },
   {
-   "id": "401909932",
+   "id": "21718037",
    "date_az": "2026-11-04",
    "day": "Wed",
    "week_start": "2026-11-01",
@@ -121,10 +120,10 @@
    "result": "L",
    "score": "119-132",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401909936",
+   "id": "21718041",
    "date_az": "2026-11-05",
    "day": "Thu",
    "week_start": "2026-11-01",
@@ -136,10 +135,10 @@
    "result": "W",
    "score": "117-104",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401909943",
+   "id": "21718057",
    "date_az": "2026-11-07",
    "day": "Sat",
    "week_start": "2026-11-01",
@@ -151,10 +150,10 @@
    "result": "W",
    "score": "102-99",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401909958",
+   "id": "21718072",
    "date_az": "2026-11-09",
    "day": "Mon",
    "week_start": "2026-11-08",
@@ -166,10 +165,10 @@
    "result": "L",
    "score": "96-122",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401909962",
+   "id": "21718076",
    "date_az": "2026-11-10",
    "day": "Tue",
    "week_start": "2026-11-08",
@@ -181,10 +180,10 @@
    "result": "W",
    "score": "133-110",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401909979",
+   "id": "21718094",
    "date_az": "2026-11-12",
    "day": "Thu",
    "week_start": "2026-11-08",
@@ -196,10 +195,10 @@
    "result": "W",
    "score": "101-96",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401909986",
+   "id": "21718110",
    "date_az": "2026-11-15",
    "day": "Sun",
    "week_start": "2026-11-15",
@@ -211,10 +210,10 @@
    "result": "L",
    "score": "123-131",
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910001",
+   "id": "21718125",
    "date_az": "2026-11-16",
    "day": "Mon",
    "week_start": "2026-11-15",
@@ -226,10 +225,10 @@
    "result": "W",
    "score": "117-105",
    "note": null,
-   "venue": "Ball Arena"
+   "venue": null
   },
   {
-   "id": "401910018",
+   "id": "21718142",
    "date_az": "2026-11-18",
    "day": "Wed",
    "week_start": "2026-11-15",
@@ -241,10 +240,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Golden 1 Center"
+   "venue": null
   },
   {
-   "id": "401909311",
+   "id": "21718153",
    "date_az": "2026-11-20",
    "day": "Fri",
    "week_start": "2026-11-15",
@@ -255,11 +254,11 @@
    "status": "scheduled",
    "result": null,
    "score": null,
-   "note": "NBA Cup - Group Play",
-   "venue": "Delta Center"
+   "note": "West Group A",
+   "venue": null
   },
   {
-   "id": "401910042",
+   "id": "21718177",
    "date_az": "2026-11-23",
    "day": "Mon",
    "week_start": "2026-11-22",
@@ -271,10 +270,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Smoothie King Center"
+   "venue": null
   },
   {
-   "id": "401909323",
+   "id": "21718190",
    "date_az": "2026-11-25",
    "day": "Wed",
    "week_start": "2026-11-22",
@@ -285,11 +284,11 @@
    "status": "scheduled",
    "result": null,
    "score": null,
-   "note": "NBA Cup - Group Play",
-   "venue": "Toyota Center (Houston)"
+   "note": "West Group A",
+   "venue": null
   },
   {
-   "id": "401909332",
+   "id": "21718199",
    "date_az": "2026-11-27",
    "day": "Fri",
    "week_start": "2026-11-22",
@@ -300,11 +299,11 @@
    "status": "scheduled",
    "result": null,
    "score": null,
-   "note": "NBA Cup - Group Play",
-   "venue": "Mortgage Matchup Center"
+   "note": "West Group A",
+   "venue": null
   },
   {
-   "id": "401910053",
+   "id": "21718211",
    "date_az": "2026-11-29",
    "day": "Sun",
    "week_start": "2026-11-29",
@@ -316,10 +315,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Delta Center"
+   "venue": null
   },
   {
-   "id": "401910073",
+   "id": "21718231",
    "date_az": "2026-12-01",
    "day": "Tue",
    "week_start": "2026-11-29",
@@ -331,10 +330,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910083",
+   "id": "21718242",
    "date_az": "2026-12-02",
    "day": "Wed",
    "week_start": "2026-11-29",
@@ -346,10 +345,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910095",
+   "id": "21718255",
    "date_az": "2026-12-12",
    "day": "Sat",
    "week_start": "2026-12-06",
@@ -361,10 +360,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910112",
+   "id": "21718272",
    "date_az": "2026-12-14",
    "day": "Mon",
    "week_start": "2026-12-13",
@@ -376,10 +375,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910119",
+   "id": "21718279",
    "date_az": "2026-12-16",
    "day": "Wed",
    "week_start": "2026-12-13",
@@ -391,10 +390,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Little Caesars Arena"
+   "venue": null
   },
   {
-   "id": "401910141",
+   "id": "21718303",
    "date_az": "2026-12-18",
    "day": "Fri",
    "week_start": "2026-12-13",
@@ -406,10 +405,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Fiserv Forum"
+   "venue": null
   },
   {
-   "id": "401910151",
+   "id": "21718313",
    "date_az": "2026-12-20",
    "day": "Sun",
    "week_start": "2026-12-20",
@@ -421,10 +420,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "FedExForum"
+   "venue": null
   },
   {
-   "id": "401910164",
+   "id": "21718327",
    "date_az": "2026-12-21",
    "day": "Mon",
    "week_start": "2026-12-20",
@@ -436,10 +435,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Target Center"
+   "venue": null
   },
   {
-   "id": "401910183",
+   "id": "21718346",
    "date_az": "2026-12-23",
    "day": "Wed",
    "week_start": "2026-12-20",
@@ -451,10 +450,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910193",
+   "id": "21718362",
    "date_az": "2026-12-26",
    "day": "Sat",
    "week_start": "2026-12-20",
@@ -466,10 +465,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "American Airlines Center"
+   "venue": null
   },
   {
-   "id": "401910209",
+   "id": "21718378",
    "date_az": "2026-12-28",
    "day": "Mon",
    "week_start": "2026-12-27",
@@ -481,10 +480,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910223",
+   "id": "21718394",
    "date_az": "2026-12-30",
    "day": "Wed",
    "week_start": "2026-12-27",
@@ -496,10 +495,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910234",
+   "id": "21718406",
    "date_az": "2026-12-31",
    "day": "Thu",
    "week_start": "2026-12-27",
@@ -511,10 +510,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910249",
+   "id": "21718423",
    "date_az": "2027-01-02",
    "day": "Sat",
    "week_start": "2026-12-27",
@@ -526,10 +525,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910262",
+   "id": "21718436",
    "date_az": "2027-01-04",
    "day": "Mon",
    "week_start": "2027-01-03",
@@ -541,10 +540,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910272",
+   "id": "21718448",
    "date_az": "2027-01-05",
    "day": "Tue",
    "week_start": "2027-01-03",
@@ -556,10 +555,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Ball Arena"
+   "venue": null
   },
   {
-   "id": "401910296",
+   "id": "21718474",
    "date_az": "2027-01-08",
    "day": "Fri",
    "week_start": "2027-01-03",
@@ -571,10 +570,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "American Airlines Center"
+   "venue": null
   },
   {
-   "id": "401910311",
+   "id": "21718490",
    "date_az": "2027-01-10",
    "day": "Sun",
    "week_start": "2027-01-10",
@@ -586,10 +585,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910330",
+   "id": "21718510",
    "date_az": "2027-01-13",
    "day": "Wed",
    "week_start": "2027-01-10",
@@ -601,10 +600,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Scotiabank Arena"
+   "venue": null
   },
   {
-   "id": "401910344",
+   "id": "21718525",
    "date_az": "2027-01-15",
    "day": "Fri",
    "week_start": "2027-01-10",
@@ -616,10 +615,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Gainbridge Fieldhouse"
+   "venue": null
   },
   {
-   "id": "401910367",
+   "id": "21718553",
    "date_az": "2027-01-18",
    "day": "Mon",
    "week_start": "2027-01-17",
@@ -631,10 +630,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Intuit Dome"
+   "venue": null
   },
   {
-   "id": "401910381",
+   "id": "21718567",
    "date_az": "2027-01-20",
    "day": "Wed",
    "week_start": "2027-01-17",
@@ -646,10 +645,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910395",
+   "id": "21718582",
    "date_az": "2027-01-22",
    "day": "Fri",
    "week_start": "2027-01-17",
@@ -661,10 +660,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910407",
+   "id": "21718595",
    "date_az": "2027-01-24",
    "day": "Sun",
    "week_start": "2027-01-24",
@@ -676,10 +675,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910423",
+   "id": "21718613",
    "date_az": "2027-01-26",
    "day": "Tue",
    "week_start": "2027-01-24",
@@ -691,10 +690,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Madison Square Garden"
+   "venue": null
   },
   {
-   "id": "401910431",
+   "id": "21718622",
    "date_az": "2027-01-27",
    "day": "Wed",
    "week_start": "2027-01-24",
@@ -706,10 +705,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Barclays Center"
+   "venue": null
   },
   {
-   "id": "401910446",
+   "id": "21718642",
    "date_az": "2027-01-29",
    "day": "Fri",
    "week_start": "2027-01-24",
@@ -721,10 +720,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "TD Garden"
+   "venue": null
   },
   {
-   "id": "401910462",
+   "id": "21718658",
    "date_az": "2027-01-31",
    "day": "Sun",
    "week_start": "2027-01-31",
@@ -736,10 +735,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Target Center"
+   "venue": null
   },
   {
-   "id": "401910485",
+   "id": "21718686",
    "date_az": "2027-02-03",
    "day": "Wed",
    "week_start": "2027-01-31",
@@ -751,10 +750,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910502",
+   "id": "21718707",
    "date_az": "2027-02-05",
    "day": "Fri",
    "week_start": "2027-01-31",
@@ -766,10 +765,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910512",
+   "id": "21718721",
    "date_az": "2027-02-06",
    "day": "Sat",
    "week_start": "2027-01-31",
@@ -781,10 +780,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Golden 1 Center"
+   "venue": null
   },
   {
-   "id": "401910527",
+   "id": "21718740",
    "date_az": "2027-02-08",
    "day": "Mon",
    "week_start": "2027-02-07",
@@ -796,10 +795,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910543",
+   "id": "21718761",
    "date_az": "2027-02-10",
    "day": "Wed",
    "week_start": "2027-02-07",
@@ -811,10 +810,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910552",
+   "id": "21718771",
    "date_az": "2027-02-12",
    "day": "Fri",
    "week_start": "2027-02-07",
@@ -826,10 +825,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "State Farm Arena"
+   "venue": null
   },
   {
-   "id": "401910569",
+   "id": "21718792",
    "date_az": "2027-02-14",
    "day": "Sun",
    "week_start": "2027-02-14",
@@ -841,10 +840,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Rocket Arena"
+   "venue": null
   },
   {
-   "id": "401910574",
+   "id": "21718803",
    "date_az": "2027-02-15",
    "day": "Mon",
    "week_start": "2027-02-14",
@@ -856,10 +855,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Capital One Arena"
+   "venue": null
   },
   {
-   "id": "401910587",
+   "id": "21718818",
    "date_az": "2027-02-17",
    "day": "Wed",
    "week_start": "2027-02-14",
@@ -871,10 +870,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Xfinity Mobile Arena"
+   "venue": null
   },
   {
-   "id": "401910607",
+   "id": "21718842",
    "date_az": "2027-02-25",
    "day": "Thu",
    "week_start": "2027-02-21",
@@ -886,10 +885,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Smoothie King Center"
+   "venue": null
   },
   {
-   "id": "401910622",
+   "id": "21718858",
    "date_az": "2027-02-27",
    "day": "Sat",
    "week_start": "2027-02-21",
@@ -901,10 +900,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910637",
+   "id": "21718874",
    "date_az": "2027-03-01",
    "day": "Mon",
    "week_start": "2027-02-28",
@@ -916,10 +915,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910652",
+   "id": "21718891",
    "date_az": "2027-03-03",
    "day": "Wed",
    "week_start": "2027-02-28",
@@ -931,10 +930,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910666",
+   "id": "21718910",
    "date_az": "2027-03-05",
    "day": "Fri",
    "week_start": "2027-02-28",
@@ -946,10 +945,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910683",
+   "id": "21718930",
    "date_az": "2027-03-08",
    "day": "Mon",
    "week_start": "2027-03-07",
@@ -961,10 +960,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Kaseya Center"
+   "venue": null
   },
   {
-   "id": "401910689",
+   "id": "21718937",
    "date_az": "2027-03-09",
    "day": "Tue",
    "week_start": "2027-03-07",
@@ -976,10 +975,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Kia Center"
+   "venue": null
   },
   {
-   "id": "401910709",
+   "id": "21718962",
    "date_az": "2027-03-11",
    "day": "Thu",
    "week_start": "2027-03-07",
@@ -991,10 +990,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "United Center"
+   "venue": null
   },
   {
-   "id": "401910722",
+   "id": "21718976",
    "date_az": "2027-03-13",
    "day": "Sat",
    "week_start": "2027-03-07",
@@ -1006,10 +1005,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Spectrum Center"
+   "venue": null
   },
   {
-   "id": "401910737",
+   "id": "21718994",
    "date_az": "2027-03-15",
    "day": "Mon",
    "week_start": "2027-03-14",
@@ -1021,10 +1020,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "FedExForum"
+   "venue": null
   },
   {
-   "id": "401910755",
+   "id": "21719015",
    "date_az": "2027-03-17",
    "day": "Wed",
    "week_start": "2027-03-14",
@@ -1036,10 +1035,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "crypto.com Arena"
+   "venue": null
   },
   {
-   "id": "401910771",
+   "id": "21719031",
    "date_az": "2027-03-19",
    "day": "Fri",
    "week_start": "2027-03-14",
@@ -1051,10 +1050,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910782",
+   "id": "21719044",
    "date_az": "2027-03-21",
    "day": "Sun",
    "week_start": "2027-03-21",
@@ -1066,10 +1065,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910799",
+   "id": "21719066",
    "date_az": "2027-03-23",
    "day": "Tue",
    "week_start": "2027-03-21",
@@ -1081,10 +1080,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910808",
+   "id": "21719076",
    "date_az": "2027-03-24",
    "day": "Wed",
    "week_start": "2027-03-21",
@@ -1096,10 +1095,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910822",
+   "id": "21719093",
    "date_az": "2027-03-26",
    "day": "Fri",
    "week_start": "2027-03-21",
@@ -1111,10 +1110,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910838",
+   "id": "21719112",
    "date_az": "2027-03-28",
    "day": "Sun",
    "week_start": "2027-03-28",
@@ -1126,10 +1125,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910846",
+   "id": "21719120",
    "date_az": "2027-03-29",
    "day": "Mon",
    "week_start": "2027-03-28",
@@ -1141,10 +1140,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Frost Bank Center"
+   "venue": null
   },
   {
-   "id": "401910861",
+   "id": "21719136",
    "date_az": "2027-03-31",
    "day": "Wed",
    "week_start": "2027-03-28",
@@ -1156,10 +1155,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Frost Bank Center"
+   "venue": null
   },
   {
-   "id": "401910877",
+   "id": "21719156",
    "date_az": "2027-04-02",
    "day": "Fri",
    "week_start": "2027-03-28",
@@ -1171,10 +1170,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910889",
+   "id": "21719172",
    "date_az": "2027-04-04",
    "day": "Sun",
    "week_start": "2027-04-04",
@@ -1186,10 +1185,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Intuit Dome"
+   "venue": null
   },
   {
-   "id": "401910908",
+   "id": "21719192",
    "date_az": "2027-04-06",
    "day": "Tue",
    "week_start": "2027-04-04",
@@ -1201,10 +1200,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Chase Center"
+   "venue": null
   },
   {
-   "id": "401910935",
+   "id": "21719220",
    "date_az": "2027-04-09",
    "day": "Fri",
    "week_start": "2027-04-04",
@@ -1216,10 +1215,10 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "Mortgage Matchup Center"
+   "venue": null
   },
   {
-   "id": "401910951",
+   "id": "21719240",
    "date_az": "2027-04-11",
    "day": "Sun",
    "week_start": "2027-04-11",
@@ -1231,7 +1230,8 @@
    "result": null,
    "score": null,
    "note": null,
-   "venue": "crypto.com Arena"
+   "venue": null
   }
- ]
+ ],
+ "season": "2026-27"
 }
