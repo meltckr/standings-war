@@ -62,10 +62,58 @@
   function liveShort(text) {
     var m = /^In progress, (\S+) left in (?:the )?(.+)$/.exec(text || "");
     if (m) return m[1] + " · " + m[2];
+    // balldontlie-style "In progress, q1 2:49" or bare "Q1 2:49" / "Q1 · 2:49"
+    var q = /^(?:In progress,\s*)?(?:Q|q)(\d)\s*[·\s]+(\d{1,2}:\d{2})$/.exec(String(text || "").trim());
+    if (q) {
+      var ord = { 1: "1st", 2: "2nd", 3: "3rd", 4: "4th" };
+      return q[2] + " · " + (ord[q[1]] || ("Q" + q[1]));
+    }
     var t = String(text || "").replace(/^In progress, /, "");
     return t.charAt(0).toUpperCase() + t.slice(1);
   }
   function noAZ(t) { return String(t || "").replace(/ AZ$/, ""); }
+  // Game tips stay stored as tip_az (America/Phoenix, no DST). Display them in Eastern
+  // (America/New_York) so Mat sees ET. Date grouping / stale / today stay on the AZ calendar.
+  function tipInstant(tipAz, dateAz) {
+    var m = /^(\d{1,2}):(\d{2})\s*(AM|PM)\s*AZ$/i.exec(String(tipAz || "").trim());
+    if (!m || !dateAz) return null;
+    var h = parseInt(m[1], 10), min = m[2], ap = m[3].toUpperCase();
+    if (ap === "PM" && h !== 12) h += 12;
+    if (ap === "AM" && h === 12) h = 0;
+    var iso = dateAz + "T" + (h < 10 ? "0" : "") + h + ":" + min + ":00-07:00";
+    var d = new Date(iso);
+    return isNaN(d.getTime()) ? null : d;
+  }
+  function tipET(tipAz, dateAz) {
+    if (!tipAz || /TBD/i.test(String(tipAz))) return "Time TBD";
+    var d = tipInstant(tipAz, dateAz);
+    if (!d) return String(tipAz).replace(/ AZ$/, " ET");
+    return d.toLocaleTimeString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit", hour12: true }) + " ET";
+  }
+  function tipETClock(tipAz, dateAz) {
+    var t = tipET(tipAz, dateAz);
+    return t === "Time TBD" ? "TBD" : t.replace(/ ET$/, "");
+  }
+  function asOfDual() {
+    var d = new Date(D.war.as_of);
+    if (isNaN(d.getTime())) return { dual: asOfParts().time, short: asOfParts().time, et: asOfParts().time, az: asOfParts().time };
+    var etClock = d.toLocaleTimeString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit", hour12: true });
+    var azClock = d.toLocaleTimeString("en-US", { timeZone: "America/Phoenix", hour: "numeric", minute: "2-digit", hour12: true });
+    var etDay = d.toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+    var azDay = d.toLocaleDateString("en-CA", { timeZone: "America/Phoenix" });
+    var et = etClock + " ET";
+    // When the ET clock has crossed midnight relative to the AZ pull date, name the ET weekday.
+    if (etDay !== azDay) {
+      var etWd = d.toLocaleDateString("en-US", { weekday: "short", timeZone: "America/New_York" });
+      et = etWd + " " + etClock + " ET";
+    }
+    var az = azClock + " AZ";
+    return { dual: et + " (" + az + ")", short: et + " (" + az + ")", et: et, az: az };
+  }
+  // Dual ET (AZ) needs room; phones and mid widths stay ET-only to avoid masthead overflow.
+  function stampUsesDual() {
+    return !!(window.matchMedia && window.matchMedia("(min-width: 1101px)").matches);
+  }
   function gamesText(x) {
     x = Math.abs(x);
     return (x % 1 ? x.toFixed(1) : String(x)) + (x === 1 ? " game" : " games");
@@ -336,11 +384,13 @@
         esc(g.verdict) + '"></i><span class="sr">' + esc(g.verdict) + "</span></span>";
     }).join("") : '<span class="tk-g">No finals</span>';
     document.querySelector(".tk-lab").textContent = L.lastNight;
-    var p = asOfParts();
-    // A last-refresh stamp, not a clock: "Updated 10:05 AM AZ", with the pull's weekday once the reader's day has moved on.
+    var p = asOfParts(), dual = asOfDual();
+    // Last-refresh stamp for Mat: Eastern first, Arizona in parentheses. Weekday once the reader's day has moved on.
     var wd = new Date(D.war.as_of).toLocaleDateString("en-US", { weekday: "short", timeZone: "America/Phoenix" });
-    $("stamp").textContent = "Updated " + p.date + " · " + p.time;
-    $("stamp-short").textContent = "Updated " + (L.stale ? wd + " " : "") + p.time;
+    var stampTime = stampUsesDual() ? dual.dual : dual.et;
+    $("stamp").textContent = "Updated " + p.date + " · " + stampTime;
+    // Phone masthead is tight: ET only. Wide desktop keeps the dual ET (AZ) form.
+    $("stamp-short").textContent = "Updated " + (L.stale ? wd + " " : "") + dual.et;
     $("season-label").textContent = D.war.season;
   }
 
@@ -438,7 +488,7 @@
       var venue = sched[sg.id] && sched[sg.id].venue;
       away = sg.away.abbr; home = sg.home.abbr;
       k = L.tonight;
-      if (sg.status === "scheduled") tl = esc(sg.tip_az) + (venue ? " · " + esc(venue) : "");
+      if (sg.status === "scheduled") tl = esc(tipET(sg.tip_az, sg.date_az)) + (venue ? " · " + esc(venue) : "");
       else if (sg.status === "in_progress") tl = '<i class="ldot" aria-hidden="true"></i>Live · ' + esc(liveShort(sg.state_text));
       else tl = esc(sg.state_text);
       if (sg.status === "in_progress" || sg.status === "final") {
@@ -455,7 +505,7 @@
         return;
       }
       k = nxt.date_az === L.today ? "Tonight" : "Next game";
-      tl = esc(dowDate(nxt.date_az)) + " · " + esc(nxt.tip_az);
+      tl = esc(dowDate(nxt.date_az)) + " · " + esc(tipET(nxt.tip_az, nxt.date_az));
       away = nxt.home_away === "road" ? FOCUS : nxt.opp;
       home = nxt.home_away === "road" ? nxt.opp : FOCUS;
     }
@@ -490,7 +540,7 @@
       if (g.status === "scheduled" && L.stale) {
         val = "<b>" + ha + " " + opp.abbr + "</b><span>Result comes in with the next refresh</span>";
       } else if (g.status === "scheduled") {
-        val = "<b>" + ha + " " + opp.abbr + "</b><span>" + esc(g.tip_az) + "</span>";
+        val = "<b>" + ha + " " + opp.abbr + "</b><span>" + esc(tipET(g.tip_az, g.date_az)) + "</span>";
       } else if (g.status === "in_progress") {
         val = "<b>" + ha + " " + opp.abbr + " <em>" + me.score + "-" + opp.score + '</em></b><span class="lv">Live · ' +
           esc(liveShort(g.state_text)) + "</span>";
@@ -507,7 +557,7 @@
     if (n === false) return '<div class="fv-c"><span class="fv-k">Next game</span><div class="fv-v"><div><span>Comes in with the next refresh</span></div></div></div>';
     if (!n) return '<div class="fv-c"><span class="fv-k">Next game</span><div class="fv-v"><div><span>Not on the schedule yet</span></div></div></div>';
     return '<div class="fv-c"><span class="fv-k">' + (n.date_az === L.today ? "Tonight" : "Next game") + '</span><div class="fv-v">' + plate(n.opp, 28) + "<div><b>" +
-      (n.home_away === "home" ? "vs " : "at ") + n.opp + "</b><span>" + dowDate(n.date_az) + " · " + esc(n.tip_az) + "</span></div></div></div>";
+      (n.home_away === "home" ? "vs " : "at ") + n.opp + "</b><span>" + dowDate(n.date_az) + " · " + esc(tipET(n.tip_az, n.date_az)) + "</span></div></div></div>";
   }
   function favLastCell(code) {
     var g = lastNightGame(code);
@@ -578,8 +628,8 @@
       var st = g.status, root = g.root, live = st === "in_progress", fin = st === "final";
       var stx;
       if (live) stx = '<span class="live"><i></i>Live</span><span class="tm2">' + esc(liveShort(g.state_text)) + "</span>";
-      else if (fin) stx = '<span class="tm1">Final</span><span class="tm2">' + (g.overtime ? "OT · " : "") + "Tipped " + esc(g.tip_az) + "</span>";
-      else if (st === "scheduled") stx = '<span class="tm1">' + esc(g.time_valid ? noAZ(g.tip_az) : "TBD") + '</span><span class="tm2">' + (g.time_valid ? "AZ" : "Time TBD") + "</span>";
+      else if (fin) stx = '<span class="tm1">Final</span><span class="tm2">' + (g.overtime ? "OT · " : "") + "Tipped " + esc(tipET(g.tip_az, g.date_az)) + "</span>";
+      else if (st === "scheduled") stx = '<span class="tm1">' + esc(g.time_valid ? tipETClock(g.tip_az, g.date_az) : "TBD") + '</span><span class="tm2">' + (g.time_valid ? "ET" : "Time TBD") + "</span>";
       else stx = '<span class="tm1">' + esc(g.state_text) + "</span>";
       function tside(t) {
         var cls = (t.abbr === root ? " r" : "") + (fin && g.winner === t.abbr ? " won" : "");
@@ -618,7 +668,7 @@
     }).join("");
     var lede = "Every NBA game " + (L.stale ? "on " + esc(w.today.short) : "tonight") + " and the result that helps Phoenix." +
       (favs.length ? " Your favorites&rsquo; games come right after the Suns." : "") +
-      " Arizona time (AZ). Scores as of " + esc(L.stale ? w.as_of_display : asOfParts().time) + ".";
+      " Eastern time (ET). Scores as of " + esc(L.stale ? w.as_of_display : asOfDual().dual) + ".";
     $("rooting").innerHTML = head("01", "Rooting guide · " + plural(games.length, "game", "games") + (L.stale ? " on " + esc(w.today.short) : " tonight"),
         L.stale ? "The board for " + esc(w.today.short) : "Tonight&rsquo;s board", "rooting-h", dayText(w.lens.board), lede) +
       (games.length ? '<div class="tb' + (foldable && !open["board-all"] ? " folded" : "") + '" id="board-all" role="table" aria-label="' + (L.stale ? "Games on " + esc(w.today.short) : "Tonight&rsquo;s games") + '"><div class="tb-h" role="row"><span role="columnheader">Time</span><span role="columnheader">Matchup</span>' +
@@ -657,14 +707,14 @@
         when2 = "Final";
         ctl = '<span class="res res-' + g.result + '">' + g.result + " " + esc(g.score) + "</span>";
       } else if (toggle[id]) {
-        when2 = STATUS_TEXT[g.status] || esc(g.tip_az);
+        when2 = STATUS_TEXT[g.status] || esc(tipET(g.tip_az, g.date_az));
         ctl = '<span class="wlb" role="group" aria-label="Result ' + esc(matchup(g)) + '">' + ["W", "L"].map(function (r) {
           var on = picks[id] === r;
           return '<button type="button" class="wl-btn wl-' + r + (on ? " on" : "") + '" data-id="' + esc(id) + '" data-pick="' + r +
             '" aria-pressed="' + on + '" aria-label="' + (r === "W" ? "Win" : "Loss") + " " + esc(matchup(g)) + '">' + r + "</button>";
         }).join("") + "</span>";
       } else {
-        when2 = STATUS_TEXT[g.status] || esc(g.tip_az);
+        when2 = STATUS_TEXT[g.status] || esc(tipET(g.tip_az, g.date_az));
         ctl = "";
       }
       var cup = g.note && /cup/i.test(g.note) ? '<span class="cup">NBA Cup</span>' : "";
@@ -899,7 +949,7 @@
     if (g) {
       var st = g.status;
       var stl = st === "in_progress" ? '<span class="live"><i></i>Live · ' + esc(liveShort(g.state_text)) + "</span>"
-        : '<span class="fin">' + esc(st === "final" ? g.state_text : g.tip_az) + "</span>";
+        : '<span class="fin">' + esc(st === "final" ? g.state_text : tipET(g.tip_az, g.date_az)) + "</span>";
       var scr = (st === "in_progress" || st === "final") ? g.away.abbr + " " + g.away.score + " · " + g.home.abbr + " " + g.home.score
         : g.away.abbr + " at " + g.home.abbr;
       var mk = st === "final" && g.verdict && g.verdict !== "No stake" ? '<b class="mk ' + (g.verdict === "Helped" ? "helped" : "hurt") + '">' + g.verdict + "</b>" : "";
@@ -907,7 +957,7 @@
     } else {
       var n = nextFor("CLE");
       body = '<span class="cf-k">' + (n && n.date_az === L.today ? "Cleveland tonight" : "Cleveland next") + '</span><div class="cf-s">' +
-        (n ? '<span class="fin">' + dowDate(n.date_az) + " · " + esc(n.tip_az) + "</span><b>" + (n.home_away === "home" ? n.opp + " at CLE" : "CLE at " + n.opp) + "</b>"
+        (n ? '<span class="fin">' + dowDate(n.date_az) + " · " + esc(tipET(n.tip_az, n.date_az)) + "</span><b>" + (n.home_away === "home" ? n.opp + " at CLE" : "CLE at " + n.opp) + "</b>"
           : n === false ? "<b>Comes in with the next refresh</b>" : "<b>Not on the schedule yet</b>") + "</div>";
     }
     return '<div class="cle-f">' + plate("CLE", 40) + '<div class="cf-b">' + body + "</div></div>";
@@ -969,7 +1019,7 @@
         (byDate[iso] || []).forEach(function (g) {
           var r;
           if (g.status === "final") r = '<em class="res res-' + g.result + '">' + g.result + " " + esc(g.score) + "</em>";
-          else r = "<em>" + (STATUS_TEXT[g.status] || esc(g.tip_az)) + "</em>" + (picks[g.id] ? '<span class="badge wi">What-if ' + picks[g.id] + "</span>" : "");
+          else r = "<em>" + (STATUS_TEXT[g.status] || esc(tipET(g.tip_az, g.date_az))) + "</em>" + (picks[g.id] ? '<span class="badge wi">What-if ' + picks[g.id] + "</span>" : "");
           tix += '<div class="tix ' + g.home_away + td + '" data-id="' + esc(g.id) + '"><span class="tx-d">' + DOW[day.getUTCDay()] + " " + shortDate(iso) +
             (td ? " · Today" : "") + '</span><div class="tx-o">' + plate(g.opp, 36) + "<b>" + (g.home_away === "home" ? "vs " : "at ") + g.opp + "</b></div>" +
             r + (g.note && /cup/i.test(g.note) ? '<span class="cup">NBA Cup</span>' : "") + "</div>";
@@ -997,7 +1047,7 @@
         ["The rest of the regular season, through " + dowDate(lastG.date_az) + ", " + lastG.date_az.slice(0, 4),
           "Hide the weeks after next week"]) +
         panel("weeks-more", '<div class="wks">' + rest + "</div>") : "") +
-      '<div class="key"><span><i class="home"></i>Home</span><span><i class="road"></i>Road</span><span><i class="tdy"></i>Today</span><span>All tip times Arizona time (AZ)</span></div>';
+      '<div class="key"><span><i class="home"></i>Home</span><span><i class="road"></i>Road</span><span><i class="tdy"></i>Today</span><span>All tip times Eastern time (ET)</span></div>';
   }
 
   // ------------------------------------------------------------ sources
@@ -1027,7 +1077,7 @@
       ["Standings, schedules and scores", '<p>balldontlie (<a href="https://www.balldontlie.io/" rel="noopener">balldontlie.io</a> standings and games), pulled ' +
         esc(D.standings.as_of_display) + ". " + esc(cross) + "</p>"],
       ["Tonight's games and last night's scores", "<p>balldontlie games for " + boards + ", pulled " + esc(w.as_of_display) +
-        " in the same pull as the standings, so every section on this page agrees. Tip times are converted to Arizona time (AZ). " + esc(ws.crosscheck) + "</p>"],
+        " in the same pull as the standings, so every section on this page agrees. Tip times are shown in Eastern time (ET). " + esc(ws.crosscheck) + "</p>"],
       ["Pace lines", "<p>Each pace line is the median final win total of the team that finished at that West seed over the last five full 82-game seasons of the play-in era: " +
         seasons.join(", ") + ". The 2019-20 and 2020-21 seasons are left out because they were shortened. Win totals come from balldontlie season standings (" +
         links + "), last checked " + nw(h.last_verified) + ". balldontlie is the only source for these totals.</p>" + paceTable(h)],
@@ -1051,17 +1101,17 @@
         "The chance that team A beats team B is a(1-b) divided by a(1-b) + b(1-a), where a and b are the two strengths. There is no home-court adjustment. " +
         "Games the league has not scheduled yet are played against a .500 opponent. Ties in the final standings go to the team with more conference wins, then to a random draw, " +
         "which is simpler than the NBA's real tiebreak rules. The model does not know about injuries, trades or rest.</p>"],
-      ["Schedule and All-Star break", "<p>The Suns schedule is from balldontlie, with tip times converted to Arizona time. " +
+      ["Schedule and All-Star break", "<p>The Suns schedule is from balldontlie, with tip times shown in Eastern time. " +
         (D.suns.games_unscheduled > 0 ? "balldontlie lists " + D.suns.games_listed + " of 82 games. The league sets the other " + D.suns.games_unscheduled +
           " after NBA Cup group play ends, so they are left off the week board. NBA Cup group games are on the board and tagged. " : "") +
         "All-Star dates: break February 19 through 24, 2027; game on Sunday, February 21, at Mortgage Matchup Center in Phoenix.</p>"],
       ["Playoff format", "<p>Seeds 1 through 6 in each conference go straight to the playoffs. Seeds 7 through 10 play in: 7 hosts 8 and the winner is in, the loser then hosts the winner of 9 against 10 for the last spot.</p>"]
     ];
     var p = asOfParts();
-    var srcSub = "balldontlie standings, schedules and scores, " + p.time + " · Internal consistency check · Simulation in the same refresh";
+    var srcSub = "balldontlie standings, schedules and scores, " + asOfDual().et + " · Internal consistency check · Simulation in the same refresh";
     $("sources").innerHTML = '<h2 class="sr" id="sources-h">Sources</h2>' + disclose("sources-more", ["Sources", "Hide sources"], notes.length + " notes", [srcSub, srcSub]) +
       panel("sources-more", '<div class="src-g" id="sources-body">' + notes.map(function (n) { return "<div><h3>" + nw(n[0]) + "</h3>" + n[1] + "</div>"; }).join("") + "</div>") +
-      '<p class="colo">Standings War · Built for Mat Ishbia<span class="ver" title="Standings War 1.1.0"> · <span>v1.1</span></span></p>';
+      '<p class="colo">Standings War · Built for Mat Ishbia<span class="ver" title="Standings War 1.2.0"> · <span>v1.2</span></span></p>';
   }
 
   // ------------------------------------------------------------ events
@@ -1375,6 +1425,75 @@
       if (window.console) console.warn(err);
     });
   }
+
+  function hasLiveGames(war) {
+    war = war || D.war;
+    if (!war) return false;
+    var bags = [];
+    if (war.tonight && war.tonight.games) bags.push(war.tonight.games);
+    if (war.last_night && war.last_night.games) bags.push(war.last_night.games);
+    for (var i = 0; i < bags.length; i++) {
+      for (var j = 0; j < bags[i].length; j++) {
+        if (bags[i][j] && bags[i][j].status === "in_progress") return true;
+      }
+    }
+    return false;
+  }
+  // Tiny live-score hook for js/live-scores.js: merge a fresh war.json and repaint, no full reload.
+  function applyWar(war) {
+    if (!war || !war.tonight || !war.last_night || !war.teams) return false;
+    var prev = D.war;
+    D.war = war;
+    try { checkData(); }
+    catch (err) {
+      D.war = prev;
+      if (window.console) console.warn(err);
+      return false;
+    }
+    // Keep conference live dots in sync with war.json (records still wait on the next full refresh).
+    var liveWest = 0, liveEast = 0;
+    war.tonight.games.forEach(function (g) {
+      if (g.status !== "in_progress") return;
+      var conf = (team(g.home.abbr) || {}).conference;
+      if (conf === "West") liveWest += 1;
+      else if (conf === "East") liveEast += 1;
+    });
+    if (D.standings) D.standings.games_in_progress = liveWest;
+    if (D.east) D.east.games_in_progress = liveEast;
+    if (D.suns && D.suns.games) {
+      war.tonight.games.concat(war.last_night.games).forEach(function (g) {
+        if (g.kind !== "suns") return;
+        D.suns.games.forEach(function (sg) {
+          if (String(sg.id) === String(g.id)) {
+            sg.status = g.status;
+            sg.tip_az = g.tip_az;
+            if (g.home && g.home.score != null) sg.score = g.away.score + "-" + g.home.score;
+          }
+        });
+      });
+    }
+    setDayWords();
+    var focusSel = null, ae = document.activeElement;
+    if (ae && ae !== document.body && ae.getAttribute) {
+      if (ae.getAttribute("data-fav") && ae.getAttribute("data-where")) {
+        focusSel = '.star[data-fav="' + ae.getAttribute("data-fav") + '"][data-where="' + ae.getAttribute("data-where") + '"]';
+      } else if (ae.getAttribute("data-disc")) {
+        focusSel = '.disc[data-disc="' + ae.getAttribute("data-disc") + '"]';
+      } else if (ae.id) focusSel = "#" + ae.id;
+    }
+    renderAll();
+    setDayChrome();
+    if (focusSel) {
+      var again = document.querySelector(focusSel);
+      if (again && again.focus) again.focus();
+    }
+    return true;
+  }
+  window.StandingsWarLive = {
+    getWar: function () { return D.war && D.war.tonight ? D.war : null; },
+    applyWar: applyWar,
+    hasLive: function (war) { return hasLiveGames(war); }
+  };
 
   boot();
 })();
