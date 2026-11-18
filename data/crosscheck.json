@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-17T19:58:40-07:00",
- "as_of_display": "Tue Nov 17, 2026, 7:58 PM AZ",
+ "as_of": "2026-11-17T22:07:37-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 10:07 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,33 +10,25 @@
  },
  "games_in_progress": [
   {
-   "id": "21718126",
-   "away": "NYK",
-   "home": "TOR",
-   "away_score": 111,
-   "home_score": 102,
-   "detail": "END Q4"
+   "id": "21718129",
+   "away": "CHA",
+   "home": "LAL",
+   "away_score": 57,
+   "home_score": 47,
+   "detail": "Q2 3:36"
   },
   {
-   "id": "21718127",
-   "away": "POR",
-   "home": "MIN",
-   "away_score": 77,
-   "home_score": 71,
-   "detail": "Q3 2:12"
-  },
-  {
-   "id": "21718128",
-   "away": "DET",
-   "home": "SAS",
-   "away_score": 78,
-   "home_score": 72,
-   "detail": "Q4 12:00"
+   "id": "21718130",
+   "away": "UTA",
+   "home": "LAC",
+   "away_score": 83,
+   "home_score": 81,
+   "detail": "Q3 4:03"
   }
  ],
  "teams": [
   {
-   "team": "SAS",
+   "team": "LAL",
    "seed": 1,
    "bdl": {
     "wins": 12,
@@ -52,15 +44,15 @@
    }
   },
   {
-   "team": "LAL",
+   "team": "SAS",
    "seed": 2,
    "bdl": {
     "wins": 12,
-    "losses": 2
+    "losses": 3
    },
    "bdl_game_results": {
     "wins": 12,
-    "losses": 2
+    "losses": 3
    },
    "game_in_progress": false,
    "match": {
@@ -68,7 +60,7 @@
    }
   },
   {
-   "team": "HOU",
+   "team": "MIN",
    "seed": 3,
    "bdl": {
     "wins": 11,
@@ -84,17 +76,17 @@
    }
   },
   {
-   "team": "MIN",
+   "team": "HOU",
    "seed": 4,
    "bdl": {
-    "wins": 10,
+    "wins": 11,
     "losses": 4
    },
    "bdl_game_results": {
-    "wins": 10,
+    "wins": 11,
     "losses": 4
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -120,13 +112,13 @@
    "seed": 6,
    "bdl": {
     "wins": 9,
-    "losses": 4
+    "losses": 5
    },
    "bdl_game_results": {
     "wins": 9,
-    "losses": 4
+    "losses": 5
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -222,7 +214,7 @@
     "wins": 4,
     "losses": 8
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -270,7 +262,7 @@
     "wins": 1,
     "losses": 13
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -311,14 +303,14 @@
    "team": "DET",
    "seed": 3,
    "bdl": {
-    "wins": 8,
+    "wins": 9,
     "losses": 4
    },
    "bdl_game_results": {
-    "wins": 8,
+    "wins": 9,
     "losses": 4
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -359,14 +351,14 @@
    "team": "NYK",
    "seed": 6,
    "bdl": {
-    "wins": 7,
+    "wins": 8,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 7,
+    "wins": 8,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -408,13 +400,13 @@
    "seed": 9,
    "bdl": {
     "wins": 5,
-    "losses": 8
+    "losses": 9
    },
    "bdl_game_results": {
     "wins": 5,
-    "losses": 8
+    "losses": 9
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -446,7 +438,7 @@
     "wins": 4,
     "losses": 9
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
