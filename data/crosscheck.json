@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-17T18:41:28-07:00",
- "as_of_display": "Tue Nov 17, 2026, 6:41 PM AZ",
+ "as_of": "2026-11-17T18:49:28-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 6:49 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -21,17 +21,17 @@
    "id": "21718127",
    "away": "POR",
    "home": "MIN",
-   "away_score": 17,
-   "home_score": 29,
-   "detail": "Q2 11:42"
+   "away_score": 34,
+   "home_score": 36,
+   "detail": "Q2 7:20"
   },
   {
    "id": "21718128",
    "away": "DET",
    "home": "SAS",
    "away_score": 26,
-   "home_score": 31,
-   "detail": "Q1 :00.0"
+   "home_score": 40,
+   "detail": "Q2 10:09"
   }
  ],
  "teams": [

@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-17T18:41:28-07:00",
- "as_of_display": "Tue Nov 17, 2026, 6:41 PM AZ",
+ "as_of": "2026-11-17T18:49:28-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 6:49 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Monday, Nov 16, 2026",
   "weekday": "Monday"
  },
- "raw_folder": "data/raw/20261117-1841",
+ "raw_folder": "data/raw/20261117-1849",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -699,7 +699,7 @@
      "short": "Portland",
      "record": "9-4",
      "logo": "img/por.png",
-     "score": 17
+     "score": 34
     },
     "home": {
      "abbr": "MIN",
@@ -707,14 +707,14 @@
      "short": "Minnesota",
      "record": "10-4",
      "logo": "img/min.png",
-     "score": 29
+     "score": 36
     },
     "date_utc": "2026-11-18T01:00Z",
     "date_az": "2026-11-17",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 11:42",
+    "state_text": "In progress, q2 7:20",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -832,14 +832,14 @@
      "short": "San Antonio",
      "record": "12-2",
      "logo": "img/sas.png",
-     "score": 31
+     "score": 40
     },
     "date_utc": "2026-11-18T01:00Z",
     "date_az": "2026-11-17",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 :00.0",
+    "state_text": "In progress, q2 10:09",
     "overtime": false,
     "winner": null,
     "kind": "none",
