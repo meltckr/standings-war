@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-17T22:41:31-07:00",
- "as_of_display": "Tue Nov 17, 2026, 10:41 PM AZ",
+ "as_of": "2026-11-18T07:36:14-07:00",
+ "as_of_display": "Wed Nov 18, 2026, 7:36 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,37 +8,20 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718129",
-   "away": "CHA",
-   "home": "LAL",
-   "away_score": 79,
-   "home_score": 72,
-   "detail": "Q3 6:26"
-  },
-  {
-   "id": "21718130",
-   "away": "UTA",
-   "home": "LAC",
-   "away_score": 118,
-   "home_score": 97,
-   "detail": "Q4 4:22"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "LAL",
    "seed": 1,
    "bdl": {
-    "wins": 12,
+    "wins": 13,
     "losses": 2
    },
    "bdl_game_results": {
-    "wins": 12,
+    "wins": 13,
     "losses": 2
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -204,24 +187,8 @@
    }
   },
   {
-   "team": "LAC",
-   "seed": 12,
-   "bdl": {
-    "wins": 4,
-    "losses": 8
-   },
-   "bdl_game_results": {
-    "wins": 4,
-    "losses": 8
-   },
-   "game_in_progress": true,
-   "match": {
-    "bdl_game_results": true
-   }
-  },
-  {
    "team": "NOP",
-   "seed": 13,
+   "seed": 12,
    "bdl": {
     "wins": 5,
     "losses": 10
@@ -236,15 +203,15 @@
    }
   },
   {
-   "team": "SAC",
-   "seed": 14,
+   "team": "LAC",
+   "seed": 13,
    "bdl": {
-    "wins": 1,
-    "losses": 12
+    "wins": 4,
+    "losses": 9
    },
    "bdl_game_results": {
-    "wins": 1,
-    "losses": 12
+    "wins": 4,
+    "losses": 9
    },
    "game_in_progress": false,
    "match": {
@@ -253,16 +220,32 @@
   },
   {
    "team": "UTA",
-   "seed": 15,
+   "seed": 14,
    "bdl": {
-    "wins": 1,
+    "wins": 2,
     "losses": 13
    },
    "bdl_game_results": {
-    "wins": 1,
+    "wins": 2,
     "losses": 13
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "SAC",
+   "seed": 15,
+   "bdl": {
+    "wins": 1,
+    "losses": 12
+   },
+   "bdl_game_results": {
+    "wins": 1,
+    "losses": 12
+   },
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -432,13 +415,13 @@
    "seed": 11,
    "bdl": {
     "wins": 4,
-    "losses": 9
+    "losses": 10
    },
    "bdl_game_results": {
     "wins": 4,
-    "losses": 9
+    "losses": 10
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
