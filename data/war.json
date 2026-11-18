@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-17T19:41:10-07:00",
- "as_of_display": "Tue Nov 17, 2026, 7:41 PM AZ",
+ "as_of": "2026-11-17T19:58:40-07:00",
+ "as_of_display": "Tue Nov 17, 2026, 7:58 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Monday, Nov 16, 2026",
   "weekday": "Monday"
  },
- "raw_folder": "data/raw/20261117-1941",
+ "raw_folder": "data/raw/20261117-1958",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -699,7 +699,7 @@
      "short": "Portland",
      "record": "9-4",
      "logo": "img/por.png",
-     "score": 60
+     "score": 77
     },
     "home": {
      "abbr": "MIN",
@@ -707,14 +707,14 @@
      "short": "Minnesota",
      "record": "10-4",
      "logo": "img/min.png",
-     "score": 54
+     "score": 71
     },
     "date_utc": "2026-11-18T01:00Z",
     "date_az": "2026-11-17",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 7:32",
+    "state_text": "In progress, q3 2:12",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -785,7 +785,7 @@
      "short": "New York",
      "record": "7-6",
      "logo": "img/nyk.png",
-     "score": 93
+     "score": 111
     },
     "home": {
      "abbr": "TOR",
@@ -793,14 +793,14 @@
      "short": "Toronto",
      "record": "5-8",
      "logo": "img/tor.png",
-     "score": 95
+     "score": 102
     },
     "date_utc": "2026-11-18T00:30Z",
     "date_az": "2026-11-17",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 5:04",
+    "state_text": "In progress, eND Q4",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -824,7 +824,7 @@
      "short": "Detroit",
      "record": "8-4",
      "logo": "img/det.png",
-     "score": 63
+     "score": 78
     },
     "home": {
      "abbr": "SAS",
@@ -832,14 +832,14 @@
      "short": "San Antonio",
      "record": "12-2",
      "logo": "img/sas.png",
-     "score": 64
+     "score": 72
     },
     "date_utc": "2026-11-18T01:00Z",
     "date_az": "2026-11-17",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 6:07",
+    "state_text": "In progress, q4 12:00",
     "overtime": false,
     "winner": null,
     "kind": "none",
