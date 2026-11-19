@@ -390,7 +390,10 @@
     var stampTime = stampUsesDual() ? dual.dual : dual.et;
     $("stamp").textContent = "Updated " + p.date + " · " + stampTime;
     // Phone masthead is tight: ET only. Wide desktop keeps the dual ET (AZ) form.
-    $("stamp-short").textContent = "Updated " + (L.stale ? wd + " " : "") + dual.et;
+    // When stale, AZ pull weekday + bare ET clock (strip any ET weekday so we never show "Wed Thu").
+    var etShort = dual.et;
+    if (L.stale) etShort = etShort.replace(/^[A-Za-z]{3} (?=\d)/, "");
+    $("stamp-short").textContent = "Updated " + (L.stale ? wd + " " : "") + etShort;
     $("season-label").textContent = D.war.season;
   }
 

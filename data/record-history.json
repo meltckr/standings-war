@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-18T18:02:54-07:00",
- "as_of_display": "Wed Nov 18, 2026, 6:02 PM AZ",
+ "as_of": "2026-11-18T22:01:03-07:00",
+ "as_of_display": "Wed Nov 18, 2026, 10:01 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "teams": {
@@ -278,6 +278,152 @@
     "losses": 3
    }
   ],
+  "HOU": [
+   {
+    "date": "2026-10-21",
+    "opp": "DAL",
+    "home_away": "home",
+    "result": "W",
+    "score": "128-110",
+    "wins": 1,
+    "losses": 0
+   },
+   {
+    "date": "2026-10-23",
+    "opp": "SAS",
+    "home_away": "road",
+    "result": "W",
+    "score": "114-110",
+    "wins": 2,
+    "losses": 0
+   },
+   {
+    "date": "2026-10-24",
+    "opp": "ATL",
+    "home_away": "road",
+    "result": "W",
+    "score": "121-114",
+    "wins": 3,
+    "losses": 0
+   },
+   {
+    "date": "2026-10-26",
+    "opp": "ATL",
+    "home_away": "home",
+    "result": "W",
+    "score": "120-110",
+    "wins": 4,
+    "losses": 0
+   },
+   {
+    "date": "2026-10-28",
+    "opp": "MIL",
+    "home_away": "road",
+    "result": "W",
+    "score": "132-100",
+    "wins": 5,
+    "losses": 0
+   },
+   {
+    "date": "2026-10-30",
+    "opp": "DAL",
+    "home_away": "road",
+    "result": "L",
+    "score": "111-116",
+    "wins": 5,
+    "losses": 1
+   },
+   {
+    "date": "2026-10-31",
+    "opp": "OKC",
+    "home_away": "home",
+    "result": "W",
+    "score": "119-98",
+    "wins": 6,
+    "losses": 1
+   },
+   {
+    "date": "2026-11-02",
+    "opp": "BOS",
+    "home_away": "home",
+    "result": "W",
+    "score": "109-93",
+    "wins": 7,
+    "losses": 1
+   },
+   {
+    "date": "2026-11-04",
+    "opp": "MIN",
+    "home_away": "home",
+    "result": "L",
+    "score": "107-117",
+    "wins": 7,
+    "losses": 2
+   },
+   {
+    "date": "2026-11-07",
+    "opp": "PHX",
+    "home_away": "road",
+    "result": "L",
+    "score": "99-102",
+    "wins": 7,
+    "losses": 3
+   },
+   {
+    "date": "2026-11-09",
+    "opp": "DEN",
+    "home_away": "home",
+    "result": "W",
+    "score": "110-100",
+    "wins": 8,
+    "losses": 3
+   },
+   {
+    "date": "2026-11-11",
+    "opp": "GSW",
+    "home_away": "home",
+    "result": "W",
+    "score": "115-108",
+    "wins": 9,
+    "losses": 3
+   },
+   {
+    "date": "2026-11-13",
+    "opp": "UTA",
+    "home_away": "home",
+    "result": "W",
+    "score": "125-118",
+    "wins": 10,
+    "losses": 3
+   },
+   {
+    "date": "2026-11-15",
+    "opp": "WAS",
+    "home_away": "road",
+    "result": "W",
+    "score": "147-119",
+    "wins": 11,
+    "losses": 3
+   },
+   {
+    "date": "2026-11-16",
+    "opp": "MIA",
+    "home_away": "road",
+    "result": "L",
+    "score": "110-128",
+    "wins": 11,
+    "losses": 4
+   },
+   {
+    "date": "2026-11-18",
+    "opp": "IND",
+    "home_away": "road",
+    "result": "W",
+    "score": "119-104",
+    "wins": 12,
+    "losses": 4
+   }
+  ],
   "MIN": [
    {
     "date": "2026-10-21",
@@ -415,143 +561,6 @@
     "losses": 4
    }
   ],
-  "HOU": [
-   {
-    "date": "2026-10-21",
-    "opp": "DAL",
-    "home_away": "home",
-    "result": "W",
-    "score": "128-110",
-    "wins": 1,
-    "losses": 0
-   },
-   {
-    "date": "2026-10-23",
-    "opp": "SAS",
-    "home_away": "road",
-    "result": "W",
-    "score": "114-110",
-    "wins": 2,
-    "losses": 0
-   },
-   {
-    "date": "2026-10-24",
-    "opp": "ATL",
-    "home_away": "road",
-    "result": "W",
-    "score": "121-114",
-    "wins": 3,
-    "losses": 0
-   },
-   {
-    "date": "2026-10-26",
-    "opp": "ATL",
-    "home_away": "home",
-    "result": "W",
-    "score": "120-110",
-    "wins": 4,
-    "losses": 0
-   },
-   {
-    "date": "2026-10-28",
-    "opp": "MIL",
-    "home_away": "road",
-    "result": "W",
-    "score": "132-100",
-    "wins": 5,
-    "losses": 0
-   },
-   {
-    "date": "2026-10-30",
-    "opp": "DAL",
-    "home_away": "road",
-    "result": "L",
-    "score": "111-116",
-    "wins": 5,
-    "losses": 1
-   },
-   {
-    "date": "2026-10-31",
-    "opp": "OKC",
-    "home_away": "home",
-    "result": "W",
-    "score": "119-98",
-    "wins": 6,
-    "losses": 1
-   },
-   {
-    "date": "2026-11-02",
-    "opp": "BOS",
-    "home_away": "home",
-    "result": "W",
-    "score": "109-93",
-    "wins": 7,
-    "losses": 1
-   },
-   {
-    "date": "2026-11-04",
-    "opp": "MIN",
-    "home_away": "home",
-    "result": "L",
-    "score": "107-117",
-    "wins": 7,
-    "losses": 2
-   },
-   {
-    "date": "2026-11-07",
-    "opp": "PHX",
-    "home_away": "road",
-    "result": "L",
-    "score": "99-102",
-    "wins": 7,
-    "losses": 3
-   },
-   {
-    "date": "2026-11-09",
-    "opp": "DEN",
-    "home_away": "home",
-    "result": "W",
-    "score": "110-100",
-    "wins": 8,
-    "losses": 3
-   },
-   {
-    "date": "2026-11-11",
-    "opp": "GSW",
-    "home_away": "home",
-    "result": "W",
-    "score": "115-108",
-    "wins": 9,
-    "losses": 3
-   },
-   {
-    "date": "2026-11-13",
-    "opp": "UTA",
-    "home_away": "home",
-    "result": "W",
-    "score": "125-118",
-    "wins": 10,
-    "losses": 3
-   },
-   {
-    "date": "2026-11-15",
-    "opp": "WAS",
-    "home_away": "road",
-    "result": "W",
-    "score": "147-119",
-    "wins": 11,
-    "losses": 3
-   },
-   {
-    "date": "2026-11-16",
-    "opp": "MIA",
-    "home_away": "road",
-    "result": "L",
-    "score": "110-128",
-    "wins": 11,
-    "losses": 4
-   }
-  ],
   "MEM": [
    {
     "date": "2026-10-21",
@@ -677,6 +686,15 @@
     "result": "W",
     "score": "136-120",
     "wins": 10,
+    "losses": 4
+   },
+   {
+    "date": "2026-11-18",
+    "opp": "CLE",
+    "home_away": "road",
+    "result": "W",
+    "score": "124-121",
+    "wins": 11,
     "losses": 4
    }
   ],
@@ -934,6 +952,15 @@
     "score": "125-103",
     "wins": 9,
     "losses": 5
+   },
+   {
+    "date": "2026-11-18",
+    "opp": "ATL",
+    "home_away": "home",
+    "result": "L",
+    "score": "112-117",
+    "wins": 9,
+    "losses": 6
    }
   ],
   "DEN": [
@@ -1044,6 +1071,143 @@
     "score": "105-117",
     "wins": 7,
     "losses": 5
+   }
+  ],
+  "DAL": [
+   {
+    "date": "2026-10-21",
+    "opp": "HOU",
+    "home_away": "road",
+    "result": "L",
+    "score": "110-128",
+    "wins": 0,
+    "losses": 1
+   },
+   {
+    "date": "2026-10-23",
+    "opp": "IND",
+    "home_away": "road",
+    "result": "W",
+    "score": "121-105",
+    "wins": 1,
+    "losses": 1
+   },
+   {
+    "date": "2026-10-24",
+    "opp": "SAS",
+    "home_away": "home",
+    "result": "L",
+    "score": "106-122",
+    "wins": 1,
+    "losses": 2
+   },
+   {
+    "date": "2026-10-26",
+    "opp": "MIA",
+    "home_away": "road",
+    "result": "W",
+    "score": "113-109",
+    "wins": 2,
+    "losses": 2
+   },
+   {
+    "date": "2026-10-28",
+    "opp": "OKC",
+    "home_away": "home",
+    "result": "W",
+    "score": "120-96",
+    "wins": 3,
+    "losses": 2
+   },
+   {
+    "date": "2026-10-30",
+    "opp": "HOU",
+    "home_away": "home",
+    "result": "W",
+    "score": "116-111",
+    "wins": 4,
+    "losses": 2
+   },
+   {
+    "date": "2026-11-02",
+    "opp": "SAC",
+    "home_away": "home",
+    "result": "L",
+    "score": "100-115",
+    "wins": 4,
+    "losses": 3
+   },
+   {
+    "date": "2026-11-04",
+    "opp": "SAS",
+    "home_away": "road",
+    "result": "L",
+    "score": "111-112",
+    "wins": 4,
+    "losses": 4
+   },
+   {
+    "date": "2026-11-06",
+    "opp": "UTA",
+    "home_away": "home",
+    "result": "W",
+    "score": "112-100",
+    "wins": 5,
+    "losses": 4
+   },
+   {
+    "date": "2026-11-08",
+    "opp": "BKN",
+    "home_away": "home",
+    "result": "W",
+    "score": "130-93",
+    "wins": 6,
+    "losses": 4
+   },
+   {
+    "date": "2026-11-09",
+    "opp": "IND",
+    "home_away": "home",
+    "result": "W",
+    "score": "125-122",
+    "wins": 7,
+    "losses": 4
+   },
+   {
+    "date": "2026-11-12",
+    "opp": "MIN",
+    "home_away": "road",
+    "result": "L",
+    "score": "94-133",
+    "wins": 7,
+    "losses": 5
+   },
+   {
+    "date": "2026-11-14",
+    "opp": "CLE",
+    "home_away": "road",
+    "result": "L",
+    "score": "117-127",
+    "wins": 7,
+    "losses": 6
+   },
+   {
+    "date": "2026-11-15",
+    "opp": "BOS",
+    "home_away": "road",
+    "result": "L",
+    "score": "94-131",
+    "wins": 7,
+    "losses": 7
+   },
+   {
+    "date": "2026-11-18",
+    "opp": "GSW",
+    "home_away": "home",
+    "result": "W",
+    "score": "116-94",
+    "wins": 8,
+    "losses": 7
    }
   ],
   "GSW": [
@@ -1172,133 +1336,14 @@
     "score": "94-115",
     "wins": 8,
     "losses": 6
-   }
-  ],
-  "DAL": [
+   },
    {
-    "date": "2026-10-21",
-    "opp": "HOU",
+    "date": "2026-11-18",
+    "opp": "DAL",
     "home_away": "road",
     "result": "L",
-    "score": "110-128",
-    "wins": 0,
-    "losses": 1
-   },
-   {
-    "date": "2026-10-23",
-    "opp": "IND",
-    "home_away": "road",
-    "result": "W",
-    "score": "121-105",
-    "wins": 1,
-    "losses": 1
-   },
-   {
-    "date": "2026-10-24",
-    "opp": "SAS",
-    "home_away": "home",
-    "result": "L",
-    "score": "106-122",
-    "wins": 1,
-    "losses": 2
-   },
-   {
-    "date": "2026-10-26",
-    "opp": "MIA",
-    "home_away": "road",
-    "result": "W",
-    "score": "113-109",
-    "wins": 2,
-    "losses": 2
-   },
-   {
-    "date": "2026-10-28",
-    "opp": "OKC",
-    "home_away": "home",
-    "result": "W",
-    "score": "120-96",
-    "wins": 3,
-    "losses": 2
-   },
-   {
-    "date": "2026-10-30",
-    "opp": "HOU",
-    "home_away": "home",
-    "result": "W",
-    "score": "116-111",
-    "wins": 4,
-    "losses": 2
-   },
-   {
-    "date": "2026-11-02",
-    "opp": "SAC",
-    "home_away": "home",
-    "result": "L",
-    "score": "100-115",
-    "wins": 4,
-    "losses": 3
-   },
-   {
-    "date": "2026-11-04",
-    "opp": "SAS",
-    "home_away": "road",
-    "result": "L",
-    "score": "111-112",
-    "wins": 4,
-    "losses": 4
-   },
-   {
-    "date": "2026-11-06",
-    "opp": "UTA",
-    "home_away": "home",
-    "result": "W",
-    "score": "112-100",
-    "wins": 5,
-    "losses": 4
-   },
-   {
-    "date": "2026-11-08",
-    "opp": "BKN",
-    "home_away": "home",
-    "result": "W",
-    "score": "130-93",
-    "wins": 6,
-    "losses": 4
-   },
-   {
-    "date": "2026-11-09",
-    "opp": "IND",
-    "home_away": "home",
-    "result": "W",
-    "score": "125-122",
-    "wins": 7,
-    "losses": 4
-   },
-   {
-    "date": "2026-11-12",
-    "opp": "MIN",
-    "home_away": "road",
-    "result": "L",
-    "score": "94-133",
-    "wins": 7,
-    "losses": 5
-   },
-   {
-    "date": "2026-11-14",
-    "opp": "CLE",
-    "home_away": "road",
-    "result": "L",
-    "score": "117-127",
-    "wins": 7,
-    "losses": 6
-   },
-   {
-    "date": "2026-11-15",
-    "opp": "BOS",
-    "home_away": "road",
-    "result": "L",
-    "score": "94-131",
-    "wins": 7,
+    "score": "94-116",
+    "wins": 8,
     "losses": 7
    }
   ],
@@ -1556,6 +1601,15 @@
     "score": "115-94",
     "wins": 5,
     "losses": 10
+   },
+   {
+    "date": "2026-11-18",
+    "opp": "DET",
+    "home_away": "home",
+    "result": "L",
+    "score": "109-122",
+    "wins": 5,
+    "losses": 11
    }
   ],
   "LAC": [
