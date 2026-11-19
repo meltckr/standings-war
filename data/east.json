@@ -1,12 +1,45 @@
 {
- "as_of": "2026-11-18T17:09:21-07:00",
- "as_of_display": "Wed Nov 18, 2026, 5:09 PM AZ",
+ "as_of": "2026-11-18T17:27:24-07:00",
+ "as_of_display": "Wed Nov 18, 2026, 5:27 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
  "source_url": "https://www.balldontlie.io/",
  "conference": "East",
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718131",
+   "away": "MEM",
+   "home": "CLE",
+   "away_score": 24,
+   "home_score": 31,
+   "detail": "Q1 3:40"
+  },
+  {
+   "id": "21718132",
+   "away": "HOU",
+   "home": "IND",
+   "away_score": 27,
+   "home_score": 12,
+   "detail": "Q1 4:30"
+  },
+  {
+   "id": "21718133",
+   "away": "MIL",
+   "home": "MIA",
+   "away_score": 7,
+   "home_score": 14,
+   "detail": "Q1 6:49"
+  },
+  {
+   "id": "21718134",
+   "away": "PHI",
+   "home": "ORL",
+   "away_score": 15,
+   "home_score": 27,
+   "detail": "Q1 4:10"
+  }
+ ],
  "teams": [
   {
    "team": "PHI",
@@ -33,7 +66,7 @@
    "conf_losses": 3,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "BOS",
@@ -114,7 +147,7 @@
    "conf_losses": 2,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "ATL",
@@ -195,7 +228,7 @@
    "conf_losses": 5,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "ORL",
@@ -222,7 +255,7 @@
    "conf_losses": 4,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "TOR",
@@ -276,7 +309,7 @@
    "conf_losses": 6,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "CHA",
@@ -411,7 +444,7 @@
    "conf_losses": 10,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   }
  ],
  "history": {
