@@ -1,10 +1,10 @@
 {
- "as_of": "2026-11-18T22:01:03-07:00",
- "as_of_display": "Wed Nov 18, 2026, 10:01 PM AZ",
+ "as_of": "2026-11-19T01:30:01-07:00",
+ "as_of_display": "Thu Nov 19, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "team": "PHX",
  "record": {
-  "wins": 6,
+  "wins": 7,
   "losses": 7
  },
  "games_listed": 80,
@@ -27,7 +27,6 @@
    "21718199"
   ],
   "week_game_ids": [
-   "21718142",
    "21718153"
   ]
  },
@@ -236,9 +235,9 @@
    "date_utc": "2026-11-19T03:00Z",
    "opp": "SAC",
    "home_away": "road",
-   "status": "in_progress",
-   "result": null,
-   "score": null,
+   "status": "final",
+   "result": "W",
+   "score": "128-107",
    "note": null,
    "venue": null
   },

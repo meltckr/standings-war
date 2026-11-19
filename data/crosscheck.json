@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-18T22:01:03-07:00",
- "as_of_display": "Wed Nov 18, 2026, 10:01 PM AZ",
+ "as_of": "2026-11-19T01:30:01-07:00",
+ "as_of_display": "Thu Nov 19, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,45 +8,20 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718139",
-   "away": "BOS",
-   "home": "DEN",
-   "away_score": 95,
-   "home_score": 95,
-   "detail": "Q4 4:17"
-  },
-  {
-   "id": "21718141",
-   "away": "UTA",
-   "home": "LAL",
-   "away_score": 78,
-   "home_score": 76,
-   "detail": "Q4 12:00"
-  },
-  {
-   "id": "21718142",
-   "away": "PHX",
-   "home": "SAC",
-   "away_score": 109,
-   "home_score": 96,
-   "detail": "Q4 6:53"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "LAL",
    "seed": 1,
    "bdl": {
     "wins": 13,
-    "losses": 2
+    "losses": 3
    },
    "bdl_game_results": {
     "wins": 13,
-    "losses": 2
+    "losses": 3
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -132,8 +107,24 @@
    }
   },
   {
-   "team": "OKC",
+   "team": "DEN",
    "seed": 7,
+   "bdl": {
+    "wins": 8,
+    "losses": 5
+   },
+   "bdl_game_results": {
+    "wins": 8,
+    "losses": 5
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "OKC",
+   "seed": 8,
    "bdl": {
     "wins": 9,
     "losses": 6
@@ -143,22 +134,6 @@
     "losses": 6
    },
    "game_in_progress": false,
-   "match": {
-    "bdl_game_results": true
-   }
-  },
-  {
-   "team": "DEN",
-   "seed": 8,
-   "bdl": {
-    "wins": 7,
-    "losses": 5
-   },
-   "bdl_game_results": {
-    "wins": 7,
-    "losses": 5
-   },
-   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -199,14 +174,14 @@
    "team": "PHX",
    "seed": 11,
    "bdl": {
-    "wins": 6,
+    "wins": 7,
     "losses": 7
    },
    "bdl_game_results": {
-    "wins": 6,
+    "wins": 7,
     "losses": 7
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -247,14 +222,14 @@
    "team": "UTA",
    "seed": 14,
    "bdl": {
-    "wins": 2,
+    "wins": 3,
     "losses": 13
    },
    "bdl_game_results": {
-    "wins": 2,
+    "wins": 3,
     "losses": 13
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -264,13 +239,13 @@
    "seed": 15,
    "bdl": {
     "wins": 1,
-    "losses": 12
+    "losses": 13
    },
    "bdl_game_results": {
     "wins": 1,
-    "losses": 12
+    "losses": 13
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -296,13 +271,13 @@
    "seed": 2,
    "bdl": {
     "wins": 11,
-    "losses": 3
+    "losses": 4
    },
    "bdl_game_results": {
     "wins": 11,
-    "losses": 3
+    "losses": 4
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }

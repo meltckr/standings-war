@@ -364,6 +364,6 @@
   "https://api.balldontlie.io/v1/standings?season=2024",
   "https://api.balldontlie.io/v1/standings?season=2025"
  ],
- "last_verified": "2026-11-18",
+ "last_verified": "2026-11-19",
  "verification": "built from balldontlie season standings in the same pull as the current standings"
 }
