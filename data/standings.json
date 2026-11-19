@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-18T17:27:24-07:00",
- "as_of_display": "Wed Nov 18, 2026, 5:27 PM AZ",
+ "as_of": "2026-11-18T18:02:54-07:00",
+ "as_of_display": "Wed Nov 18, 2026, 6:02 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,33 +11,49 @@
    "id": "21718131",
    "away": "MEM",
    "home": "CLE",
-   "away_score": 24,
-   "home_score": 31,
-   "detail": "Q1 3:40"
+   "away_score": 54,
+   "home_score": 57,
+   "detail": "Q2 3:32"
   },
   {
    "id": "21718132",
    "away": "HOU",
    "home": "IND",
-   "away_score": 27,
-   "home_score": 12,
-   "detail": "Q1 4:30"
+   "away_score": 60,
+   "home_score": 46,
+   "detail": "Q2 :31.8"
   },
   {
    "id": "21718133",
    "away": "MIL",
    "home": "MIA",
-   "away_score": 7,
-   "home_score": 14,
-   "detail": "Q1 6:49"
+   "away_score": 31,
+   "home_score": 48,
+   "detail": "Q2 7:47"
   },
   {
    "id": "21718134",
    "away": "PHI",
    "home": "ORL",
-   "away_score": 15,
-   "home_score": 27,
-   "detail": "Q1 4:10"
+   "away_score": 53,
+   "home_score": 63,
+   "detail": "Q2 2:56"
+  },
+  {
+   "id": "21718135",
+   "away": "CHI",
+   "home": "BKN",
+   "away_score": 32,
+   "home_score": 21,
+   "detail": "Q1 :56.9"
+  },
+  {
+   "id": "21718136",
+   "away": "WAS",
+   "home": "TOR",
+   "away_score": 22,
+   "home_score": 17,
+   "detail": "Q1 3:53"
   }
  ],
  "teams": [
