@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-19T09:00:08-07:00",
- "as_of_display": "Thu Nov 19, 2026, 9:00 AM AZ",
+ "as_of": "2026-11-19T17:45:31-07:00",
+ "as_of_display": "Thu Nov 19, 2026, 5:45 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
@@ -5749,6 +5749,26 @@
    "bdl_status_state": "scheduled"
   },
   {
+   "id": "21718212",
+   "date_utc": "2026-11-29T20:30Z",
+   "date_az": "2026-11-29",
+   "tip_az": "1:30 PM AZ",
+   "home": "CLE",
+   "away": "MIA",
+   "home_score": null,
+   "away_score": null,
+   "status": "scheduled",
+   "winner": null,
+   "note": null,
+   "venue": null,
+   "time_valid": true,
+   "overtime": false,
+   "period": 0,
+   "clock": null,
+   "bdl_status": "2026-11-29T20:30:00Z",
+   "bdl_status_state": "scheduled"
+  },
+  {
    "id": "21718209",
    "date_utc": "2026-11-29T21:00Z",
    "date_az": "2026-11-29",
@@ -5806,26 +5826,6 @@
    "period": 0,
    "clock": null,
    "bdl_status": "2026-11-29T22:00:00Z",
-   "bdl_status_state": "scheduled"
-  },
-  {
-   "id": "21718212",
-   "date_utc": "2026-11-29T23:00Z",
-   "date_az": "2026-11-29",
-   "tip_az": "4:00 PM AZ",
-   "home": "CLE",
-   "away": "MIA",
-   "home_score": null,
-   "away_score": null,
-   "status": "scheduled",
-   "winner": null,
-   "note": null,
-   "venue": null,
-   "time_valid": true,
-   "overtime": false,
-   "period": 0,
-   "clock": null,
-   "bdl_status": "2026-11-29T23:00:00Z",
    "bdl_status_state": "scheduled"
   },
   {
