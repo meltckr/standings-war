@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-19T19:51:18-07:00",
- "as_of_display": "Thu Nov 19, 2026, 7:51 PM AZ",
+ "as_of": "2026-11-19T20:09:21-07:00",
+ "as_of_display": "Thu Nov 19, 2026, 8:09 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,33 +13,33 @@
    "id": "21718143",
    "away": "GSW",
    "home": "MEM",
-   "away_score": 72,
-   "home_score": 90,
-   "detail": "Q3 1:14"
+   "away_score": 80,
+   "home_score": 104,
+   "detail": "Q4 6:57"
   },
   {
    "id": "21718144",
    "away": "POR",
    "home": "MIL",
-   "away_score": 84,
-   "home_score": 75,
-   "detail": "Q3 3:35"
+   "away_score": 98,
+   "home_score": 99,
+   "detail": "Q4 9:29"
   },
   {
    "id": "21718145",
    "away": "NYK",
    "home": "MIN",
-   "away_score": 94,
-   "home_score": 80,
-   "detail": "Q4 10:33"
+   "away_score": 97,
+   "home_score": 93,
+   "detail": "Q4 4:20"
   },
   {
    "id": "21718146",
    "away": "LAC",
    "home": "SAS",
-   "away_score": 88,
-   "home_score": 92,
-   "detail": "Q3 :30.7"
+   "away_score": 103,
+   "home_score": 105,
+   "detail": "Q4 7:07"
   }
  ],
  "teams": [
