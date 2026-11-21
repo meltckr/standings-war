@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-20T19:12:29-07:00",
- "as_of_display": "Fri Nov 20, 2026, 7:12 PM AZ",
+ "as_of": "2026-11-20T22:48:28-07:00",
+ "as_of_display": "Fri Nov 20, 2026, 10:48 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,66 +8,17 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718147",
-   "away": "CHA",
-   "home": "ATL",
-   "away_score": 96,
-   "home_score": 109,
-   "detail": "Q4 1:32"
-  },
-  {
-   "id": "21718148",
-   "away": "ORL",
-   "home": "BKN",
-   "away_score": 75,
-   "home_score": 66,
-   "detail": "Q3 7:54"
-  },
-  {
-   "id": "21718149",
-   "away": "IND",
-   "home": "CLE",
-   "away_score": 77,
-   "home_score": 90,
-   "detail": "Q3 4:55"
-  },
-  {
-   "id": "21718150",
-   "away": "TOR",
-   "home": "DET",
-   "away_score": 72,
-   "home_score": 59,
-   "detail": "Q3 4:33"
-  },
-  {
-   "id": "21718151",
-   "away": "WAS",
-   "home": "CHI",
-   "away_score": 52,
-   "home_score": 60,
-   "detail": "Half"
-  },
-  {
-   "id": "21718152",
-   "away": "NOP",
-   "home": "OKC",
-   "away_score": 64,
-   "home_score": 56,
-   "detail": "Half"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
-   "team": "SAS",
+   "team": "LAL",
    "seed": 1,
    "bdl": {
-    "wins": 13,
+    "wins": 14,
     "losses": 3
    },
    "bdl_game_results": {
-    "wins": 13,
+    "wins": 14,
     "losses": 3
    },
    "game_in_progress": false,
@@ -76,7 +27,7 @@
    }
   },
   {
-   "team": "LAL",
+   "team": "SAS",
    "seed": 2,
    "bdl": {
     "wins": 13,
@@ -92,7 +43,7 @@
    }
   },
   {
-   "team": "HOU",
+   "team": "MEM",
    "seed": 3,
    "bdl": {
     "wins": 12,
@@ -108,15 +59,15 @@
    }
   },
   {
-   "team": "MEM",
+   "team": "HOU",
    "seed": 4,
    "bdl": {
     "wins": 12,
-    "losses": 4
+    "losses": 5
    },
    "bdl_game_results": {
     "wins": 12,
-    "losses": 4
+    "losses": 5
    },
    "game_in_progress": false,
    "match": {
@@ -159,11 +110,11 @@
    "team": "DEN",
    "seed": 7,
    "bdl": {
-    "wins": 8,
+    "wins": 9,
     "losses": 5
    },
    "bdl_game_results": {
-    "wins": 8,
+    "wins": 9,
     "losses": 5
    },
    "game_in_progress": false,
@@ -175,20 +126,20 @@
    "team": "OKC",
    "seed": 8,
    "bdl": {
-    "wins": 9,
+    "wins": 10,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 9,
+    "wins": 10,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "DAL",
+   "team": "PHX",
    "seed": 9,
    "bdl": {
     "wins": 8,
@@ -204,15 +155,15 @@
    }
   },
   {
-   "team": "GSW",
+   "team": "DAL",
    "seed": 10,
    "bdl": {
     "wins": 8,
-    "losses": 8
+    "losses": 7
    },
    "bdl_game_results": {
     "wins": 8,
-    "losses": 8
+    "losses": 7
    },
    "game_in_progress": false,
    "match": {
@@ -220,15 +171,15 @@
    }
   },
   {
-   "team": "PHX",
+   "team": "GSW",
    "seed": 11,
    "bdl": {
-    "wins": 7,
-    "losses": 7
+    "wins": 8,
+    "losses": 8
    },
    "bdl_game_results": {
-    "wins": 7,
-    "losses": 7
+    "wins": 8,
+    "losses": 8
    },
    "game_in_progress": false,
    "match": {
@@ -240,13 +191,13 @@
    "seed": 12,
    "bdl": {
     "wins": 5,
-    "losses": 11
+    "losses": 12
    },
    "bdl_game_results": {
     "wins": 5,
-    "losses": 11
+    "losses": 12
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -272,11 +223,11 @@
    "seed": 14,
    "bdl": {
     "wins": 3,
-    "losses": 13
+    "losses": 14
    },
    "bdl_game_results": {
     "wins": 3,
-    "losses": 13
+    "losses": 14
    },
    "game_in_progress": false,
    "match": {
@@ -288,11 +239,11 @@
    "seed": 15,
    "bdl": {
     "wins": 1,
-    "losses": 13
+    "losses": 14
    },
    "bdl_game_results": {
     "wins": 1,
-    "losses": 13
+    "losses": 14
    },
    "game_in_progress": false,
    "match": {
@@ -336,27 +287,11 @@
    "seed": 3,
    "bdl": {
     "wins": 10,
-    "losses": 4
+    "losses": 5
    },
    "bdl_game_results": {
     "wins": 10,
-    "losses": 4
-   },
-   "game_in_progress": true,
-   "match": {
-    "bdl_game_results": true
-   }
-  },
-  {
-   "team": "MIA",
-   "seed": 4,
-   "bdl": {
-    "wins": 9,
-    "losses": 6
-   },
-   "bdl_game_results": {
-    "wins": 9,
-    "losses": 6
+    "losses": 5
    },
    "game_in_progress": false,
    "match": {
@@ -365,6 +300,22 @@
   },
   {
    "team": "ATL",
+   "seed": 4,
+   "bdl": {
+    "wins": 10,
+    "losses": 6
+   },
+   "bdl_game_results": {
+    "wins": 10,
+    "losses": 6
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "MIA",
    "seed": 5,
    "bdl": {
     "wins": 9,
@@ -374,7 +325,7 @@
     "wins": 9,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -399,14 +350,14 @@
    "team": "CLE",
    "seed": 7,
    "bdl": {
-    "wins": 8,
+    "wins": 9,
     "losses": 8
    },
    "bdl_game_results": {
-    "wins": 8,
+    "wins": 9,
     "losses": 8
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -415,14 +366,14 @@
    "team": "ORL",
    "seed": 8,
    "bdl": {
-    "wins": 6,
+    "wins": 7,
     "losses": 8
    },
    "bdl_game_results": {
-    "wins": 6,
+    "wins": 7,
     "losses": 8
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -431,36 +382,36 @@
    "team": "TOR",
    "seed": 9,
    "bdl": {
-    "wins": 5,
+    "wins": 6,
     "losses": 10
    },
    "bdl_game_results": {
-    "wins": 5,
+    "wins": 6,
     "losses": 10
    },
-   "game_in_progress": true,
-   "match": {
-    "bdl_game_results": true
-   }
-  },
-  {
-   "team": "IND",
-   "seed": 10,
-   "bdl": {
-    "wins": 5,
-    "losses": 10
-   },
-   "bdl_game_results": {
-    "wins": 5,
-    "losses": 10
-   },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
    "team": "WAS",
+   "seed": 10,
+   "bdl": {
+    "wins": 6,
+    "losses": 11
+   },
+   "bdl_game_results": {
+    "wins": 6,
+    "losses": 11
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "IND",
    "seed": 11,
    "bdl": {
     "wins": 5,
@@ -470,7 +421,7 @@
     "wins": 5,
     "losses": 11
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -480,13 +431,13 @@
    "seed": 12,
    "bdl": {
     "wins": 4,
-    "losses": 10
+    "losses": 11
    },
    "bdl_game_results": {
     "wins": 4,
-    "losses": 10
+    "losses": 11
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -496,13 +447,13 @@
    "seed": 13,
    "bdl": {
     "wins": 4,
-    "losses": 10
+    "losses": 11
    },
    "bdl_game_results": {
     "wins": 4,
-    "losses": 10
+    "losses": 11
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -512,13 +463,13 @@
    "seed": 14,
    "bdl": {
     "wins": 3,
-    "losses": 11
+    "losses": 12
    },
    "bdl_game_results": {
     "wins": 3,
-    "losses": 11
+    "losses": 12
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -538,6 +489,103 @@
    "match": {
     "bdl_game_results": true
    }
+  }
+ ],
+ "reconciled": [
+  {
+   "team": "DEN",
+   "conference": "West",
+   "bdl_standings": "8-5",
+   "game_results": "9-5",
+   "game_id": "21718154",
+   "date_az": "2026-11-20",
+   "opp": "HOU",
+   "home_away": "home",
+   "result": "W",
+   "score": "133-124",
+   "seed_bdl": 8,
+   "seed_used": 7
+  },
+  {
+   "team": "HOU",
+   "conference": "West",
+   "bdl_standings": "12-4",
+   "game_results": "12-5",
+   "game_id": "21718154",
+   "date_az": "2026-11-20",
+   "opp": "DEN",
+   "home_away": "road",
+   "result": "L",
+   "score": "124-133",
+   "seed_bdl": 3,
+   "seed_used": 4
+  },
+  {
+   "team": "LAL",
+   "conference": "West",
+   "bdl_standings": "13-3",
+   "game_results": "14-3",
+   "game_id": "21718155",
+   "date_az": "2026-11-20",
+   "opp": "SAC",
+   "home_away": "home",
+   "result": "W",
+   "score": "106-104",
+   "seed_bdl": 2,
+   "seed_used": 1
+  },
+  {
+   "team": "PHX",
+   "conference": "West",
+   "bdl_standings": "7-7",
+   "game_results": "8-7",
+   "game_id": "21718153",
+   "date_az": "2026-11-20",
+   "opp": "UTA",
+   "home_away": "road",
+   "result": "W",
+   "score": "111-101",
+   "seed_bdl": 11,
+   "seed_used": 9
+  },
+  {
+   "team": "SAC",
+   "conference": "West",
+   "bdl_standings": "1-13",
+   "game_results": "1-14",
+   "game_id": "21718155",
+   "date_az": "2026-11-20",
+   "opp": "LAL",
+   "home_away": "road",
+   "result": "L",
+   "score": "104-106",
+   "seed_bdl": 15,
+   "seed_used": 15
+  },
+  {
+   "team": "UTA",
+   "conference": "West",
+   "bdl_standings": "3-13",
+   "game_results": "3-14",
+   "game_id": "21718153",
+   "date_az": "2026-11-20",
+   "opp": "PHX",
+   "home_away": "home",
+   "result": "L",
+   "score": "101-111",
+   "seed_bdl": 14,
+   "seed_used": 14
+  }
+ ],
+ "reconciled_tiebreaks": [
+  {
+   "teams": [
+    "PHX",
+    "DAL"
+   ],
+   "record": "8-7",
+   "ahead": "PHX",
+   "step": "conference record DAL 4-5 vs PHX 6-7"
   }
  ],
  "league": {
