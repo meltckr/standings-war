@@ -1,13 +1,13 @@
 {
- "as_of": "2026-11-20T17:08:43-07:00",
- "as_of_display": "Fri Nov 20, 2026, 5:08 PM AZ",
+ "as_of": "2026-11-20T17:26:40-07:00",
+ "as_of_display": "Fri Nov 20, 2026, 5:26 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
  "counts": {
   "total": 1200,
   "final": 226,
-  "in_progress": 0,
+  "in_progress": 1,
   "remaining": 974
  },
  "unscheduled_by_team": {
@@ -4555,18 +4555,18 @@
    "tip_az": "5:00 PM AZ",
    "home": "ATL",
    "away": "CHA",
-   "home_score": null,
-   "away_score": null,
-   "status": "scheduled",
+   "home_score": 14,
+   "away_score": 19,
+   "status": "in_progress",
    "winner": null,
    "note": "East Group C",
    "venue": null,
    "time_valid": true,
    "overtime": false,
-   "period": 0,
-   "clock": null,
-   "bdl_status": "2026-11-21T00:00:00Z",
-   "bdl_status_state": "scheduled"
+   "period": 1,
+   "clock": "Q1 4:54",
+   "bdl_status": "1st Qtr",
+   "bdl_status_state": "in_progress"
   },
   {
    "id": "21718148",

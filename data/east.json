@@ -1,12 +1,21 @@
 {
- "as_of": "2026-11-20T17:08:43-07:00",
- "as_of_display": "Fri Nov 20, 2026, 5:08 PM AZ",
+ "as_of": "2026-11-20T17:26:40-07:00",
+ "as_of_display": "Fri Nov 20, 2026, 5:26 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
  "source_url": "https://www.balldontlie.io/",
  "conference": "East",
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718147",
+   "away": "CHA",
+   "home": "ATL",
+   "away_score": 19,
+   "home_score": 14,
+   "detail": "Q1 4:54"
+  }
+ ],
  "teams": [
   {
    "team": "PHI",
@@ -141,7 +150,7 @@
    "conf_losses": 2,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "NYK",
@@ -330,7 +339,7 @@
    "conf_losses": 7,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "CHI",
