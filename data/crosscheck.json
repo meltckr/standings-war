@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-20T16:51:03-07:00",
- "as_of_display": "Fri Nov 20, 2026, 4:51 PM AZ",
+ "as_of": "2026-11-20T17:08:43-07:00",
+ "as_of_display": "Fri Nov 20, 2026, 5:08 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
