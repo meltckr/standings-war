@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T11:57:46-07:00",
- "as_of_display": "Sat Nov 21, 2026, 11:57 AM AZ",
+ "as_of": "2026-11-21T12:16:07-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 12:16 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -14,8 +14,8 @@
    "away": "MIL",
    "home": "PHI",
    "away_score": 59,
-   "home_score": 52,
-   "detail": "Q2 2:33"
+   "home_score": 60,
+   "detail": "Half"
   }
  ],
  "teams": [

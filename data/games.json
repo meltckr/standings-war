@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T11:57:46-07:00",
- "as_of_display": "Sat Nov 21, 2026, 11:57 AM AZ",
+ "as_of": "2026-11-21T12:16:07-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 12:16 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
@@ -4735,7 +4735,7 @@
    "tip_az": "11:00 AM AZ",
    "home": "PHI",
    "away": "MIL",
-   "home_score": 52,
+   "home_score": 60,
    "away_score": 59,
    "status": "in_progress",
    "winner": null,
@@ -4744,7 +4744,7 @@
    "time_valid": true,
    "overtime": false,
    "period": 2,
-   "clock": "Q2 2:33",
+   "clock": "Half",
    "bdl_status": "2nd Qtr",
    "bdl_status_state": "in_progress"
   },
