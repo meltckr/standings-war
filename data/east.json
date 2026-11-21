@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T13:09:56-07:00",
- "as_of_display": "Sat Nov 21, 2026, 1:09 PM AZ",
+ "as_of": "2026-11-21T13:28:00-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 1:28 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,9 +11,9 @@
    "id": "21718156",
    "away": "MIL",
    "home": "PHI",
-   "away_score": 110,
-   "home_score": 117,
-   "detail": "Q4 5:13"
+   "away_score": 126,
+   "home_score": 128,
+   "detail": "Q4 :12.0"
   }
  ],
  "teams": [
