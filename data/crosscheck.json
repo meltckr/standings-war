@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T13:49:14-07:00",
- "as_of_display": "Sat Nov 21, 2026, 1:49 PM AZ",
+ "as_of": "2026-11-21T14:07:16-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 2:07 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -491,36 +491,7 @@
    }
   }
  ],
- "reconciled": [
-  {
-   "team": "MIL",
-   "conference": "East",
-   "bdl_standings": "1-15",
-   "game_results": "1-16",
-   "game_id": "21718156",
-   "date_az": "2026-11-21",
-   "opp": "PHI",
-   "home_away": "road",
-   "result": "L",
-   "score": "129-132",
-   "seed_bdl": 15,
-   "seed_used": 15
-  },
-  {
-   "team": "PHI",
-   "conference": "East",
-   "bdl_standings": "13-3",
-   "game_results": "14-3",
-   "game_id": "21718156",
-   "date_az": "2026-11-21",
-   "opp": "MIL",
-   "home_away": "home",
-   "result": "W",
-   "score": "132-129",
-   "seed_bdl": 1,
-   "seed_used": 1
-  }
- ],
+ "reconciled": [],
  "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",
