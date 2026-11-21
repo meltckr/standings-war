@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T11:03:46-07:00",
- "as_of_display": "Sat Nov 21, 2026, 11:03 AM AZ",
+ "as_of": "2026-11-21T11:21:45-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 11:21 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,7 +8,16 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718156",
+   "away": "MIL",
+   "home": "PHI",
+   "away_score": 17,
+   "home_score": 13,
+   "detail": "Q1 5:10"
+  }
+ ],
  "teams": [
   {
    "team": "LAL",
@@ -261,7 +270,7 @@
     "wins": 13,
     "losses": 3
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -485,7 +494,7 @@
     "wins": 1,
     "losses": 15
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }

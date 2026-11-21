@@ -1,12 +1,21 @@
 {
- "as_of": "2026-11-21T11:03:46-07:00",
- "as_of_display": "Sat Nov 21, 2026, 11:03 AM AZ",
+ "as_of": "2026-11-21T11:21:45-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 11:21 AM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
  "source_url": "https://www.balldontlie.io/",
  "conference": "East",
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718156",
+   "away": "MIL",
+   "home": "PHI",
+   "away_score": 17,
+   "home_score": 13,
+   "detail": "Q1 5:10"
+  }
+ ],
  "teams": [
   {
    "team": "PHI",
@@ -33,7 +42,7 @@
    "conf_losses": 3,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "BOS",
@@ -411,7 +420,7 @@
    "conf_losses": 11,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   }
  ],
  "history": {
