@@ -1,14 +1,14 @@
 {
- "as_of": "2026-11-21T13:28:00-07:00",
- "as_of_display": "Sat Nov 21, 2026, 1:28 PM AZ",
+ "as_of": "2026-11-21T13:49:14-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 1:49 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
  "counts": {
   "total": 1200,
-  "final": 235,
-  "in_progress": 1,
-  "remaining": 965
+  "final": 236,
+  "in_progress": 0,
+  "remaining": 964
  },
  "unscheduled_by_team": {
   "LAL": 2,
@@ -4735,18 +4735,18 @@
    "tip_az": "11:00 AM AZ",
    "home": "PHI",
    "away": "MIL",
-   "home_score": 128,
-   "away_score": 126,
-   "status": "in_progress",
-   "winner": null,
+   "home_score": 132,
+   "away_score": 129,
+   "status": "final",
+   "winner": "PHI",
    "note": null,
    "venue": null,
    "time_valid": true,
    "overtime": false,
    "period": 4,
-   "clock": "Q4 :12.0",
-   "bdl_status": "4th Qtr",
-   "bdl_status_state": "in_progress"
+   "clock": "Final",
+   "bdl_status": "Final",
+   "bdl_status_state": "final"
   },
   {
    "id": "21718157",

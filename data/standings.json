@@ -1,21 +1,12 @@
 {
- "as_of": "2026-11-21T13:28:00-07:00",
- "as_of_display": "Sat Nov 21, 2026, 1:28 PM AZ",
+ "as_of": "2026-11-21T13:49:14-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 1:49 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
  "source_url": "https://www.balldontlie.io/",
  "conference": "West",
- "games_in_progress": [
-  {
-   "id": "21718156",
-   "away": "MIL",
-   "home": "PHI",
-   "away_score": 126,
-   "home_score": 128,
-   "detail": "Q4 :12.0"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "LAL",
@@ -633,7 +624,7 @@
   },
   "MIL": {
    "wins": 1,
-   "losses": 15,
+   "losses": 16,
    "conference": "East",
    "bdl_id": 17,
    "name": "Milwaukee Bucks",
@@ -659,7 +650,7 @@
    "nickname": "Kings"
   },
   "PHI": {
-   "wins": 13,
+   "wins": 14,
    "losses": 3,
    "conference": "East",
    "bdl_id": 23,

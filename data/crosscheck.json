@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T13:28:00-07:00",
- "as_of_display": "Sat Nov 21, 2026, 1:28 PM AZ",
+ "as_of": "2026-11-21T13:49:14-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 1:49 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,16 +8,7 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718156",
-   "away": "MIL",
-   "home": "PHI",
-   "away_score": 126,
-   "home_score": 128,
-   "detail": "Q4 :12.0"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "LAL",
@@ -263,14 +254,14 @@
    "team": "PHI",
    "seed": 1,
    "bdl": {
-    "wins": 13,
+    "wins": 14,
     "losses": 3
    },
    "bdl_game_results": {
-    "wins": 13,
+    "wins": 14,
     "losses": 3
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -488,19 +479,48 @@
    "seed": 15,
    "bdl": {
     "wins": 1,
-    "losses": 15
+    "losses": 16
    },
    "bdl_game_results": {
     "wins": 1,
-    "losses": 15
+    "losses": 16
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   }
  ],
- "reconciled": [],
+ "reconciled": [
+  {
+   "team": "MIL",
+   "conference": "East",
+   "bdl_standings": "1-15",
+   "game_results": "1-16",
+   "game_id": "21718156",
+   "date_az": "2026-11-21",
+   "opp": "PHI",
+   "home_away": "road",
+   "result": "L",
+   "score": "129-132",
+   "seed_bdl": 15,
+   "seed_used": 15
+  },
+  {
+   "team": "PHI",
+   "conference": "East",
+   "bdl_standings": "13-3",
+   "game_results": "14-3",
+   "game_id": "21718156",
+   "date_az": "2026-11-21",
+   "opp": "MIL",
+   "home_away": "home",
+   "result": "W",
+   "score": "132-129",
+   "seed_bdl": 1,
+   "seed_used": 1
+  }
+ ],
  "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",
