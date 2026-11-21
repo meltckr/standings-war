@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-20T23:28:00-07:00",
- "as_of_display": "Fri Nov 20, 2026, 11:28 PM AZ",
+ "as_of": "2026-11-21T02:07:30-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 2:07 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -491,103 +491,8 @@
    }
   }
  ],
- "reconciled": [
-  {
-   "team": "DEN",
-   "conference": "West",
-   "bdl_standings": "8-5",
-   "game_results": "9-5",
-   "game_id": "21718154",
-   "date_az": "2026-11-20",
-   "opp": "HOU",
-   "home_away": "home",
-   "result": "W",
-   "score": "133-124",
-   "seed_bdl": 8,
-   "seed_used": 7
-  },
-  {
-   "team": "HOU",
-   "conference": "West",
-   "bdl_standings": "12-4",
-   "game_results": "12-5",
-   "game_id": "21718154",
-   "date_az": "2026-11-20",
-   "opp": "DEN",
-   "home_away": "road",
-   "result": "L",
-   "score": "124-133",
-   "seed_bdl": 3,
-   "seed_used": 4
-  },
-  {
-   "team": "LAL",
-   "conference": "West",
-   "bdl_standings": "13-3",
-   "game_results": "14-3",
-   "game_id": "21718155",
-   "date_az": "2026-11-20",
-   "opp": "SAC",
-   "home_away": "home",
-   "result": "W",
-   "score": "106-104",
-   "seed_bdl": 2,
-   "seed_used": 1
-  },
-  {
-   "team": "PHX",
-   "conference": "West",
-   "bdl_standings": "7-7",
-   "game_results": "8-7",
-   "game_id": "21718153",
-   "date_az": "2026-11-20",
-   "opp": "UTA",
-   "home_away": "road",
-   "result": "W",
-   "score": "111-101",
-   "seed_bdl": 11,
-   "seed_used": 9
-  },
-  {
-   "team": "SAC",
-   "conference": "West",
-   "bdl_standings": "1-13",
-   "game_results": "1-14",
-   "game_id": "21718155",
-   "date_az": "2026-11-20",
-   "opp": "LAL",
-   "home_away": "road",
-   "result": "L",
-   "score": "104-106",
-   "seed_bdl": 15,
-   "seed_used": 15
-  },
-  {
-   "team": "UTA",
-   "conference": "West",
-   "bdl_standings": "3-13",
-   "game_results": "3-14",
-   "game_id": "21718153",
-   "date_az": "2026-11-20",
-   "opp": "PHX",
-   "home_away": "home",
-   "result": "L",
-   "score": "101-111",
-   "seed_bdl": 14,
-   "seed_used": 14
-  }
- ],
- "reconciled_tiebreaks": [
-  {
-   "teams": [
-    "PHX",
-    "DAL"
-   ],
-   "record": "8-7",
-   "ahead": "PHX",
-   "step": "conference record DAL 4-5 vs PHX 6-7"
-  }
- ],
+ "reconciled": [],
+ "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",
   "records_checked": 30,
