@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T16:37:07-07:00",
- "as_of_display": "Sun Nov 22, 2026, 4:37 PM AZ",
+ "as_of": "2026-11-22T16:55:10-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 4:55 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
@@ -4875,8 +4875,8 @@
    "tip_az": "4:00 PM AZ",
    "home": "MIA",
    "away": "OKC",
-   "home_score": 36,
-   "away_score": 24,
+   "home_score": 53,
+   "away_score": 42,
    "status": "in_progress",
    "winner": null,
    "note": null,
@@ -4884,7 +4884,7 @@
    "time_valid": true,
    "overtime": false,
    "period": 2,
-   "clock": "Q2 12:00",
+   "clock": "Q2 4:36",
    "bdl_status": "2nd Qtr",
    "bdl_status_state": "in_progress"
   },
