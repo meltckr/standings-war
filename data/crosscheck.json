@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T16:00:55-07:00",
- "as_of_display": "Sun Nov 22, 2026, 4:00 PM AZ",
+ "as_of": "2026-11-22T16:19:05-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 4:19 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,7 +8,16 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718163",
+   "away": "OKC",
+   "home": "MIA",
+   "away_score": 7,
+   "home_score": 13,
+   "detail": "Q1 8:29"
+  }
+ ],
  "teams": [
   {
    "team": "SAS",
@@ -133,7 +142,7 @@
     "wins": 10,
     "losses": 6
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -341,7 +350,7 @@
     "wins": 9,
     "losses": 6
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
