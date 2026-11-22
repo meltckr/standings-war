@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T22:00:36-07:00",
- "as_of_display": "Sat Nov 21, 2026, 10:00 PM AZ",
+ "as_of": "2026-11-21T22:18:43-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 10:18 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
@@ -4835,8 +4835,8 @@
    "tip_az": "8:00 PM AZ",
    "home": "SAC",
    "away": "BOS",
-   "home_score": 75,
-   "away_score": 70,
+   "home_score": 86,
+   "away_score": 86,
    "status": "in_progress",
    "winner": null,
    "note": null,
@@ -4844,7 +4844,7 @@
    "time_valid": true,
    "overtime": false,
    "period": 4,
-   "clock": "Q4 11:34",
+   "clock": "Q4 4:42",
    "bdl_status": "4th Qtr",
    "bdl_status_state": "in_progress"
   },
