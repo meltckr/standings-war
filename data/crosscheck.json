@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T16:19:05-07:00",
- "as_of_display": "Sun Nov 22, 2026, 4:19 PM AZ",
+ "as_of": "2026-11-22T16:37:07-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 4:37 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,9 +13,9 @@
    "id": "21718163",
    "away": "OKC",
    "home": "MIA",
-   "away_score": 7,
-   "home_score": 13,
-   "detail": "Q1 8:29"
+   "away_score": 24,
+   "home_score": 36,
+   "detail": "Q2 12:00"
   }
  ],
  "teams": [
