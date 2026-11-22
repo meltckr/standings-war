@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T14:13:33-07:00",
- "as_of_display": "Sun Nov 22, 2026, 2:13 PM AZ",
+ "as_of": "2026-11-22T14:31:34-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 2:31 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,9 +13,9 @@
    "id": "21718162",
    "away": "DET",
    "home": "ATL",
-   "away_score": 28,
-   "home_score": 35,
-   "detail": "Q2 10:43"
+   "away_score": 45,
+   "home_score": 48,
+   "detail": "Q2 3:12"
   }
  ],
  "teams": [
