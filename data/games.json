@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T17:42:40-07:00",
- "as_of_display": "Sat Nov 21, 2026, 5:42 PM AZ",
+ "as_of": "2026-11-21T18:00:19-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 6:00 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
@@ -4755,8 +4755,8 @@
    "tip_az": "5:30 PM AZ",
    "home": "NYK",
    "away": "POR",
-   "home_score": 3,
-   "away_score": 2,
+   "home_score": 37,
+   "away_score": 21,
    "status": "in_progress",
    "winner": null,
    "note": null,
@@ -4764,7 +4764,7 @@
    "time_valid": true,
    "overtime": false,
    "period": 1,
-   "clock": "Q1 11:28",
+   "clock": "Q1 :48.6",
    "bdl_status": "1st Qtr",
    "bdl_status_state": "in_progress"
   },
