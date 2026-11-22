@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-22T09:00:09-07:00",
- "as_of_display": "Sun Nov 22, 2026, 9:00 AM AZ",
+ "as_of": "2026-11-22T13:19:25-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 1:19 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Saturday, Nov 21, 2026",
   "weekday": "Saturday"
  },
- "raw_folder": "data/raw/20261122-0900",
+ "raw_folder": "data/raw/20261122-1319",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
