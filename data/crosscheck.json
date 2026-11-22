@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T17:24:42-07:00",
- "as_of_display": "Sat Nov 21, 2026, 5:24 PM AZ",
+ "as_of": "2026-11-21T17:42:40-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 5:42 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,7 +8,16 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718157",
+   "away": "POR",
+   "home": "NYK",
+   "away_score": 2,
+   "home_score": 3,
+   "detail": "Q1 11:28"
+  }
+ ],
  "teams": [
   {
    "team": "LAL",
@@ -101,7 +110,7 @@
     "wins": 10,
     "losses": 5
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -341,7 +350,7 @@
     "wins": 9,
     "losses": 6
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
