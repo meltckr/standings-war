@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T15:42:56-07:00",
- "as_of_display": "Sun Nov 22, 2026, 3:42 PM AZ",
+ "as_of": "2026-11-22T16:00:55-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 4:00 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,16 +8,7 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718162",
-   "away": "DET",
-   "home": "ATL",
-   "away_score": 88,
-   "home_score": 92,
-   "detail": "Q4 4:52"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
@@ -292,23 +283,23 @@
    }
   },
   {
-   "team": "DET",
+   "team": "ATL",
    "seed": 3,
    "bdl": {
-    "wins": 10,
-    "losses": 5
+    "wins": 11,
+    "losses": 6
    },
    "bdl_game_results": {
-    "wins": 10,
-    "losses": 5
+    "wins": 11,
+    "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "ATL",
+   "team": "NYK",
    "seed": 4,
    "bdl": {
     "wins": 10,
@@ -318,13 +309,13 @@
     "wins": 10,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "NYK",
+   "team": "DET",
    "seed": 5,
    "bdl": {
     "wins": 10,

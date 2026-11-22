@@ -1,14 +1,14 @@
 {
- "as_of": "2026-11-22T15:42:56-07:00",
- "as_of_display": "Sun Nov 22, 2026, 3:42 PM AZ",
+ "as_of": "2026-11-22T16:00:55-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 4:00 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
  "counts": {
   "total": 1200,
-  "final": 241,
-  "in_progress": 1,
-  "remaining": 959
+  "final": 242,
+  "in_progress": 0,
+  "remaining": 958
  },
  "unscheduled_by_team": {
   "SAS": 2,
@@ -4855,18 +4855,18 @@
    "tip_az": "1:30 PM AZ",
    "home": "ATL",
    "away": "DET",
-   "home_score": 92,
-   "away_score": 88,
-   "status": "in_progress",
-   "winner": null,
+   "home_score": 107,
+   "away_score": 97,
+   "status": "final",
+   "winner": "ATL",
    "note": null,
    "venue": null,
    "time_valid": true,
    "overtime": false,
    "period": 4,
-   "clock": "Q4 4:52",
-   "bdl_status": "4th Qtr",
-   "bdl_status_state": "in_progress"
+   "clock": "Final",
+   "bdl_status": "Final",
+   "bdl_status_state": "final"
   },
   {
    "id": "21718163",

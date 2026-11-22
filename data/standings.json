@@ -1,21 +1,12 @@
 {
- "as_of": "2026-11-22T15:42:56-07:00",
- "as_of_display": "Sun Nov 22, 2026, 3:42 PM AZ",
+ "as_of": "2026-11-22T16:00:55-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 4:00 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
  "source_url": "https://www.balldontlie.io/",
  "conference": "West",
- "games_in_progress": [
-  {
-   "id": "21718162",
-   "away": "DET",
-   "home": "ATL",
-   "away_score": 88,
-   "home_score": 92,
-   "detail": "Q4 4:52"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
@@ -425,7 +416,7 @@
  ],
  "league_records": {
   "ATL": {
-   "wins": 10,
+   "wins": 11,
    "losses": 6,
    "conference": "East",
    "bdl_id": 1,
@@ -534,7 +525,7 @@
   },
   "DET": {
    "wins": 10,
-   "losses": 5,
+   "losses": 6,
    "conference": "East",
    "bdl_id": 9,
    "name": "Detroit Pistons",
