@@ -1,21 +1,12 @@
 {
- "as_of": "2026-11-21T22:36:23-07:00",
- "as_of_display": "Sat Nov 21, 2026, 10:36 PM AZ",
+ "as_of": "2026-11-22T01:30:05-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
  "source_url": "https://www.balldontlie.io/",
  "conference": "West",
- "games_in_progress": [
-  {
-   "id": "21718161",
-   "away": "BOS",
-   "home": "SAC",
-   "away_score": 96,
-   "home_score": 97,
-   "detail": "Q4 :00.0"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
@@ -402,25 +393,25 @@
    "name": "Sacramento Kings",
    "city": "Sacramento",
    "nickname": "Kings",
-   "wins": 1,
+   "wins": 2,
    "losses": 14,
-   "games_played": 15,
-   "games_remaining": 67,
-   "win_pct": 0.067,
+   "games_played": 16,
+   "games_remaining": 66,
+   "win_pct": 0.125,
    "seed": 15,
-   "point_diff_total": -198,
-   "point_diff_per_game": -13.2,
-   "games_behind": "12",
-   "streak": "L8",
-   "last_10": "1-9",
-   "home": "0-9",
+   "point_diff_total": -197,
+   "point_diff_per_game": -12.3,
+   "games_behind": "11.5",
+   "streak": "W1",
+   "last_10": "2-8",
+   "home": "1-9",
    "road": "1-5",
    "conf_record": "1-12",
    "conf_wins": 1,
    "conf_losses": 12,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": true
+   "game_in_progress": false
   }
  ],
  "league_records": {
@@ -453,7 +444,7 @@
   },
   "BOS": {
    "wins": 11,
-   "losses": 4,
+   "losses": 5,
    "conference": "East",
    "bdl_id": 2,
    "name": "Boston Celtics",
@@ -650,7 +641,7 @@
    "nickname": "Jazz"
   },
   "SAC": {
-   "wins": 1,
+   "wins": 2,
    "losses": 14,
    "conference": "West",
    "bdl_id": 26,

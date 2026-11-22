@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T22:36:23-07:00",
- "as_of_display": "Sat Nov 21, 2026, 10:36 PM AZ",
+ "as_of": "2026-11-22T01:30:05-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,16 +8,7 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718161",
-   "away": "BOS",
-   "home": "SAC",
-   "away_score": 96,
-   "home_score": 97,
-   "detail": "Q4 :00.0"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
@@ -247,14 +238,14 @@
    "team": "SAC",
    "seed": 15,
    "bdl": {
-    "wins": 1,
+    "wins": 2,
     "losses": 14
    },
    "bdl_game_results": {
-    "wins": 1,
+    "wins": 2,
     "losses": 14
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -280,13 +271,13 @@
    "seed": 2,
    "bdl": {
     "wins": 11,
-    "losses": 4
+    "losses": 5
    },
    "bdl_game_results": {
     "wins": 11,
-    "losses": 4
+    "losses": 5
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
