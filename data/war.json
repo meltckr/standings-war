@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-22T15:07:36-07:00",
- "as_of_display": "Sun Nov 22, 2026, 3:07 PM AZ",
+ "as_of": "2026-11-22T15:25:15-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 3:25 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Saturday, Nov 21, 2026",
   "weekday": "Saturday"
  },
- "raw_folder": "data/raw/20261122-1507",
+ "raw_folder": "data/raw/20261122-1525",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -871,7 +871,7 @@
      "short": "Detroit",
      "record": "10-5",
      "logo": "img/det.png",
-     "score": 72
+     "score": 85
     },
     "home": {
      "abbr": "ATL",
@@ -879,14 +879,14 @@
      "short": "Atlanta",
      "record": "10-6",
      "logo": "img/atl.png",
-     "score": 65
+     "score": 78
     },
     "date_utc": "2026-11-22T20:30Z",
     "date_az": "2026-11-22",
     "tip_az": "1:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 5:47",
+    "state_text": "In progress, q4 10:43",
     "overtime": false,
     "winner": null,
     "kind": "none",

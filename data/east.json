@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T15:07:36-07:00",
- "as_of_display": "Sun Nov 22, 2026, 3:07 PM AZ",
+ "as_of": "2026-11-22T15:25:15-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 3:25 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,9 +11,9 @@
    "id": "21718162",
    "away": "DET",
    "home": "ATL",
-   "away_score": 72,
-   "home_score": 65,
-   "detail": "Q3 5:47"
+   "away_score": 85,
+   "home_score": 78,
+   "detail": "Q4 10:43"
   }
  ],
  "teams": [
