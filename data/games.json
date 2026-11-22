@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T15:25:15-07:00",
- "as_of_display": "Sun Nov 22, 2026, 3:25 PM AZ",
+ "as_of": "2026-11-22T15:42:56-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 3:42 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
@@ -4855,8 +4855,8 @@
    "tip_az": "1:30 PM AZ",
    "home": "ATL",
    "away": "DET",
-   "home_score": 78,
-   "away_score": 85,
+   "home_score": 92,
+   "away_score": 88,
    "status": "in_progress",
    "winner": null,
    "note": null,
@@ -4864,7 +4864,7 @@
    "time_valid": true,
    "overtime": false,
    "period": 4,
-   "clock": "Q4 10:43",
+   "clock": "Q4 4:52",
    "bdl_status": "4th Qtr",
    "bdl_status_state": "in_progress"
   },
