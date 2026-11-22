@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T19:48:30-07:00",
- "as_of_display": "Sat Nov 21, 2026, 7:48 PM AZ",
+ "as_of": "2026-11-21T20:06:31-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 8:06 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,36 +8,28 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718157",
-   "away": "POR",
-   "home": "NYK",
-   "away_score": 94,
-   "home_score": 94,
-   "detail": "Q4 :41.4"
-  },
-  {
    "id": "21718158",
    "away": "LAC",
    "home": "DAL",
-   "away_score": 69,
-   "home_score": 71,
-   "detail": "Q3 2:45"
+   "away_score": 84,
+   "home_score": 89,
+   "detail": "Q4 6:18"
   },
   {
    "id": "21718159",
    "away": "MEM",
    "home": "MIN",
-   "away_score": 62,
-   "home_score": 83,
-   "detail": "Q4 12:00"
+   "away_score": 90,
+   "home_score": 101,
+   "detail": "Q4 1:51"
   },
   {
    "id": "21718160",
    "away": "NOP",
    "home": "SAS",
-   "away_score": 60,
-   "home_score": 78,
-   "detail": "Q3 4:25"
+   "away_score": 76,
+   "home_score": 100,
+   "detail": "Q4 8:07"
   }
  ],
  "teams": [
@@ -177,33 +169,6 @@
    "game_in_progress": true
   },
   {
-   "team": "POR",
-   "bdl_id": 25,
-   "espn_id": null,
-   "name": "Portland Trail Blazers",
-   "city": "Portland",
-   "nickname": "Trail Blazers",
-   "wins": 10,
-   "losses": 5,
-   "games_played": 15,
-   "games_remaining": 67,
-   "win_pct": 0.667,
-   "seed": 6,
-   "point_diff_total": 94,
-   "point_diff_per_game": 6.3,
-   "games_behind": "3",
-   "streak": "W1",
-   "last_10": "6-4",
-   "home": "3-2",
-   "road": "7-3",
-   "conf_record": "9-5",
-   "conf_wins": 9,
-   "conf_losses": 5,
-   "games_listed": 80,
-   "games_unscheduled": 2,
-   "game_in_progress": true
-  },
-  {
    "team": "DEN",
    "bdl_id": 8,
    "espn_id": null,
@@ -215,7 +180,7 @@
    "games_played": 14,
    "games_remaining": 68,
    "win_pct": 0.643,
-   "seed": 7,
+   "seed": 6,
    "point_diff_total": 21,
    "point_diff_per_game": 1.5,
    "games_behind": "3.5",
@@ -225,6 +190,33 @@
    "road": "4-2",
    "conf_record": "6-5",
    "conf_wins": 6,
+   "conf_losses": 5,
+   "games_listed": 80,
+   "games_unscheduled": 2,
+   "game_in_progress": false
+  },
+  {
+   "team": "POR",
+   "bdl_id": 25,
+   "espn_id": null,
+   "name": "Portland Trail Blazers",
+   "city": "Portland",
+   "nickname": "Trail Blazers",
+   "wins": 10,
+   "losses": 6,
+   "games_played": 16,
+   "games_remaining": 66,
+   "win_pct": 0.625,
+   "seed": 7,
+   "point_diff_total": 93,
+   "point_diff_per_game": 5.8,
+   "games_behind": "3.5",
+   "streak": "L1",
+   "last_10": "5-5",
+   "home": "3-2",
+   "road": "7-4",
+   "conf_record": "9-5",
+   "conf_wins": 9,
    "conf_losses": 5,
    "games_listed": 80,
    "games_unscheduled": 2,
@@ -602,7 +594,7 @@
    "nickname": "Magic"
   },
   "NYK": {
-   "wins": 9,
+   "wins": 10,
    "losses": 6,
    "conference": "East",
    "bdl_id": 20,
@@ -693,7 +685,7 @@
   },
   "POR": {
    "wins": 10,
-   "losses": 5,
+   "losses": 6,
    "conference": "West",
    "bdl_id": 25,
    "name": "Portland Trail Blazers",

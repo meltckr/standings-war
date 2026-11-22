@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-21T19:48:30-07:00",
- "as_of_display": "Sat Nov 21, 2026, 7:48 PM AZ",
+ "as_of": "2026-11-21T20:06:31-07:00",
+ "as_of_display": "Sat Nov 21, 2026, 8:06 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,36 +10,28 @@
  },
  "games_in_progress": [
   {
-   "id": "21718157",
-   "away": "POR",
-   "home": "NYK",
-   "away_score": 94,
-   "home_score": 94,
-   "detail": "Q4 :41.4"
-  },
-  {
    "id": "21718158",
    "away": "LAC",
    "home": "DAL",
-   "away_score": 69,
-   "home_score": 71,
-   "detail": "Q3 2:45"
+   "away_score": 84,
+   "home_score": 89,
+   "detail": "Q4 6:18"
   },
   {
    "id": "21718159",
    "away": "MEM",
    "home": "MIN",
-   "away_score": 62,
-   "home_score": 83,
-   "detail": "Q4 12:00"
+   "away_score": 90,
+   "home_score": 101,
+   "detail": "Q4 1:51"
   },
   {
    "id": "21718160",
    "away": "NOP",
    "home": "SAS",
-   "away_score": 60,
-   "home_score": 78,
-   "detail": "Q3 4:25"
+   "away_score": 76,
+   "home_score": 100,
+   "detail": "Q4 8:07"
   }
  ],
  "teams": [
@@ -124,31 +116,31 @@
    }
   },
   {
-   "team": "POR",
+   "team": "DEN",
    "seed": 6,
    "bdl": {
-    "wins": 10,
+    "wins": 9,
     "losses": 5
    },
    "bdl_game_results": {
-    "wins": 10,
+    "wins": 9,
     "losses": 5
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "DEN",
+   "team": "POR",
    "seed": 7,
    "bdl": {
-    "wins": 9,
-    "losses": 5
+    "wins": 10,
+    "losses": 6
    },
    "bdl_game_results": {
-    "wins": 9,
-    "losses": 5
+    "wins": 10,
+    "losses": 6
    },
    "game_in_progress": false,
    "match": {
@@ -348,14 +340,14 @@
    }
   },
   {
-   "team": "MIA",
+   "team": "NYK",
    "seed": 5,
    "bdl": {
-    "wins": 9,
+    "wins": 10,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 9,
+    "wins": 10,
     "losses": 6
    },
    "game_in_progress": false,
@@ -364,7 +356,7 @@
    }
   },
   {
-   "team": "NYK",
+   "team": "MIA",
    "seed": 6,
    "bdl": {
     "wins": 9,
@@ -374,7 +366,7 @@
     "wins": 9,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
