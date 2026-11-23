@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T17:12:53-07:00",
- "as_of_display": "Sun Nov 22, 2026, 5:12 PM AZ",
+ "as_of": "2026-11-22T17:30:36-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 5:30 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,33 +11,33 @@
    "id": "21718163",
    "away": "OKC",
    "home": "MIA",
-   "away_score": 54,
-   "home_score": 67,
-   "detail": "Q3 12:00"
+   "away_score": 63,
+   "home_score": 76,
+   "detail": "Q3 7:17"
   },
   {
    "id": "21718165",
    "away": "ORL",
    "home": "WAS",
-   "away_score": 0,
-   "home_score": 5,
-   "detail": "Q1 10:55"
+   "away_score": 17,
+   "home_score": 26,
+   "detail": "Q1 3:19"
   },
   {
    "id": "21718166",
    "away": "DEN",
    "home": "CHI",
-   "away_score": 6,
-   "home_score": 4,
-   "detail": "Q1 10:41"
+   "away_score": 33,
+   "home_score": 27,
+   "detail": "Q1 1:30"
   },
   {
    "id": "21718167",
    "away": "DAL",
    "home": "UTA",
-   "away_score": 2,
-   "home_score": 4,
-   "detail": "Q1 10:36"
+   "away_score": 28,
+   "home_score": 24,
+   "detail": "Q1 2:19"
   }
  ],
  "teams": [
