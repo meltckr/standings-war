@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T17:48:24-07:00",
- "as_of_display": "Sun Nov 22, 2026, 5:48 PM AZ",
+ "as_of": "2026-11-22T18:06:23-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 6:06 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,33 +13,33 @@
    "id": "21718163",
    "away": "OKC",
    "home": "MIA",
-   "away_score": 77,
-   "home_score": 91,
-   "detail": "Q3 1:05"
+   "away_score": 93,
+   "home_score": 109,
+   "detail": "Q4 6:52"
   },
   {
    "id": "21718165",
    "away": "ORL",
    "home": "WAS",
-   "away_score": 31,
-   "home_score": 48,
-   "detail": "Q2 7:15"
+   "away_score": 51,
+   "home_score": 63,
+   "detail": "Half"
   },
   {
    "id": "21718166",
    "away": "DEN",
    "home": "CHI",
-   "away_score": 48,
-   "home_score": 48,
-   "detail": "Q2 6:15"
+   "away_score": 72,
+   "home_score": 70,
+   "detail": "Half"
   },
   {
    "id": "21718167",
    "away": "DAL",
    "home": "UTA",
-   "away_score": 48,
-   "home_score": 43,
-   "detail": "Q2 6:47"
+   "away_score": 64,
+   "home_score": 57,
+   "detail": "Half"
   }
  ],
  "teams": [
