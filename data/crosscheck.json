@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T20:19:24-07:00",
- "as_of_display": "Sun Nov 22, 2026, 8:19 PM AZ",
+ "as_of": "2026-11-22T22:41:24-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 10:41 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,24 +8,7 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718169",
-   "away": "IND",
-   "home": "NYK",
-   "away_score": 93,
-   "home_score": 102,
-   "detail": "Q4 5:34"
-  },
-  {
-   "id": "21718170",
-   "away": "BOS",
-   "home": "GSW",
-   "away_score": 75,
-   "home_score": 69,
-   "detail": "Q4 12:00"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
@@ -191,14 +174,14 @@
    "team": "GSW",
    "seed": 11,
    "bdl": {
-    "wins": 8,
+    "wins": 9,
     "losses": 8
    },
    "bdl_game_results": {
-    "wins": 8,
+    "wins": 9,
     "losses": 8
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -284,23 +267,23 @@
    }
   },
   {
-   "team": "BOS",
+   "team": "ATL",
    "seed": 2,
    "bdl": {
     "wins": 11,
-    "losses": 5
+    "losses": 6
    },
    "bdl_game_results": {
     "wins": 11,
-    "losses": 5
+    "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "ATL",
+   "team": "BOS",
    "seed": 3,
    "bdl": {
     "wins": 11,
@@ -316,14 +299,14 @@
    }
   },
   {
-   "team": "DET",
+   "team": "NYK",
    "seed": 4,
    "bdl": {
-    "wins": 10,
+    "wins": 11,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 10,
+    "wins": 11,
     "losses": 6
    },
    "game_in_progress": false,
@@ -332,7 +315,7 @@
    }
   },
   {
-   "team": "MIA",
+   "team": "DET",
    "seed": 5,
    "bdl": {
     "wins": 10,
@@ -348,7 +331,7 @@
    }
   },
   {
-   "team": "NYK",
+   "team": "MIA",
    "seed": 6,
    "bdl": {
     "wins": 10,
@@ -358,7 +341,7 @@
     "wins": 10,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -432,13 +415,13 @@
    "seed": 11,
    "bdl": {
     "wins": 5,
-    "losses": 11
+    "losses": 12
    },
    "bdl_game_results": {
     "wins": 5,
-    "losses": 11
+    "losses": 12
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }

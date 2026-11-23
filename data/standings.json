@@ -1,29 +1,12 @@
 {
- "as_of": "2026-11-22T20:19:24-07:00",
- "as_of_display": "Sun Nov 22, 2026, 8:19 PM AZ",
+ "as_of": "2026-11-22T22:41:24-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 10:41 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
  "source_url": "https://www.balldontlie.io/",
  "conference": "West",
- "games_in_progress": [
-  {
-   "id": "21718169",
-   "away": "IND",
-   "home": "NYK",
-   "away_score": 93,
-   "home_score": 102,
-   "detail": "Q4 5:34"
-  },
-  {
-   "id": "21718170",
-   "away": "BOS",
-   "home": "GSW",
-   "away_score": 75,
-   "home_score": 69,
-   "detail": "Q4 12:00"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
@@ -302,25 +285,25 @@
    "name": "Golden State Warriors",
    "city": "Golden State",
    "nickname": "Warriors",
-   "wins": 8,
+   "wins": 9,
    "losses": 8,
-   "games_played": 16,
-   "games_remaining": 66,
-   "win_pct": 0.5,
+   "games_played": 17,
+   "games_remaining": 65,
+   "win_pct": 0.529,
    "seed": 11,
-   "point_diff_total": -15,
-   "point_diff_per_game": -0.9,
-   "games_behind": "5.5",
-   "streak": "L5",
+   "point_diff_total": -14,
+   "point_diff_per_game": -0.8,
+   "games_behind": "5",
+   "streak": "W1",
    "last_10": "5-5",
-   "home": "6-1",
+   "home": "7-1",
    "road": "2-7",
    "conf_record": "6-8",
    "conf_wins": 6,
    "conf_losses": 8,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": true
+   "game_in_progress": false
   },
   {
    "team": "NOP",
@@ -461,7 +444,7 @@
   },
   "BOS": {
    "wins": 11,
-   "losses": 5,
+   "losses": 6,
    "conference": "East",
    "bdl_id": 2,
    "name": "Boston Celtics",
@@ -469,7 +452,7 @@
    "nickname": "Celtics"
   },
   "GSW": {
-   "wins": 8,
+   "wins": 9,
    "losses": 8,
    "conference": "West",
    "bdl_id": 10,
@@ -586,7 +569,7 @@
    "nickname": "Magic"
   },
   "NYK": {
-   "wins": 10,
+   "wins": 11,
    "losses": 6,
    "conference": "East",
    "bdl_id": 20,
@@ -623,7 +606,7 @@
   },
   "IND": {
    "wins": 5,
-   "losses": 11,
+   "losses": 12,
    "conference": "East",
    "bdl_id": 12,
    "name": "Indiana Pacers",

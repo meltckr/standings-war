@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T20:19:24-07:00",
- "as_of_display": "Sun Nov 22, 2026, 8:19 PM AZ",
+ "as_of": "2026-11-22T22:41:24-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 10:41 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "teams": {
@@ -1652,6 +1652,15 @@
     "result": "L",
     "score": "98-126",
     "wins": 8,
+    "losses": 8
+   },
+   {
+    "date": "2026-11-22",
+    "opp": "BOS",
+    "home_away": "home",
+    "result": "W",
+    "score": "88-87",
+    "wins": 9,
     "losses": 8
    }
   ],
