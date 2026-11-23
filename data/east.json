@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22T16:55:10-07:00",
- "as_of_display": "Sun Nov 22, 2026, 4:55 PM AZ",
+ "as_of": "2026-11-22T17:12:53-07:00",
+ "as_of_display": "Sun Nov 22, 2026, 5:12 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,9 +11,33 @@
    "id": "21718163",
    "away": "OKC",
    "home": "MIA",
-   "away_score": 42,
-   "home_score": 53,
-   "detail": "Q2 4:36"
+   "away_score": 54,
+   "home_score": 67,
+   "detail": "Q3 12:00"
+  },
+  {
+   "id": "21718165",
+   "away": "ORL",
+   "home": "WAS",
+   "away_score": 0,
+   "home_score": 5,
+   "detail": "Q1 10:55"
+  },
+  {
+   "id": "21718166",
+   "away": "DEN",
+   "home": "CHI",
+   "away_score": 6,
+   "home_score": 4,
+   "detail": "Q1 10:41"
+  },
+  {
+   "id": "21718167",
+   "away": "DAL",
+   "home": "UTA",
+   "away_score": 2,
+   "home_score": 4,
+   "detail": "Q1 10:36"
   }
  ],
  "teams": [
@@ -231,7 +255,7 @@
    "conf_losses": 5,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "TOR",
@@ -285,7 +309,7 @@
    "conf_losses": 8,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "IND",
@@ -366,7 +390,7 @@
    "conf_losses": 10,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "BKN",
