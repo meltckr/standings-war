@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T23:23:02-07:00",
- "as_of_display": "Mon Nov 23, 2026, 11:23 PM AZ",
+ "as_of": "2026-11-24T01:30:06-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -491,75 +491,8 @@
    }
   }
  ],
- "reconciled": [
-  {
-   "team": "LAL",
-   "conference": "West",
-   "bdl_standings": "14-3",
-   "game_results": "15-3",
-   "game_id": "21718179",
-   "date_az": "2026-11-23",
-   "opp": "UTA",
-   "home_away": "home",
-   "result": "W",
-   "score": "109-94",
-   "seed_bdl": 2,
-   "seed_used": 2
-  },
-  {
-   "team": "SAC",
-   "conference": "West",
-   "bdl_standings": "2-14",
-   "game_results": "2-15",
-   "game_id": "21718180",
-   "date_az": "2026-11-23",
-   "opp": "SAS",
-   "home_away": "home",
-   "result": "L",
-   "score": "107-123",
-   "seed_bdl": 15,
-   "seed_used": 15
-  },
-  {
-   "team": "SAS",
-   "conference": "West",
-   "bdl_standings": "14-3",
-   "game_results": "15-3",
-   "game_id": "21718180",
-   "date_az": "2026-11-23",
-   "opp": "SAC",
-   "home_away": "road",
-   "result": "W",
-   "score": "123-107",
-   "seed_bdl": 1,
-   "seed_used": 1
-  },
-  {
-   "team": "UTA",
-   "conference": "West",
-   "bdl_standings": "3-15",
-   "game_results": "3-16",
-   "game_id": "21718179",
-   "date_az": "2026-11-23",
-   "opp": "LAL",
-   "home_away": "road",
-   "result": "L",
-   "score": "94-109",
-   "seed_bdl": 14,
-   "seed_used": 14
-  }
- ],
- "reconciled_tiebreaks": [
-  {
-   "teams": [
-    "SAS",
-    "LAL"
-   ],
-   "record": "15-3",
-   "ahead": "SAS",
-   "step": "conference record SAS 14-2 vs LAL 9-3"
-  }
- ],
+ "reconciled": [],
+ "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",
   "records_checked": 30,
