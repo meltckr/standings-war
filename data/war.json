@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-23T19:32:10-07:00",
- "as_of_display": "Mon Nov 23, 2026, 7:32 PM AZ",
+ "as_of": "2026-11-23T19:53:55-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 7:53 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Sunday, Nov 22, 2026",
   "weekday": "Sunday"
  },
- "raw_folder": "data/raw/20261123-1932",
+ "raw_folder": "data/raw/20261123-1953",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -699,7 +699,7 @@
      "short": "Phoenix",
      "record": "8-7",
      "logo": "img/phx.png",
-     "score": 61
+     "score": 76
     },
     "home": {
      "abbr": "NOP",
@@ -707,14 +707,14 @@
      "short": "New Orleans",
      "record": "5-13",
      "logo": "img/nop.png",
-     "score": 58
+     "score": 83
     },
     "date_utc": "2026-11-24T01:00Z",
     "date_az": "2026-11-23",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 8:34",
+    "state_text": "In progress, q3 :19.7",
     "overtime": false,
     "winner": null,
     "kind": "suns",
@@ -824,7 +824,7 @@
      "short": "Oklahoma City",
      "record": "10-7",
      "logo": "img/okc.png",
-     "score": 98
+     "score": 120
     },
     "home": {
      "abbr": "IND",
@@ -832,14 +832,14 @@
      "short": "Indiana",
      "record": "5-12",
      "logo": "img/ind.png",
-     "score": 101
+     "score": 125
     },
     "date_utc": "2026-11-24T00:30Z",
     "date_az": "2026-11-23",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 8:27",
+    "state_text": "In progress, q4 :00.0",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -867,7 +867,7 @@
      "short": "Brooklyn",
      "record": "3-12",
      "logo": "img/bkn.png",
-     "score": 91
+     "score": 112
     },
     "home": {
      "abbr": "MIN",
@@ -875,14 +875,14 @@
      "short": "Minnesota",
      "record": "12-5",
      "logo": "img/min.png",
-     "score": 119
+     "score": 134
     },
     "date_utc": "2026-11-24T00:30Z",
     "date_az": "2026-11-23",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 11:28",
+    "state_text": "In progress, q4 3:07",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -912,7 +912,7 @@
      "short": "Cleveland",
      "record": "9-8",
      "logo": "img/cle.png",
-     "score": 64
+     "score": 89
     },
     "home": {
      "abbr": "CHI",
@@ -920,14 +920,14 @@
      "short": "Chicago",
      "record": "4-12",
      "logo": "img/chi.png",
-     "score": 76
+     "score": 93
     },
     "date_utc": "2026-11-24T01:00Z",
     "date_az": "2026-11-23",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 8:42",
+    "state_text": "In progress, eND Q3",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -955,7 +955,7 @@
      "short": "LA Clippers",
      "record": "4-11",
      "logo": "img/lac.png",
-     "score": 38
+     "score": 48
     },
     "home": {
      "abbr": "HOU",
@@ -963,14 +963,14 @@
      "short": "Houston",
      "record": "12-5",
      "logo": "img/hou.png",
-     "score": 42
+     "score": 51
     },
     "date_utc": "2026-11-24T01:30Z",
     "date_az": "2026-11-23",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 1:32",
+    "state_text": "In progress, q3 10:28",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -998,7 +998,7 @@
      "short": "Milwaukee",
      "record": "1-16",
      "logo": "img/mil.png",
-     "score": 87
+     "score": 109
     },
     "home": {
      "abbr": "TOR",
@@ -1006,14 +1006,14 @@
      "short": "Toronto",
      "record": "6-10",
      "logo": "img/tor.png",
-     "score": 88
+     "score": 103
     },
     "date_utc": "2026-11-24T00:30Z",
     "date_az": "2026-11-23",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 9:19",
+    "state_text": "In progress, q4 2:26",
     "overtime": false,
     "winner": null,
     "kind": "none",
