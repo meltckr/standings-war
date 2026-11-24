@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T18:34:07-07:00",
- "as_of_display": "Mon Nov 23, 2026, 6:34 PM AZ",
+ "as_of": "2026-11-23T18:52:16-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 6:52 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,57 +11,65 @@
    "id": "21718171",
    "away": "MEM",
    "home": "CHA",
-   "away_score": 69,
-   "home_score": 70,
-   "detail": "Q3 6:22"
+   "away_score": 89,
+   "home_score": 82,
+   "detail": "Q3 :00.0"
   },
   {
    "id": "21718172",
    "away": "POR",
    "home": "PHI",
-   "away_score": 78,
-   "home_score": 76,
-   "detail": "Q3 7:06"
+   "away_score": 101,
+   "home_score": 92,
+   "detail": "END Q3"
   },
   {
    "id": "21718173",
    "away": "OKC",
    "home": "IND",
-   "away_score": 51,
-   "home_score": 56,
-   "detail": "Half"
+   "away_score": 56,
+   "home_score": 68,
+   "detail": "Q3 9:17"
   },
   {
    "id": "21718174",
    "away": "MIL",
    "home": "TOR",
-   "away_score": 42,
-   "home_score": 45,
-   "detail": "Q2 2:19"
+   "away_score": 49,
+   "home_score": 53,
+   "detail": "Half"
   },
   {
    "id": "21718175",
    "away": "BKN",
    "home": "MIN",
-   "away_score": 58,
-   "home_score": 64,
-   "detail": "Q2 2:24"
+   "away_score": 61,
+   "home_score": 74,
+   "detail": "Half"
   },
   {
    "id": "21718176",
    "away": "CLE",
    "home": "CHI",
-   "away_score": 22,
-   "home_score": 22,
-   "detail": "Q1 2:08"
+   "away_score": 38,
+   "home_score": 47,
+   "detail": "Q2 7:46"
   },
   {
    "id": "21718177",
    "away": "PHX",
    "home": "NOP",
-   "away_score": 25,
-   "home_score": 28,
-   "detail": "Q1 1:25"
+   "away_score": 48,
+   "home_score": 47,
+   "detail": "Q2 5:40"
+  },
+  {
+   "id": "21718178",
+   "away": "LAC",
+   "home": "HOU",
+   "away_score": 11,
+   "home_score": 12,
+   "detail": "Q1 5:44"
   }
  ],
  "teams": [
@@ -171,7 +179,7 @@
    "conf_losses": 4,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "MEM",
@@ -414,7 +422,7 @@
    "conf_losses": 9,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "UTA",
