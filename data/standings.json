@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T20:15:00-07:00",
- "as_of_display": "Mon Nov 23, 2026, 8:15 PM AZ",
+ "as_of": "2026-11-23T20:36:31-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 8:36 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,44 +8,36 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718176",
-   "away": "CLE",
-   "home": "CHI",
-   "away_score": 104,
-   "home_score": 117,
-   "detail": "Q4 4:00"
-  },
-  {
    "id": "21718177",
    "away": "PHX",
    "home": "NOP",
-   "away_score": 99,
-   "home_score": 98,
-   "detail": "Q4 4:55"
+   "away_score": 117,
+   "home_score": 113,
+   "detail": "OT 2:28"
   },
   {
    "id": "21718178",
    "away": "LAC",
    "home": "HOU",
-   "away_score": 71,
-   "home_score": 83,
-   "detail": "Q3 :45.3"
+   "away_score": 90,
+   "home_score": 95,
+   "detail": "Q4 5:41"
   },
   {
    "id": "21718179",
    "away": "UTA",
    "home": "LAL",
-   "away_score": 2,
-   "home_score": 3,
-   "detail": "Q1 9:26"
+   "away_score": 18,
+   "home_score": 28,
+   "detail": "Q1 :54.9"
   },
   {
    "id": "21718180",
    "away": "SAS",
    "home": "SAC",
-   "away_score": 6,
-   "home_score": 6,
-   "detail": "Q1 8:32"
+   "away_score": 19,
+   "home_score": 28,
+   "detail": "Q1 :11.2"
   }
  ],
  "teams": [
@@ -502,7 +494,7 @@
    "nickname": "Warriors"
   },
   "CHI": {
-   "wins": 4,
+   "wins": 5,
    "losses": 12,
    "conference": "East",
    "bdl_id": 5,
@@ -557,7 +549,7 @@
   },
   "CLE": {
    "wins": 9,
-   "losses": 8,
+   "losses": 9,
    "conference": "East",
    "bdl_id": 6,
    "name": "Cleveland Cavaliers",

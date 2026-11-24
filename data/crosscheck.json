@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T20:15:00-07:00",
- "as_of_display": "Mon Nov 23, 2026, 8:15 PM AZ",
+ "as_of": "2026-11-23T20:36:31-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 8:36 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,44 +10,36 @@
  },
  "games_in_progress": [
   {
-   "id": "21718176",
-   "away": "CLE",
-   "home": "CHI",
-   "away_score": 104,
-   "home_score": 117,
-   "detail": "Q4 4:00"
-  },
-  {
    "id": "21718177",
    "away": "PHX",
    "home": "NOP",
-   "away_score": 99,
-   "home_score": 98,
-   "detail": "Q4 4:55"
+   "away_score": 117,
+   "home_score": 113,
+   "detail": "OT 2:28"
   },
   {
    "id": "21718178",
    "away": "LAC",
    "home": "HOU",
-   "away_score": 71,
-   "home_score": 83,
-   "detail": "Q3 :45.3"
+   "away_score": 90,
+   "home_score": 95,
+   "detail": "Q4 5:41"
   },
   {
    "id": "21718179",
    "away": "UTA",
    "home": "LAL",
-   "away_score": 2,
-   "home_score": 3,
-   "detail": "Q1 9:26"
+   "away_score": 18,
+   "home_score": 28,
+   "detail": "Q1 :54.9"
   },
   {
    "id": "21718180",
    "away": "SAS",
    "home": "SAC",
-   "away_score": 6,
-   "home_score": 6,
-   "detail": "Q1 8:32"
+   "away_score": 19,
+   "home_score": 28,
+   "detail": "Q1 :11.2"
   }
  ],
  "teams": [
@@ -392,13 +384,13 @@
    "seed": 7,
    "bdl": {
     "wins": 9,
-    "losses": 8
+    "losses": 9
    },
    "bdl_game_results": {
     "wins": 9,
-    "losses": 8
+    "losses": 9
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -468,14 +460,14 @@
    }
   },
   {
-   "team": "CHA",
+   "team": "CHI",
    "seed": 12,
    "bdl": {
-    "wins": 4,
+    "wins": 5,
     "losses": 12
    },
    "bdl_game_results": {
-    "wins": 4,
+    "wins": 5,
     "losses": 12
    },
    "game_in_progress": false,
@@ -484,7 +476,7 @@
    }
   },
   {
-   "team": "CHI",
+   "team": "CHA",
    "seed": 13,
    "bdl": {
     "wins": 4,
@@ -494,7 +486,7 @@
     "wins": 4,
     "losses": 12
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -546,6 +538,34 @@
    "score": "116-142",
    "seed_bdl": 14,
    "seed_used": 14
+  },
+  {
+   "team": "CHI",
+   "conference": "East",
+   "bdl_standings": "4-12",
+   "game_results": "5-12",
+   "game_id": "21718176",
+   "date_az": "2026-11-23",
+   "opp": "CLE",
+   "home_away": "home",
+   "result": "W",
+   "score": "122-108",
+   "seed_bdl": 13,
+   "seed_used": 12
+  },
+  {
+   "team": "CLE",
+   "conference": "East",
+   "bdl_standings": "9-8",
+   "game_results": "9-9",
+   "game_id": "21718176",
+   "date_az": "2026-11-23",
+   "opp": "CHI",
+   "home_away": "road",
+   "result": "L",
+   "score": "108-122",
+   "seed_bdl": 7,
+   "seed_used": 7
   },
   {
    "team": "MIL",
