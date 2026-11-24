@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T17:04:09-07:00",
- "as_of_display": "Mon Nov 23, 2026, 5:04 PM AZ",
+ "as_of": "2026-11-23T17:22:12-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 5:22 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,7 +8,24 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718171",
+   "away": "MEM",
+   "home": "CHA",
+   "away_score": 23,
+   "home_score": 14,
+   "detail": "Q1 5:49"
+  },
+  {
+   "id": "21718172",
+   "away": "POR",
+   "home": "PHI",
+   "away_score": 13,
+   "home_score": 17,
+   "detail": "Q1 7:31"
+  }
+ ],
  "teams": [
   {
    "team": "SAS",
@@ -85,7 +102,7 @@
     "wins": 12,
     "losses": 5
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -117,7 +134,7 @@
     "wins": 10,
     "losses": 6
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -261,7 +278,7 @@
     "wins": 14,
     "losses": 3
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -437,7 +454,7 @@
     "wins": 4,
     "losses": 11
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }

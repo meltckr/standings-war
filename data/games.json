@@ -1,13 +1,13 @@
 {
- "as_of": "2026-11-23T17:04:09-07:00",
- "as_of_display": "Mon Nov 23, 2026, 5:04 PM AZ",
+ "as_of": "2026-11-23T17:22:12-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 5:22 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
  "counts": {
   "total": 1200,
   "final": 248,
-  "in_progress": 0,
+  "in_progress": 2,
   "remaining": 952
  },
  "unscheduled_by_team": {
@@ -4995,18 +4995,18 @@
    "tip_az": "5:00 PM AZ",
    "home": "CHA",
    "away": "MEM",
-   "home_score": null,
-   "away_score": null,
-   "status": "scheduled",
+   "home_score": 14,
+   "away_score": 23,
+   "status": "in_progress",
    "winner": null,
    "note": null,
    "venue": null,
    "time_valid": true,
    "overtime": false,
-   "period": 0,
-   "clock": null,
-   "bdl_status": "2026-11-24T00:00:00Z",
-   "bdl_status_state": "scheduled"
+   "period": 1,
+   "clock": "Q1 5:49",
+   "bdl_status": "1st Qtr",
+   "bdl_status_state": "in_progress"
   },
   {
    "id": "21718172",
@@ -5015,18 +5015,18 @@
    "tip_az": "5:00 PM AZ",
    "home": "PHI",
    "away": "POR",
-   "home_score": null,
-   "away_score": null,
-   "status": "scheduled",
+   "home_score": 17,
+   "away_score": 13,
+   "status": "in_progress",
    "winner": null,
    "note": null,
    "venue": null,
    "time_valid": true,
    "overtime": false,
-   "period": 0,
-   "clock": null,
-   "bdl_status": "2026-11-24T00:00:00Z",
-   "bdl_status_state": "scheduled"
+   "period": 1,
+   "clock": "Q1 7:31",
+   "bdl_status": "1st Qtr",
+   "bdl_status_state": "in_progress"
   },
   {
    "id": "21718173",
