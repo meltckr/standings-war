@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T19:53:55-07:00",
- "as_of_display": "Mon Nov 23, 2026, 7:53 PM AZ",
+ "as_of": "2026-11-23T20:15:00-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 8:15 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,52 +8,44 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718173",
-   "away": "OKC",
-   "home": "IND",
-   "away_score": 120,
-   "home_score": 125,
-   "detail": "Q4 :00.0"
-  },
-  {
-   "id": "21718174",
-   "away": "MIL",
-   "home": "TOR",
-   "away_score": 109,
-   "home_score": 103,
-   "detail": "Q4 2:26"
-  },
-  {
-   "id": "21718175",
-   "away": "BKN",
-   "home": "MIN",
-   "away_score": 112,
-   "home_score": 134,
-   "detail": "Q4 3:07"
-  },
-  {
    "id": "21718176",
    "away": "CLE",
    "home": "CHI",
-   "away_score": 89,
-   "home_score": 93,
-   "detail": "END Q3"
+   "away_score": 104,
+   "home_score": 117,
+   "detail": "Q4 4:00"
   },
   {
    "id": "21718177",
    "away": "PHX",
    "home": "NOP",
-   "away_score": 76,
-   "home_score": 83,
-   "detail": "Q3 :19.7"
+   "away_score": 99,
+   "home_score": 98,
+   "detail": "Q4 4:55"
   },
   {
    "id": "21718178",
    "away": "LAC",
    "home": "HOU",
-   "away_score": 48,
-   "home_score": 51,
-   "detail": "Q3 10:28"
+   "away_score": 71,
+   "home_score": 83,
+   "detail": "Q3 :45.3"
+  },
+  {
+   "id": "21718179",
+   "away": "UTA",
+   "home": "LAL",
+   "away_score": 2,
+   "home_score": 3,
+   "detail": "Q1 9:26"
+  },
+  {
+   "id": "21718180",
+   "away": "SAS",
+   "home": "SAC",
+   "away_score": 6,
+   "home_score": 6,
+   "detail": "Q1 8:32"
   }
  ],
  "teams": [
@@ -82,7 +74,7 @@
    "conf_losses": 2,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "LAL",
@@ -109,6 +101,33 @@
    "conf_losses": 3,
    "games_listed": 80,
    "games_unscheduled": 2,
+   "game_in_progress": true
+  },
+  {
+   "team": "MIN",
+   "bdl_id": 18,
+   "espn_id": null,
+   "name": "Minnesota Timberwolves",
+   "city": "Minnesota",
+   "nickname": "Timberwolves",
+   "wins": 13,
+   "losses": 5,
+   "games_played": 18,
+   "games_remaining": 64,
+   "win_pct": 0.722,
+   "seed": 3,
+   "point_diff_total": 191,
+   "point_diff_per_game": 10.6,
+   "games_behind": "1.5",
+   "streak": "W2",
+   "last_10": "8-2",
+   "home": "9-3",
+   "road": "4-2",
+   "conf_record": "8-2",
+   "conf_wins": 8,
+   "conf_losses": 2,
+   "games_listed": 80,
+   "games_unscheduled": 2,
    "game_in_progress": false
   },
   {
@@ -123,7 +142,7 @@
    "games_played": 18,
    "games_remaining": 64,
    "win_pct": 0.722,
-   "seed": 3,
+   "seed": 4,
    "point_diff_total": 160,
    "point_diff_per_game": 8.9,
    "games_behind": "1.5",
@@ -137,33 +156,6 @@
    "games_listed": 80,
    "games_unscheduled": 2,
    "game_in_progress": false
-  },
-  {
-   "team": "MIN",
-   "bdl_id": 18,
-   "espn_id": null,
-   "name": "Minnesota Timberwolves",
-   "city": "Minnesota",
-   "nickname": "Timberwolves",
-   "wins": 12,
-   "losses": 5,
-   "games_played": 17,
-   "games_remaining": 65,
-   "win_pct": 0.706,
-   "seed": 4,
-   "point_diff_total": 165,
-   "point_diff_per_game": 9.7,
-   "games_behind": "2",
-   "streak": "W1",
-   "last_10": "8-2",
-   "home": "8-3",
-   "road": "4-2",
-   "conf_record": "8-2",
-   "conf_wins": 8,
-   "conf_losses": 2,
-   "games_listed": 80,
-   "games_unscheduled": 2,
-   "game_in_progress": true
   },
   {
    "team": "HOU",
@@ -281,24 +273,24 @@
    "city": "Oklahoma City",
    "nickname": "Thunder",
    "wins": 10,
-   "losses": 7,
-   "games_played": 17,
-   "games_remaining": 65,
-   "win_pct": 0.588,
+   "losses": 8,
+   "games_played": 18,
+   "games_remaining": 64,
+   "win_pct": 0.556,
    "seed": 9,
-   "point_diff_total": 62,
-   "point_diff_per_game": 3.6,
-   "games_behind": "4",
-   "streak": "L1",
-   "last_10": "5-5",
+   "point_diff_total": 57,
+   "point_diff_per_game": 3.2,
+   "games_behind": "4.5",
+   "streak": "L2",
+   "last_10": "4-6",
    "home": "6-1",
-   "road": "4-6",
+   "road": "4-7",
    "conf_record": "7-5",
    "conf_wins": 7,
    "conf_losses": 5,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": true
+   "game_in_progress": false
   },
   {
    "team": "PHX",
@@ -433,7 +425,7 @@
    "conf_losses": 13,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "SAC",
@@ -460,7 +452,7 @@
    "conf_losses": 12,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   }
  ],
  "league_records": {
@@ -520,7 +512,7 @@
   },
   "BKN": {
    "wins": 3,
-   "losses": 12,
+   "losses": 13,
    "conference": "East",
    "bdl_id": 3,
    "name": "Brooklyn Nets",
@@ -627,7 +619,7 @@
    "nickname": "Knicks"
   },
   "MIN": {
-   "wins": 12,
+   "wins": 13,
    "losses": 5,
    "conference": "West",
    "bdl_id": 18,
@@ -654,7 +646,7 @@
    "nickname": "Pelicans"
   },
   "IND": {
-   "wins": 5,
+   "wins": 6,
    "losses": 12,
    "conference": "East",
    "bdl_id": 12,
@@ -672,7 +664,7 @@
    "nickname": "Suns"
   },
   "MIL": {
-   "wins": 1,
+   "wins": 2,
    "losses": 16,
    "conference": "East",
    "bdl_id": 17,
@@ -718,7 +710,7 @@
   },
   "OKC": {
    "wins": 10,
-   "losses": 7,
+   "losses": 8,
    "conference": "West",
    "bdl_id": 21,
    "name": "Oklahoma City Thunder",
@@ -727,7 +719,7 @@
   },
   "TOR": {
    "wins": 6,
-   "losses": 10,
+   "losses": 11,
    "conference": "East",
    "bdl_id": 28,
    "name": "Toronto Raptors",
