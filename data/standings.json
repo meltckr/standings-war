@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T17:22:12-07:00",
- "as_of_display": "Mon Nov 23, 2026, 5:22 PM AZ",
+ "as_of": "2026-11-23T17:40:13-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 5:40 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,17 +11,17 @@
    "id": "21718171",
    "away": "MEM",
    "home": "CHA",
-   "away_score": 23,
-   "home_score": 14,
-   "detail": "Q1 5:49"
+   "away_score": 35,
+   "home_score": 32,
+   "detail": "Q2 9:43"
   },
   {
    "id": "21718172",
    "away": "POR",
    "home": "PHI",
-   "away_score": 13,
-   "home_score": 17,
-   "detail": "Q1 7:31"
+   "away_score": 30,
+   "home_score": 32,
+   "detail": "Q2 12:00"
   }
  ],
  "teams": [

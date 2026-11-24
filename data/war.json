@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-23T17:22:12-07:00",
- "as_of_display": "Mon Nov 23, 2026, 5:22 PM AZ",
+ "as_of": "2026-11-23T17:40:13-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 5:40 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Sunday, Nov 22, 2026",
   "weekday": "Sunday"
  },
- "raw_folder": "data/raw/20261123-1722",
+ "raw_folder": "data/raw/20261123-1740",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -738,7 +738,7 @@
      "short": "Memphis",
      "record": "12-5",
      "logo": "img/mem.png",
-     "score": 23
+     "score": 35
     },
     "home": {
      "abbr": "CHA",
@@ -746,14 +746,14 @@
      "short": "Charlotte",
      "record": "4-11",
      "logo": "img/cha.png",
-     "score": 14
+     "score": 32
     },
     "date_utc": "2026-11-24T00:00Z",
     "date_az": "2026-11-23",
     "tip_az": "5:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 5:49",
+    "state_text": "In progress, q2 9:43",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -781,7 +781,7 @@
      "short": "Portland",
      "record": "10-6",
      "logo": "img/por.png",
-     "score": 13
+     "score": 30
     },
     "home": {
      "abbr": "PHI",
@@ -789,14 +789,14 @@
      "short": "Philadelphia",
      "record": "14-3",
      "logo": "img/phi.png",
-     "score": 17
+     "score": 32
     },
     "date_utc": "2026-11-24T00:00Z",
     "date_az": "2026-11-23",
     "tip_az": "5:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 7:31",
+    "state_text": "In progress, q2 12:00",
     "overtime": false,
     "winner": null,
     "kind": "stake",
