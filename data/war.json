@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-23T19:10:24-07:00",
- "as_of_display": "Mon Nov 23, 2026, 7:10 PM AZ",
+ "as_of": "2026-11-23T19:32:10-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 7:32 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Sunday, Nov 22, 2026",
   "weekday": "Sunday"
  },
- "raw_folder": "data/raw/20261123-1910",
+ "raw_folder": "data/raw/20261123-1932",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -193,7 +193,7 @@
    "conference": "West",
    "wins": 12,
    "losses": 5,
-   "seed": 4,
+   "seed": 5,
    "logo_url": null,
    "logo": "img/hou.png",
    "record": "12-5",
@@ -236,13 +236,13 @@
    "plural": false,
    "conference": "East",
    "wins": 4,
-   "losses": 11,
+   "losses": 12,
    "seed": 12,
    "logo_url": null,
    "logo": "img/cha.png",
-   "record": "4-11",
-   "pct": 0.26666666666666666,
-   "gap": -4.0,
+   "record": "4-12",
+   "pct": 0.25,
+   "gap": -4.5,
    "near": false,
    "color": "#008ca8"
   },
@@ -323,14 +323,14 @@
    "subject": "Memphis",
    "plural": false,
    "conference": "West",
-   "wins": 12,
+   "wins": 13,
    "losses": 5,
-   "seed": 5,
+   "seed": 3,
    "logo_url": null,
    "logo": "img/mem.png",
-   "record": "12-5",
-   "pct": 0.7058823529411765,
-   "gap": 3.0,
+   "record": "13-5",
+   "pct": 0.7222222222222222,
+   "gap": 3.5,
    "near": true,
    "color": "#5d76a9"
   },
@@ -435,7 +435,7 @@
    "conference": "West",
    "wins": 12,
    "losses": 5,
-   "seed": 3,
+   "seed": 4,
    "logo_url": null,
    "logo": "img/min.png",
    "record": "12-5",
@@ -610,13 +610,13 @@
    "plural": false,
    "conference": "East",
    "wins": 14,
-   "losses": 3,
+   "losses": 4,
    "seed": 1,
    "logo_url": null,
    "logo": "img/phi.png",
-   "record": "14-3",
-   "pct": 0.8235294117647058,
-   "gap": 5.0,
+   "record": "14-4",
+   "pct": 0.7777777777777778,
+   "gap": 4.5,
    "near": false,
    "color": "#1d428a"
   },
@@ -631,14 +631,14 @@
    "subject": "Portland",
    "plural": false,
    "conference": "West",
-   "wins": 10,
+   "wins": 11,
    "losses": 6,
    "seed": 7,
    "logo_url": null,
    "logo": "img/por.png",
-   "record": "10-6",
-   "pct": 0.625,
-   "gap": 1.5,
+   "record": "11-6",
+   "pct": 0.6470588235294118,
+   "gap": 2.0,
    "near": true,
    "color": "#e03a3e"
   },
@@ -699,7 +699,7 @@
      "short": "Phoenix",
      "record": "8-7",
      "logo": "img/phx.png",
-     "score": 56
+     "score": 61
     },
     "home": {
      "abbr": "NOP",
@@ -707,14 +707,14 @@
      "short": "New Orleans",
      "record": "5-13",
      "logo": "img/nop.png",
-     "score": 54
+     "score": 58
     },
     "date_utc": "2026-11-24T01:00Z",
     "date_az": "2026-11-23",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, half",
+    "state_text": "In progress, q3 8:34",
     "overtime": false,
     "winner": null,
     "kind": "suns",
@@ -736,26 +736,26 @@
      "abbr": "MEM",
      "name": "Memphis Grizzlies",
      "short": "Memphis",
-     "record": "12-5",
+     "record": "13-5",
      "logo": "img/mem.png",
-     "score": 100
+     "score": 117
     },
     "home": {
      "abbr": "CHA",
      "name": "Charlotte Hornets",
      "short": "Charlotte",
-     "record": "4-11",
+     "record": "4-12",
      "logo": "img/cha.png",
-     "score": 92
+     "score": 111
     },
     "date_utc": "2026-11-24T00:00Z",
     "date_az": "2026-11-23",
     "tip_az": "5:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 7:22",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "MEM",
     "kind": "stake",
     "answer": "Root for Charlotte",
     "root": "CHA",
@@ -766,11 +766,11 @@
     "tags": [
      "Helps Suns seeding"
     ],
-    "why": "Memphis is 3 games ahead of Phoenix.",
+    "why": "Memphis was 3 games ahead of Phoenix.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "Hurt",
+    "verdict_note": "Memphis won",
+    "verdict_tag": "Seeding: Memphis won"
    },
    {
     "id": "21718172",
@@ -779,26 +779,26 @@
      "abbr": "POR",
      "name": "Portland Trail Blazers",
      "short": "Portland",
-     "record": "10-6",
+     "record": "11-6",
      "logo": "img/por.png",
-     "score": 116
+     "score": 128
     },
     "home": {
      "abbr": "PHI",
      "name": "Philadelphia 76ers",
      "short": "Philadelphia",
-     "record": "14-3",
+     "record": "14-4",
      "logo": "img/phi.png",
-     "score": 96
+     "score": 111
     },
     "date_utc": "2026-11-24T00:00Z",
     "date_az": "2026-11-23",
     "tip_az": "5:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 5:21",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "POR",
     "kind": "stake",
     "answer": "Root for Philadelphia",
     "root": "PHI",
@@ -809,11 +809,11 @@
     "tags": [
      "Helps Suns seeding"
     ],
-    "why": "Portland is 1.5 games ahead of Phoenix.",
+    "why": "Portland was 1.5 games ahead of Phoenix.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "Hurt",
+    "verdict_note": "Portland won",
+    "verdict_tag": "Seeding: Portland won"
    },
    {
     "id": "21718173",
@@ -824,7 +824,7 @@
      "short": "Oklahoma City",
      "record": "10-7",
      "logo": "img/okc.png",
-     "score": 80
+     "score": 98
     },
     "home": {
      "abbr": "IND",
@@ -832,14 +832,14 @@
      "short": "Indiana",
      "record": "5-12",
      "logo": "img/ind.png",
-     "score": 88
+     "score": 101
     },
     "date_utc": "2026-11-24T00:30Z",
     "date_az": "2026-11-23",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 3:14",
+    "state_text": "In progress, q4 8:27",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -867,7 +867,7 @@
      "short": "Brooklyn",
      "record": "3-12",
      "logo": "img/bkn.png",
-     "score": 79
+     "score": 91
     },
     "home": {
      "abbr": "MIN",
@@ -875,14 +875,14 @@
      "short": "Minnesota",
      "record": "12-5",
      "logo": "img/min.png",
-     "score": 91
+     "score": 119
     },
     "date_utc": "2026-11-24T00:30Z",
     "date_az": "2026-11-23",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 5:17",
+    "state_text": "In progress, q4 11:28",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -912,7 +912,7 @@
      "short": "Cleveland",
      "record": "9-8",
      "logo": "img/cle.png",
-     "score": 50
+     "score": 64
     },
     "home": {
      "abbr": "CHI",
@@ -920,14 +920,14 @@
      "short": "Chicago",
      "record": "4-12",
      "logo": "img/chi.png",
-     "score": 72
+     "score": 76
     },
     "date_utc": "2026-11-24T01:00Z",
     "date_az": "2026-11-23",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 :18.4",
+    "state_text": "In progress, q3 8:42",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -955,7 +955,7 @@
      "short": "LA Clippers",
      "record": "4-11",
      "logo": "img/lac.png",
-     "score": 18
+     "score": 38
     },
     "home": {
      "abbr": "HOU",
@@ -963,14 +963,14 @@
      "short": "Houston",
      "record": "12-5",
      "logo": "img/hou.png",
-     "score": 32
+     "score": 42
     },
     "date_utc": "2026-11-24T01:30Z",
     "date_az": "2026-11-23",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 9:02",
+    "state_text": "In progress, q2 1:32",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -998,7 +998,7 @@
      "short": "Milwaukee",
      "record": "1-16",
      "logo": "img/mil.png",
-     "score": 69
+     "score": 87
     },
     "home": {
      "abbr": "TOR",
@@ -1006,14 +1006,14 @@
      "short": "Toronto",
      "record": "6-10",
      "logo": "img/tor.png",
-     "score": 72
+     "score": 88
     },
     "date_utc": "2026-11-24T00:30Z",
     "date_az": "2026-11-23",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 4:56",
+    "state_text": "In progress, q4 9:19",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1426,8 +1426,8 @@
     "wins": 12,
     "losses": 5,
     "conference": "West",
-    "seed": 3,
-    "standing": "3rd in the West",
+    "seed": 4,
+    "standing": "4th in the West",
     "place_label": "T25",
     "place": 25,
     "place_text": "Tied for 25th of 30 in the draft order by record",
@@ -1544,8 +1544,25 @@
    },
    {
     "place": 5,
-    "place_label": "5",
-    "tied": false,
+    "place_label": "T5",
+    "tied": true,
+    "abbr": "CHA",
+    "short": "Charlotte",
+    "name": "Charlotte Hornets",
+    "conference": "East",
+    "wins": 4,
+    "losses": 12,
+    "record": "4-12",
+    "pct": 0.25,
+    "logo": "img/cha.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 5,
+    "place_label": "T5",
+    "tied": true,
     "abbr": "CHI",
     "short": "Chicago",
     "name": "Chicago Bulls",
@@ -1560,26 +1577,9 @@
     "note": ""
    },
    {
-    "place": 6,
-    "place_label": "T6",
-    "tied": true,
-    "abbr": "CHA",
-    "short": "Charlotte",
-    "name": "Charlotte Hornets",
-    "conference": "East",
-    "wins": 4,
-    "losses": 11,
-    "record": "4-11",
-    "pct": 0.2667,
-    "logo": "img/cha.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 6,
-    "place_label": "T6",
-    "tied": true,
+    "place": 7,
+    "place_label": "7",
+    "tied": false,
     "abbr": "LAC",
     "short": "LA Clippers",
     "name": "LA Clippers",
@@ -1798,25 +1798,8 @@
     "note": ""
    },
    {
-    "place": 18,
-    "place_label": "T18",
-    "tied": true,
-    "abbr": "POR",
-    "short": "Portland",
-    "name": "Portland Trail Blazers",
-    "conference": "West",
-    "wins": 10,
-    "losses": 6,
-    "record": "10-6",
-    "pct": 0.625,
-    "logo": "img/por.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 21,
-    "place_label": "T21",
+    "place": 20,
+    "place_label": "T20",
     "tied": true,
     "abbr": "ATL",
     "short": "Atlanta",
@@ -1832,8 +1815,8 @@
     "note": ""
    },
    {
-    "place": 21,
-    "place_label": "T21",
+    "place": 20,
+    "place_label": "T20",
     "tied": true,
     "abbr": "BOS",
     "short": "Boston",
@@ -1849,8 +1832,8 @@
     "note": ""
    },
    {
-    "place": 21,
-    "place_label": "T21",
+    "place": 20,
+    "place_label": "T20",
     "tied": true,
     "abbr": "NYK",
     "short": "New York",
@@ -1861,6 +1844,23 @@
     "record": "11-6",
     "pct": 0.6471,
     "logo": "img/nyk.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 20,
+    "place_label": "T20",
+    "tied": true,
+    "abbr": "POR",
+    "short": "Portland",
+    "name": "Portland Trail Blazers",
+    "conference": "West",
+    "wins": 11,
+    "losses": 6,
+    "record": "11-6",
+    "pct": 0.6471,
+    "logo": "img/por.png",
     "mark": null,
     "lands": false,
     "note": ""
@@ -1903,23 +1903,6 @@
     "place": 25,
     "place_label": "T25",
     "tied": true,
-    "abbr": "MEM",
-    "short": "Memphis",
-    "name": "Memphis Grizzlies",
-    "conference": "West",
-    "wins": 12,
-    "losses": 5,
-    "record": "12-5",
-    "pct": 0.7059,
-    "logo": "img/mem.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 25,
-    "place_label": "T25",
-    "tied": true,
     "abbr": "MIN",
     "short": "Minnesota",
     "name": "Minnesota Timberwolves",
@@ -1934,8 +1917,42 @@
     "note": "2027 pick. Phoenix gets this one today."
    },
    {
+    "place": 27,
+    "place_label": "27",
+    "tied": false,
+    "abbr": "MEM",
+    "short": "Memphis",
+    "name": "Memphis Grizzlies",
+    "conference": "West",
+    "wins": 13,
+    "losses": 5,
+    "record": "13-5",
+    "pct": 0.7222,
+    "logo": "img/mem.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
     "place": 28,
-    "place_label": "T28",
+    "place_label": "28",
+    "tied": false,
+    "abbr": "PHI",
+    "short": "Philadelphia",
+    "name": "Philadelphia 76ers",
+    "conference": "East",
+    "wins": 14,
+    "losses": 4,
+    "record": "14-4",
+    "pct": 0.7778,
+    "logo": "img/phi.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 29,
+    "place_label": "T29",
     "tied": true,
     "abbr": "LAL",
     "short": "LA Lakers",
@@ -1951,25 +1968,8 @@
     "note": ""
    },
    {
-    "place": 28,
-    "place_label": "T28",
-    "tied": true,
-    "abbr": "PHI",
-    "short": "Philadelphia",
-    "name": "Philadelphia 76ers",
-    "conference": "East",
-    "wins": 14,
-    "losses": 3,
-    "record": "14-3",
-    "pct": 0.8235,
-    "logo": "img/phi.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 28,
-    "place_label": "T28",
+    "place": 29,
+    "place_label": "T29",
     "tied": true,
     "abbr": "SAS",
     "short": "San Antonio",
@@ -2293,8 +2293,8 @@
     "home_away": "home",
     "note": "West Group B"
    },
-   "lens": "Memphis is 3 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "3 games ahead of Phoenix"
+   "lens": "Memphis is 3.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "3.5 games ahead of Phoenix"
   },
   "WAS": {
    "last": {
@@ -2587,8 +2587,8 @@
     "home_away": "home",
     "note": "West Group C"
    },
-   "lens": "Portland is 1.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "1.5 games ahead of Phoenix"
+   "lens": "Portland is 2 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "2 games ahead of Phoenix"
   },
   "OKC": {
    "last": {
@@ -2636,7 +2636,7 @@
  "lens": {
   "tonight": "Phoenix leads New Orleans by 4.5 games. A win stretches it to 5.5 games with 66 to play.",
   "standing": "Phoenix is 8-7, 10th in the West, 2 games behind Denver for the last guaranteed playoff spot.",
-  "board": "Six games besides Phoenix's own carry a stake: five for seeding, two for the 2027 pick. Brooklyn at Minnesota counts for both.",
+  "board": "Six games besides Phoenix's own carry a stake: five for seeding, two for the 2027 pick. Brooklyn at Minnesota counts for both. Final so far: neither of the two finished stake games went Phoenix's way.",
   "week": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
   "last_night": "One result went Phoenix's way: Miami beat Oklahoma City 123-113. Three hurt.",
   "standings": "Phoenix is 10th in the West, 2 games behind Denver for the last guaranteed playoff spot. In the East, Cleveland is 9-8 and 7th, 3 games behind Minnesota in the 2027 pick race.",

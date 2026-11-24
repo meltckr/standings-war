@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T19:10:24-07:00",
- "as_of_display": "Mon Nov 23, 2026, 7:10 PM AZ",
+ "as_of": "2026-11-23T19:32:10-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 7:32 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,68 +10,52 @@
  },
  "games_in_progress": [
   {
-   "id": "21718171",
-   "away": "MEM",
-   "home": "CHA",
-   "away_score": 100,
-   "home_score": 92,
-   "detail": "Q4 7:22"
-  },
-  {
-   "id": "21718172",
-   "away": "POR",
-   "home": "PHI",
-   "away_score": 116,
-   "home_score": 96,
-   "detail": "Q4 5:21"
-  },
-  {
    "id": "21718173",
    "away": "OKC",
    "home": "IND",
-   "away_score": 80,
-   "home_score": 88,
-   "detail": "Q3 3:14"
+   "away_score": 98,
+   "home_score": 101,
+   "detail": "Q4 8:27"
   },
   {
    "id": "21718174",
    "away": "MIL",
    "home": "TOR",
-   "away_score": 69,
-   "home_score": 72,
-   "detail": "Q3 4:56"
+   "away_score": 87,
+   "home_score": 88,
+   "detail": "Q4 9:19"
   },
   {
    "id": "21718175",
    "away": "BKN",
    "home": "MIN",
-   "away_score": 79,
-   "home_score": 91,
-   "detail": "Q3 5:17"
+   "away_score": 91,
+   "home_score": 119,
+   "detail": "Q4 11:28"
   },
   {
    "id": "21718176",
    "away": "CLE",
    "home": "CHI",
-   "away_score": 50,
-   "home_score": 72,
-   "detail": "Q2 :18.4"
+   "away_score": 64,
+   "home_score": 76,
+   "detail": "Q3 8:42"
   },
   {
    "id": "21718177",
    "away": "PHX",
    "home": "NOP",
-   "away_score": 56,
-   "home_score": 54,
-   "detail": "Half"
+   "away_score": 61,
+   "home_score": 58,
+   "detail": "Q3 8:34"
   },
   {
    "id": "21718178",
    "away": "LAC",
    "home": "HOU",
-   "away_score": 18,
-   "home_score": 32,
-   "detail": "Q2 9:02"
+   "away_score": 38,
+   "home_score": 42,
+   "detail": "Q2 1:32"
   }
  ],
  "teams": [
@@ -108,23 +92,23 @@
    }
   },
   {
-   "team": "MIN",
+   "team": "MEM",
    "seed": 3,
    "bdl": {
-    "wins": 12,
+    "wins": 13,
     "losses": 5
    },
    "bdl_game_results": {
-    "wins": 12,
+    "wins": 13,
     "losses": 5
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "HOU",
+   "team": "MIN",
    "seed": 4,
    "bdl": {
     "wins": 12,
@@ -140,7 +124,7 @@
    }
   },
   {
-   "team": "MEM",
+   "team": "HOU",
    "seed": 5,
    "bdl": {
     "wins": 12,
@@ -175,14 +159,14 @@
    "team": "POR",
    "seed": 7,
    "bdl": {
-    "wins": 10,
+    "wins": 11,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 10,
+    "wins": 11,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -320,13 +304,13 @@
    "seed": 1,
    "bdl": {
     "wins": 14,
-    "losses": 3
+    "losses": 4
    },
    "bdl_game_results": {
     "wins": 14,
-    "losses": 3
+    "losses": 4
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -496,13 +480,13 @@
    "seed": 12,
    "bdl": {
     "wins": 4,
-    "losses": 11
+    "losses": 12
    },
    "bdl_game_results": {
     "wins": 4,
-    "losses": 11
+    "losses": 12
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -556,8 +540,75 @@
    }
   }
  ],
- "reconciled": [],
- "reconciled_tiebreaks": [],
+ "reconciled": [
+  {
+   "team": "CHA",
+   "conference": "East",
+   "bdl_standings": "4-11",
+   "game_results": "4-12",
+   "game_id": "21718171",
+   "date_az": "2026-11-23",
+   "opp": "MEM",
+   "home_away": "home",
+   "result": "L",
+   "score": "111-117",
+   "seed_bdl": 12,
+   "seed_used": 12
+  },
+  {
+   "team": "MEM",
+   "conference": "West",
+   "bdl_standings": "12-5",
+   "game_results": "13-5",
+   "game_id": "21718171",
+   "date_az": "2026-11-23",
+   "opp": "CHA",
+   "home_away": "road",
+   "result": "W",
+   "score": "117-111",
+   "seed_bdl": 5,
+   "seed_used": 3
+  },
+  {
+   "team": "PHI",
+   "conference": "East",
+   "bdl_standings": "14-3",
+   "game_results": "14-4",
+   "game_id": "21718172",
+   "date_az": "2026-11-23",
+   "opp": "POR",
+   "home_away": "home",
+   "result": "L",
+   "score": "111-128",
+   "seed_bdl": 1,
+   "seed_used": 1
+  },
+  {
+   "team": "POR",
+   "conference": "West",
+   "bdl_standings": "10-6",
+   "game_results": "11-6",
+   "game_id": "21718172",
+   "date_az": "2026-11-23",
+   "opp": "PHI",
+   "home_away": "road",
+   "result": "W",
+   "score": "128-111",
+   "seed_bdl": 7,
+   "seed_used": 7
+  }
+ ],
+ "reconciled_tiebreaks": [
+  {
+   "teams": [
+    "CHA",
+    "CHI"
+   ],
+   "record": "4-12",
+   "ahead": "CHA",
+   "step": "conference record CHA 4-8 vs CHI 3-10"
+  }
+ ],
  "league": {
   "provider": "balldontlie",
   "records_checked": 30,

@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T19:10:24-07:00",
- "as_of_display": "Mon Nov 23, 2026, 7:10 PM AZ",
+ "as_of": "2026-11-23T19:32:10-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 7:32 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,68 +8,52 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718171",
-   "away": "MEM",
-   "home": "CHA",
-   "away_score": 100,
-   "home_score": 92,
-   "detail": "Q4 7:22"
-  },
-  {
-   "id": "21718172",
-   "away": "POR",
-   "home": "PHI",
-   "away_score": 116,
-   "home_score": 96,
-   "detail": "Q4 5:21"
-  },
-  {
    "id": "21718173",
    "away": "OKC",
    "home": "IND",
-   "away_score": 80,
-   "home_score": 88,
-   "detail": "Q3 3:14"
+   "away_score": 98,
+   "home_score": 101,
+   "detail": "Q4 8:27"
   },
   {
    "id": "21718174",
    "away": "MIL",
    "home": "TOR",
-   "away_score": 69,
-   "home_score": 72,
-   "detail": "Q3 4:56"
+   "away_score": 87,
+   "home_score": 88,
+   "detail": "Q4 9:19"
   },
   {
    "id": "21718175",
    "away": "BKN",
    "home": "MIN",
-   "away_score": 79,
-   "home_score": 91,
-   "detail": "Q3 5:17"
+   "away_score": 91,
+   "home_score": 119,
+   "detail": "Q4 11:28"
   },
   {
    "id": "21718176",
    "away": "CLE",
    "home": "CHI",
-   "away_score": 50,
-   "home_score": 72,
-   "detail": "Q2 :18.4"
+   "away_score": 64,
+   "home_score": 76,
+   "detail": "Q3 8:42"
   },
   {
    "id": "21718177",
    "away": "PHX",
    "home": "NOP",
-   "away_score": 56,
-   "home_score": 54,
-   "detail": "Half"
+   "away_score": 61,
+   "home_score": 58,
+   "detail": "Q3 8:34"
   },
   {
    "id": "21718178",
    "away": "LAC",
    "home": "HOU",
-   "away_score": 18,
-   "home_score": 32,
-   "detail": "Q2 9:02"
+   "away_score": 38,
+   "home_score": 42,
+   "detail": "Q2 1:32"
   }
  ],
  "teams": [
@@ -128,6 +112,33 @@
    "game_in_progress": false
   },
   {
+   "team": "MEM",
+   "bdl_id": 15,
+   "espn_id": null,
+   "name": "Memphis Grizzlies",
+   "city": "Memphis",
+   "nickname": "Grizzlies",
+   "wins": 13,
+   "losses": 5,
+   "games_played": 18,
+   "games_remaining": 64,
+   "win_pct": 0.722,
+   "seed": 3,
+   "point_diff_total": 160,
+   "point_diff_per_game": 8.9,
+   "games_behind": "1.5",
+   "streak": "W1",
+   "last_10": "7-3",
+   "home": "4-4",
+   "road": "9-1",
+   "conf_record": "8-4",
+   "conf_wins": 8,
+   "conf_losses": 4,
+   "games_listed": 80,
+   "games_unscheduled": 2,
+   "game_in_progress": false
+  },
+  {
    "team": "MIN",
    "bdl_id": 18,
    "espn_id": null,
@@ -139,7 +150,7 @@
    "games_played": 17,
    "games_remaining": 65,
    "win_pct": 0.706,
-   "seed": 3,
+   "seed": 4,
    "point_diff_total": 165,
    "point_diff_per_game": 9.7,
    "games_behind": "2",
@@ -166,7 +177,7 @@
    "games_played": 17,
    "games_remaining": 65,
    "win_pct": 0.706,
-   "seed": 4,
+   "seed": 5,
    "point_diff_total": 130,
    "point_diff_per_game": 7.6,
    "games_behind": "2",
@@ -176,33 +187,6 @@
    "road": "5-4",
    "conf_record": "6-4",
    "conf_wins": 6,
-   "conf_losses": 4,
-   "games_listed": 80,
-   "games_unscheduled": 2,
-   "game_in_progress": true
-  },
-  {
-   "team": "MEM",
-   "bdl_id": 15,
-   "espn_id": null,
-   "name": "Memphis Grizzlies",
-   "city": "Memphis",
-   "nickname": "Grizzlies",
-   "wins": 12,
-   "losses": 5,
-   "games_played": 17,
-   "games_remaining": 65,
-   "win_pct": 0.706,
-   "seed": 5,
-   "point_diff_total": 154,
-   "point_diff_per_game": 9.1,
-   "games_behind": "2",
-   "streak": "L1",
-   "last_10": "6-4",
-   "home": "4-4",
-   "road": "8-1",
-   "conf_record": "8-4",
-   "conf_wins": 8,
    "conf_losses": 4,
    "games_listed": 80,
    "games_unscheduled": 2,
@@ -242,25 +226,25 @@
    "name": "Portland Trail Blazers",
    "city": "Portland",
    "nickname": "Trail Blazers",
-   "wins": 10,
+   "wins": 11,
    "losses": 6,
-   "games_played": 16,
-   "games_remaining": 66,
-   "win_pct": 0.625,
+   "games_played": 17,
+   "games_remaining": 65,
+   "win_pct": 0.647,
    "seed": 7,
-   "point_diff_total": 93,
-   "point_diff_per_game": 5.8,
-   "games_behind": "3.5",
-   "streak": "L1",
+   "point_diff_total": 110,
+   "point_diff_per_game": 6.5,
+   "games_behind": "3",
+   "streak": "W1",
    "last_10": "5-5",
    "home": "3-2",
-   "road": "7-4",
+   "road": "8-4",
    "conf_record": "9-5",
    "conf_wins": 9,
    "conf_losses": 5,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": true
+   "game_in_progress": false
   },
   {
    "team": "DAL",
@@ -563,7 +547,7 @@
   },
   "CHA": {
    "wins": 4,
-   "losses": 11,
+   "losses": 12,
    "conference": "East",
    "bdl_id": 4,
    "name": "Charlotte Hornets",
@@ -598,7 +582,7 @@
    "nickname": "Pistons"
   },
   "MEM": {
-   "wins": 12,
+   "wins": 13,
    "losses": 5,
    "conference": "West",
    "bdl_id": 15,
@@ -716,7 +700,7 @@
   },
   "PHI": {
    "wins": 14,
-   "losses": 3,
+   "losses": 4,
    "conference": "East",
    "bdl_id": 23,
    "name": "Philadelphia 76ers",
@@ -724,7 +708,7 @@
    "nickname": "76ers"
   },
   "POR": {
-   "wins": 10,
+   "wins": 11,
    "losses": 6,
    "conference": "West",
    "bdl_id": 25,
