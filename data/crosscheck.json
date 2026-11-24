@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T18:16:18-07:00",
- "as_of_display": "Mon Nov 23, 2026, 6:16 PM AZ",
+ "as_of": "2026-11-23T18:34:07-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 6:34 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,57 +13,57 @@
    "id": "21718171",
    "away": "MEM",
    "home": "CHA",
-   "away_score": 62,
-   "home_score": 60,
-   "detail": "Half"
+   "away_score": 69,
+   "home_score": 70,
+   "detail": "Q3 6:22"
   },
   {
    "id": "21718172",
    "away": "POR",
    "home": "PHI",
-   "away_score": 69,
-   "home_score": 69,
-   "detail": "Q3 12:00"
+   "away_score": 78,
+   "home_score": 76,
+   "detail": "Q3 7:06"
   },
   {
    "id": "21718173",
    "away": "OKC",
    "home": "IND",
-   "away_score": 29,
-   "home_score": 37,
-   "detail": "Q2 8:52"
+   "away_score": 51,
+   "home_score": 56,
+   "detail": "Half"
   },
   {
    "id": "21718174",
    "away": "MIL",
    "home": "TOR",
-   "away_score": 31,
-   "home_score": 30,
-   "detail": "Q2 8:17"
+   "away_score": 42,
+   "home_score": 45,
+   "detail": "Q2 2:19"
   },
   {
    "id": "21718175",
    "away": "BKN",
    "home": "MIN",
-   "away_score": 37,
-   "home_score": 47,
-   "detail": "Q2 9:01"
+   "away_score": 58,
+   "home_score": 64,
+   "detail": "Q2 2:24"
   },
   {
    "id": "21718176",
    "away": "CLE",
    "home": "CHI",
-   "away_score": 9,
-   "home_score": 4,
-   "detail": "Q1 8:40"
+   "away_score": 22,
+   "home_score": 22,
+   "detail": "Q1 2:08"
   },
   {
    "id": "21718177",
    "away": "PHX",
    "home": "NOP",
-   "away_score": 7,
-   "home_score": 10,
-   "detail": "Q1 8:09"
+   "away_score": 25,
+   "home_score": 28,
+   "detail": "Q1 1:25"
   }
  ],
  "teams": [
