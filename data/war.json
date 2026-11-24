@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-23T22:01:26-07:00",
- "as_of_display": "Mon Nov 23, 2026, 10:01 PM AZ",
+ "as_of": "2026-11-23T22:19:29-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 10:19 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Sunday, Nov 22, 2026",
   "weekday": "Sunday"
  },
- "raw_folder": "data/raw/20261123-2201",
+ "raw_folder": "data/raw/20261123-2219",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -1037,7 +1037,7 @@
      "short": "Utah",
      "record": "3-15",
      "logo": "img/uta.png",
-     "score": 77
+     "score": 84
     },
     "home": {
      "abbr": "LAL",
@@ -1045,14 +1045,14 @@
      "short": "LA Lakers",
      "record": "14-3",
      "logo": "img/lal.png",
-     "score": 80
+     "score": 95
     },
     "date_utc": "2026-11-24T03:00Z",
     "date_az": "2026-11-23",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 11:25",
+    "state_text": "In progress, q4 4:51",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1076,7 +1076,7 @@
      "short": "San Antonio",
      "record": "14-3",
      "logo": "img/sas.png",
-     "score": 98
+     "score": 119
     },
     "home": {
      "abbr": "SAC",
@@ -1084,14 +1084,14 @@
      "short": "Sacramento",
      "record": "2-14",
      "logo": "img/sac.png",
-     "score": 85
+     "score": 103
     },
     "date_utc": "2026-11-24T03:00Z",
     "date_az": "2026-11-23",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 8:29",
+    "state_text": "In progress, q4 1:12",
     "overtime": false,
     "winner": null,
     "kind": "none",
