@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T17:40:13-07:00",
- "as_of_display": "Mon Nov 23, 2026, 5:40 PM AZ",
+ "as_of": "2026-11-23T17:58:16-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 5:58 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,17 +13,41 @@
    "id": "21718171",
    "away": "MEM",
    "home": "CHA",
-   "away_score": 35,
-   "home_score": 32,
-   "detail": "Q2 9:43"
+   "away_score": 55,
+   "home_score": 55,
+   "detail": "Q2 1:47"
   },
   {
    "id": "21718172",
    "away": "POR",
    "home": "PHI",
-   "away_score": 30,
-   "home_score": 32,
-   "detail": "Q2 12:00"
+   "away_score": 55,
+   "home_score": 52,
+   "detail": "Q2 4:36"
+  },
+  {
+   "id": "21718173",
+   "away": "OKC",
+   "home": "IND",
+   "away_score": 19,
+   "home_score": 18,
+   "detail": "Q1 3:09"
+  },
+  {
+   "id": "21718174",
+   "away": "MIL",
+   "home": "TOR",
+   "away_score": 24,
+   "home_score": 23,
+   "detail": "Q1 3:05"
+  },
+  {
+   "id": "21718175",
+   "away": "BKN",
+   "home": "MIN",
+   "away_score": 15,
+   "home_score": 25,
+   "detail": "Q1 3:30"
   }
  ],
  "teams": [
@@ -70,7 +94,7 @@
     "wins": 12,
     "losses": 5
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -166,7 +190,7 @@
     "wins": 10,
     "losses": 7
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -422,7 +446,7 @@
     "wins": 6,
     "losses": 10
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -438,7 +462,7 @@
     "wins": 5,
     "losses": 12
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -486,7 +510,7 @@
     "wins": 3,
     "losses": 12
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -502,7 +526,7 @@
     "wins": 1,
     "losses": 16
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
