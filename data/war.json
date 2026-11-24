@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-23T22:19:29-07:00",
- "as_of_display": "Mon Nov 23, 2026, 10:19 PM AZ",
+ "as_of": "2026-11-23T22:40:42-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 10:40 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Sunday, Nov 22, 2026",
   "weekday": "Sunday"
  },
- "raw_folder": "data/raw/20261123-2219",
+ "raw_folder": "data/raw/20261123-2240",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -213,14 +213,14 @@
    "subject": "the Lakers",
    "plural": true,
    "conference": "West",
-   "wins": 14,
+   "wins": 15,
    "losses": 3,
    "seed": 2,
    "logo_url": null,
    "logo": "img/lal.png",
-   "record": "14-3",
-   "pct": 0.8235294117647058,
-   "gap": 4.5,
+   "record": "15-3",
+   "pct": 0.8333333333333334,
+   "gap": 5.0,
    "near": false,
    "color": "#552583"
   },
@@ -367,14 +367,14 @@
    "subject": "San Antonio",
    "plural": false,
    "conference": "West",
-   "wins": 14,
+   "wins": 15,
    "losses": 3,
    "seed": 1,
    "logo_url": null,
    "logo": "img/sas.png",
-   "record": "14-3",
-   "pct": 0.8235294117647058,
-   "gap": 4.5,
+   "record": "15-3",
+   "pct": 0.8333333333333334,
+   "gap": 5.0,
    "near": false,
    "color": "#000000"
   },
@@ -566,13 +566,13 @@
    "plural": false,
    "conference": "West",
    "wins": 3,
-   "losses": 15,
+   "losses": 16,
    "seed": 14,
    "logo_url": null,
    "logo": "img/uta.png",
-   "record": "3-15",
-   "pct": 0.16666666666666666,
-   "gap": -7.0,
+   "record": "3-16",
+   "pct": 0.15789473684210525,
+   "gap": -7.5,
    "near": false,
    "color": "#4e008e"
   },
@@ -588,13 +588,13 @@
    "plural": false,
    "conference": "West",
    "wins": 2,
-   "losses": 14,
+   "losses": 15,
    "seed": 15,
    "logo_url": null,
    "logo": "img/sac.png",
-   "record": "2-14",
-   "pct": 0.125,
-   "gap": -7.0,
+   "record": "2-15",
+   "pct": 0.11764705882352941,
+   "gap": -7.5,
    "near": false,
    "color": "#5a2d81"
   },
@@ -1035,37 +1035,37 @@
      "abbr": "UTA",
      "name": "Utah Jazz",
      "short": "Utah",
-     "record": "3-15",
+     "record": "3-16",
      "logo": "img/uta.png",
-     "score": 84
+     "score": 94
     },
     "home": {
      "abbr": "LAL",
      "name": "Los Angeles Lakers",
      "short": "LA Lakers",
-     "record": "14-3",
+     "record": "15-3",
      "logo": "img/lal.png",
-     "score": 95
+     "score": 109
     },
     "date_utc": "2026-11-24T03:00Z",
     "date_az": "2026-11-23",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 4:51",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "LAL",
     "kind": "none",
     "answer": "No stake",
     "root": null,
     "target": null,
     "goals": [],
     "tags": [],
-    "why": "Utah is 6.5 games behind Phoenix and the Lakers are 5 games ahead of Phoenix. Both are outside the 4-game range. The result does not change which pick Phoenix gets.",
+    "why": "Utah was 6.5 games behind Phoenix and the Lakers were 5 games ahead of Phoenix. Both were outside the 4-game range. The result did not change which pick Phoenix gets.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "No stake",
+    "verdict_note": "Outside the 4-game range",
+    "verdict_tag": "Outside the 4-game range"
    },
    {
     "id": "21718180",
@@ -1074,37 +1074,37 @@
      "abbr": "SAS",
      "name": "San Antonio Spurs",
      "short": "San Antonio",
-     "record": "14-3",
+     "record": "15-3",
      "logo": "img/sas.png",
-     "score": 119
+     "score": 123
     },
     "home": {
      "abbr": "SAC",
      "name": "Sacramento Kings",
      "short": "Sacramento",
-     "record": "2-14",
+     "record": "2-15",
      "logo": "img/sac.png",
-     "score": 103
+     "score": 107
     },
     "date_utc": "2026-11-24T03:00Z",
     "date_az": "2026-11-23",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 1:12",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "SAS",
     "kind": "none",
     "answer": "No stake",
     "root": null,
     "target": null,
     "goals": [],
     "tags": [],
-    "why": "San Antonio is 5 games ahead of Phoenix and Sacramento is 6.5 games behind Phoenix. Both are outside the 4-game range.",
+    "why": "San Antonio was 5 games ahead of Phoenix and Sacramento was 6.5 games behind Phoenix. Both were outside the 4-game range.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "No stake",
+    "verdict_note": "Outside the 4-game range",
+    "verdict_tag": "Outside the 4-game range"
    }
   ]
  },
@@ -1290,7 +1290,7 @@
      "abbr": "UTA",
      "name": "Utah Jazz",
      "short": "Utah",
-     "record": "3-15",
+     "record": "3-16",
      "logo": "img/uta.png",
      "score": 114
     },
@@ -1414,7 +1414,7 @@
   ],
   "today": "If the season ended today, Phoenix would get Minnesota's pick.",
   "because": "Minnesota has the best record of the three at 13-5.",
-  "utah": "Utah is 3-15, 3rd in the draft order by record. Its pick is top-5 protected, so it would not go to anyone if the season ended today.",
+  "utah": "Utah is 3-16, 3rd in the draft order by record. Its pick is top-5 protected, so it would not go to anyone if the season ended today.",
   "utah_status": "protected",
   "utah_swing": false,
   "three": [
@@ -1458,9 +1458,9 @@
     "abbr": "UTA",
     "short": "Utah",
     "name": "Utah Jazz",
-    "record": "3-15",
+    "record": "3-16",
     "wins": 3,
-    "losses": 15,
+    "losses": 16,
     "conference": "West",
     "seed": 14,
     "standing": "14th in the West",
@@ -1500,9 +1500,9 @@
     "name": "Sacramento Kings",
     "conference": "West",
     "wins": 2,
-    "losses": 14,
-    "record": "2-14",
-    "pct": 0.125,
+    "losses": 15,
+    "record": "2-15",
+    "pct": 0.1176,
     "logo": "img/sac.png",
     "mark": null,
     "lands": false,
@@ -1517,9 +1517,9 @@
     "name": "Utah Jazz",
     "conference": "West",
     "wins": 3,
-    "losses": 15,
-    "record": "3-15",
-    "pct": 0.1667,
+    "losses": 16,
+    "record": "3-16",
+    "pct": 0.1579,
     "logo": "img/uta.png",
     "mark": "pick",
     "lands": false,
@@ -1958,10 +1958,10 @@
     "short": "LA Lakers",
     "name": "Los Angeles Lakers",
     "conference": "West",
-    "wins": 14,
+    "wins": 15,
     "losses": 3,
-    "record": "14-3",
-    "pct": 0.8235,
+    "record": "15-3",
+    "pct": 0.8333,
     "logo": "img/lal.png",
     "mark": null,
     "lands": false,
@@ -1975,10 +1975,10 @@
     "short": "San Antonio",
     "name": "San Antonio Spurs",
     "conference": "West",
-    "wins": 14,
+    "wins": 15,
     "losses": 3,
-    "record": "14-3",
-    "pct": 0.8235,
+    "record": "15-3",
+    "pct": 0.8333,
     "logo": "img/sas.png",
     "mark": null,
     "lands": false,
@@ -2188,8 +2188,8 @@
     "home_away": "road",
     "note": "West Group C"
    },
-   "lens": "The Lakers are 4.5 games ahead of Phoenix in the West.",
-   "vs_phx": "4.5 games ahead of Phoenix"
+   "lens": "The Lakers are 5 games ahead of Phoenix in the West.",
+   "vs_phx": "5 games ahead of Phoenix"
   },
   "CHA": {
    "last": {
@@ -2335,8 +2335,8 @@
     "home_away": "road",
     "note": "West Group C"
    },
-   "lens": "San Antonio is 4.5 games ahead of Phoenix in the West.",
-   "vs_phx": "4.5 games ahead of Phoenix"
+   "lens": "San Antonio is 5 games ahead of Phoenix in the West.",
+   "vs_phx": "5 games ahead of Phoenix"
   },
   "ORL": {
    "last": {
@@ -2524,8 +2524,8 @@
     "home_away": "home",
     "note": "West Group A"
    },
-   "lens": "Utah is 7 games behind Phoenix in the West. Its 2027 first is top-5 protected, and Utah sits in the top 5 today, so it would not convey.",
-   "vs_phx": "7 games behind Phoenix"
+   "lens": "Utah is 7.5 games behind Phoenix in the West. Its 2027 first is top-5 protected, and Utah sits in the top 5 today, so it would not convey.",
+   "vs_phx": "7.5 games behind Phoenix"
   },
   "SAC": {
    "last": {
@@ -2545,8 +2545,8 @@
     "home_away": "road",
     "note": "West Group C"
    },
-   "lens": "Sacramento is 7 games behind Phoenix in the West.",
-   "vs_phx": "7 games behind Phoenix"
+   "lens": "Sacramento is 7.5 games behind Phoenix in the West.",
+   "vs_phx": "7.5 games behind Phoenix"
   },
   "PHI": {
    "last": {

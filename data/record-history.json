@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-23T22:19:29-07:00",
- "as_of_display": "Mon Nov 23, 2026, 10:19 PM AZ",
+ "as_of": "2026-11-23T22:40:42-07:00",
+ "as_of_display": "Mon Nov 23, 2026, 10:40 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "teams": {
@@ -157,6 +157,15 @@
     "score": "114-91",
     "wins": 14,
     "losses": 3
+   },
+   {
+    "date": "2026-11-23",
+    "opp": "SAC",
+    "home_away": "road",
+    "result": "W",
+    "score": "123-107",
+    "wins": 15,
+    "losses": 3
    }
   ],
   "LAL": [
@@ -311,6 +320,15 @@
     "result": "W",
     "score": "106-104",
     "wins": 14,
+    "losses": 3
+   },
+   {
+    "date": "2026-11-23",
+    "opp": "UTA",
+    "home_away": "home",
+    "result": "W",
+    "score": "109-94",
+    "wins": 15,
     "losses": 3
    }
   ],
@@ -2199,6 +2217,15 @@
     "score": "114-116",
     "wins": 3,
     "losses": 15
+   },
+   {
+    "date": "2026-11-23",
+    "opp": "LAL",
+    "home_away": "road",
+    "result": "L",
+    "score": "94-109",
+    "wins": 3,
+    "losses": 16
    }
   ],
   "SAC": [
@@ -2345,6 +2372,15 @@
     "score": "97-96",
     "wins": 2,
     "losses": 14
+   },
+   {
+    "date": "2026-11-23",
+    "opp": "SAS",
+    "home_away": "home",
+    "result": "L",
+    "score": "107-123",
+    "wins": 2,
+    "losses": 15
    }
   ]
  }
