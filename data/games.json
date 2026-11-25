@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T17:50:25-07:00",
- "as_of_display": "Tue Nov 24, 2026, 5:50 PM AZ",
+ "as_of": "2026-11-24T18:08:25-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 6:08 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
@@ -5195,8 +5195,8 @@
    "tip_az": "5:00 PM AZ",
    "home": "ORL",
    "away": "DET",
-   "home_score": 27,
-   "away_score": 28,
+   "home_score": 36,
+   "away_score": 48,
    "status": "in_progress",
    "winner": null,
    "note": "East Group A",
@@ -5204,7 +5204,7 @@
    "time_valid": true,
    "overtime": false,
    "period": 2,
-   "clock": "Q2 7:21",
+   "clock": "Half",
    "bdl_status": "2nd Qtr",
    "bdl_status_state": "in_progress"
   },
