@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T23:30:06-07:00",
- "as_of_display": "Tue Nov 24, 2026, 11:30 PM AZ",
+ "as_of": "2026-11-25T01:30:05-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -491,64 +491,7 @@
    }
   }
  ],
- "reconciled": [
-  {
-   "team": "BOS",
-   "conference": "East",
-   "bdl_standings": "11-6",
-   "game_results": "12-6",
-   "game_id": "21718182",
-   "date_az": "2026-11-24",
-   "opp": "WAS",
-   "home_away": "road",
-   "result": "W",
-   "score": "131-116",
-   "seed_bdl": 4,
-   "seed_used": 2
-  },
-  {
-   "team": "DAL",
-   "conference": "West",
-   "bdl_standings": "10-7",
-   "game_results": "11-7",
-   "game_id": "21718183",
-   "date_az": "2026-11-24",
-   "opp": "DEN",
-   "home_away": "road",
-   "result": "W",
-   "score": "120-101",
-   "seed_bdl": 8,
-   "seed_used": 8
-  },
-  {
-   "team": "DEN",
-   "conference": "West",
-   "bdl_standings": "10-5",
-   "game_results": "10-6",
-   "game_id": "21718183",
-   "date_az": "2026-11-24",
-   "opp": "DAL",
-   "home_away": "home",
-   "result": "L",
-   "score": "101-120",
-   "seed_bdl": 6,
-   "seed_used": 7
-  },
-  {
-   "team": "WAS",
-   "conference": "East",
-   "bdl_standings": "7-11",
-   "game_results": "7-12",
-   "game_id": "21718182",
-   "date_az": "2026-11-24",
-   "opp": "BOS",
-   "home_away": "home",
-   "result": "L",
-   "score": "116-131",
-   "seed_bdl": 9,
-   "seed_used": 9
-  }
- ],
+ "reconciled": [],
  "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",
