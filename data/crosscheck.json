@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T21:01:44-07:00",
- "as_of_display": "Tue Nov 24, 2026, 9:01 PM AZ",
+ "as_of": "2026-11-24T21:22:58-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 9:22 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,9 +13,9 @@
    "id": "21718183",
    "away": "DAL",
    "home": "DEN",
-   "away_score": 43,
+   "away_score": 58,
    "home_score": 39,
-   "detail": "Q2 3:11"
+   "detail": "Half"
   }
  ],
  "teams": [
