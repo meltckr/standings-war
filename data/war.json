@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-24T18:26:26-07:00",
- "as_of_display": "Tue Nov 24, 2026, 6:26 PM AZ",
+ "as_of": "2026-11-24T18:44:29-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 6:44 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Monday, Nov 23, 2026",
   "weekday": "Monday"
  },
- "raw_folder": "data/raw/20261124-1826",
+ "raw_folder": "data/raw/20261124-1844",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -742,7 +742,7 @@
      "short": "Detroit",
      "record": "10-6",
      "logo": "img/det.png",
-     "score": 48
+     "score": 67
     },
     "home": {
      "abbr": "ORL",
@@ -750,14 +750,14 @@
      "short": "Orlando",
      "record": "7-9",
      "logo": "img/orl.png",
-     "score": 42
+     "score": 56
     },
     "date_utc": "2026-11-25T00:00Z",
     "date_az": "2026-11-24",
     "tip_az": "5:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 9:38",
+    "state_text": "In progress, q3 2:34",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -781,7 +781,7 @@
      "short": "Boston",
      "record": "11-6",
      "logo": "img/bos.png",
-     "score": 13
+     "score": 36
     },
     "home": {
      "abbr": "WAS",
@@ -789,14 +789,14 @@
      "short": "Washington",
      "record": "7-11",
      "logo": "img/was.png",
-     "score": 9
+     "score": 28
     },
     "date_utc": "2026-11-25T01:00Z",
     "date_az": "2026-11-24",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 6:57",
+    "state_text": "In progress, q2 11:07",
     "overtime": false,
     "winner": null,
     "kind": "none",
