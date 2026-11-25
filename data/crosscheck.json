@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T16:56:14-07:00",
- "as_of_display": "Tue Nov 24, 2026, 4:56 PM AZ",
+ "as_of": "2026-11-24T17:14:18-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 5:14 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,7 +8,16 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718181",
+   "away": "DET",
+   "home": "ORL",
+   "away_score": 4,
+   "home_score": 0,
+   "detail": "Q1 9:51"
+  }
+ ],
  "teams": [
   {
    "team": "SAS",
@@ -325,7 +334,7 @@
     "wins": 10,
     "losses": 6
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -373,7 +382,7 @@
     "wins": 7,
     "losses": 9
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
