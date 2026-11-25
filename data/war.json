@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-24T21:22:58-07:00",
- "as_of_display": "Tue Nov 24, 2026, 9:22 PM AZ",
+ "as_of": "2026-11-24T21:44:12-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 9:44 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Monday, Nov 23, 2026",
   "weekday": "Monday"
  },
- "raw_folder": "data/raw/20261124-2122",
+ "raw_folder": "data/raw/20261124-2144",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -699,7 +699,7 @@
      "short": "Dallas",
      "record": "10-7",
      "logo": "img/dal.png",
-     "score": 58
+     "score": 74
     },
     "home": {
      "abbr": "DEN",
@@ -707,14 +707,14 @@
      "short": "Denver",
      "record": "10-5",
      "logo": "img/den.png",
-     "score": 39
+     "score": 70
     },
     "date_utc": "2026-11-25T03:00Z",
     "date_az": "2026-11-24",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, half",
+    "state_text": "In progress, q3 3:55",
     "overtime": false,
     "winner": null,
     "kind": "stake",
