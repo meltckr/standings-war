@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T22:26:25-07:00",
- "as_of_display": "Tue Nov 24, 2026, 10:26 PM AZ",
+ "as_of": "2026-11-24T22:47:39-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 10:47 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,16 +8,7 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718183",
-   "away": "DAL",
-   "home": "DEN",
-   "away_score": 112,
-   "home_score": 96,
-   "detail": "Q4 3:04"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
    "team": "SAS",
@@ -100,24 +91,8 @@
    }
   },
   {
-   "team": "DEN",
-   "seed": 6,
-   "bdl": {
-    "wins": 10,
-    "losses": 5
-   },
-   "bdl_game_results": {
-    "wins": 10,
-    "losses": 5
-   },
-   "game_in_progress": true,
-   "match": {
-    "bdl_game_results": true
-   }
-  },
-  {
    "team": "POR",
-   "seed": 7,
+   "seed": 6,
    "bdl": {
     "wins": 11,
     "losses": 6
@@ -132,17 +107,33 @@
    }
   },
   {
-   "team": "DAL",
-   "seed": 8,
+   "team": "DEN",
+   "seed": 7,
    "bdl": {
     "wins": 10,
-    "losses": 7
+    "losses": 6
    },
    "bdl_game_results": {
     "wins": 10,
+    "losses": 6
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "DAL",
+   "seed": 8,
+   "bdl": {
+    "wins": 11,
     "losses": 7
    },
-   "game_in_progress": true,
+   "bdl_game_results": {
+    "wins": 11,
+    "losses": 7
+   },
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -514,6 +505,34 @@
    "score": "131-116",
    "seed_bdl": 4,
    "seed_used": 2
+  },
+  {
+   "team": "DAL",
+   "conference": "West",
+   "bdl_standings": "10-7",
+   "game_results": "11-7",
+   "game_id": "21718183",
+   "date_az": "2026-11-24",
+   "opp": "DEN",
+   "home_away": "road",
+   "result": "W",
+   "score": "120-101",
+   "seed_bdl": 8,
+   "seed_used": 8
+  },
+  {
+   "team": "DEN",
+   "conference": "West",
+   "bdl_standings": "10-5",
+   "game_results": "10-6",
+   "game_id": "21718183",
+   "date_az": "2026-11-24",
+   "opp": "DAL",
+   "home_away": "home",
+   "result": "L",
+   "score": "101-120",
+   "seed_bdl": 6,
+   "seed_used": 7
   },
   {
    "team": "WAS",
