@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T20:19:06-07:00",
- "as_of_display": "Tue Nov 24, 2026, 8:19 PM AZ",
+ "as_of": "2026-11-24T20:40:20-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 8:40 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,20 +10,12 @@
  },
  "games_in_progress": [
   {
-   "id": "21718182",
-   "away": "BOS",
-   "home": "WAS",
-   "away_score": 116,
-   "home_score": 104,
-   "detail": "Q4 5:53"
-  },
-  {
    "id": "21718183",
    "away": "DAL",
    "home": "DEN",
-   "away_score": 3,
-   "home_score": 5,
-   "detail": "Q1 8:07"
+   "away_score": 24,
+   "home_score": 17,
+   "detail": "END Q1"
   }
  ],
  "teams": [
@@ -284,14 +276,14 @@
    }
   },
   {
-   "team": "ATL",
+   "team": "BOS",
    "seed": 2,
    "bdl": {
-    "wins": 11,
+    "wins": 12,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 11,
+    "wins": 12,
     "losses": 6
    },
    "game_in_progress": false,
@@ -300,7 +292,7 @@
    }
   },
   {
-   "team": "DET",
+   "team": "ATL",
    "seed": 3,
    "bdl": {
     "wins": 11,
@@ -316,7 +308,7 @@
    }
   },
   {
-   "team": "BOS",
+   "team": "DET",
    "seed": 4,
    "bdl": {
     "wins": 11,
@@ -326,7 +318,7 @@
     "wins": 11,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -400,13 +392,13 @@
    "seed": 9,
    "bdl": {
     "wins": 7,
-    "losses": 11
+    "losses": 12
    },
    "bdl_game_results": {
     "wins": 7,
-    "losses": 11
+    "losses": 12
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -508,7 +500,36 @@
    }
   }
  ],
- "reconciled": [],
+ "reconciled": [
+  {
+   "team": "BOS",
+   "conference": "East",
+   "bdl_standings": "11-6",
+   "game_results": "12-6",
+   "game_id": "21718182",
+   "date_az": "2026-11-24",
+   "opp": "WAS",
+   "home_away": "road",
+   "result": "W",
+   "score": "131-116",
+   "seed_bdl": 4,
+   "seed_used": 2
+  },
+  {
+   "team": "WAS",
+   "conference": "East",
+   "bdl_standings": "7-11",
+   "game_results": "7-12",
+   "game_id": "21718182",
+   "date_az": "2026-11-24",
+   "opp": "BOS",
+   "home_away": "home",
+   "result": "L",
+   "score": "116-131",
+   "seed_bdl": 9,
+   "seed_used": 9
+  }
+ ],
  "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",

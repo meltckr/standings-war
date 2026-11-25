@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T20:19:06-07:00",
- "as_of_display": "Tue Nov 24, 2026, 8:19 PM AZ",
+ "as_of": "2026-11-24T20:40:20-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 8:40 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,20 +8,12 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718182",
-   "away": "BOS",
-   "home": "WAS",
-   "away_score": 116,
-   "home_score": 104,
-   "detail": "Q4 5:53"
-  },
-  {
    "id": "21718183",
    "away": "DAL",
    "home": "DEN",
-   "away_score": 3,
-   "home_score": 5,
-   "detail": "Q1 8:07"
+   "away_score": 24,
+   "home_score": 17,
+   "detail": "END Q1"
   }
  ],
  "teams": [
@@ -460,7 +452,7 @@
    "nickname": "Nuggets"
   },
   "BOS": {
-   "wins": 11,
+   "wins": 12,
    "losses": 6,
    "conference": "East",
    "bdl_id": 2,
@@ -560,7 +552,7 @@
   },
   "WAS": {
    "wins": 7,
-   "losses": 11,
+   "losses": 12,
    "conference": "East",
    "bdl_id": 30,
    "name": "Washington Wizards",
