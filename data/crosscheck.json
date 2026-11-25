@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T20:00:58-07:00",
- "as_of_display": "Tue Nov 24, 2026, 8:00 PM AZ",
+ "as_of": "2026-11-24T20:19:06-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 8:19 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,9 +13,17 @@
    "id": "21718182",
    "away": "BOS",
    "home": "WAS",
-   "away_score": 104,
-   "home_score": 89,
-   "detail": "Q4 12:00"
+   "away_score": 116,
+   "home_score": 104,
+   "detail": "Q4 5:53"
+  },
+  {
+   "id": "21718183",
+   "away": "DAL",
+   "home": "DEN",
+   "away_score": 3,
+   "home_score": 5,
+   "detail": "Q1 8:07"
   }
  ],
  "teams": [
@@ -110,7 +118,7 @@
     "wins": 10,
     "losses": 5
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -142,7 +150,7 @@
     "wins": 10,
     "losses": 7
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
