@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-24T21:44:12-07:00",
- "as_of_display": "Tue Nov 24, 2026, 9:44 PM AZ",
+ "as_of": "2026-11-24T22:05:30-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 10:05 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,9 +11,9 @@
    "id": "21718183",
    "away": "DAL",
    "home": "DEN",
-   "away_score": 74,
-   "home_score": 70,
-   "detail": "Q3 3:55"
+   "away_score": 93,
+   "home_score": 79,
+   "detail": "Q4 9:25"
   }
  ],
  "teams": [
