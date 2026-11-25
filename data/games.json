@@ -1,14 +1,14 @@
 {
- "as_of": "2026-11-24T19:02:10-07:00",
- "as_of_display": "Tue Nov 24, 2026, 7:02 PM AZ",
+ "as_of": "2026-11-24T20:00:58-07:00",
+ "as_of_display": "Tue Nov 24, 2026, 8:00 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
  "counts": {
   "total": 1200,
-  "final": 258,
-  "in_progress": 2,
-  "remaining": 942
+  "final": 259,
+  "in_progress": 1,
+  "remaining": 941
  },
  "unscheduled_by_team": {
   "SAS": 2,
@@ -5195,18 +5195,18 @@
    "tip_az": "5:00 PM AZ",
    "home": "ORL",
    "away": "DET",
-   "home_score": 71,
-   "away_score": 86,
-   "status": "in_progress",
-   "winner": null,
+   "home_score": 86,
+   "away_score": 104,
+   "status": "final",
+   "winner": "DET",
    "note": "East Group A",
    "venue": null,
    "time_valid": true,
    "overtime": false,
    "period": 4,
-   "clock": "Q4 7:31",
-   "bdl_status": "4th Qtr",
-   "bdl_status_state": "in_progress"
+   "clock": "Final",
+   "bdl_status": "Final",
+   "bdl_status_state": "final"
   },
   {
    "id": "21718182",
@@ -5215,17 +5215,17 @@
    "tip_az": "6:00 PM AZ",
    "home": "WAS",
    "away": "BOS",
-   "home_score": 36,
-   "away_score": 59,
+   "home_score": 89,
+   "away_score": 104,
    "status": "in_progress",
    "winner": null,
    "note": "East Group C",
    "venue": null,
    "time_valid": true,
    "overtime": false,
-   "period": 2,
-   "clock": "Q2 4:30",
-   "bdl_status": "2nd Qtr",
+   "period": 4,
+   "clock": "Q4 12:00",
+   "bdl_status": "4th Qtr",
    "bdl_status_state": "in_progress"
   },
   {
