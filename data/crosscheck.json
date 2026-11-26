@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T23:21:43-07:00",
- "as_of_display": "Wed Nov 25, 2026, 11:21 PM AZ",
+ "as_of": "2026-11-26T01:30:05-07:00",
+ "as_of_display": "Thu Nov 26, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -491,64 +491,7 @@
    }
   }
  ],
- "reconciled": [
-  {
-   "team": "GSW",
-   "conference": "West",
-   "bdl_standings": "9-8",
-   "game_results": "10-8",
-   "game_id": "21718191",
-   "date_az": "2026-11-25",
-   "opp": "SAC",
-   "home_away": "home",
-   "result": "W",
-   "score": "129-110",
-   "seed_bdl": 10,
-   "seed_used": 9
-  },
-  {
-   "team": "POR",
-   "conference": "West",
-   "bdl_standings": "11-6",
-   "game_results": "12-6",
-   "game_id": "21718192",
-   "date_az": "2026-11-25",
-   "opp": "SAS",
-   "home_away": "home",
-   "result": "W",
-   "score": "116-111",
-   "seed_bdl": 6,
-   "seed_used": 6
-  },
-  {
-   "team": "SAC",
-   "conference": "West",
-   "bdl_standings": "2-15",
-   "game_results": "2-16",
-   "game_id": "21718191",
-   "date_az": "2026-11-25",
-   "opp": "GSW",
-   "home_away": "road",
-   "result": "L",
-   "score": "110-129",
-   "seed_bdl": 15,
-   "seed_used": 15
-  },
-  {
-   "team": "SAS",
-   "conference": "West",
-   "bdl_standings": "15-3",
-   "game_results": "15-4",
-   "game_id": "21718192",
-   "date_az": "2026-11-25",
-   "opp": "POR",
-   "home_away": "road",
-   "result": "L",
-   "score": "111-116",
-   "seed_bdl": 1,
-   "seed_used": 2
-  }
- ],
+ "reconciled": [],
  "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",

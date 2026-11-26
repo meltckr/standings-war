@@ -1,22 +1,22 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T23:21:43-07:00",
- "as_of_display": "Wed Nov 25, 2026, 11:21 PM AZ",
+ "as_of": "2026-11-26T01:30:05-07:00",
+ "as_of_display": "Thu Nov 26, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
+  "date": "2026-11-26",
+  "short": "Thu Nov 26",
+  "long": "Thursday, Nov 26, 2026",
+  "weekday": "Thursday"
+ },
+ "yesterday": {
   "date": "2026-11-25",
   "short": "Wed Nov 25",
   "long": "Wednesday, Nov 25, 2026",
   "weekday": "Wednesday"
  },
- "yesterday": {
-  "date": "2026-11-24",
-  "short": "Tue Nov 24",
-  "long": "Tuesday, Nov 24, 2026",
-  "weekday": "Tuesday"
- },
- "raw_folder": "data/raw/20261125-2321",
+ "raw_folder": "data/raw/20261126-0130",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -688,46 +688,89 @@
   }
  },
  "tonight": {
-  "summary": "9 games tonight across the league. 5 have a Suns stake besides Phoenix's own game. All tip times are Eastern time (ET).",
+  "summary": "No NBA games are on the schedule tonight.",
+  "games": []
+ },
+ "last_night": {
+  "summary": "9 finals across the league. 2 helped Phoenix, 4 hurt and 3 had no stake. Each mark uses the standings as they stood before the game.",
   "games": [
    {
-    "id": "21718190",
-    "matchup": "Phoenix at Houston",
+    "id": "21718184",
+    "matchup": "Miami at Philadelphia",
     "away": {
-     "abbr": "PHX",
-     "name": "Phoenix Suns",
-     "short": "Phoenix",
-     "record": "9-8",
-     "logo": "img/phx.png",
+     "abbr": "MIA",
+     "name": "Miami Heat",
+     "short": "Miami",
+     "record": "10-7",
+     "logo": "img/mia.png",
      "score": 104
     },
     "home": {
-     "abbr": "HOU",
-     "name": "Houston Rockets",
-     "short": "Houston",
-     "record": "14-5",
-     "logo": "img/hou.png",
-     "score": 116
+     "abbr": "PHI",
+     "name": "Philadelphia 76ers",
+     "short": "Philadelphia",
+     "record": "15-4",
+     "logo": "img/phi.png",
+     "score": 111
     },
-    "date_utc": "2026-11-26T01:30Z",
+    "date_utc": "2026-11-25T22:00Z",
     "date_az": "2026-11-25",
-    "tip_az": "6:30 PM AZ",
+    "tip_az": "3:00 PM AZ",
     "time_valid": true,
     "status": "final",
     "state_text": "Final",
     "overtime": false,
-    "winner": "HOU",
-    "kind": "suns",
-    "answer": "Suns win",
-    "root": "PHX",
+    "winner": "PHI",
+    "kind": "none",
+    "answer": "No stake",
+    "root": null,
     "target": null,
     "goals": [],
     "tags": [],
-    "why": "",
+    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
     "conflict": false,
-    "verdict": "Hurt",
-    "verdict_note": "Suns lost",
-    "verdict_tag": "Suns lost"
+    "verdict": "No stake",
+    "verdict_note": "Two East teams",
+    "verdict_tag": "Two East teams"
+   },
+   {
+    "id": "21718185",
+    "matchup": "Chicago at Charlotte",
+    "away": {
+     "abbr": "CHI",
+     "name": "Chicago Bulls",
+     "short": "Chicago",
+     "record": "6-12",
+     "logo": "img/chi.png",
+     "score": 107
+    },
+    "home": {
+     "abbr": "CHA",
+     "name": "Charlotte Hornets",
+     "short": "Charlotte",
+     "record": "4-13",
+     "logo": "img/cha.png",
+     "score": 105
+    },
+    "date_utc": "2026-11-26T00:00Z",
+    "date_az": "2026-11-25",
+    "tip_az": "5:00 PM AZ",
+    "time_valid": true,
+    "status": "final",
+    "state_text": "Final",
+    "overtime": false,
+    "winner": "CHI",
+    "kind": "none",
+    "answer": "No stake",
+    "root": null,
+    "target": null,
+    "goals": [],
+    "tags": [],
+    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
+    "conflict": false,
+    "verdict": "No stake",
+    "verdict_note": "Two East teams",
+    "verdict_tag": "Two East teams"
    },
    {
     "id": "21718186",
@@ -859,6 +902,84 @@
     "verdict_tag": "Seeding: Memphis won"
    },
    {
+    "id": "21718189",
+    "matchup": "Brooklyn at Milwaukee",
+    "away": {
+     "abbr": "BKN",
+     "name": "Brooklyn Nets",
+     "short": "Brooklyn",
+     "record": "4-13",
+     "logo": "img/bkn.png",
+     "score": 104
+    },
+    "home": {
+     "abbr": "MIL",
+     "name": "Milwaukee Bucks",
+     "short": "Milwaukee",
+     "record": "2-17",
+     "logo": "img/mil.png",
+     "score": 97
+    },
+    "date_utc": "2026-11-26T01:00Z",
+    "date_az": "2026-11-25",
+    "tip_az": "6:00 PM AZ",
+    "time_valid": true,
+    "status": "final",
+    "state_text": "Final",
+    "overtime": false,
+    "winner": "BKN",
+    "kind": "none",
+    "answer": "No stake",
+    "root": null,
+    "target": null,
+    "goals": [],
+    "tags": [],
+    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
+    "conflict": false,
+    "verdict": "No stake",
+    "verdict_note": "Two East teams",
+    "verdict_tag": "Two East teams"
+   },
+   {
+    "id": "21718190",
+    "matchup": "Phoenix at Houston",
+    "away": {
+     "abbr": "PHX",
+     "name": "Phoenix Suns",
+     "short": "Phoenix",
+     "record": "9-8",
+     "logo": "img/phx.png",
+     "score": 104
+    },
+    "home": {
+     "abbr": "HOU",
+     "name": "Houston Rockets",
+     "short": "Houston",
+     "record": "14-5",
+     "logo": "img/hou.png",
+     "score": 116
+    },
+    "date_utc": "2026-11-26T01:30Z",
+    "date_az": "2026-11-25",
+    "tip_az": "6:30 PM AZ",
+    "time_valid": true,
+    "status": "final",
+    "state_text": "Final",
+    "overtime": false,
+    "winner": "HOU",
+    "kind": "suns",
+    "answer": "Suns win",
+    "root": "PHX",
+    "target": null,
+    "goals": [],
+    "tags": [],
+    "why": "",
+    "conflict": false,
+    "verdict": "Hurt",
+    "verdict_note": "Suns lost",
+    "verdict_tag": "Suns lost"
+   },
+   {
     "id": "21718191",
     "matchup": "Sacramento at Golden State",
     "away": {
@@ -943,255 +1064,12 @@
     "verdict": "Hurt",
     "verdict_note": "Portland won",
     "verdict_tag": "Seeding: Portland won"
-   },
-   {
-    "id": "21718184",
-    "matchup": "Miami at Philadelphia",
-    "away": {
-     "abbr": "MIA",
-     "name": "Miami Heat",
-     "short": "Miami",
-     "record": "10-7",
-     "logo": "img/mia.png",
-     "score": 104
-    },
-    "home": {
-     "abbr": "PHI",
-     "name": "Philadelphia 76ers",
-     "short": "Philadelphia",
-     "record": "15-4",
-     "logo": "img/phi.png",
-     "score": 111
-    },
-    "date_utc": "2026-11-25T22:00Z",
-    "date_az": "2026-11-25",
-    "tip_az": "3:00 PM AZ",
-    "time_valid": true,
-    "status": "final",
-    "state_text": "Final",
-    "overtime": false,
-    "winner": "PHI",
-    "kind": "none",
-    "answer": "No stake",
-    "root": null,
-    "target": null,
-    "goals": [],
-    "tags": [],
-    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
-    "conflict": false,
-    "verdict": "No stake",
-    "verdict_note": "Two East teams",
-    "verdict_tag": "Two East teams"
-   },
-   {
-    "id": "21718185",
-    "matchup": "Chicago at Charlotte",
-    "away": {
-     "abbr": "CHI",
-     "name": "Chicago Bulls",
-     "short": "Chicago",
-     "record": "6-12",
-     "logo": "img/chi.png",
-     "score": 107
-    },
-    "home": {
-     "abbr": "CHA",
-     "name": "Charlotte Hornets",
-     "short": "Charlotte",
-     "record": "4-13",
-     "logo": "img/cha.png",
-     "score": 105
-    },
-    "date_utc": "2026-11-26T00:00Z",
-    "date_az": "2026-11-25",
-    "tip_az": "5:00 PM AZ",
-    "time_valid": true,
-    "status": "final",
-    "state_text": "Final",
-    "overtime": false,
-    "winner": "CHI",
-    "kind": "none",
-    "answer": "No stake",
-    "root": null,
-    "target": null,
-    "goals": [],
-    "tags": [],
-    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
-    "conflict": false,
-    "verdict": "No stake",
-    "verdict_note": "Two East teams",
-    "verdict_tag": "Two East teams"
-   },
-   {
-    "id": "21718189",
-    "matchup": "Brooklyn at Milwaukee",
-    "away": {
-     "abbr": "BKN",
-     "name": "Brooklyn Nets",
-     "short": "Brooklyn",
-     "record": "4-13",
-     "logo": "img/bkn.png",
-     "score": 104
-    },
-    "home": {
-     "abbr": "MIL",
-     "name": "Milwaukee Bucks",
-     "short": "Milwaukee",
-     "record": "2-17",
-     "logo": "img/mil.png",
-     "score": 97
-    },
-    "date_utc": "2026-11-26T01:00Z",
-    "date_az": "2026-11-25",
-    "tip_az": "6:00 PM AZ",
-    "time_valid": true,
-    "status": "final",
-    "state_text": "Final",
-    "overtime": false,
-    "winner": "BKN",
-    "kind": "none",
-    "answer": "No stake",
-    "root": null,
-    "target": null,
-    "goals": [],
-    "tags": [],
-    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
-    "conflict": false,
-    "verdict": "No stake",
-    "verdict_note": "Two East teams",
-    "verdict_tag": "Two East teams"
-   }
-  ]
- },
- "last_night": {
-  "summary": "3 finals across the league. 0 helped Phoenix, 1 hurt and 2 had no stake. Each mark uses the standings as they stood before the game.",
-  "games": [
-   {
-    "id": "21718181",
-    "matchup": "Detroit at Orlando",
-    "away": {
-     "abbr": "DET",
-     "name": "Detroit Pistons",
-     "short": "Detroit",
-     "record": "11-6",
-     "logo": "img/det.png",
-     "score": 104
-    },
-    "home": {
-     "abbr": "ORL",
-     "name": "Orlando Magic",
-     "short": "Orlando",
-     "record": "7-10",
-     "logo": "img/orl.png",
-     "score": 86
-    },
-    "date_utc": "2026-11-25T00:00Z",
-    "date_az": "2026-11-24",
-    "tip_az": "5:00 PM AZ",
-    "time_valid": true,
-    "status": "final",
-    "state_text": "Final",
-    "overtime": false,
-    "winner": "DET",
-    "kind": "none",
-    "answer": "No stake",
-    "root": null,
-    "target": null,
-    "goals": [],
-    "tags": [],
-    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
-    "conflict": false,
-    "verdict": "No stake",
-    "verdict_note": "Two East teams",
-    "verdict_tag": "Two East teams"
-   },
-   {
-    "id": "21718182",
-    "matchup": "Boston at Washington",
-    "away": {
-     "abbr": "BOS",
-     "name": "Boston Celtics",
-     "short": "Boston",
-     "record": "12-6",
-     "logo": "img/bos.png",
-     "score": 131
-    },
-    "home": {
-     "abbr": "WAS",
-     "name": "Washington Wizards",
-     "short": "Washington",
-     "record": "7-12",
-     "logo": "img/was.png",
-     "score": 116
-    },
-    "date_utc": "2026-11-25T01:00Z",
-    "date_az": "2026-11-24",
-    "tip_az": "6:00 PM AZ",
-    "time_valid": true,
-    "status": "final",
-    "state_text": "Final",
-    "overtime": false,
-    "winner": "BOS",
-    "kind": "none",
-    "answer": "No stake",
-    "root": null,
-    "target": null,
-    "goals": [],
-    "tags": [],
-    "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
-    "conflict": false,
-    "verdict": "No stake",
-    "verdict_note": "Two East teams",
-    "verdict_tag": "Two East teams"
-   },
-   {
-    "id": "21718183",
-    "matchup": "Dallas at Denver",
-    "away": {
-     "abbr": "DAL",
-     "name": "Dallas Mavericks",
-     "short": "Dallas",
-     "record": "11-7",
-     "logo": "img/dal.png",
-     "score": 120
-    },
-    "home": {
-     "abbr": "DEN",
-     "name": "Denver Nuggets",
-     "short": "Denver",
-     "record": "10-6",
-     "logo": "img/den.png",
-     "score": 101
-    },
-    "date_utc": "2026-11-25T03:00Z",
-    "date_az": "2026-11-24",
-    "tip_az": "8:00 PM AZ",
-    "time_valid": true,
-    "status": "final",
-    "state_text": "Final",
-    "overtime": false,
-    "winner": "DAL",
-    "kind": "stake",
-    "answer": "Root for Denver",
-    "root": "DEN",
-    "target": "DAL",
-    "goals": [
-     "seeding"
-    ],
-    "tags": [
-     "Helps Suns seeding"
-    ],
-    "why": "Dallas was closer to Phoenix than Denver, so a Dallas loss helped more.",
-    "conflict": false,
-    "verdict": "Hurt",
-    "verdict_note": "Dallas won",
-    "verdict_tag": "Seeding: Dallas won"
    }
   ],
   "tally": {
-   "Helped": 0,
-   "Hurt": 1,
-   "No stake": 2
+   "Helped": 2,
+   "Hurt": 4,
+   "No stake": 3
   }
  },
  "pick": {
@@ -1777,8 +1655,8 @@
  "sources": {
   "standings_url": "https://api.balldontlie.io/v1/standings?season=2026",
   "scoreboard_urls": [
-   "https://api.balldontlie.io/v1/games?dates[]=2026-11-25",
-   "https://api.balldontlie.io/v1/games?dates[]=2026-11-24"
+   "https://api.balldontlie.io/v1/games?dates[]=2026-11-26",
+   "https://api.balldontlie.io/v1/games?dates[]=2026-11-25"
   ],
   "seeding_rule": "A West team is near Phoenix when it is within 4 games of the Suns in the standings, ahead or behind. The Suns gain when a near team loses. When a near team plays an East team, or a West team outside that range, the page roots against the near team. When two near teams play each other, it roots for the one further from Phoenix, so the closer team takes the loss. If they are equally far, it roots for the team higher in the standings. Head-to-head tiebreakers with the Suns are left out. A game with no near West team has no seeding stake.",
   "pick_rule": "Phoenix gets the least favorable of the picks that would convey: Cleveland's, Minnesota's, and Utah's only when Utah sits outside the top 5 of the draft order by record, because Utah's pick is top-5 protected. Every Cleveland and Minnesota game carries the 2027 pick tag, because their records decide which pick Phoenix gets and where it falls. A Utah game carries the tag when Utah's pick is the one Phoenix would get, or when the result would change which pick Phoenix gets. When two of the three teams play each other, the tag follows the one whose pick conveys with the better record. When seeding and the pick point to different teams, seeding wins if the West team involved is within 2 games of Phoenix. Otherwise the pick wins.",
@@ -1875,13 +1753,13 @@
   },
   "GSW": {
    "last": {
-    "id": "21718170",
-    "date_az": "2026-11-22",
-    "opp": "BOS",
+    "id": "21718191",
+    "date_az": "2026-11-25",
+    "opp": "SAC",
     "home_away": "home",
     "result": "W",
-    "score_for": 88,
-    "score_against": 87
+    "score_for": 129,
+    "score_against": 110
    },
    "next": {
     "id": "21718203",
@@ -1896,13 +1774,13 @@
   },
   "CHI": {
    "last": {
-    "id": "21718176",
-    "date_az": "2026-11-23",
-    "opp": "CLE",
-    "home_away": "home",
+    "id": "21718185",
+    "date_az": "2026-11-25",
+    "opp": "CHA",
+    "home_away": "road",
     "result": "W",
-    "score_for": 122,
-    "score_against": 108
+    "score_for": 107,
+    "score_against": 105
    },
    "next": {
     "id": "21718206",
@@ -1917,13 +1795,13 @@
   },
   "BKN": {
    "last": {
-    "id": "21718175",
-    "date_az": "2026-11-23",
-    "opp": "MIN",
+    "id": "21718189",
+    "date_az": "2026-11-25",
+    "opp": "MIL",
     "home_away": "road",
-    "result": "L",
-    "score_for": 116,
-    "score_against": 142
+    "result": "W",
+    "score_for": 104,
+    "score_against": 97
    },
    "next": {
     "id": "21718196",
@@ -1938,9 +1816,9 @@
   },
   "HOU": {
    "last": {
-    "id": "21718178",
-    "date_az": "2026-11-23",
-    "opp": "LAC",
+    "id": "21718190",
+    "date_az": "2026-11-25",
+    "opp": "PHX",
     "home_away": "home",
     "result": "W",
     "score_for": 116,
@@ -1980,13 +1858,13 @@
   },
   "CHA": {
    "last": {
-    "id": "21718171",
-    "date_az": "2026-11-23",
-    "opp": "MEM",
+    "id": "21718185",
+    "date_az": "2026-11-25",
+    "opp": "CHI",
     "home_away": "home",
     "result": "L",
-    "score_for": 111,
-    "score_against": 117
+    "score_for": 105,
+    "score_against": 107
    },
    "next": {
     "id": "21718205",
@@ -2001,13 +1879,13 @@
   },
   "LAC": {
    "last": {
-    "id": "21718178",
-    "date_az": "2026-11-23",
-    "opp": "HOU",
+    "id": "21718188",
+    "date_az": "2026-11-25",
+    "opp": "MEM",
     "home_away": "road",
     "result": "L",
-    "score_for": 104,
-    "score_against": 116
+    "score_for": 97,
+    "score_against": 115
    },
    "next": {
     "id": "21718202",
@@ -2022,13 +1900,13 @@
   },
   "CLE": {
    "last": {
-    "id": "21718176",
-    "date_az": "2026-11-23",
-    "opp": "CHI",
+    "id": "21718186",
+    "date_az": "2026-11-25",
+    "opp": "NYK",
     "home_away": "road",
     "result": "L",
-    "score_for": 108,
-    "score_against": 122
+    "score_for": 102,
+    "score_against": 121
    },
    "next": {
     "id": "21718212",
@@ -2064,13 +1942,13 @@
   },
   "MEM": {
    "last": {
-    "id": "21718171",
-    "date_az": "2026-11-23",
-    "opp": "CHA",
-    "home_away": "road",
+    "id": "21718188",
+    "date_az": "2026-11-25",
+    "opp": "LAC",
+    "home_away": "home",
     "result": "W",
-    "score_for": 117,
-    "score_against": 111
+    "score_for": 115,
+    "score_against": 97
    },
    "next": {
     "id": "21718198",
@@ -2106,13 +1984,13 @@
   },
   "SAS": {
    "last": {
-    "id": "21718180",
-    "date_az": "2026-11-23",
-    "opp": "SAC",
+    "id": "21718192",
+    "date_az": "2026-11-25",
+    "opp": "POR",
     "home_away": "road",
-    "result": "W",
-    "score_for": 123,
-    "score_against": 107
+    "result": "L",
+    "score_for": 111,
+    "score_against": 116
    },
    "next": {
     "id": "21718200",
@@ -2148,13 +2026,13 @@
   },
   "NYK": {
    "last": {
-    "id": "21718169",
-    "date_az": "2026-11-22",
-    "opp": "IND",
+    "id": "21718186",
+    "date_az": "2026-11-25",
+    "opp": "CLE",
     "home_away": "home",
     "result": "W",
-    "score_for": 113,
-    "score_against": 106
+    "score_for": 121,
+    "score_against": 102
    },
    "next": {
     "id": "21718193",
@@ -2169,13 +2047,13 @@
   },
   "MIN": {
    "last": {
-    "id": "21718175",
-    "date_az": "2026-11-23",
-    "opp": "BKN",
-    "home_away": "home",
+    "id": "21718187",
+    "date_az": "2026-11-25",
+    "opp": "OKC",
+    "home_away": "road",
     "result": "W",
-    "score_for": 142,
-    "score_against": 116
+    "score_for": 113,
+    "score_against": 106
    },
    "next": {
     "id": "21718198",
@@ -2190,13 +2068,13 @@
   },
   "MIA": {
    "last": {
-    "id": "21718163",
-    "date_az": "2026-11-22",
-    "opp": "OKC",
-    "home_away": "home",
-    "result": "W",
-    "score_for": 123,
-    "score_against": 113
+    "id": "21718184",
+    "date_az": "2026-11-25",
+    "opp": "PHI",
+    "home_away": "road",
+    "result": "L",
+    "score_for": 104,
+    "score_against": 111
    },
    "next": {
     "id": "21718193",
@@ -2253,13 +2131,13 @@
   },
   "PHX": {
    "last": {
-    "id": "21718177",
-    "date_az": "2026-11-23",
-    "opp": "NOP",
+    "id": "21718190",
+    "date_az": "2026-11-25",
+    "opp": "HOU",
     "home_away": "road",
-    "result": "W",
-    "score_for": 123,
-    "score_against": 119
+    "result": "L",
+    "score_for": 104,
+    "score_against": 116
    },
    "next": {
     "id": "21718199",
@@ -2274,13 +2152,13 @@
   },
   "MIL": {
    "last": {
-    "id": "21718174",
-    "date_az": "2026-11-23",
-    "opp": "TOR",
-    "home_away": "road",
-    "result": "W",
-    "score_for": 116,
-    "score_against": 111
+    "id": "21718189",
+    "date_az": "2026-11-25",
+    "opp": "BKN",
+    "home_away": "home",
+    "result": "L",
+    "score_for": 97,
+    "score_against": 104
    },
    "next": {
     "id": "21718194",
@@ -2316,13 +2194,13 @@
   },
   "SAC": {
    "last": {
-    "id": "21718180",
-    "date_az": "2026-11-23",
-    "opp": "SAS",
-    "home_away": "home",
+    "id": "21718191",
+    "date_az": "2026-11-25",
+    "opp": "GSW",
+    "home_away": "road",
     "result": "L",
-    "score_for": 107,
-    "score_against": 123
+    "score_for": 110,
+    "score_against": 129
    },
    "next": {
     "id": "21718218",
@@ -2337,13 +2215,13 @@
   },
   "PHI": {
    "last": {
-    "id": "21718172",
-    "date_az": "2026-11-23",
-    "opp": "POR",
+    "id": "21718184",
+    "date_az": "2026-11-25",
+    "opp": "MIA",
     "home_away": "home",
-    "result": "L",
+    "result": "W",
     "score_for": 111,
-    "score_against": 128
+    "score_against": 104
    },
    "next": {
     "id": "21718195",
@@ -2358,12 +2236,12 @@
   },
   "POR": {
    "last": {
-    "id": "21718172",
-    "date_az": "2026-11-23",
-    "opp": "PHI",
-    "home_away": "road",
+    "id": "21718192",
+    "date_az": "2026-11-25",
+    "opp": "SAS",
+    "home_away": "home",
     "result": "W",
-    "score_for": 128,
+    "score_for": 116,
     "score_against": 111
    },
    "next": {
@@ -2379,13 +2257,13 @@
   },
   "OKC": {
    "last": {
-    "id": "21718173",
-    "date_az": "2026-11-23",
-    "opp": "IND",
-    "home_away": "road",
+    "id": "21718187",
+    "date_az": "2026-11-25",
+    "opp": "MIN",
+    "home_away": "home",
     "result": "L",
-    "score_for": 120,
-    "score_against": 125
+    "score_for": 106,
+    "score_against": 113
    },
    "next": {
     "id": "21718207",
@@ -2421,11 +2299,11 @@
   }
  },
  "lens": {
-  "tonight": "Phoenix lost to Houston 116-104. The Suns are now 9-8, 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot.",
+  "tonight": "No Suns game tonight. Phoenix is 9-8, 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot.",
   "standing": "Phoenix is 9-8, 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot.",
-  "board": "Five games besides Phoenix's own carried a stake: four for seeding, one for the 2027 pick. Two of the five went Phoenix's way.",
+  "board": "No NBA games are on the schedule tonight, so nothing moves for Phoenix.",
   "week": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
-  "last_night": "No result went Phoenix's way. One hurt: Dallas beat Denver 120-101.",
+  "last_night": "Two results went Phoenix's way. Four hurt, including the Suns' own 116-104 loss to Houston.",
   "standings": "Phoenix is 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
   "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 25th of 30 by record. Cleveland, at 9-10, is 5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
   "schedule": "One game left this week, at home: Dallas Friday."
