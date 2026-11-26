@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T20:41:29-07:00",
- "as_of_display": "Wed Nov 25, 2026, 8:41 PM AZ",
+ "as_of": "2026-11-25T21:02:50-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 9:02 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,25 +13,25 @@
    "id": "21718190",
    "away": "PHX",
    "home": "HOU",
-   "away_score": 89,
-   "home_score": 95,
-   "detail": "Q4 8:48"
+   "away_score": 102,
+   "home_score": 114,
+   "detail": "Q4 :23.8"
   },
   {
    "id": "21718191",
    "away": "SAC",
    "home": "GSW",
-   "away_score": 19,
-   "home_score": 48,
-   "detail": "Q2 11:05"
+   "away_score": 42,
+   "home_score": 64,
+   "detail": "Q2 2:20"
   },
   {
    "id": "21718192",
    "away": "SAS",
    "home": "POR",
-   "away_score": 31,
-   "home_score": 35,
-   "detail": "Q1 :44.7"
+   "away_score": 46,
+   "home_score": 45,
+   "detail": "Q2 7:31"
   }
  ],
  "teams": [
