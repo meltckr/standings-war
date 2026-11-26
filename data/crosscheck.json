@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T22:39:19-07:00",
- "as_of_display": "Wed Nov 25, 2026, 10:39 PM AZ",
+ "as_of": "2026-11-25T23:00:30-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 11:00 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,19 +8,10 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [
-  {
-   "id": "21718192",
-   "away": "SAS",
-   "home": "POR",
-   "away_score": 111,
-   "home_score": 114,
-   "detail": "Q4 :13.4"
-  }
- ],
+ "games_in_progress": [],
  "teams": [
   {
-   "team": "SAS",
+   "team": "LAL",
    "seed": 1,
    "bdl": {
     "wins": 15,
@@ -30,21 +21,21 @@
     "wins": 15,
     "losses": 3
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "LAL",
+   "team": "SAS",
    "seed": 2,
    "bdl": {
     "wins": 15,
-    "losses": 3
+    "losses": 4
    },
    "bdl_game_results": {
     "wins": 15,
-    "losses": 3
+    "losses": 4
    },
    "game_in_progress": false,
    "match": {
@@ -103,14 +94,14 @@
    "team": "POR",
    "seed": 6,
    "bdl": {
-    "wins": 11,
+    "wins": 12,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 11,
+    "wins": 12,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -516,6 +507,20 @@
    "seed_used": 9
   },
   {
+   "team": "POR",
+   "conference": "West",
+   "bdl_standings": "11-6",
+   "game_results": "12-6",
+   "game_id": "21718192",
+   "date_az": "2026-11-25",
+   "opp": "SAS",
+   "home_away": "home",
+   "result": "W",
+   "score": "116-111",
+   "seed_bdl": 6,
+   "seed_used": 6
+  },
+  {
    "team": "SAC",
    "conference": "West",
    "bdl_standings": "2-15",
@@ -528,6 +533,20 @@
    "score": "110-129",
    "seed_bdl": 15,
    "seed_used": 15
+  },
+  {
+   "team": "SAS",
+   "conference": "West",
+   "bdl_standings": "15-3",
+   "game_results": "15-4",
+   "game_id": "21718192",
+   "date_az": "2026-11-25",
+   "opp": "POR",
+   "home_away": "road",
+   "result": "L",
+   "score": "111-116",
+   "seed_bdl": 1,
+   "seed_used": 2
   }
  ],
  "reconciled_tiebreaks": [],

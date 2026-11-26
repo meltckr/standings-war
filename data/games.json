@@ -1,18 +1,18 @@
 {
- "as_of": "2026-11-25T22:39:19-07:00",
- "as_of_display": "Wed Nov 25, 2026, 10:39 PM AZ",
+ "as_of": "2026-11-25T23:00:30-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 11:00 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
  "counts": {
   "total": 1200,
-  "final": 269,
-  "in_progress": 1,
-  "remaining": 931
+  "final": 270,
+  "in_progress": 0,
+  "remaining": 930
  },
  "unscheduled_by_team": {
-  "SAS": 2,
   "LAL": 2,
+  "SAS": 2,
   "MIN": 2,
   "HOU": 2,
   "MEM": 2,
@@ -5415,18 +5415,18 @@
    "tip_az": "8:00 PM AZ",
    "home": "POR",
    "away": "SAS",
-   "home_score": 114,
+   "home_score": 116,
    "away_score": 111,
-   "status": "in_progress",
-   "winner": null,
+   "status": "final",
+   "winner": "POR",
    "note": "West Group C",
    "venue": null,
    "time_valid": true,
    "overtime": false,
    "period": 4,
-   "clock": "Q4 :13.4",
-   "bdl_status": "4th Qtr",
-   "bdl_status_state": "in_progress"
+   "clock": "Final",
+   "bdl_status": "Final",
+   "bdl_status_state": "final"
   },
   {
    "id": "21718193",

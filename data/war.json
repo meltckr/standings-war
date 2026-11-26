@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T22:39:19-07:00",
- "as_of_display": "Wed Nov 25, 2026, 10:39 PM AZ",
+ "as_of": "2026-11-25T23:00:30-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 11:00 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Tuesday, Nov 24, 2026",
   "weekday": "Tuesday"
  },
- "raw_folder": "data/raw/20261125-2239",
+ "raw_folder": "data/raw/20261125-2300",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -215,7 +215,7 @@
    "conference": "West",
    "wins": 15,
    "losses": 3,
-   "seed": 2,
+   "seed": 1,
    "logo_url": null,
    "logo": "img/lal.png",
    "record": "15-3",
@@ -368,13 +368,13 @@
    "plural": false,
    "conference": "West",
    "wins": 15,
-   "losses": 3,
-   "seed": 1,
+   "losses": 4,
+   "seed": 2,
    "logo_url": null,
    "logo": "img/sas.png",
-   "record": "15-3",
-   "pct": 0.8333333333333334,
-   "gap": 5.5,
+   "record": "15-4",
+   "pct": 0.7894736842105263,
+   "gap": 5.0,
    "near": false,
    "color": "#000000"
   },
@@ -631,14 +631,14 @@
    "subject": "Portland",
    "plural": false,
    "conference": "West",
-   "wins": 11,
+   "wins": 12,
    "losses": 6,
    "seed": 6,
    "logo_url": null,
    "logo": "img/por.png",
-   "record": "11-6",
-   "pct": 0.6470588235294118,
-   "gap": 2.0,
+   "record": "12-6",
+   "pct": 0.6666666666666666,
+   "gap": 2.5,
    "near": true,
    "color": "#e03a3e"
   },
@@ -908,7 +908,7 @@
      "abbr": "SAS",
      "name": "San Antonio Spurs",
      "short": "San Antonio",
-     "record": "15-3",
+     "record": "15-4",
      "logo": "img/sas.png",
      "score": 111
     },
@@ -916,18 +916,18 @@
      "abbr": "POR",
      "name": "Portland Trail Blazers",
      "short": "Portland",
-     "record": "11-6",
+     "record": "12-6",
      "logo": "img/por.png",
-     "score": 114
+     "score": 116
     },
     "date_utc": "2026-11-26T03:00Z",
     "date_az": "2026-11-25",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 :13.4",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "POR",
     "kind": "stake",
     "answer": "Root for San Antonio",
     "root": "SAS",
@@ -938,11 +938,11 @@
     "tags": [
      "Helps Suns seeding"
     ],
-    "why": "Portland is 1.5 games ahead of Phoenix.",
+    "why": "Portland was 1.5 games ahead of Phoenix.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "Hurt",
+    "verdict_note": "Portland won",
+    "verdict_tag": "Seeding: Portland won"
    },
    {
     "id": "21718184",
@@ -1619,25 +1619,8 @@
     "note": ""
    },
    {
-    "place": 20,
-    "place_label": "T20",
-    "tied": true,
-    "abbr": "POR",
-    "short": "Portland",
-    "name": "Portland Trail Blazers",
-    "conference": "West",
-    "wins": 11,
-    "losses": 6,
-    "record": "11-6",
-    "pct": 0.6471,
-    "logo": "img/por.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 23,
-    "place_label": "T23",
+    "place": 22,
+    "place_label": "T22",
     "tied": true,
     "abbr": "BOS",
     "short": "Boston",
@@ -1653,8 +1636,8 @@
     "note": ""
    },
    {
-    "place": 23,
-    "place_label": "T23",
+    "place": 22,
+    "place_label": "T22",
     "tied": true,
     "abbr": "NYK",
     "short": "New York",
@@ -1665,6 +1648,23 @@
     "record": "12-6",
     "pct": 0.6667,
     "logo": "img/nyk.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 22,
+    "place_label": "T22",
+    "tied": true,
+    "abbr": "POR",
+    "short": "Portland",
+    "name": "Portland Trail Blazers",
+    "conference": "West",
+    "wins": 12,
+    "losses": 6,
+    "record": "12-6",
+    "pct": 0.6667,
+    "logo": "img/por.png",
     "mark": null,
     "lands": false,
     "note": ""
@@ -1722,8 +1722,8 @@
    },
    {
     "place": 28,
-    "place_label": "28",
-    "tied": false,
+    "place_label": "T28",
+    "tied": true,
     "abbr": "PHI",
     "short": "Philadelphia",
     "name": "Philadelphia 76ers",
@@ -1738,9 +1738,26 @@
     "note": ""
    },
    {
-    "place": 29,
-    "place_label": "T29",
+    "place": 28,
+    "place_label": "T28",
     "tied": true,
+    "abbr": "SAS",
+    "short": "San Antonio",
+    "name": "San Antonio Spurs",
+    "conference": "West",
+    "wins": 15,
+    "losses": 4,
+    "record": "15-4",
+    "pct": 0.7895,
+    "logo": "img/sas.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 30,
+    "place_label": "30",
+    "tied": false,
     "abbr": "LAL",
     "short": "LA Lakers",
     "name": "Los Angeles Lakers",
@@ -1750,23 +1767,6 @@
     "record": "15-3",
     "pct": 0.8333,
     "logo": "img/lal.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 29,
-    "place_label": "T29",
-    "tied": true,
-    "abbr": "SAS",
-    "short": "San Antonio",
-    "name": "San Antonio Spurs",
-    "conference": "West",
-    "wins": 15,
-    "losses": 3,
-    "record": "15-3",
-    "pct": 0.8333,
-    "logo": "img/sas.png",
     "mark": null,
     "lands": false,
     "note": ""
@@ -2122,8 +2122,8 @@
     "home_away": "home",
     "note": "West Group C"
    },
-   "lens": "San Antonio is 5.5 games ahead of Phoenix in the West.",
-   "vs_phx": "5.5 games ahead of Phoenix"
+   "lens": "San Antonio is 5 games ahead of Phoenix in the West.",
+   "vs_phx": "5 games ahead of Phoenix"
   },
   "ORL": {
    "last": {
@@ -2374,8 +2374,8 @@
     "home_away": "home",
     "note": "West Group C"
    },
-   "lens": "Portland is 2 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "2 games ahead of Phoenix"
+   "lens": "Portland is 2.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "2.5 games ahead of Phoenix"
   },
   "OKC": {
    "last": {
@@ -2421,12 +2421,12 @@
   }
  },
  "lens": {
-  "tonight": "Phoenix lost to Houston 116-104. The Suns are now 9-8, 10th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
-  "standing": "Phoenix is 9-8, 10th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
-  "board": "Five games besides Phoenix's own carry a stake: four for seeding, one for the 2027 pick. Final so far: two of the four finished stake games went Phoenix's way.",
+  "tonight": "Phoenix lost to Houston 116-104. The Suns are now 9-8, 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot.",
+  "standing": "Phoenix is 9-8, 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot.",
+  "board": "Five games besides Phoenix's own carried a stake: four for seeding, one for the 2027 pick. Two of the five went Phoenix's way.",
   "week": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
   "last_night": "No result went Phoenix's way. One hurt: Dallas beat Denver 120-101.",
-  "standings": "Phoenix is 10th in the West, 2 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
+  "standings": "Phoenix is 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
   "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 25th of 30 by record. Cleveland, at 9-10, is 5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
   "schedule": "One game left this week, at home: Dallas Friday."
  },
