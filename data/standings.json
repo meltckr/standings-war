@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T17:50:21-07:00",
- "as_of_display": "Wed Nov 25, 2026, 5:50 PM AZ",
+ "as_of": "2026-11-25T18:11:41-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 6:11 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,25 +11,41 @@
    "id": "21718185",
    "away": "CHI",
    "home": "CHA",
-   "away_score": 43,
-   "home_score": 38,
-   "detail": "Q2 5:13"
+   "away_score": 46,
+   "home_score": 48,
+   "detail": "Q3 12:00"
   },
   {
    "id": "21718186",
    "away": "CLE",
    "home": "NYK",
-   "away_score": 8,
-   "home_score": 5,
-   "detail": "Q1 8:23"
+   "away_score": 34,
+   "home_score": 23,
+   "detail": "END Q1"
   },
   {
    "id": "21718187",
    "away": "MIN",
    "home": "OKC",
-   "away_score": 10,
-   "home_score": 6,
-   "detail": "Q1 7:12"
+   "away_score": 26,
+   "home_score": 16,
+   "detail": "Q2 12:00"
+  },
+  {
+   "id": "21718188",
+   "away": "LAC",
+   "home": "MEM",
+   "away_score": 2,
+   "home_score": 3,
+   "detail": "Q1 11:24"
+  },
+  {
+   "id": "21718189",
+   "away": "BKN",
+   "home": "MIL",
+   "away_score": 0,
+   "home_score": 0,
+   "detail": "Q1 11:46"
   }
  ],
  "teams": [
@@ -166,7 +182,7 @@
    "conf_losses": 4,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "POR",
@@ -382,7 +398,7 @@
    "conf_losses": 10,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "UTA",
