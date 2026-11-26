@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T22:18:06-07:00",
- "as_of_display": "Wed Nov 25, 2026, 10:18 PM AZ",
+ "as_of": "2026-11-25T22:39:19-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 10:39 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,20 +10,12 @@
  },
  "games_in_progress": [
   {
-   "id": "21718191",
-   "away": "SAC",
-   "home": "GSW",
-   "away_score": 97,
-   "home_score": 116,
-   "detail": "Q4 3:05"
-  },
-  {
    "id": "21718192",
    "away": "SAS",
    "home": "POR",
-   "away_score": 100,
-   "home_score": 101,
-   "detail": "Q4 5:34"
+   "away_score": 111,
+   "home_score": 114,
+   "detail": "Q4 :13.4"
   }
  ],
  "teams": [
@@ -156,14 +148,14 @@
    }
   },
   {
-   "team": "PHX",
+   "team": "GSW",
    "seed": 9,
    "bdl": {
-    "wins": 9,
+    "wins": 10,
     "losses": 8
    },
    "bdl_game_results": {
-    "wins": 9,
+    "wins": 10,
     "losses": 8
    },
    "game_in_progress": false,
@@ -172,7 +164,7 @@
    }
   },
   {
-   "team": "GSW",
+   "team": "PHX",
    "seed": 10,
    "bdl": {
     "wins": 9,
@@ -182,7 +174,7 @@
     "wins": 9,
     "losses": 8
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -256,13 +248,13 @@
    "seed": 15,
    "bdl": {
     "wins": 2,
-    "losses": 15
+    "losses": 16
    },
    "bdl_game_results": {
     "wins": 2,
-    "losses": 15
+    "losses": 16
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -508,7 +500,36 @@
    }
   }
  ],
- "reconciled": [],
+ "reconciled": [
+  {
+   "team": "GSW",
+   "conference": "West",
+   "bdl_standings": "9-8",
+   "game_results": "10-8",
+   "game_id": "21718191",
+   "date_az": "2026-11-25",
+   "opp": "SAC",
+   "home_away": "home",
+   "result": "W",
+   "score": "129-110",
+   "seed_bdl": 10,
+   "seed_used": 9
+  },
+  {
+   "team": "SAC",
+   "conference": "West",
+   "bdl_standings": "2-15",
+   "game_results": "2-16",
+   "game_id": "21718191",
+   "date_az": "2026-11-25",
+   "opp": "GSW",
+   "home_away": "road",
+   "result": "L",
+   "score": "110-129",
+   "seed_bdl": 15,
+   "seed_used": 15
+  }
+ ],
  "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",

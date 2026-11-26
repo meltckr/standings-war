@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T22:18:06-07:00",
- "as_of_display": "Wed Nov 25, 2026, 10:18 PM AZ",
+ "as_of": "2026-11-25T22:39:19-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 10:39 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Tuesday, Nov 24, 2026",
   "weekday": "Tuesday"
  },
- "raw_folder": "data/raw/20261125-2218",
+ "raw_folder": "data/raw/20261125-2239",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -125,14 +125,14 @@
    "subject": "Golden State",
    "plural": false,
    "conference": "West",
-   "wins": 9,
+   "wins": 10,
    "losses": 8,
-   "seed": 10,
+   "seed": 9,
    "logo_url": null,
    "logo": "img/gsw.png",
-   "record": "9-8",
-   "pct": 0.5294117647058824,
-   "gap": 0.0,
+   "record": "10-8",
+   "pct": 0.5555555555555556,
+   "gap": 0.5,
    "near": true,
    "color": "#fdb927"
   },
@@ -523,7 +523,7 @@
    "conference": "West",
    "wins": 9,
    "losses": 8,
-   "seed": 9,
+   "seed": 10,
    "logo_url": null,
    "logo": "img/phx.png",
    "record": "9-8",
@@ -588,13 +588,13 @@
    "plural": false,
    "conference": "West",
    "wins": 2,
-   "losses": 15,
+   "losses": 16,
    "seed": 15,
    "logo_url": null,
    "logo": "img/sac.png",
-   "record": "2-15",
-   "pct": 0.11764705882352941,
-   "gap": -7.0,
+   "record": "2-16",
+   "pct": 0.1111111111111111,
+   "gap": -7.5,
    "near": false,
    "color": "#5a2d81"
   },
@@ -865,26 +865,26 @@
      "abbr": "SAC",
      "name": "Sacramento Kings",
      "short": "Sacramento",
-     "record": "2-15",
+     "record": "2-16",
      "logo": "img/sac.png",
-     "score": 97
+     "score": 110
     },
     "home": {
      "abbr": "GSW",
      "name": "Golden State Warriors",
      "short": "Golden State",
-     "record": "9-8",
+     "record": "10-8",
      "logo": "img/gsw.png",
-     "score": 116
+     "score": 129
     },
     "date_utc": "2026-11-26T03:00Z",
     "date_az": "2026-11-25",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 3:05",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "GSW",
     "kind": "stake",
     "answer": "Root for Sacramento",
     "root": "SAC",
@@ -895,11 +895,11 @@
     "tags": [
      "Helps Suns seeding"
     ],
-    "why": "Golden State is 0.5 games behind Phoenix.",
+    "why": "Golden State was 0.5 games behind Phoenix.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "Hurt",
+    "verdict_note": "Golden State won",
+    "verdict_tag": "Seeding: Golden State won"
    },
    {
     "id": "21718192",
@@ -910,7 +910,7 @@
      "short": "San Antonio",
      "record": "15-3",
      "logo": "img/sas.png",
-     "score": 100
+     "score": 111
     },
     "home": {
      "abbr": "POR",
@@ -918,14 +918,14 @@
      "short": "Portland",
      "record": "11-6",
      "logo": "img/por.png",
-     "score": 101
+     "score": 114
     },
     "date_utc": "2026-11-26T03:00Z",
     "date_az": "2026-11-25",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 5:34",
+    "state_text": "In progress, q4 :13.4",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -1287,9 +1287,9 @@
     "name": "Sacramento Kings",
     "conference": "West",
     "wins": 2,
-    "losses": 15,
-    "record": "2-15",
-    "pct": 0.1176,
+    "losses": 16,
+    "record": "2-16",
+    "pct": 0.1111,
     "logo": "img/sac.png",
     "mark": null,
     "lands": false,
@@ -1501,25 +1501,8 @@
    },
    {
     "place": 15,
-    "place_label": "T15",
-    "tied": true,
-    "abbr": "GSW",
-    "short": "Golden State",
-    "name": "Golden State Warriors",
-    "conference": "West",
-    "wins": 9,
-    "losses": 8,
-    "record": "9-8",
-    "pct": 0.5294,
-    "logo": "img/gsw.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 15,
-    "place_label": "T15",
-    "tied": true,
+    "place_label": "15",
+    "tied": false,
     "abbr": "PHX",
     "short": "Phoenix",
     "name": "Phoenix Suns",
@@ -1532,6 +1515,23 @@
     "mark": "suns",
     "lands": false,
     "note": "Phoenix's own spot"
+   },
+   {
+    "place": 16,
+    "place_label": "16",
+    "tied": false,
+    "abbr": "GSW",
+    "short": "Golden State",
+    "name": "Golden State Warriors",
+    "conference": "West",
+    "wins": 10,
+    "losses": 8,
+    "record": "10-8",
+    "pct": 0.5556,
+    "logo": "img/gsw.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
    },
    {
     "place": 17,
@@ -1772,7 +1772,7 @@
     "note": ""
    }
   ],
-  "order_note": "All 30 teams by record, worst record first. Teams with the same win rate share a place, because the pull carries no draft tiebreak. The Suns are tied for 15th at 9-8."
+  "order_note": "All 30 teams by record, worst record first. Teams with the same win rate share a place, because the pull carries no draft tiebreak. The Suns are 15th at 9-8."
  },
  "sources": {
   "standings_url": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -1891,8 +1891,8 @@
     "home_away": "road",
     "note": "West Group C"
    },
-   "lens": "Golden State is level with Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "Level with Phoenix"
+   "lens": "Golden State is 0.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "0.5 games ahead of Phoenix"
   },
   "CHI": {
    "last": {
@@ -2332,8 +2332,8 @@
     "home_away": "home",
     "note": null
    },
-   "lens": "Sacramento is 7 games behind Phoenix in the West.",
-   "vs_phx": "7 games behind Phoenix"
+   "lens": "Sacramento is 7.5 games behind Phoenix in the West.",
+   "vs_phx": "7.5 games behind Phoenix"
   },
   "PHI": {
    "last": {
@@ -2421,12 +2421,12 @@
   }
  },
  "lens": {
-  "tonight": "Phoenix lost to Houston 116-104. The Suns are now 9-8, 9th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
-  "standing": "Phoenix is 9-8, 9th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
-  "board": "Five games besides Phoenix's own carry a stake: four for seeding, one for the 2027 pick. Final so far: two of the three finished stake games went Phoenix's way.",
+  "tonight": "Phoenix lost to Houston 116-104. The Suns are now 9-8, 10th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
+  "standing": "Phoenix is 9-8, 10th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
+  "board": "Five games besides Phoenix's own carry a stake: four for seeding, one for the 2027 pick. Final so far: two of the four finished stake games went Phoenix's way.",
   "week": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
   "last_night": "No result went Phoenix's way. One hurt: Dallas beat Denver 120-101.",
-  "standings": "Phoenix is 9th in the West, 2 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
+  "standings": "Phoenix is 10th in the West, 2 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
   "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 25th of 30 by record. Cleveland, at 9-10, is 5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
   "schedule": "One game left this week, at home: Dallas Friday."
  },
