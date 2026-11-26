@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T21:02:50-07:00",
- "as_of_display": "Wed Nov 25, 2026, 9:02 PM AZ",
+ "as_of": "2026-11-25T22:00:11-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 10:00 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Tuesday, Nov 24, 2026",
   "weekday": "Tuesday"
  },
- "raw_folder": "data/raw/20261125-2102",
+ "raw_folder": "data/raw/20261125-2200",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -44,7 +44,7 @@
    "logo": "img/atl.png",
    "record": "11-6",
    "pct": 0.6470588235294118,
-   "gap": 1.5,
+   "gap": 2.0,
    "near": false,
    "color": "#c8102e"
   },
@@ -66,7 +66,7 @@
    "logo": "img/dal.png",
    "record": "11-7",
    "pct": 0.6111111111111112,
-   "gap": 1.0,
+   "gap": 1.5,
    "near": true,
    "color": "#0064b1"
   },
@@ -88,7 +88,7 @@
    "logo": "img/den.png",
    "record": "10-6",
    "pct": 0.625,
-   "gap": 1.0,
+   "gap": 1.5,
    "near": true,
    "color": "#0e2240"
   },
@@ -110,7 +110,7 @@
    "logo": "img/bos.png",
    "record": "12-6",
    "pct": 0.6666666666666666,
-   "gap": 2.0,
+   "gap": 2.5,
    "near": false,
    "color": "#008348"
   },
@@ -132,7 +132,7 @@
    "logo": "img/gsw.png",
    "record": "9-8",
    "pct": 0.5294117647058824,
-   "gap": -0.5,
+   "gap": 0.0,
    "near": true,
    "color": "#fdb927"
   },
@@ -154,7 +154,7 @@
    "logo": "img/chi.png",
    "record": "6-12",
    "pct": 0.3333333333333333,
-   "gap": -4.0,
+   "gap": -3.5,
    "near": false,
    "color": "#ce1141"
   },
@@ -176,7 +176,7 @@
    "logo": "img/bkn.png",
    "record": "4-13",
    "pct": 0.23529411764705882,
-   "gap": -5.5,
+   "gap": -5.0,
    "near": false,
    "color": "#000000"
   },
@@ -191,14 +191,14 @@
    "subject": "Houston",
    "plural": false,
    "conference": "West",
-   "wins": 13,
+   "wins": 14,
    "losses": 5,
-   "seed": 5,
+   "seed": 4,
    "logo_url": null,
    "logo": "img/hou.png",
-   "record": "13-5",
-   "pct": 0.7222222222222222,
-   "gap": 3.0,
+   "record": "14-5",
+   "pct": 0.7368421052631579,
+   "gap": 4.0,
    "near": true,
    "color": "#ce0e2d"
   },
@@ -220,7 +220,7 @@
    "logo": "img/lal.png",
    "record": "15-3",
    "pct": 0.8333333333333334,
-   "gap": 5.0,
+   "gap": 5.5,
    "near": false,
    "color": "#552583"
   },
@@ -242,7 +242,7 @@
    "logo": "img/cha.png",
    "record": "4-13",
    "pct": 0.23529411764705882,
-   "gap": -5.5,
+   "gap": -5.0,
    "near": false,
    "color": "#008ca8"
   },
@@ -264,7 +264,7 @@
    "logo": "img/lac.png",
    "record": "4-13",
    "pct": 0.23529411764705882,
-   "gap": -5.5,
+   "gap": -5.0,
    "near": false,
    "color": "#12173f"
   },
@@ -286,7 +286,7 @@
    "logo": "img/cle.png",
    "record": "9-10",
    "pct": 0.47368421052631576,
-   "gap": -1.5,
+   "gap": -1.0,
    "near": false,
    "color": "#860038"
   },
@@ -308,7 +308,7 @@
    "logo": "img/det.png",
    "record": "11-6",
    "pct": 0.6470588235294118,
-   "gap": 1.5,
+   "gap": 2.0,
    "near": false,
    "color": "#1d428a"
   },
@@ -325,12 +325,12 @@
    "conference": "West",
    "wins": 14,
    "losses": 5,
-   "seed": 4,
+   "seed": 5,
    "logo_url": null,
    "logo": "img/mem.png",
    "record": "14-5",
    "pct": 0.7368421052631579,
-   "gap": 3.5,
+   "gap": 4.0,
    "near": true,
    "color": "#5d76a9"
   },
@@ -352,7 +352,7 @@
    "logo": "img/was.png",
    "record": "7-12",
    "pct": 0.3684210526315789,
-   "gap": -3.5,
+   "gap": -3.0,
    "near": false,
    "color": "#e31837"
   },
@@ -374,7 +374,7 @@
    "logo": "img/sas.png",
    "record": "15-3",
    "pct": 0.8333333333333334,
-   "gap": 5.0,
+   "gap": 5.5,
    "near": false,
    "color": "#000000"
   },
@@ -396,7 +396,7 @@
    "logo": "img/orl.png",
    "record": "7-10",
    "pct": 0.4117647058823529,
-   "gap": -2.5,
+   "gap": -2.0,
    "near": false,
    "color": "#0150b5"
   },
@@ -418,7 +418,7 @@
    "logo": "img/nyk.png",
    "record": "12-6",
    "pct": 0.6666666666666666,
-   "gap": 2.0,
+   "gap": 2.5,
    "near": false,
    "color": "#1d428a"
   },
@@ -440,7 +440,7 @@
    "logo": "img/min.png",
    "record": "14-5",
    "pct": 0.7368421052631579,
-   "gap": 3.5,
+   "gap": 4.0,
    "near": true,
    "color": "#266092"
   },
@@ -462,7 +462,7 @@
    "logo": "img/mia.png",
    "record": "10-7",
    "pct": 0.5882352941176471,
-   "gap": 0.5,
+   "gap": 1.0,
    "near": false,
    "color": "#98002e"
   },
@@ -484,7 +484,7 @@
    "logo": "img/nop.png",
    "record": "5-14",
    "pct": 0.2631578947368421,
-   "gap": -5.5,
+   "gap": -5.0,
    "near": false,
    "color": "#0a2240"
   },
@@ -506,7 +506,7 @@
    "logo": "img/ind.png",
    "record": "6-12",
    "pct": 0.3333333333333333,
-   "gap": -4.0,
+   "gap": -3.5,
    "near": false,
    "color": "#0c2340"
   },
@@ -522,12 +522,12 @@
    "plural": false,
    "conference": "West",
    "wins": 9,
-   "losses": 7,
+   "losses": 8,
    "seed": 9,
    "logo_url": null,
    "logo": "img/phx.png",
-   "record": "9-7",
-   "pct": 0.5625,
+   "record": "9-8",
+   "pct": 0.5294117647058824,
    "gap": 0.0,
    "near": false,
    "color": "#29127a"
@@ -550,7 +550,7 @@
    "logo": "img/mil.png",
    "record": "2-17",
    "pct": 0.10526315789473684,
-   "gap": -8.5,
+   "gap": -8.0,
    "near": false,
    "color": "#00471b"
   },
@@ -572,7 +572,7 @@
    "logo": "img/uta.png",
    "record": "3-16",
    "pct": 0.15789473684210525,
-   "gap": -7.5,
+   "gap": -7.0,
    "near": false,
    "color": "#4e008e"
   },
@@ -594,7 +594,7 @@
    "logo": "img/sac.png",
    "record": "2-15",
    "pct": 0.11764705882352941,
-   "gap": -7.5,
+   "gap": -7.0,
    "near": false,
    "color": "#5a2d81"
   },
@@ -616,7 +616,7 @@
    "logo": "img/phi.png",
    "record": "15-4",
    "pct": 0.7894736842105263,
-   "gap": 4.5,
+   "gap": 5.0,
    "near": false,
    "color": "#1d428a"
   },
@@ -638,7 +638,7 @@
    "logo": "img/por.png",
    "record": "11-6",
    "pct": 0.6470588235294118,
-   "gap": 1.5,
+   "gap": 2.0,
    "near": true,
    "color": "#e03a3e"
   },
@@ -660,7 +660,7 @@
    "logo": "img/okc.png",
    "record": "10-9",
    "pct": 0.5263157894736842,
-   "gap": -0.5,
+   "gap": 0.0,
    "near": true,
    "color": "#007ac1"
   },
@@ -682,7 +682,7 @@
    "logo": "img/tor.png",
    "record": "6-11",
    "pct": 0.35294117647058826,
-   "gap": -3.5,
+   "gap": -3.0,
    "near": false,
    "color": "#d91244"
   }
@@ -697,26 +697,26 @@
      "abbr": "PHX",
      "name": "Phoenix Suns",
      "short": "Phoenix",
-     "record": "9-7",
+     "record": "9-8",
      "logo": "img/phx.png",
-     "score": 102
+     "score": 104
     },
     "home": {
      "abbr": "HOU",
      "name": "Houston Rockets",
      "short": "Houston",
-     "record": "13-5",
+     "record": "14-5",
      "logo": "img/hou.png",
-     "score": 114
+     "score": 116
     },
     "date_utc": "2026-11-26T01:30Z",
     "date_az": "2026-11-25",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 :23.8",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "HOU",
     "kind": "suns",
     "answer": "Suns win",
     "root": "PHX",
@@ -725,9 +725,9 @@
     "tags": [],
     "why": "",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "Hurt",
+    "verdict_note": "Suns lost",
+    "verdict_tag": "Suns lost"
    },
    {
     "id": "21718186",
@@ -867,7 +867,7 @@
      "short": "Sacramento",
      "record": "2-15",
      "logo": "img/sac.png",
-     "score": 42
+     "score": 95
     },
     "home": {
      "abbr": "GSW",
@@ -875,14 +875,14 @@
      "short": "Golden State",
      "record": "9-8",
      "logo": "img/gsw.png",
-     "score": 64
+     "score": 106
     },
     "date_utc": "2026-11-26T03:00Z",
     "date_az": "2026-11-25",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 2:20",
+    "state_text": "In progress, q4 9:01",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -910,7 +910,7 @@
      "short": "San Antonio",
      "record": "15-3",
      "logo": "img/sas.png",
-     "score": 46
+     "score": 87
     },
     "home": {
      "abbr": "POR",
@@ -918,14 +918,14 @@
      "short": "Portland",
      "record": "11-6",
      "logo": "img/por.png",
-     "score": 45
+     "score": 84
     },
     "date_utc": "2026-11-26T03:00Z",
     "date_az": "2026-11-25",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 7:31",
+    "state_text": "In progress, q4 12:00",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -1215,9 +1215,9 @@
     "conference": "West",
     "seed": 3,
     "standing": "3rd in the West",
-    "place_label": "T26",
-    "place": 26,
-    "place_text": "Tied for 26th of 30 in the draft order by record",
+    "place_label": "T25",
+    "place": 25,
+    "place_text": "Tied for 25th of 30 in the draft order by record",
     "logo": "img/min.png",
     "lands": true,
     "label": "Phoenix's pick today",
@@ -1501,8 +1501,8 @@
    },
    {
     "place": 15,
-    "place_label": "15",
-    "tied": false,
+    "place_label": "T15",
+    "tied": true,
     "abbr": "GSW",
     "short": "Golden State",
     "name": "Golden State Warriors",
@@ -1517,17 +1517,17 @@
     "note": ""
    },
    {
-    "place": 16,
-    "place_label": "16",
-    "tied": false,
+    "place": 15,
+    "place_label": "T15",
+    "tied": true,
     "abbr": "PHX",
     "short": "Phoenix",
     "name": "Phoenix Suns",
     "conference": "West",
     "wins": 9,
-    "losses": 7,
-    "record": "9-7",
-    "pct": 0.5625,
+    "losses": 8,
+    "record": "9-8",
+    "pct": 0.5294,
     "logo": "img/phx.png",
     "mark": "suns",
     "lands": false,
@@ -1671,24 +1671,24 @@
    },
    {
     "place": 25,
-    "place_label": "25",
-    "tied": false,
+    "place_label": "T25",
+    "tied": true,
     "abbr": "HOU",
     "short": "Houston",
     "name": "Houston Rockets",
     "conference": "West",
-    "wins": 13,
+    "wins": 14,
     "losses": 5,
-    "record": "13-5",
-    "pct": 0.7222,
+    "record": "14-5",
+    "pct": 0.7368,
     "logo": "img/hou.png",
     "mark": null,
     "lands": false,
     "note": ""
    },
    {
-    "place": 26,
-    "place_label": "T26",
+    "place": 25,
+    "place_label": "T25",
     "tied": true,
     "abbr": "MEM",
     "short": "Memphis",
@@ -1704,8 +1704,8 @@
     "note": ""
    },
    {
-    "place": 26,
-    "place_label": "T26",
+    "place": 25,
+    "place_label": "T25",
     "tied": true,
     "abbr": "MIN",
     "short": "Minnesota",
@@ -1772,7 +1772,7 @@
     "note": ""
    }
   ],
-  "order_note": "All 30 teams by record, worst record first. Teams with the same win rate share a place, because the pull carries no draft tiebreak. The Suns are 16th at 9-7."
+  "order_note": "All 30 teams by record, worst record first. Teams with the same win rate share a place, because the pull carries no draft tiebreak. The Suns are tied for 15th at 9-8."
  },
  "sources": {
   "standings_url": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -1828,8 +1828,8 @@
     "home_away": "road",
     "note": "West Group A"
    },
-   "lens": "Dallas is 1 game ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "1 game ahead of Phoenix"
+   "lens": "Dallas is 1.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "1.5 games ahead of Phoenix"
   },
   "DEN": {
    "last": {
@@ -1849,8 +1849,8 @@
     "home_away": "road",
     "note": "West Group A"
    },
-   "lens": "Denver is 1 game ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "1 game ahead of Phoenix"
+   "lens": "Denver is 1.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "1.5 games ahead of Phoenix"
   },
   "BOS": {
    "last": {
@@ -1891,8 +1891,8 @@
     "home_away": "road",
     "note": "West Group C"
    },
-   "lens": "Golden State is 0.5 games behind Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "0.5 games behind Phoenix"
+   "lens": "Golden State is level with Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "Level with Phoenix"
   },
   "CHI": {
    "last": {
@@ -1954,8 +1954,8 @@
     "home_away": "home",
     "note": null
    },
-   "lens": "Houston is 3 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "3 games ahead of Phoenix"
+   "lens": "Houston is 4 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "4 games ahead of Phoenix"
   },
   "LAL": {
    "last": {
@@ -1975,8 +1975,8 @@
     "home_away": "road",
     "note": "West Group C"
    },
-   "lens": "The Lakers are 5 games ahead of Phoenix in the West.",
-   "vs_phx": "5 games ahead of Phoenix"
+   "lens": "The Lakers are 5.5 games ahead of Phoenix in the West.",
+   "vs_phx": "5.5 games ahead of Phoenix"
   },
   "CHA": {
    "last": {
@@ -2017,8 +2017,8 @@
     "home_away": "home",
     "note": "West Group B"
    },
-   "lens": "The Clippers are 5.5 games behind Phoenix in the West.",
-   "vs_phx": "5.5 games behind Phoenix"
+   "lens": "The Clippers are 5 games behind Phoenix in the West.",
+   "vs_phx": "5 games behind Phoenix"
   },
   "CLE": {
    "last": {
@@ -2080,8 +2080,8 @@
     "home_away": "road",
     "note": "West Group B"
    },
-   "lens": "Memphis is 3.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "3.5 games ahead of Phoenix"
+   "lens": "Memphis is 4 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "4 games ahead of Phoenix"
   },
   "WAS": {
    "last": {
@@ -2122,8 +2122,8 @@
     "home_away": "home",
     "note": "West Group C"
    },
-   "lens": "San Antonio is 5 games ahead of Phoenix in the West.",
-   "vs_phx": "5 games ahead of Phoenix"
+   "lens": "San Antonio is 5.5 games ahead of Phoenix in the West.",
+   "vs_phx": "5.5 games ahead of Phoenix"
   },
   "ORL": {
    "last": {
@@ -2185,8 +2185,8 @@
     "home_away": "home",
     "note": "West Group B"
    },
-   "lens": "Minnesota is 3.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race. Its 2027 first is the one Phoenix would get today.",
-   "vs_phx": "3.5 games ahead of Phoenix"
+   "lens": "Minnesota is 4 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race. Its 2027 first is the one Phoenix would get today.",
+   "vs_phx": "4 games ahead of Phoenix"
   },
   "MIA": {
    "last": {
@@ -2227,8 +2227,8 @@
     "home_away": "road",
     "note": "West Group B"
    },
-   "lens": "New Orleans is 5.5 games behind Phoenix in the West.",
-   "vs_phx": "5.5 games behind Phoenix"
+   "lens": "New Orleans is 5 games behind Phoenix in the West.",
+   "vs_phx": "5 games behind Phoenix"
   },
   "IND": {
    "last": {
@@ -2311,8 +2311,8 @@
     "home_away": "home",
     "note": "West Group A"
    },
-   "lens": "Utah is 7.5 games behind Phoenix in the West. Its 2027 first is top-5 protected, and Utah sits in the top 5 today, so it would not convey.",
-   "vs_phx": "7.5 games behind Phoenix"
+   "lens": "Utah is 7 games behind Phoenix in the West. Its 2027 first is top-5 protected, and Utah sits in the top 5 today, so it would not convey.",
+   "vs_phx": "7 games behind Phoenix"
   },
   "SAC": {
    "last": {
@@ -2332,8 +2332,8 @@
     "home_away": "home",
     "note": null
    },
-   "lens": "Sacramento is 7.5 games behind Phoenix in the West.",
-   "vs_phx": "7.5 games behind Phoenix"
+   "lens": "Sacramento is 7 games behind Phoenix in the West.",
+   "vs_phx": "7 games behind Phoenix"
   },
   "PHI": {
    "last": {
@@ -2374,8 +2374,8 @@
     "home_away": "home",
     "note": "West Group C"
    },
-   "lens": "Portland is 1.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "1.5 games ahead of Phoenix"
+   "lens": "Portland is 2 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "2 games ahead of Phoenix"
   },
   "OKC": {
    "last": {
@@ -2395,8 +2395,8 @@
     "home_away": "road",
     "note": null
    },
-   "lens": "Oklahoma City is 0.5 games behind Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "0.5 games behind Phoenix"
+   "lens": "Oklahoma City is behind Phoenix on win rate (.526 to .529) in the West. That is close enough for its results to move the Suns' race.",
+   "vs_phx": "Behind Phoenix on win rate (.526 to .529)"
   },
   "TOR": {
    "last": {
@@ -2421,19 +2421,19 @@
   }
  },
  "lens": {
-  "tonight": "Houston leads Phoenix by 3 games. A win cuts it to 2 games with 65 to play.",
-  "standing": "Phoenix is 9-7, 9th in the West, 1.5 games behind Portland for the last guaranteed playoff spot.",
+  "tonight": "Phoenix lost to Houston 116-104. The Suns are now 9-8, 9th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
+  "standing": "Phoenix is 9-8, 9th in the West, 2 games behind Portland for the last guaranteed playoff spot.",
   "board": "Five games besides Phoenix's own carry a stake: four for seeding, one for the 2027 pick. Final so far: two of the three finished stake games went Phoenix's way.",
   "week": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
   "last_night": "No result went Phoenix's way. One hurt: Dallas beat Denver 120-101.",
-  "standings": "Phoenix is 9th in the West, 1.5 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
-  "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 26th of 30 by record. Cleveland, at 9-10, is 5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
-  "schedule": "Two games left this week, one at home and one on the road: at Houston tonight and vs Dallas Friday."
+  "standings": "Phoenix is 9th in the West, 2 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
+  "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 25th of 30 by record. Cleveland, at 9-10, is 5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
+  "schedule": "One game left this week, at home: Dallas Friday."
  },
  "pace_targets": {
   "lead": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
   "games": 2,
-  "left": 66,
+  "left": 65,
   "rows": [
    {
     "seed": 6,
@@ -2442,40 +2442,40 @@
     "now": {
      "state": "live",
      "need": 40,
-     "left": 66,
-     "rate": 61,
-     "text": "40 of 66 (61%)"
+     "left": 65,
+     "rate": 62,
+     "text": "40 of 65 (62%)"
     },
     "scenarios": [
      {
       "state": "live",
       "need": 38,
-      "left": 64,
-      "rate": 59,
-      "text": "38 of 64 (59%)",
+      "left": 63,
+      "rate": 60,
+      "text": "38 of 63 (60%)",
       "label": "Win both",
       "wins": 2
      },
      {
       "state": "live",
       "need": 39,
-      "left": 64,
-      "rate": 61,
-      "text": "39 of 64 (61%)",
+      "left": 63,
+      "rate": 62,
+      "text": "39 of 63 (62%)",
       "label": "Split",
       "wins": 1
      },
      {
       "state": "live",
       "need": 40,
-      "left": 64,
+      "left": 63,
       "rate": 63,
-      "text": "40 of 64 (63%)",
+      "text": "40 of 63 (63%)",
       "label": "Lose both",
       "wins": 0
      }
     ],
-    "text": "6th seed, 49 wins: 40 of 66 left (61%). Win both: 38 of 64 (59%). Split: 39 of 64 (61%). Lose both: 40 of 64 (63%)."
+    "text": "6th seed, 49 wins: 40 of 65 left (62%). Win both: 38 of 63 (60%). Split: 39 of 63 (62%). Lose both: 40 of 63 (63%)."
    },
    {
     "seed": 8,
@@ -2484,40 +2484,40 @@
     "now": {
      "state": "live",
      "need": 33,
-     "left": 66,
-     "rate": 50,
-     "text": "33 of 66 (50%)"
+     "left": 65,
+     "rate": 51,
+     "text": "33 of 65 (51%)"
     },
     "scenarios": [
      {
       "state": "live",
       "need": 31,
-      "left": 64,
-      "rate": 48,
-      "text": "31 of 64 (48%)",
+      "left": 63,
+      "rate": 49,
+      "text": "31 of 63 (49%)",
       "label": "Win both",
       "wins": 2
      },
      {
       "state": "live",
       "need": 32,
-      "left": 64,
-      "rate": 50,
-      "text": "32 of 64 (50%)",
+      "left": 63,
+      "rate": 51,
+      "text": "32 of 63 (51%)",
       "label": "Split",
       "wins": 1
      },
      {
       "state": "live",
       "need": 33,
-      "left": 64,
+      "left": 63,
       "rate": 52,
-      "text": "33 of 64 (52%)",
+      "text": "33 of 63 (52%)",
       "label": "Lose both",
       "wins": 0
      }
     ],
-    "text": "8th seed, 42 wins: 33 of 66 left (50%). Win both: 31 of 64 (48%). Split: 32 of 64 (50%). Lose both: 33 of 64 (52%)."
+    "text": "8th seed, 42 wins: 33 of 65 left (51%). Win both: 31 of 63 (49%). Split: 32 of 63 (51%). Lose both: 33 of 63 (52%)."
    },
    {
     "seed": 10,
@@ -2526,40 +2526,40 @@
     "now": {
      "state": "live",
      "need": 30,
-     "left": 66,
-     "rate": 45,
-     "text": "30 of 66 (45%)"
+     "left": 65,
+     "rate": 46,
+     "text": "30 of 65 (46%)"
     },
     "scenarios": [
      {
       "state": "live",
       "need": 28,
-      "left": 64,
+      "left": 63,
       "rate": 44,
-      "text": "28 of 64 (44%)",
+      "text": "28 of 63 (44%)",
       "label": "Win both",
       "wins": 2
      },
      {
       "state": "live",
       "need": 29,
-      "left": 64,
-      "rate": 45,
-      "text": "29 of 64 (45%)",
+      "left": 63,
+      "rate": 46,
+      "text": "29 of 63 (46%)",
       "label": "Split",
       "wins": 1
      },
      {
       "state": "live",
       "need": 30,
-      "left": 64,
-      "rate": 47,
-      "text": "30 of 64 (47%)",
+      "left": 63,
+      "rate": 48,
+      "text": "30 of 63 (48%)",
       "label": "Lose both",
       "wins": 0
      }
     ],
-    "text": "10th seed, 39 wins: 30 of 66 left (45%). Win both: 28 of 64 (44%). Split: 29 of 64 (45%). Lose both: 30 of 64 (47%)."
+    "text": "10th seed, 39 wins: 30 of 65 left (46%). Win both: 28 of 63 (44%). Split: 29 of 63 (46%). Lose both: 30 of 63 (48%)."
    }
   ],
   "note": "Seeds 1 to 6 make the playoffs. Seeds 7 to 10 go to the play-in: 7 and 8 get two chances to advance, 9 and 10 must win twice."

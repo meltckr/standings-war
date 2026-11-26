@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T21:02:50-07:00",
- "as_of_display": "Wed Nov 25, 2026, 9:02 PM AZ",
+ "as_of": "2026-11-25T22:00:11-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 10:00 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,28 +10,20 @@
  },
  "games_in_progress": [
   {
-   "id": "21718190",
-   "away": "PHX",
-   "home": "HOU",
-   "away_score": 102,
-   "home_score": 114,
-   "detail": "Q4 :23.8"
-  },
-  {
    "id": "21718191",
    "away": "SAC",
    "home": "GSW",
-   "away_score": 42,
-   "home_score": 64,
-   "detail": "Q2 2:20"
+   "away_score": 95,
+   "home_score": 106,
+   "detail": "Q4 9:01"
   },
   {
    "id": "21718192",
    "away": "SAS",
    "home": "POR",
-   "away_score": 46,
-   "home_score": 45,
-   "detail": "Q2 7:31"
+   "away_score": 87,
+   "home_score": 84,
+   "detail": "Q4 12:00"
   }
  ],
  "teams": [
@@ -84,7 +76,7 @@
    }
   },
   {
-   "team": "MEM",
+   "team": "HOU",
    "seed": 4,
    "bdl": {
     "wins": 14,
@@ -100,17 +92,17 @@
    }
   },
   {
-   "team": "HOU",
+   "team": "MEM",
    "seed": 5,
    "bdl": {
-    "wins": 13,
+    "wins": 14,
     "losses": 5
    },
    "bdl_game_results": {
-    "wins": 13,
+    "wins": 14,
     "losses": 5
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -168,13 +160,13 @@
    "seed": 9,
    "bdl": {
     "wins": 9,
-    "losses": 7
+    "losses": 8
    },
    "bdl_game_results": {
     "wins": 9,
-    "losses": 7
+    "losses": 8
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -516,149 +508,8 @@
    }
   }
  ],
- "reconciled": [
-  {
-   "team": "BKN",
-   "conference": "East",
-   "bdl_standings": "3-13",
-   "game_results": "4-13",
-   "game_id": "21718189",
-   "date_az": "2026-11-25",
-   "opp": "MIL",
-   "home_away": "road",
-   "result": "W",
-   "score": "104-97",
-   "seed_bdl": 14,
-   "seed_used": 14
-  },
-  {
-   "team": "CLE",
-   "conference": "East",
-   "bdl_standings": "9-9",
-   "game_results": "9-10",
-   "game_id": "21718186",
-   "date_az": "2026-11-25",
-   "opp": "NYK",
-   "home_away": "road",
-   "result": "L",
-   "score": "102-121",
-   "seed_bdl": 7,
-   "seed_used": 7
-  },
-  {
-   "team": "LAC",
-   "conference": "West",
-   "bdl_standings": "4-12",
-   "game_results": "4-13",
-   "game_id": "21718188",
-   "date_az": "2026-11-25",
-   "opp": "MEM",
-   "home_away": "road",
-   "result": "L",
-   "score": "97-115",
-   "seed_bdl": 13,
-   "seed_used": 13
-  },
-  {
-   "team": "MEM",
-   "conference": "West",
-   "bdl_standings": "13-5",
-   "game_results": "14-5",
-   "game_id": "21718188",
-   "date_az": "2026-11-25",
-   "opp": "LAC",
-   "home_away": "home",
-   "result": "W",
-   "score": "115-97",
-   "seed_bdl": 5,
-   "seed_used": 4
-  },
-  {
-   "team": "MIL",
-   "conference": "East",
-   "bdl_standings": "2-16",
-   "game_results": "2-17",
-   "game_id": "21718189",
-   "date_az": "2026-11-25",
-   "opp": "BKN",
-   "home_away": "home",
-   "result": "L",
-   "score": "97-104",
-   "seed_bdl": 15,
-   "seed_used": 15
-  },
-  {
-   "team": "MIN",
-   "conference": "West",
-   "bdl_standings": "13-5",
-   "game_results": "14-5",
-   "game_id": "21718187",
-   "date_az": "2026-11-25",
-   "opp": "OKC",
-   "home_away": "road",
-   "result": "W",
-   "score": "113-106",
-   "seed_bdl": 3,
-   "seed_used": 3
-  },
-  {
-   "team": "NYK",
-   "conference": "East",
-   "bdl_standings": "11-6",
-   "game_results": "12-6",
-   "game_id": "21718186",
-   "date_az": "2026-11-25",
-   "opp": "CLE",
-   "home_away": "home",
-   "result": "W",
-   "score": "121-102",
-   "seed_bdl": 5,
-   "seed_used": 3
-  },
-  {
-   "team": "OKC",
-   "conference": "West",
-   "bdl_standings": "10-8",
-   "game_results": "10-9",
-   "game_id": "21718187",
-   "date_az": "2026-11-25",
-   "opp": "MIN",
-   "home_away": "home",
-   "result": "L",
-   "score": "106-113",
-   "seed_bdl": 10,
-   "seed_used": 11
-  }
- ],
- "reconciled_tiebreaks": [
-  {
-   "teams": [
-    "BOS",
-    "NYK"
-   ],
-   "record": "12-6",
-   "ahead": "BOS",
-   "step": "head-to-head 1-0"
-  },
-  {
-   "teams": [
-    "CHA",
-    "BKN"
-   ],
-   "record": "4-13",
-   "ahead": "CHA",
-   "step": "conference record CHA 4-9 vs BKN 3-10"
-  },
-  {
-   "teams": [
-    "MIN",
-    "MEM"
-   ],
-   "record": "14-5",
-   "ahead": "MIN",
-   "step": "head-to-head 1-0"
-  }
- ],
+ "reconciled": [],
+ "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",
   "records_checked": 30,
