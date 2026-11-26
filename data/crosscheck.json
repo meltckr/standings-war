@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T19:37:35-07:00",
- "as_of_display": "Wed Nov 25, 2026, 7:37 PM AZ",
+ "as_of": "2026-11-25T19:59:01-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 7:59 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,44 +10,36 @@
  },
  "games_in_progress": [
   {
-   "id": "21718186",
-   "away": "CLE",
-   "home": "NYK",
-   "away_score": 91,
-   "home_score": 99,
-   "detail": "Q4 7:50"
-  },
-  {
    "id": "21718187",
    "away": "MIN",
    "home": "OKC",
-   "away_score": 92,
-   "home_score": 85,
-   "detail": "Q4 9:45"
+   "away_score": 107,
+   "home_score": 104,
+   "detail": "Q4 2:04"
   },
   {
    "id": "21718188",
    "away": "LAC",
    "home": "MEM",
-   "away_score": 54,
-   "home_score": 68,
-   "detail": "Q3 4:58"
+   "away_score": 81,
+   "home_score": 97,
+   "detail": "Q4 6:46"
   },
   {
    "id": "21718189",
    "away": "BKN",
    "home": "MIL",
-   "away_score": 63,
-   "home_score": 67,
-   "detail": "Q3 4:28"
+   "away_score": 82,
+   "home_score": 74,
+   "detail": "Q4 9:22"
   },
   {
    "id": "21718190",
    "away": "PHX",
    "home": "HOU",
-   "away_score": 47,
-   "home_score": 46,
-   "detail": "Q2 5:46"
+   "away_score": 56,
+   "home_score": 66,
+   "detail": "Half"
   }
  ],
  "teams": [
@@ -324,14 +316,14 @@
    }
   },
   {
-   "team": "ATL",
+   "team": "NYK",
    "seed": 3,
    "bdl": {
-    "wins": 11,
+    "wins": 12,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 11,
+    "wins": 12,
     "losses": 6
    },
    "game_in_progress": false,
@@ -340,7 +332,7 @@
    }
   },
   {
-   "team": "DET",
+   "team": "ATL",
    "seed": 4,
    "bdl": {
     "wins": 11,
@@ -356,7 +348,7 @@
    }
   },
   {
-   "team": "NYK",
+   "team": "DET",
    "seed": 5,
    "bdl": {
     "wins": 11,
@@ -366,7 +358,7 @@
     "wins": 11,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -392,13 +384,13 @@
    "seed": 7,
    "bdl": {
     "wins": 9,
-    "losses": 9
+    "losses": 10
    },
    "bdl_game_results": {
     "wins": 9,
-    "losses": 9
+    "losses": 10
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -562,6 +554,20 @@
    "seed_used": 11
   },
   {
+   "team": "CLE",
+   "conference": "East",
+   "bdl_standings": "9-9",
+   "game_results": "9-10",
+   "game_id": "21718186",
+   "date_az": "2026-11-25",
+   "opp": "NYK",
+   "home_away": "road",
+   "result": "L",
+   "score": "102-121",
+   "seed_bdl": 7,
+   "seed_used": 7
+  },
+  {
    "team": "MIA",
    "conference": "East",
    "bdl_standings": "10-6",
@@ -574,6 +580,20 @@
    "score": "104-111",
    "seed_bdl": 6,
    "seed_used": 6
+  },
+  {
+   "team": "NYK",
+   "conference": "East",
+   "bdl_standings": "11-6",
+   "game_results": "12-6",
+   "game_id": "21718186",
+   "date_az": "2026-11-25",
+   "opp": "CLE",
+   "home_away": "home",
+   "result": "W",
+   "score": "121-102",
+   "seed_bdl": 5,
+   "seed_used": 3
   },
   {
    "team": "PHI",
@@ -591,6 +611,15 @@
   }
  ],
  "reconciled_tiebreaks": [
+  {
+   "teams": [
+    "BOS",
+    "NYK"
+   ],
+   "record": "12-6",
+   "ahead": "BOS",
+   "step": "head-to-head 1-0"
+  },
   {
    "teams": [
     "CHI",

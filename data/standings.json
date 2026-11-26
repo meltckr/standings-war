@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T19:37:35-07:00",
- "as_of_display": "Wed Nov 25, 2026, 7:37 PM AZ",
+ "as_of": "2026-11-25T19:59:01-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 7:59 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,44 +8,36 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718186",
-   "away": "CLE",
-   "home": "NYK",
-   "away_score": 91,
-   "home_score": 99,
-   "detail": "Q4 7:50"
-  },
-  {
    "id": "21718187",
    "away": "MIN",
    "home": "OKC",
-   "away_score": 92,
-   "home_score": 85,
-   "detail": "Q4 9:45"
+   "away_score": 107,
+   "home_score": 104,
+   "detail": "Q4 2:04"
   },
   {
    "id": "21718188",
    "away": "LAC",
    "home": "MEM",
-   "away_score": 54,
-   "home_score": 68,
-   "detail": "Q3 4:58"
+   "away_score": 81,
+   "home_score": 97,
+   "detail": "Q4 6:46"
   },
   {
    "id": "21718189",
    "away": "BKN",
    "home": "MIL",
-   "away_score": 63,
-   "home_score": 67,
-   "detail": "Q3 4:28"
+   "away_score": 82,
+   "home_score": 74,
+   "detail": "Q4 9:22"
   },
   {
    "id": "21718190",
    "away": "PHX",
    "home": "HOU",
-   "away_score": 47,
-   "home_score": 46,
-   "detail": "Q2 5:46"
+   "away_score": 56,
+   "home_score": 66,
+   "detail": "Half"
   }
  ],
  "teams": [
@@ -557,7 +549,7 @@
   },
   "CLE": {
    "wins": 9,
-   "losses": 9,
+   "losses": 10,
    "conference": "East",
    "bdl_id": 6,
    "name": "Cleveland Cavaliers",
@@ -610,7 +602,7 @@
    "nickname": "Magic"
   },
   "NYK": {
-   "wins": 11,
+   "wins": 12,
    "losses": 6,
    "conference": "East",
    "bdl_id": 20,

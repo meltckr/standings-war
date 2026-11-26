@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T19:37:35-07:00",
- "as_of_display": "Wed Nov 25, 2026, 7:37 PM AZ",
+ "as_of": "2026-11-25T19:59:01-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 7:59 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Tuesday, Nov 24, 2026",
   "weekday": "Tuesday"
  },
- "raw_folder": "data/raw/20261125-1937",
+ "raw_folder": "data/raw/20261125-1959",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -39,7 +39,7 @@
    "conference": "East",
    "wins": 11,
    "losses": 6,
-   "seed": 3,
+   "seed": 4,
    "logo_url": null,
    "logo": "img/atl.png",
    "record": "11-6",
@@ -280,13 +280,13 @@
    "plural": false,
    "conference": "East",
    "wins": 9,
-   "losses": 9,
+   "losses": 10,
    "seed": 7,
    "logo_url": null,
    "logo": "img/cle.png",
-   "record": "9-9",
-   "pct": 0.5,
-   "gap": -1.0,
+   "record": "9-10",
+   "pct": 0.47368421052631576,
+   "gap": -1.5,
    "near": false,
    "color": "#860038"
   },
@@ -303,7 +303,7 @@
    "conference": "East",
    "wins": 11,
    "losses": 6,
-   "seed": 4,
+   "seed": 5,
    "logo_url": null,
    "logo": "img/det.png",
    "record": "11-6",
@@ -411,14 +411,14 @@
    "subject": "New York",
    "plural": false,
    "conference": "East",
-   "wins": 11,
+   "wins": 12,
    "losses": 6,
-   "seed": 5,
+   "seed": 3,
    "logo_url": null,
    "logo": "img/nyk.png",
-   "record": "11-6",
-   "pct": 0.6470588235294118,
-   "gap": 1.5,
+   "record": "12-6",
+   "pct": 0.6666666666666666,
+   "gap": 2.0,
    "near": false,
    "color": "#1d428a"
   },
@@ -699,7 +699,7 @@
      "short": "Phoenix",
      "record": "9-7",
      "logo": "img/phx.png",
-     "score": 47
+     "score": 56
     },
     "home": {
      "abbr": "HOU",
@@ -707,14 +707,14 @@
      "short": "Houston",
      "record": "13-5",
      "logo": "img/hou.png",
-     "score": 46
+     "score": 66
     },
     "date_utc": "2026-11-26T01:30Z",
     "date_az": "2026-11-25",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 5:46",
+    "state_text": "In progress, half",
     "overtime": false,
     "winner": null,
     "kind": "suns",
@@ -736,26 +736,26 @@
      "abbr": "CLE",
      "name": "Cleveland Cavaliers",
      "short": "Cleveland",
-     "record": "9-9",
+     "record": "9-10",
      "logo": "img/cle.png",
-     "score": 91
+     "score": 102
     },
     "home": {
      "abbr": "NYK",
      "name": "New York Knicks",
      "short": "New York",
-     "record": "11-6",
+     "record": "12-6",
      "logo": "img/nyk.png",
-     "score": 99
+     "score": 121
     },
     "date_utc": "2026-11-26T00:30Z",
     "date_az": "2026-11-25",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 7:50",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "NYK",
     "kind": "stake",
     "answer": "Root for New York",
     "root": "NYK",
@@ -768,9 +768,9 @@
     ],
     "why": "Cleveland's 2027 first is in Phoenix's pick race.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "Helped",
+    "verdict_note": "Cleveland lost",
+    "verdict_tag": "Pick: Cleveland lost"
    },
    {
     "id": "21718187",
@@ -781,7 +781,7 @@
      "short": "Minnesota",
      "record": "13-5",
      "logo": "img/min.png",
-     "score": 92
+     "score": 107
     },
     "home": {
      "abbr": "OKC",
@@ -789,14 +789,14 @@
      "short": "Oklahoma City",
      "record": "10-8",
      "logo": "img/okc.png",
-     "score": 85
+     "score": 104
     },
     "date_utc": "2026-11-26T00:30Z",
     "date_az": "2026-11-25",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 9:45",
+    "state_text": "In progress, q4 2:04",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -824,7 +824,7 @@
      "short": "LA Clippers",
      "record": "4-12",
      "logo": "img/lac.png",
-     "score": 54
+     "score": 81
     },
     "home": {
      "abbr": "MEM",
@@ -832,14 +832,14 @@
      "short": "Memphis",
      "record": "13-5",
      "logo": "img/mem.png",
-     "score": 68
+     "score": 97
     },
     "date_utc": "2026-11-26T01:00Z",
     "date_az": "2026-11-25",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 4:58",
+    "state_text": "In progress, q4 6:46",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -1031,7 +1031,7 @@
      "short": "Brooklyn",
      "record": "3-13",
      "logo": "img/bkn.png",
-     "score": 63
+     "score": 82
     },
     "home": {
      "abbr": "MIL",
@@ -1039,14 +1039,14 @@
      "short": "Milwaukee",
      "record": "2-16",
      "logo": "img/mil.png",
-     "score": 67
+     "score": 74
     },
     "date_utc": "2026-11-26T01:00Z",
     "date_az": "2026-11-25",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 4:28",
+    "state_text": "In progress, q4 9:22",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1227,9 +1227,9 @@
     "abbr": "CLE",
     "short": "Cleveland",
     "name": "Cleveland Cavaliers",
-    "record": "9-9",
+    "record": "9-10",
     "wins": 9,
-    "losses": 9,
+    "losses": 10,
     "conference": "East",
     "seed": 7,
     "standing": "7th in the East",
@@ -1239,7 +1239,7 @@
     "logo": "img/cle.png",
     "lands": false,
     "label": "",
-    "note": "4 games behind Minnesota. Becomes Phoenix's if it passes Minnesota."
+    "note": "4.5 games behind Minnesota. Becomes Phoenix's if it passes Minnesota."
    },
    {
     "abbr": "UTA",
@@ -1474,9 +1474,9 @@
     "name": "Cleveland Cavaliers",
     "conference": "East",
     "wins": 9,
-    "losses": 9,
-    "record": "9-9",
-    "pct": 0.5,
+    "losses": 10,
+    "record": "9-10",
+    "pct": 0.4737,
     "logo": "img/cle.png",
     "mark": "pick",
     "lands": false,
@@ -1622,23 +1622,6 @@
     "place": 20,
     "place_label": "T20",
     "tied": true,
-    "abbr": "NYK",
-    "short": "New York",
-    "name": "New York Knicks",
-    "conference": "East",
-    "wins": 11,
-    "losses": 6,
-    "record": "11-6",
-    "pct": 0.6471,
-    "logo": "img/nyk.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 20,
-    "place_label": "T20",
-    "tied": true,
     "abbr": "POR",
     "short": "Portland",
     "name": "Portland Trail Blazers",
@@ -1653,9 +1636,9 @@
     "note": ""
    },
    {
-    "place": 24,
-    "place_label": "24",
-    "tied": false,
+    "place": 23,
+    "place_label": "T23",
+    "tied": true,
     "abbr": "BOS",
     "short": "Boston",
     "name": "Boston Celtics",
@@ -1665,6 +1648,23 @@
     "record": "12-6",
     "pct": 0.6667,
     "logo": "img/bos.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 23,
+    "place_label": "T23",
+    "tied": true,
+    "abbr": "NYK",
+    "short": "New York",
+    "name": "New York Knicks",
+    "conference": "East",
+    "wins": 12,
+    "losses": 6,
+    "record": "12-6",
+    "pct": 0.6667,
+    "logo": "img/nyk.png",
     "mark": null,
     "lands": false,
     "note": ""
@@ -2423,11 +2423,11 @@
  "lens": {
   "tonight": "Houston leads Phoenix by 3 games. A win cuts it to 2 games with 65 to play.",
   "standing": "Phoenix is 9-7, 9th in the West, 1.5 games behind Portland for the last guaranteed playoff spot.",
-  "board": "Five games besides Phoenix's own carry a stake: four for seeding, one for the 2027 pick.",
+  "board": "Five games besides Phoenix's own carry a stake: four for seeding, one for the 2027 pick. Final so far: the one finished stake game helped Phoenix.",
   "week": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
   "last_night": "No result went Phoenix's way. One hurt: Dallas beat Denver 120-101.",
-  "standings": "Phoenix is 9th in the West, 1.5 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-9 and 7th, 4 games behind Minnesota in the 2027 pick race.",
-  "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 25th of 30 by record. Cleveland, at 9-9, is 4 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
+  "standings": "Phoenix is 9th in the West, 1.5 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 4.5 games behind Minnesota in the 2027 pick race.",
+  "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 25th of 30 by record. Cleveland, at 9-10, is 4.5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
   "schedule": "Two games left this week, one at home and one on the road: at Houston tonight and vs Dallas Friday."
  },
  "pace_targets": {
