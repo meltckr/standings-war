@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T19:15:57-07:00",
- "as_of_display": "Wed Nov 25, 2026, 7:15 PM AZ",
+ "as_of": "2026-11-25T19:37:35-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 7:37 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,52 +8,44 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718185",
-   "away": "CHI",
-   "home": "CHA",
-   "away_score": 102,
-   "home_score": 97,
-   "detail": "Q4 :54.0"
-  },
-  {
    "id": "21718186",
    "away": "CLE",
    "home": "NYK",
-   "away_score": 74,
-   "home_score": 71,
-   "detail": "Q3 5:22"
+   "away_score": 91,
+   "home_score": 99,
+   "detail": "Q4 7:50"
   },
   {
    "id": "21718187",
    "away": "MIN",
    "home": "OKC",
-   "away_score": 70,
-   "home_score": 77,
-   "detail": "Q3 4:09"
+   "away_score": 92,
+   "home_score": 85,
+   "detail": "Q4 9:45"
   },
   {
    "id": "21718188",
    "away": "LAC",
    "home": "MEM",
-   "away_score": 43,
-   "home_score": 50,
-   "detail": "Half"
+   "away_score": 54,
+   "home_score": 68,
+   "detail": "Q3 4:58"
   },
   {
    "id": "21718189",
    "away": "BKN",
    "home": "MIL",
-   "away_score": 51,
-   "home_score": 47,
-   "detail": "Half"
+   "away_score": 63,
+   "home_score": 67,
+   "detail": "Q3 4:28"
   },
   {
    "id": "21718190",
    "away": "PHX",
    "home": "HOU",
-   "away_score": 33,
-   "home_score": 29,
-   "detail": "Q1 :25.5"
+   "away_score": 47,
+   "home_score": 46,
+   "detail": "Q2 5:46"
   }
  ],
  "teams": [
@@ -510,7 +502,7 @@
    "nickname": "Warriors"
   },
   "CHI": {
-   "wins": 5,
+   "wins": 6,
    "losses": 12,
    "conference": "East",
    "bdl_id": 5,
@@ -547,7 +539,7 @@
   },
   "CHA": {
    "wins": 4,
-   "losses": 12,
+   "losses": 13,
    "conference": "East",
    "bdl_id": 4,
    "name": "Charlotte Hornets",
