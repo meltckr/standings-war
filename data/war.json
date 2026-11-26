@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T20:20:26-07:00",
- "as_of_display": "Wed Nov 25, 2026, 8:20 PM AZ",
+ "as_of": "2026-11-25T20:41:29-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 8:41 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Tuesday, Nov 24, 2026",
   "weekday": "Tuesday"
  },
- "raw_folder": "data/raw/20261125-2020",
+ "raw_folder": "data/raw/20261125-2041",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -169,14 +169,14 @@
    "subject": "Brooklyn",
    "plural": false,
    "conference": "East",
-   "wins": 3,
+   "wins": 4,
    "losses": 13,
    "seed": 14,
    "logo_url": null,
    "logo": "img/bkn.png",
-   "record": "3-13",
-   "pct": 0.1875,
-   "gap": -6.0,
+   "record": "4-13",
+   "pct": 0.23529411764705882,
+   "gap": -5.5,
    "near": false,
    "color": "#000000"
   },
@@ -544,13 +544,13 @@
    "plural": false,
    "conference": "East",
    "wins": 2,
-   "losses": 16,
+   "losses": 17,
    "seed": 15,
    "logo_url": null,
    "logo": "img/mil.png",
-   "record": "2-16",
-   "pct": 0.1111111111111111,
-   "gap": -8.0,
+   "record": "2-17",
+   "pct": 0.10526315789473684,
+   "gap": -8.5,
    "near": false,
    "color": "#00471b"
   },
@@ -699,7 +699,7 @@
      "short": "Phoenix",
      "record": "9-7",
      "logo": "img/phx.png",
-     "score": 73
+     "score": 89
     },
     "home": {
      "abbr": "HOU",
@@ -707,14 +707,14 @@
      "short": "Houston",
      "record": "13-5",
      "logo": "img/hou.png",
-     "score": 82
+     "score": 95
     },
     "date_utc": "2026-11-26T01:30Z",
     "date_az": "2026-11-25",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 4:28",
+    "state_text": "In progress, q4 8:48",
     "overtime": false,
     "winner": null,
     "kind": "suns",
@@ -867,7 +867,7 @@
      "short": "Sacramento",
      "record": "2-15",
      "logo": "img/sac.png",
-     "score": 12
+     "score": 19
     },
     "home": {
      "abbr": "GSW",
@@ -875,14 +875,14 @@
      "short": "Golden State",
      "record": "9-8",
      "logo": "img/gsw.png",
-     "score": 13
+     "score": 48
     },
     "date_utc": "2026-11-26T03:00Z",
     "date_az": "2026-11-25",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 6:54",
+    "state_text": "In progress, q2 11:05",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -910,7 +910,7 @@
      "short": "San Antonio",
      "record": "15-3",
      "logo": "img/sas.png",
-     "score": 12
+     "score": 31
     },
     "home": {
      "abbr": "POR",
@@ -918,14 +918,14 @@
      "short": "Portland",
      "record": "11-6",
      "logo": "img/por.png",
-     "score": 14
+     "score": 35
     },
     "date_utc": "2026-11-26T03:00Z",
     "date_az": "2026-11-25",
     "tip_az": "8:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 7:55",
+    "state_text": "In progress, q1 :44.7",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -1029,26 +1029,26 @@
      "abbr": "BKN",
      "name": "Brooklyn Nets",
      "short": "Brooklyn",
-     "record": "3-13",
+     "record": "4-13",
      "logo": "img/bkn.png",
-     "score": 102
+     "score": 104
     },
     "home": {
      "abbr": "MIL",
      "name": "Milwaukee Bucks",
      "short": "Milwaukee",
-     "record": "2-16",
+     "record": "2-17",
      "logo": "img/mil.png",
-     "score": 88
+     "score": 97
     },
     "date_utc": "2026-11-26T01:00Z",
     "date_az": "2026-11-25",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 1:10",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "BKN",
     "kind": "none",
     "answer": "No stake",
     "root": null,
@@ -1057,9 +1057,9 @@
     "tags": [],
     "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "No stake",
+    "verdict_note": "Two East teams",
+    "verdict_tag": "Two East teams"
    }
   ]
  },
@@ -1270,9 +1270,9 @@
     "name": "Milwaukee Bucks",
     "conference": "East",
     "wins": 2,
-    "losses": 16,
-    "record": "2-16",
-    "pct": 0.1111,
+    "losses": 17,
+    "record": "2-17",
+    "pct": 0.1053,
     "logo": "img/mil.png",
     "mark": null,
     "lands": false,
@@ -1314,24 +1314,24 @@
    },
    {
     "place": 4,
-    "place_label": "4",
-    "tied": false,
+    "place_label": "T4",
+    "tied": true,
     "abbr": "BKN",
     "short": "Brooklyn",
     "name": "Brooklyn Nets",
     "conference": "East",
-    "wins": 3,
+    "wins": 4,
     "losses": 13,
-    "record": "3-13",
-    "pct": 0.1875,
+    "record": "4-13",
+    "pct": 0.2353,
     "logo": "img/bkn.png",
     "mark": null,
     "lands": false,
     "note": ""
    },
    {
-    "place": 5,
-    "place_label": "T5",
+    "place": 4,
+    "place_label": "T4",
     "tied": true,
     "abbr": "CHA",
     "short": "Charlotte",
@@ -1347,8 +1347,8 @@
     "note": ""
    },
    {
-    "place": 5,
-    "place_label": "T5",
+    "place": 4,
+    "place_label": "T4",
     "tied": true,
     "abbr": "LAC",
     "short": "LA Clippers",

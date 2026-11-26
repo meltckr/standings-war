@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T20:20:26-07:00",
- "as_of_display": "Wed Nov 25, 2026, 8:20 PM AZ",
+ "as_of": "2026-11-25T20:41:29-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 8:41 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,36 +10,28 @@
  },
  "games_in_progress": [
   {
-   "id": "21718189",
-   "away": "BKN",
-   "home": "MIL",
-   "away_score": 102,
-   "home_score": 88,
-   "detail": "Q4 1:10"
-  },
-  {
    "id": "21718190",
    "away": "PHX",
    "home": "HOU",
-   "away_score": 73,
-   "home_score": 82,
-   "detail": "Q3 4:28"
+   "away_score": 89,
+   "home_score": 95,
+   "detail": "Q4 8:48"
   },
   {
    "id": "21718191",
    "away": "SAC",
    "home": "GSW",
-   "away_score": 12,
-   "home_score": 13,
-   "detail": "Q1 6:54"
+   "away_score": 19,
+   "home_score": 48,
+   "detail": "Q2 11:05"
   },
   {
    "id": "21718192",
    "away": "SAS",
    "home": "POR",
-   "away_score": 12,
-   "home_score": 14,
-   "detail": "Q1 7:55"
+   "away_score": 31,
+   "home_score": 35,
+   "detail": "Q1 :44.7"
   }
  ],
  "teams": [
@@ -495,14 +487,14 @@
    "team": "BKN",
    "seed": 14,
    "bdl": {
-    "wins": 3,
+    "wins": 4,
     "losses": 13
    },
    "bdl_game_results": {
-    "wins": 3,
+    "wins": 4,
     "losses": 13
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -512,19 +504,33 @@
    "seed": 15,
    "bdl": {
     "wins": 2,
-    "losses": 16
+    "losses": 17
    },
    "bdl_game_results": {
     "wins": 2,
-    "losses": 16
+    "losses": 17
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   }
  ],
  "reconciled": [
+  {
+   "team": "BKN",
+   "conference": "East",
+   "bdl_standings": "3-13",
+   "game_results": "4-13",
+   "game_id": "21718189",
+   "date_az": "2026-11-25",
+   "opp": "MIL",
+   "home_away": "road",
+   "result": "W",
+   "score": "104-97",
+   "seed_bdl": 14,
+   "seed_used": 14
+  },
   {
    "team": "CLE",
    "conference": "East",
@@ -566,6 +572,20 @@
    "score": "115-97",
    "seed_bdl": 5,
    "seed_used": 4
+  },
+  {
+   "team": "MIL",
+   "conference": "East",
+   "bdl_standings": "2-16",
+   "game_results": "2-17",
+   "game_id": "21718189",
+   "date_az": "2026-11-25",
+   "opp": "BKN",
+   "home_away": "home",
+   "result": "L",
+   "score": "97-104",
+   "seed_bdl": 15,
+   "seed_used": 15
   },
   {
    "team": "MIN",
@@ -619,6 +639,15 @@
    "record": "12-6",
    "ahead": "BOS",
    "step": "head-to-head 1-0"
+  },
+  {
+   "teams": [
+    "CHA",
+    "BKN"
+   ],
+   "record": "4-13",
+   "ahead": "CHA",
+   "step": "conference record CHA 4-9 vs BKN 3-10"
   },
   {
    "teams": [
