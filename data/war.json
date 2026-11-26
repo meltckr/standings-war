@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T16:53:39-07:00",
- "as_of_display": "Wed Nov 25, 2026, 4:53 PM AZ",
+ "as_of": "2026-11-25T17:11:21-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 5:11 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Tuesday, Nov 24, 2026",
   "weekday": "Tuesday"
  },
- "raw_folder": "data/raw/20261125-1653",
+ "raw_folder": "data/raw/20261125-1711",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -953,7 +953,7 @@
      "short": "Miami",
      "record": "10-6",
      "logo": "img/mia.png",
-     "score": 77
+     "score": 89
     },
     "home": {
      "abbr": "PHI",
@@ -961,14 +961,14 @@
      "short": "Philadelphia",
      "record": "14-4",
      "logo": "img/phi.png",
-     "score": 88
+     "score": 102
     },
     "date_utc": "2026-11-25T22:00Z",
     "date_az": "2026-11-25",
     "tip_az": "3:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 1:34",
+    "state_text": "In progress, q4 7:00",
     "overtime": false,
     "winner": null,
     "kind": "none",
