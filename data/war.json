@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-25T17:29:24-07:00",
- "as_of_display": "Wed Nov 25, 2026, 5:29 PM AZ",
+ "as_of": "2026-11-25T17:50:21-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 5:50 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Tuesday, Nov 24, 2026",
   "weekday": "Tuesday"
  },
- "raw_folder": "data/raw/20261125-1729",
+ "raw_folder": "data/raw/20261125-1750",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -456,13 +456,13 @@
    "plural": false,
    "conference": "East",
    "wins": 10,
-   "losses": 6,
+   "losses": 7,
    "seed": 6,
    "logo_url": null,
    "logo": "img/mia.png",
-   "record": "10-6",
-   "pct": 0.625,
-   "gap": 1.0,
+   "record": "10-7",
+   "pct": 0.5882352941176471,
+   "gap": 0.5,
    "near": false,
    "color": "#98002e"
   },
@@ -609,14 +609,14 @@
    "subject": "Philadelphia",
    "plural": false,
    "conference": "East",
-   "wins": 14,
+   "wins": 15,
    "losses": 4,
    "seed": 1,
    "logo_url": null,
    "logo": "img/phi.png",
-   "record": "14-4",
-   "pct": 0.7777777777777778,
-   "gap": 4.0,
+   "record": "15-4",
+   "pct": 0.7894736842105263,
+   "gap": 4.5,
    "near": false,
    "color": "#1d428a"
   },
@@ -738,7 +738,7 @@
      "short": "Cleveland",
      "record": "9-9",
      "logo": "img/cle.png",
-     "score": null
+     "score": 8
     },
     "home": {
      "abbr": "NYK",
@@ -746,14 +746,14 @@
      "short": "New York",
      "record": "11-6",
      "logo": "img/nyk.png",
-     "score": null
+     "score": 5
     },
     "date_utc": "2026-11-26T00:30Z",
     "date_az": "2026-11-25",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
-    "status": "scheduled",
-    "state_text": "5:30 PM AZ",
+    "status": "in_progress",
+    "state_text": "In progress, q1 8:23",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -781,7 +781,7 @@
      "short": "Minnesota",
      "record": "13-5",
      "logo": "img/min.png",
-     "score": null
+     "score": 10
     },
     "home": {
      "abbr": "OKC",
@@ -789,14 +789,14 @@
      "short": "Oklahoma City",
      "record": "10-8",
      "logo": "img/okc.png",
-     "score": null
+     "score": 6
     },
     "date_utc": "2026-11-26T00:30Z",
     "date_az": "2026-11-25",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
-    "status": "scheduled",
-    "state_text": "5:30 PM AZ",
+    "status": "in_progress",
+    "state_text": "In progress, q1 7:12",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -951,15 +951,15 @@
      "abbr": "MIA",
      "name": "Miami Heat",
      "short": "Miami",
-     "record": "10-6",
+     "record": "10-7",
      "logo": "img/mia.png",
-     "score": 100
+     "score": 104
     },
     "home": {
      "abbr": "PHI",
      "name": "Philadelphia 76ers",
      "short": "Philadelphia",
-     "record": "14-4",
+     "record": "15-4",
      "logo": "img/phi.png",
      "score": 111
     },
@@ -967,10 +967,10 @@
     "date_az": "2026-11-25",
     "tip_az": "3:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 1:05",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "PHI",
     "kind": "none",
     "answer": "No stake",
     "root": null,
@@ -979,9 +979,9 @@
     "tags": [],
     "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "No stake",
+    "verdict_note": "Two East teams",
+    "verdict_tag": "Two East teams"
    },
    {
     "id": "21718185",
@@ -992,7 +992,7 @@
      "short": "Chicago",
      "record": "5-12",
      "logo": "img/chi.png",
-     "score": 14
+     "score": 43
     },
     "home": {
      "abbr": "CHA",
@@ -1000,14 +1000,14 @@
      "short": "Charlotte",
      "record": "4-12",
      "logo": "img/cha.png",
-     "score": 20
+     "score": 38
     },
     "date_utc": "2026-11-26T00:00Z",
     "date_az": "2026-11-25",
     "tip_az": "5:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 2:26",
+    "state_text": "In progress, q2 5:13",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1537,6 +1537,23 @@
     "place": 17,
     "place_label": "17",
     "tied": false,
+    "abbr": "MIA",
+    "short": "Miami",
+    "name": "Miami Heat",
+    "conference": "East",
+    "wins": 10,
+    "losses": 7,
+    "record": "10-7",
+    "pct": 0.5882,
+    "logo": "img/mia.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 18,
+    "place_label": "18",
+    "tied": false,
     "abbr": "DAL",
     "short": "Dallas",
     "name": "Dallas Mavericks",
@@ -1551,9 +1568,9 @@
     "note": ""
    },
    {
-    "place": 18,
-    "place_label": "T18",
-    "tied": true,
+    "place": 19,
+    "place_label": "19",
+    "tied": false,
     "abbr": "DEN",
     "short": "Denver",
     "name": "Denver Nuggets",
@@ -1563,23 +1580,6 @@
     "record": "10-6",
     "pct": 0.625,
     "logo": "img/den.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
-    "place": 18,
-    "place_label": "T18",
-    "tied": true,
-    "abbr": "MIA",
-    "short": "Miami",
-    "name": "Miami Heat",
-    "conference": "East",
-    "wins": 10,
-    "losses": 6,
-    "record": "10-6",
-    "pct": 0.625,
-    "logo": "img/mia.png",
     "mark": null,
     "lands": false,
     "note": ""
@@ -1728,10 +1728,10 @@
     "short": "Philadelphia",
     "name": "Philadelphia 76ers",
     "conference": "East",
-    "wins": 14,
+    "wins": 15,
     "losses": 4,
-    "record": "14-4",
-    "pct": 0.7778,
+    "record": "15-4",
+    "pct": 0.7895,
     "logo": "img/phi.png",
     "mark": null,
     "lands": false,

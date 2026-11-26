@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-25T17:29:24-07:00",
- "as_of_display": "Wed Nov 25, 2026, 5:29 PM AZ",
+ "as_of": "2026-11-25T17:50:21-07:00",
+ "as_of_display": "Wed Nov 25, 2026, 5:50 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,20 +8,28 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718184",
-   "away": "MIA",
-   "home": "PHI",
-   "away_score": 100,
-   "home_score": 111,
-   "detail": "Q4 1:05"
-  },
-  {
    "id": "21718185",
    "away": "CHI",
    "home": "CHA",
-   "away_score": 14,
-   "home_score": 20,
-   "detail": "Q1 2:26"
+   "away_score": 43,
+   "home_score": 38,
+   "detail": "Q2 5:13"
+  },
+  {
+   "id": "21718186",
+   "away": "CLE",
+   "home": "NYK",
+   "away_score": 8,
+   "home_score": 5,
+   "detail": "Q1 8:23"
+  },
+  {
+   "id": "21718187",
+   "away": "MIN",
+   "home": "OKC",
+   "away_score": 10,
+   "home_score": 6,
+   "detail": "Q1 7:12"
   }
  ],
  "teams": [
@@ -104,7 +112,7 @@
    "conf_losses": 2,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "HOU",
@@ -293,7 +301,7 @@
    "conf_losses": 5,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "GSW",
@@ -605,7 +613,7 @@
   },
   "MIA": {
    "wins": 10,
-   "losses": 6,
+   "losses": 7,
    "conference": "East",
    "bdl_id": 16,
    "name": "Miami Heat",
@@ -667,7 +675,7 @@
    "nickname": "Kings"
   },
   "PHI": {
-   "wins": 14,
+   "wins": 15,
    "losses": 4,
    "conference": "East",
    "bdl_id": 23,
