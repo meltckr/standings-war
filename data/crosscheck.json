@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T21:25:48-07:00",
- "as_of_display": "Fri Nov 27, 2026, 9:25 PM AZ",
+ "as_of": "2026-11-27T21:47:13-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 9:47 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -10,44 +10,36 @@
  },
  "games_in_progress": [
   {
-   "id": "21718199",
-   "away": "DAL",
-   "home": "PHX",
-   "away_score": 109,
-   "home_score": 106,
-   "detail": "Q4 :07.7"
-  },
-  {
    "id": "21718200",
    "away": "LAL",
    "home": "SAS",
-   "away_score": 68,
-   "home_score": 68,
-   "detail": "Q4 12:00"
+   "away_score": 81,
+   "home_score": 86,
+   "detail": "Q4 3:36"
   },
   {
    "id": "21718201",
    "away": "DEN",
    "home": "UTA",
-   "away_score": 91,
-   "home_score": 93,
-   "detail": "Q4 9:26"
+   "away_score": 118,
+   "home_score": 107,
+   "detail": "Q4 :16.5"
   },
   {
    "id": "21718202",
    "away": "NOP",
    "home": "LAC",
-   "away_score": 81,
-   "home_score": 78,
-   "detail": "Q4 10:41"
+   "away_score": 98,
+   "home_score": 92,
+   "detail": "Q4 3:14"
   },
   {
    "id": "21718203",
    "away": "GSW",
    "home": "POR",
-   "away_score": 78,
-   "home_score": 91,
-   "detail": "Q3 :57.8"
+   "away_score": 88,
+   "home_score": 100,
+   "detail": "Q4 6:01"
   }
  ],
  "teams": [
@@ -148,31 +140,31 @@
    }
   },
   {
-   "team": "DEN",
+   "team": "DAL",
    "seed": 7,
    "bdl": {
-    "wins": 10,
-    "losses": 6
+    "wins": 12,
+    "losses": 7
    },
    "bdl_game_results": {
-    "wins": 10,
-    "losses": 6
+    "wins": 12,
+    "losses": 7
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
-   "team": "DAL",
+   "team": "DEN",
    "seed": 8,
    "bdl": {
-    "wins": 11,
-    "losses": 7
+    "wins": 10,
+    "losses": 6
    },
    "bdl_game_results": {
-    "wins": 11,
-    "losses": 7
+    "wins": 10,
+    "losses": 6
    },
    "game_in_progress": true,
    "match": {
@@ -196,30 +188,30 @@
    }
   },
   {
-   "team": "PHX",
-   "seed": 10,
-   "bdl": {
-    "wins": 9,
-    "losses": 8
-   },
-   "bdl_game_results": {
-    "wins": 9,
-    "losses": 8
-   },
-   "game_in_progress": true,
-   "match": {
-    "bdl_game_results": true
-   }
-  },
-  {
    "team": "OKC",
-   "seed": 11,
+   "seed": 10,
    "bdl": {
     "wins": 10,
     "losses": 9
    },
    "bdl_game_results": {
     "wins": 10,
+    "losses": 9
+   },
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "PHX",
+   "seed": 11,
+   "bdl": {
+    "wins": 9,
+    "losses": 9
+   },
+   "bdl_game_results": {
+    "wins": 9,
     "losses": 9
    },
    "game_in_progress": false,
@@ -576,6 +568,20 @@
    "seed_used": 4
   },
   {
+   "team": "DAL",
+   "conference": "West",
+   "bdl_standings": "11-7",
+   "game_results": "12-7",
+   "game_id": "21718199",
+   "date_az": "2026-11-27",
+   "opp": "PHX",
+   "home_away": "road",
+   "result": "W",
+   "score": "113-109",
+   "seed_bdl": 8,
+   "seed_used": 7
+  },
+  {
    "team": "DET",
    "conference": "East",
    "bdl_standings": "11-6",
@@ -658,6 +664,20 @@
    "score": "111-87",
    "seed_bdl": 1,
    "seed_used": 1
+  },
+  {
+   "team": "PHX",
+   "conference": "West",
+   "bdl_standings": "9-8",
+   "game_results": "9-9",
+   "game_id": "21718199",
+   "date_az": "2026-11-27",
+   "opp": "DAL",
+   "home_away": "home",
+   "result": "L",
+   "score": "109-113",
+   "seed_bdl": 10,
+   "seed_used": 11
   },
   {
    "team": "TOR",

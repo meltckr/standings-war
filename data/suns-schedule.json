@@ -1,11 +1,11 @@
 {
- "as_of": "2026-11-27T21:25:48-07:00",
- "as_of_display": "Fri Nov 27, 2026, 9:25 PM AZ",
+ "as_of": "2026-11-27T21:47:13-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 9:47 PM AZ",
  "timezone": "America/Phoenix",
  "team": "PHX",
  "record": {
   "wins": 9,
-  "losses": 8
+  "losses": 9
  },
  "games_listed": 80,
  "games_unscheduled": 2,
@@ -17,14 +17,18 @@
   "label": "All-Star Game, Mortgage Matchup Center, Phoenix"
  },
  "whatif": {
-  "week_start": "2026-11-22",
-  "week_end": "2026-11-28",
-  "is_current_week": true,
+  "week_start": "2026-11-29",
+  "week_end": "2026-12-05",
+  "is_current_week": false,
   "game_ids": [
-   "21718199"
+   "21718211",
+   "21718231",
+   "21718242"
   ],
   "week_game_ids": [
-   "21718199"
+   "21718211",
+   "21718231",
+   "21718242"
   ]
  },
  "games": [
@@ -292,9 +296,9 @@
    "date_utc": "2026-11-28T02:00Z",
    "opp": "DAL",
    "home_away": "home",
-   "status": "in_progress",
-   "result": null,
-   "score": null,
+   "status": "final",
+   "result": "L",
+   "score": "109-113",
    "note": "West Group A",
    "venue": null
   },
