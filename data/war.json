@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-27T20:43:32-07:00",
- "as_of_display": "Fri Nov 27, 2026, 8:43 PM AZ",
+ "as_of": "2026-11-27T21:04:38-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 9:04 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Thursday, Nov 26, 2026",
   "weekday": "Thursday"
  },
- "raw_folder": "data/raw/20261127-2043",
+ "raw_folder": "data/raw/20261127-2104",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -323,15 +323,15 @@
    "subject": "Memphis",
    "plural": false,
    "conference": "West",
-   "wins": 14,
+   "wins": 15,
    "losses": 5,
-   "seed": 5,
+   "seed": 3,
    "logo_url": null,
    "logo": "img/mem.png",
-   "record": "14-5",
-   "pct": 0.7368421052631579,
-   "gap": 4.0,
-   "near": true,
+   "record": "15-5",
+   "pct": 0.75,
+   "gap": 4.5,
+   "near": false,
    "color": "#5d76a9"
   },
   "WAS": {
@@ -434,13 +434,13 @@
    "plural": false,
    "conference": "West",
    "wins": 14,
-   "losses": 5,
-   "seed": 3,
+   "losses": 6,
+   "seed": 5,
    "logo_url": null,
    "logo": "img/min.png",
-   "record": "14-5",
-   "pct": 0.7368421052631579,
-   "gap": 4.0,
+   "record": "14-6",
+   "pct": 0.7,
+   "gap": 3.5,
    "near": true,
    "color": "#266092"
   },
@@ -699,7 +699,7 @@
      "short": "Dallas",
      "record": "11-7",
      "logo": "img/dal.png",
-     "score": 67
+     "score": 87
     },
     "home": {
      "abbr": "PHX",
@@ -707,14 +707,14 @@
      "short": "Phoenix",
      "record": "9-8",
      "logo": "img/phx.png",
-     "score": 78
+     "score": 100
     },
     "date_utc": "2026-11-28T02:00Z",
     "date_az": "2026-11-27",
     "tip_az": "7:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 5:29",
+    "state_text": "In progress, q4 8:02",
     "overtime": false,
     "winner": null,
     "kind": "suns",
@@ -736,41 +736,43 @@
      "abbr": "MEM",
      "name": "Memphis Grizzlies",
      "short": "Memphis",
-     "record": "14-5",
+     "record": "15-5",
      "logo": "img/mem.png",
-     "score": 109
+     "score": 114
     },
     "home": {
      "abbr": "MIN",
      "name": "Minnesota Timberwolves",
      "short": "Minnesota",
-     "record": "14-5",
+     "record": "14-6",
      "logo": "img/min.png",
-     "score": 101
+     "score": 109
     },
     "date_utc": "2026-11-28T01:30Z",
     "date_az": "2026-11-27",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 1:31",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "MEM",
     "kind": "stake",
     "answer": "Root for Memphis",
     "root": "MEM",
     "target": "MIN",
     "goals": [
+     "seeding",
      "pick"
     ],
     "tags": [
+     "Helps Suns seeding",
      "Helps 2027 pick"
     ],
-    "why": "Seeding and the pick point opposite ways. Memphis is 4 games ahead of Phoenix, so the pick matters more here.",
-    "conflict": true,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "why": "Minnesota was 4 games ahead of Phoenix, and its 2027 first is in Phoenix's pick race.",
+    "conflict": false,
+    "verdict": "Helped",
+    "verdict_note": "Minnesota lost",
+    "verdict_tag": "Seeding and pick: Minnesota lost"
    },
    {
     "id": "21718201",
@@ -781,7 +783,7 @@
      "short": "Denver",
      "record": "10-6",
      "logo": "img/den.png",
-     "score": 52
+     "score": 72
     },
     "home": {
      "abbr": "UTA",
@@ -789,14 +791,14 @@
      "short": "Utah",
      "record": "3-16",
      "logo": "img/uta.png",
-     "score": 53
+     "score": 78
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, half",
+    "state_text": "In progress, q3 3:39",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -824,7 +826,7 @@
      "short": "Golden State",
      "record": "10-8",
      "logo": "img/gsw.png",
-     "score": 44
+     "score": 55
     },
     "home": {
      "abbr": "POR",
@@ -832,14 +834,14 @@
      "short": "Portland",
      "record": "12-6",
      "logo": "img/por.png",
-     "score": 67
+     "score": 73
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, half",
+    "state_text": "In progress, q3 8:17",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -1062,7 +1064,7 @@
      "short": "LA Lakers",
      "record": "15-3",
      "logo": "img/lal.png",
-     "score": 54
+     "score": 61
     },
     "home": {
      "abbr": "SAS",
@@ -1070,14 +1072,14 @@
      "short": "San Antonio",
      "record": "15-4",
      "logo": "img/sas.png",
-     "score": 38
+     "score": 50
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, half",
+    "state_text": "In progress, q3 9:11",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1101,7 +1103,7 @@
      "short": "New Orleans",
      "record": "5-14",
      "logo": "img/nop.png",
-     "score": 54
+     "score": 68
     },
     "home": {
      "abbr": "LAC",
@@ -1109,14 +1111,14 @@
      "short": "LA Clippers",
      "record": "4-13",
      "logo": "img/lac.png",
-     "score": 50
+     "score": 61
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, half",
+    "state_text": "In progress, q3 6:42",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1148,7 +1150,7 @@
    "MIN"
   ],
   "today": "If the season ended today, Phoenix would get Minnesota's pick.",
-  "because": "Minnesota has the best record of the three at 14-5.",
+  "because": "Minnesota has the best record of the three at 14-6.",
   "utah": "Utah is 3-16, 3rd in the draft order by record. Its pick is top-5 protected, so it would not go to anyone if the season ended today.",
   "utah_status": "protected",
   "utah_swing": false,
@@ -1157,15 +1159,15 @@
     "abbr": "MIN",
     "short": "Minnesota",
     "name": "Minnesota Timberwolves",
-    "record": "14-5",
+    "record": "14-6",
     "wins": 14,
-    "losses": 5,
+    "losses": 6,
     "conference": "West",
-    "seed": 3,
-    "standing": "3rd in the West",
-    "place_label": "T25",
+    "seed": 5,
+    "standing": "5th in the West",
+    "place_label": "25",
     "place": 25,
-    "place_text": "Tied for 25th of 30 in the draft order by record",
+    "place_text": "25th of 30 in the draft order by record",
     "logo": "img/min.png",
     "lands": true,
     "label": "Phoenix's pick today",
@@ -1187,7 +1189,7 @@
     "logo": "img/cle.png",
     "lands": false,
     "label": "",
-    "note": "5 games behind Minnesota. Becomes Phoenix's if it passes Minnesota."
+    "note": "4.5 games behind Minnesota. Becomes Phoenix's if it passes Minnesota."
    },
    {
     "abbr": "UTA",
@@ -1619,8 +1621,25 @@
    },
    {
     "place": 25,
-    "place_label": "T25",
-    "tied": true,
+    "place_label": "25",
+    "tied": false,
+    "abbr": "MIN",
+    "short": "Minnesota",
+    "name": "Minnesota Timberwolves",
+    "conference": "West",
+    "wins": 14,
+    "losses": 6,
+    "record": "14-6",
+    "pct": 0.7,
+    "logo": "img/min.png",
+    "mark": "pick",
+    "lands": true,
+    "note": "2027 pick. Phoenix gets this one today."
+   },
+   {
+    "place": 26,
+    "place_label": "26",
+    "tied": false,
     "abbr": "HOU",
     "short": "Houston",
     "name": "Houston Rockets",
@@ -1635,38 +1654,21 @@
     "note": ""
    },
    {
-    "place": 25,
-    "place_label": "T25",
-    "tied": true,
+    "place": 27,
+    "place_label": "27",
+    "tied": false,
     "abbr": "MEM",
     "short": "Memphis",
     "name": "Memphis Grizzlies",
     "conference": "West",
-    "wins": 14,
+    "wins": 15,
     "losses": 5,
-    "record": "14-5",
-    "pct": 0.7368,
+    "record": "15-5",
+    "pct": 0.75,
     "logo": "img/mem.png",
     "mark": null,
     "lands": false,
     "note": ""
-   },
-   {
-    "place": 25,
-    "place_label": "T25",
-    "tied": true,
-    "abbr": "MIN",
-    "short": "Minnesota",
-    "name": "Minnesota Timberwolves",
-    "conference": "West",
-    "wins": 14,
-    "losses": 5,
-    "record": "14-5",
-    "pct": 0.7368,
-    "logo": "img/min.png",
-    "mark": "pick",
-    "lands": true,
-    "note": "2027 pick. Phoenix gets this one today."
    },
    {
     "place": 28,
@@ -2028,8 +2030,8 @@
     "home_away": "home",
     "note": null
    },
-   "lens": "Memphis is 4 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race.",
-   "vs_phx": "4 games ahead of Phoenix"
+   "lens": "Memphis is 4.5 games ahead of Phoenix in the West.",
+   "vs_phx": "4.5 games ahead of Phoenix"
   },
   "WAS": {
    "last": {
@@ -2133,8 +2135,8 @@
     "home_away": "road",
     "note": null
    },
-   "lens": "Minnesota is 4 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race. Its 2027 first is the one Phoenix would get today.",
-   "vs_phx": "4 games ahead of Phoenix"
+   "lens": "Minnesota is 3.5 games ahead of Phoenix in the West. That is close enough for its results to move the Suns' race. Its 2027 first is the one Phoenix would get today.",
+   "vs_phx": "3.5 games ahead of Phoenix"
   },
   "MIA": {
    "last": {
@@ -2371,11 +2373,11 @@
  "lens": {
   "tonight": "Dallas leads Phoenix by 1.5 games. A win cuts it to 0.5 games with 64 to play.",
   "standing": "Phoenix is 9-8, 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot.",
-  "board": "Three games besides Phoenix's own carry a stake: two for seeding, one for the 2027 pick.",
+  "board": "Three games besides Phoenix's own carry a stake: three for seeding, one for the 2027 pick. Memphis at Minnesota counts for both. Final so far: the one finished stake game helped Phoenix.",
   "week": "Each line is the win rate Phoenix needs over the rest of the season, not a forecast of where it finishes. A split in the next two games moves each rate by less than half a point.",
   "last_night": "No NBA games went final last night, so the standings did not move.",
-  "standings": "Phoenix is 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 5 games behind Minnesota in the 2027 pick race.",
-  "pick": "If the season ended today, Phoenix would get Minnesota's pick, tied for 25th of 30 by record. Cleveland, at 9-10, is 5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
+  "standings": "Phoenix is 10th in the West, 2.5 games behind Portland for the last guaranteed playoff spot. In the East, Cleveland is 9-10 and 7th, 4.5 games behind Minnesota in the 2027 pick race.",
+  "pick": "If the season ended today, Phoenix would get Minnesota's pick, 25th of 30 by record. Cleveland, at 9-10, is 4.5 games behind Minnesota. Utah's pick is top-5 protected and would not convey today.",
   "schedule": "One game left this week, at home: Dallas tonight."
  },
  "pace_targets": {
