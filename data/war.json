@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-27T19:20:29-07:00",
- "as_of_display": "Fri Nov 27, 2026, 7:20 PM AZ",
+ "as_of": "2026-11-27T19:38:39-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 7:38 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Thursday, Nov 26, 2026",
   "weekday": "Thursday"
  },
- "raw_folder": "data/raw/20261127-1920",
+ "raw_folder": "data/raw/20261127-1938",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -699,7 +699,7 @@
      "short": "Dallas",
      "record": "11-7",
      "logo": "img/dal.png",
-     "score": 18
+     "score": 28
     },
     "home": {
      "abbr": "PHX",
@@ -707,14 +707,14 @@
      "short": "Phoenix",
      "record": "9-8",
      "logo": "img/phx.png",
-     "score": 5
+     "score": 29
     },
     "date_utc": "2026-11-28T02:00Z",
     "date_az": "2026-11-27",
     "tip_az": "7:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q1 8:05",
+    "state_text": "In progress, eND Q1",
     "overtime": false,
     "winner": null,
     "kind": "suns",
@@ -738,7 +738,7 @@
      "short": "Memphis",
      "record": "14-5",
      "logo": "img/mem.png",
-     "score": 47
+     "score": 61
     },
     "home": {
      "abbr": "MIN",
@@ -746,14 +746,14 @@
      "short": "Minnesota",
      "record": "14-5",
      "logo": "img/min.png",
-     "score": 37
+     "score": 50
     },
     "date_utc": "2026-11-28T01:30Z",
     "date_az": "2026-11-27",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 6:41",
+    "state_text": "In progress, half",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -867,7 +867,7 @@
      "short": "Miami",
      "record": "10-7",
      "logo": "img/mia.png",
-     "score": 93
+     "score": 104
     },
     "home": {
      "abbr": "NYK",
@@ -875,14 +875,14 @@
      "short": "New York",
      "record": "12-6",
      "logo": "img/nyk.png",
-     "score": 93
+     "score": 103
     },
     "date_utc": "2026-11-28T00:00Z",
     "date_az": "2026-11-27",
     "tip_az": "5:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 5:43",
+    "state_text": "In progress, q4 :12.5",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -906,7 +906,7 @@
      "short": "Milwaukee",
      "record": "2-17",
      "logo": "img/mil.png",
-     "score": 76
+     "score": 82
     },
     "home": {
      "abbr": "DET",
@@ -914,14 +914,14 @@
      "short": "Detroit",
      "record": "11-6",
      "logo": "img/det.png",
-     "score": 90
+     "score": 97
     },
     "date_utc": "2026-11-28T00:30Z",
     "date_az": "2026-11-27",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 :00.0",
+    "state_text": "In progress, q4 6:19",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -945,7 +945,7 @@
      "short": "Philadelphia",
      "record": "15-4",
      "logo": "img/phi.png",
-     "score": 73
+     "score": 96
     },
     "home": {
      "abbr": "IND",
@@ -953,14 +953,14 @@
      "short": "Indiana",
      "record": "6-12",
      "logo": "img/ind.png",
-     "score": 52
+     "score": 68
     },
     "date_utc": "2026-11-28T00:30Z",
     "date_az": "2026-11-27",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 4:01",
+    "state_text": "In progress, q4 8:19",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -984,7 +984,7 @@
      "short": "Brooklyn",
      "record": "4-13",
      "logo": "img/bkn.png",
-     "score": 75
+     "score": 82
     },
     "home": {
      "abbr": "TOR",
@@ -992,14 +992,14 @@
      "short": "Toronto",
      "record": "6-11",
      "logo": "img/tor.png",
-     "score": 91
+     "score": 107
     },
     "date_utc": "2026-11-28T00:30Z",
     "date_az": "2026-11-27",
     "tip_az": "5:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 2:46",
+    "state_text": "In progress, q4 9:33",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1023,7 +1023,7 @@
      "short": "Atlanta",
      "record": "11-6",
      "logo": "img/atl.png",
-     "score": 39
+     "score": 60
     },
     "home": {
      "abbr": "BOS",
@@ -1031,14 +1031,14 @@
      "short": "Boston",
      "record": "12-6",
      "logo": "img/bos.png",
-     "score": 51
+     "score": 67
     },
     "date_utc": "2026-11-28T01:00Z",
     "date_az": "2026-11-27",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q3 12:00",
+    "state_text": "In progress, q3 3:32",
     "overtime": false,
     "winner": null,
     "kind": "none",
