@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T17:30:44-07:00",
- "as_of_display": "Fri Nov 27, 2026, 5:30 PM AZ",
+ "as_of": "2026-11-27T17:49:42-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 5:49 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,9 +13,33 @@
    "id": "21718193",
    "away": "MIA",
    "home": "NYK",
-   "away_score": 21,
-   "home_score": 16,
-   "detail": "Q1 4:05"
+   "away_score": 42,
+   "home_score": 25,
+   "detail": "Q2 7:32"
+  },
+  {
+   "id": "21718194",
+   "away": "MIL",
+   "home": "DET",
+   "away_score": 10,
+   "home_score": 2,
+   "detail": "Q1 8:51"
+  },
+  {
+   "id": "21718195",
+   "away": "PHI",
+   "home": "IND",
+   "away_score": 17,
+   "home_score": 5,
+   "detail": "Q1 7:36"
+  },
+  {
+   "id": "21718196",
+   "away": "BKN",
+   "home": "TOR",
+   "away_score": 9,
+   "home_score": 5,
+   "detail": "Q1 9:01"
   }
  ],
  "teams": [
@@ -270,7 +294,7 @@
     "wins": 15,
     "losses": 4
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -334,7 +358,7 @@
     "wins": 11,
     "losses": 6
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -414,7 +438,7 @@
     "wins": 6,
     "losses": 11
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -446,7 +470,7 @@
     "wins": 6,
     "losses": 12
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -478,7 +502,7 @@
     "wins": 4,
     "losses": 13
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -494,7 +518,7 @@
     "wins": 2,
     "losses": 17
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
