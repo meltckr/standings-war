@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T21:47:13-07:00",
- "as_of_display": "Fri Nov 27, 2026, 9:47 PM AZ",
+ "as_of": "2026-11-27T22:08:09-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 10:08 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -13,33 +13,9 @@
    "id": "21718200",
    "away": "LAL",
    "home": "SAS",
-   "away_score": 81,
-   "home_score": 86,
-   "detail": "Q4 3:36"
-  },
-  {
-   "id": "21718201",
-   "away": "DEN",
-   "home": "UTA",
-   "away_score": 118,
-   "home_score": 107,
-   "detail": "Q4 :16.5"
-  },
-  {
-   "id": "21718202",
-   "away": "NOP",
-   "home": "LAC",
-   "away_score": 98,
-   "home_score": 92,
-   "detail": "Q4 3:14"
-  },
-  {
-   "id": "21718203",
-   "away": "GSW",
-   "home": "POR",
-   "away_score": 88,
-   "home_score": 100,
-   "detail": "Q4 6:01"
+   "away_score": 95,
+   "home_score": 96,
+   "detail": "Q4 :07.7"
   }
  ],
  "teams": [
@@ -127,21 +103,37 @@
    "team": "POR",
    "seed": 6,
    "bdl": {
-    "wins": 12,
+    "wins": 13,
     "losses": 6
    },
    "bdl_game_results": {
-    "wins": 12,
+    "wins": 13,
     "losses": 6
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
+   "match": {
+    "bdl_game_results": true
+   }
+  },
+  {
+   "team": "DEN",
+   "seed": 7,
+   "bdl": {
+    "wins": 11,
+    "losses": 6
+   },
+   "bdl_game_results": {
+    "wins": 11,
+    "losses": 6
+   },
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
    "team": "DAL",
-   "seed": 7,
+   "seed": 8,
    "bdl": {
     "wins": 12,
     "losses": 7
@@ -156,39 +148,23 @@
    }
   },
   {
-   "team": "DEN",
-   "seed": 8,
+   "team": "OKC",
+   "seed": 9,
    "bdl": {
     "wins": 10,
-    "losses": 6
+    "losses": 9
    },
    "bdl_game_results": {
     "wins": 10,
-    "losses": 6
+    "losses": 9
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
   },
   {
    "team": "GSW",
-   "seed": 9,
-   "bdl": {
-    "wins": 10,
-    "losses": 8
-   },
-   "bdl_game_results": {
-    "wins": 10,
-    "losses": 8
-   },
-   "game_in_progress": true,
-   "match": {
-    "bdl_game_results": true
-   }
-  },
-  {
-   "team": "OKC",
    "seed": 10,
    "bdl": {
     "wins": 10,
@@ -223,14 +199,14 @@
    "team": "NOP",
    "seed": 12,
    "bdl": {
-    "wins": 5,
+    "wins": 6,
     "losses": 14
    },
    "bdl_game_results": {
-    "wins": 5,
+    "wins": 6,
     "losses": 14
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -240,13 +216,13 @@
    "seed": 13,
    "bdl": {
     "wins": 4,
-    "losses": 13
+    "losses": 14
    },
    "bdl_game_results": {
     "wins": 4,
-    "losses": 13
+    "losses": 14
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -256,13 +232,13 @@
    "seed": 14,
    "bdl": {
     "wins": 3,
-    "losses": 16
+    "losses": 17
    },
    "bdl_game_results": {
     "wins": 3,
-    "losses": 16
+    "losses": 17
    },
-   "game_in_progress": true,
+   "game_in_progress": false,
    "match": {
     "bdl_game_results": true
    }
@@ -526,192 +502,71 @@
  ],
  "reconciled": [
   {
-   "team": "ATL",
-   "conference": "East",
-   "bdl_standings": "11-6",
-   "game_results": "12-6",
-   "game_id": "21718197",
+   "team": "GSW",
+   "conference": "West",
+   "bdl_standings": "10-8",
+   "game_results": "10-9",
+   "game_id": "21718203",
    "date_az": "2026-11-27",
-   "opp": "BOS",
+   "opp": "POR",
    "home_away": "road",
-   "result": "W",
-   "score": "87-86",
-   "seed_bdl": 3,
-   "seed_used": 2
+   "result": "L",
+   "score": "94-116",
+   "seed_bdl": 9,
+   "seed_used": 10
   },
   {
-   "team": "BKN",
-   "conference": "East",
+   "team": "LAC",
+   "conference": "West",
    "bdl_standings": "4-13",
    "game_results": "4-14",
-   "game_id": "21718196",
+   "game_id": "21718202",
    "date_az": "2026-11-27",
-   "opp": "TOR",
-   "home_away": "road",
-   "result": "L",
-   "score": "100-124",
-   "seed_bdl": 14,
-   "seed_used": 14
-  },
-  {
-   "team": "BOS",
-   "conference": "East",
-   "bdl_standings": "12-6",
-   "game_results": "12-7",
-   "game_id": "21718197",
-   "date_az": "2026-11-27",
-   "opp": "ATL",
+   "opp": "NOP",
    "home_away": "home",
    "result": "L",
-   "score": "86-87",
-   "seed_bdl": 2,
-   "seed_used": 4
+   "score": "104-105",
+   "seed_bdl": 13,
+   "seed_used": 13
   },
   {
-   "team": "DAL",
+   "team": "NOP",
    "conference": "West",
-   "bdl_standings": "11-7",
-   "game_results": "12-7",
-   "game_id": "21718199",
+   "bdl_standings": "5-14",
+   "game_results": "6-14",
+   "game_id": "21718202",
    "date_az": "2026-11-27",
-   "opp": "PHX",
+   "opp": "LAC",
    "home_away": "road",
    "result": "W",
-   "score": "113-109",
-   "seed_bdl": 8,
-   "seed_used": 7
-  },
-  {
-   "team": "DET",
-   "conference": "East",
-   "bdl_standings": "11-6",
-   "game_results": "12-6",
-   "game_id": "21718194",
-   "date_az": "2026-11-27",
-   "opp": "MIL",
-   "home_away": "home",
-   "result": "W",
-   "score": "113-98",
-   "seed_bdl": 4,
-   "seed_used": 3
-  },
-  {
-   "team": "IND",
-   "conference": "East",
-   "bdl_standings": "6-12",
-   "game_results": "6-13",
-   "game_id": "21718195",
-   "date_az": "2026-11-27",
-   "opp": "PHI",
-   "home_away": "home",
-   "result": "L",
-   "score": "87-111",
+   "score": "105-104",
    "seed_bdl": 12,
    "seed_used": 12
   },
   {
-   "team": "MEM",
+   "team": "POR",
    "conference": "West",
-   "bdl_standings": "14-5",
-   "game_results": "15-5",
-   "game_id": "21718198",
+   "bdl_standings": "12-6",
+   "game_results": "13-6",
+   "game_id": "21718203",
    "date_az": "2026-11-27",
-   "opp": "MIN",
-   "home_away": "road",
-   "result": "W",
-   "score": "114-109",
-   "seed_bdl": 5,
-   "seed_used": 3
-  },
-  {
-   "team": "MIL",
-   "conference": "East",
-   "bdl_standings": "2-17",
-   "game_results": "2-18",
-   "game_id": "21718194",
-   "date_az": "2026-11-27",
-   "opp": "DET",
-   "home_away": "road",
-   "result": "L",
-   "score": "98-113",
-   "seed_bdl": 15,
-   "seed_used": 15
-  },
-  {
-   "team": "MIN",
-   "conference": "West",
-   "bdl_standings": "14-5",
-   "game_results": "14-6",
-   "game_id": "21718198",
-   "date_az": "2026-11-27",
-   "opp": "MEM",
-   "home_away": "home",
-   "result": "L",
-   "score": "109-114",
-   "seed_bdl": 3,
-   "seed_used": 5
-  },
-  {
-   "team": "PHI",
-   "conference": "East",
-   "bdl_standings": "15-4",
-   "game_results": "16-4",
-   "game_id": "21718195",
-   "date_az": "2026-11-27",
-   "opp": "IND",
-   "home_away": "road",
-   "result": "W",
-   "score": "111-87",
-   "seed_bdl": 1,
-   "seed_used": 1
-  },
-  {
-   "team": "PHX",
-   "conference": "West",
-   "bdl_standings": "9-8",
-   "game_results": "9-9",
-   "game_id": "21718199",
-   "date_az": "2026-11-27",
-   "opp": "DAL",
-   "home_away": "home",
-   "result": "L",
-   "score": "109-113",
-   "seed_bdl": 10,
-   "seed_used": 11
-  },
-  {
-   "team": "TOR",
-   "conference": "East",
-   "bdl_standings": "6-11",
-   "game_results": "7-11",
-   "game_id": "21718196",
-   "date_az": "2026-11-27",
-   "opp": "BKN",
+   "opp": "GSW",
    "home_away": "home",
    "result": "W",
-   "score": "124-100",
-   "seed_bdl": 10,
-   "seed_used": 9
+   "score": "116-94",
+   "seed_bdl": 6,
+   "seed_used": 6
   }
  ],
  "reconciled_tiebreaks": [
   {
    "teams": [
-    "ATL",
-    "DET"
+    "OKC",
+    "GSW"
    ],
-   "record": "12-6",
-   "ahead": "ATL",
-   "step": "head-to-head 1-0"
-  },
-  {
-   "teams": [
-    "BOS",
-    "NYK"
-   ],
-   "record": "12-7",
-   "ahead": "BOS",
-   "step": "head-to-head 1-0"
+   "record": "10-9",
+   "ahead": "OKC",
+   "step": "conference record GSW 7-9 vs OKC 7-6"
   }
  ],
  "league": {
