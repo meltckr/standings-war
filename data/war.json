@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-27T22:08:09-07:00",
- "as_of_display": "Fri Nov 27, 2026, 10:08 PM AZ",
+ "as_of": "2026-11-27T22:29:23-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 10:29 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Thursday, Nov 26, 2026",
   "weekday": "Thursday"
  },
- "raw_folder": "data/raw/20261127-2208",
+ "raw_folder": "data/raw/20261127-2229",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -214,13 +214,13 @@
    "plural": true,
    "conference": "West",
    "wins": 15,
-   "losses": 3,
-   "seed": 1,
+   "losses": 4,
+   "seed": 2,
    "logo_url": null,
    "logo": "img/lal.png",
-   "record": "15-3",
-   "pct": 0.8333333333333334,
-   "gap": 6.0,
+   "record": "15-4",
+   "pct": 0.7894736842105263,
+   "gap": 5.5,
    "near": false,
    "color": "#552583"
   },
@@ -367,14 +367,14 @@
    "subject": "San Antonio",
    "plural": false,
    "conference": "West",
-   "wins": 15,
+   "wins": 16,
    "losses": 4,
-   "seed": 2,
+   "seed": 1,
    "logo_url": null,
    "logo": "img/sas.png",
-   "record": "15-4",
-   "pct": 0.7894736842105263,
-   "gap": 5.5,
+   "record": "16-4",
+   "pct": 0.8,
+   "gap": 6.0,
    "near": false,
    "color": "#000000"
   },
@@ -1062,37 +1062,37 @@
      "abbr": "LAL",
      "name": "Los Angeles Lakers",
      "short": "LA Lakers",
-     "record": "15-3",
+     "record": "15-4",
      "logo": "img/lal.png",
-     "score": 95
+     "score": 96
     },
     "home": {
      "abbr": "SAS",
      "name": "San Antonio Spurs",
      "short": "San Antonio",
-     "record": "15-4",
+     "record": "16-4",
      "logo": "img/sas.png",
-     "score": 96
+     "score": 99
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, q4 :07.7",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "SAS",
     "kind": "none",
     "answer": "No stake",
     "root": null,
     "target": null,
     "goals": [],
     "tags": [],
-    "why": "The Lakers are 5.5 games ahead of Phoenix and San Antonio is 5 games ahead of Phoenix. Both are outside the 4-game range.",
+    "why": "The Lakers were 5.5 games ahead of Phoenix and San Antonio was 5 games ahead of Phoenix. Both were outside the 4-game range.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "No stake",
+    "verdict_note": "Outside the 4-game range",
+    "verdict_tag": "Outside the 4-game range"
    },
    {
     "id": "21718202",
@@ -1674,23 +1674,23 @@
     "place": 28,
     "place_label": "28",
     "tied": false,
-    "abbr": "SAS",
-    "short": "San Antonio",
-    "name": "San Antonio Spurs",
+    "abbr": "LAL",
+    "short": "LA Lakers",
+    "name": "Los Angeles Lakers",
     "conference": "West",
     "wins": 15,
     "losses": 4,
     "record": "15-4",
     "pct": 0.7895,
-    "logo": "img/sas.png",
+    "logo": "img/lal.png",
     "mark": null,
     "lands": false,
     "note": ""
    },
    {
     "place": 29,
-    "place_label": "29",
-    "tied": false,
+    "place_label": "T29",
+    "tied": true,
     "abbr": "PHI",
     "short": "Philadelphia",
     "name": "Philadelphia 76ers",
@@ -1705,18 +1705,18 @@
     "note": ""
    },
    {
-    "place": 30,
-    "place_label": "30",
-    "tied": false,
-    "abbr": "LAL",
-    "short": "LA Lakers",
-    "name": "Los Angeles Lakers",
+    "place": 29,
+    "place_label": "T29",
+    "tied": true,
+    "abbr": "SAS",
+    "short": "San Antonio",
+    "name": "San Antonio Spurs",
     "conference": "West",
-    "wins": 15,
-    "losses": 3,
-    "record": "15-3",
-    "pct": 0.8333,
-    "logo": "img/lal.png",
+    "wins": 16,
+    "losses": 4,
+    "record": "16-4",
+    "pct": 0.8,
+    "logo": "img/sas.png",
     "mark": null,
     "lands": false,
     "note": ""
@@ -1925,8 +1925,8 @@
     "home_away": "road",
     "note": null
    },
-   "lens": "The Lakers are 6 games ahead of Phoenix in the West.",
-   "vs_phx": "6 games ahead of Phoenix"
+   "lens": "The Lakers are 5.5 games ahead of Phoenix in the West.",
+   "vs_phx": "5.5 games ahead of Phoenix"
   },
   "CHA": {
    "last": {
@@ -2072,8 +2072,8 @@
     "home_away": "home",
     "note": null
    },
-   "lens": "San Antonio is 5.5 games ahead of Phoenix in the West.",
-   "vs_phx": "5.5 games ahead of Phoenix"
+   "lens": "San Antonio is 6 games ahead of Phoenix in the West.",
+   "vs_phx": "6 games ahead of Phoenix"
   },
   "ORL": {
    "last": {
