@@ -1,7 +1,7 @@
 {
  "title": "Standings War",
- "as_of": "2026-11-27T20:22:08-07:00",
- "as_of_display": "Fri Nov 27, 2026, 8:22 PM AZ",
+ "as_of": "2026-11-27T20:43:32-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 8:43 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "today": {
@@ -16,7 +16,7 @@
   "long": "Thursday, Nov 26, 2026",
   "weekday": "Thursday"
  },
- "raw_folder": "data/raw/20261127-2022",
+ "raw_folder": "data/raw/20261127-2043",
  "focus": "PHX",
  "pick_teams": [
   "CLE",
@@ -37,14 +37,14 @@
    "subject": "Atlanta",
    "plural": false,
    "conference": "East",
-   "wins": 11,
+   "wins": 12,
    "losses": 6,
-   "seed": 4,
+   "seed": 2,
    "logo_url": null,
    "logo": "img/atl.png",
-   "record": "11-6",
-   "pct": 0.6470588235294118,
-   "gap": 2.0,
+   "record": "12-6",
+   "pct": 0.6666666666666666,
+   "gap": 2.5,
    "near": false,
    "color": "#c8102e"
   },
@@ -104,13 +104,13 @@
    "plural": false,
    "conference": "East",
    "wins": 12,
-   "losses": 6,
-   "seed": 3,
+   "losses": 7,
+   "seed": 4,
    "logo_url": null,
    "logo": "img/bos.png",
-   "record": "12-6",
-   "pct": 0.6666666666666666,
-   "gap": 2.5,
+   "record": "12-7",
+   "pct": 0.631578947368421,
+   "gap": 2.0,
    "near": false,
    "color": "#008348"
   },
@@ -303,7 +303,7 @@
    "conference": "East",
    "wins": 12,
    "losses": 6,
-   "seed": 2,
+   "seed": 3,
    "logo_url": null,
    "logo": "img/det.png",
    "record": "12-6",
@@ -699,7 +699,7 @@
      "short": "Dallas",
      "record": "11-7",
      "logo": "img/dal.png",
-     "score": 53
+     "score": 67
     },
     "home": {
      "abbr": "PHX",
@@ -707,14 +707,14 @@
      "short": "Phoenix",
      "record": "9-8",
      "logo": "img/phx.png",
-     "score": 63
+     "score": 78
     },
     "date_utc": "2026-11-28T02:00Z",
     "date_az": "2026-11-27",
     "tip_az": "7:00 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, half",
+    "state_text": "In progress, q3 5:29",
     "overtime": false,
     "winner": null,
     "kind": "suns",
@@ -738,7 +738,7 @@
      "short": "Memphis",
      "record": "14-5",
      "logo": "img/mem.png",
-     "score": 91
+     "score": 109
     },
     "home": {
      "abbr": "MIN",
@@ -746,14 +746,14 @@
      "short": "Minnesota",
      "record": "14-5",
      "logo": "img/min.png",
-     "score": 87
+     "score": 101
     },
     "date_utc": "2026-11-28T01:30Z",
     "date_az": "2026-11-27",
     "tip_az": "6:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q4 8:17",
+    "state_text": "In progress, q4 1:31",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -781,7 +781,7 @@
      "short": "Denver",
      "record": "10-6",
      "logo": "img/den.png",
-     "score": 42
+     "score": 52
     },
     "home": {
      "abbr": "UTA",
@@ -789,14 +789,14 @@
      "short": "Utah",
      "record": "3-16",
      "logo": "img/uta.png",
-     "score": 41
+     "score": 53
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 4:17",
+    "state_text": "In progress, half",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -824,7 +824,7 @@
      "short": "Golden State",
      "record": "10-8",
      "logo": "img/gsw.png",
-     "score": 21
+     "score": 44
     },
     "home": {
      "abbr": "POR",
@@ -832,14 +832,14 @@
      "short": "Portland",
      "record": "12-6",
      "logo": "img/por.png",
-     "score": 49
+     "score": 67
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 7:42",
+    "state_text": "In progress, half",
     "overtime": false,
     "winner": null,
     "kind": "stake",
@@ -1021,7 +1021,7 @@
      "abbr": "ATL",
      "name": "Atlanta Hawks",
      "short": "Atlanta",
-     "record": "11-6",
+     "record": "12-6",
      "logo": "img/atl.png",
      "score": 87
     },
@@ -1029,7 +1029,7 @@
      "abbr": "BOS",
      "name": "Boston Celtics",
      "short": "Boston",
-     "record": "12-6",
+     "record": "12-7",
      "logo": "img/bos.png",
      "score": 86
     },
@@ -1037,10 +1037,10 @@
     "date_az": "2026-11-27",
     "tip_az": "6:00 PM AZ",
     "time_valid": true,
-    "status": "in_progress",
-    "state_text": "In progress, eND Q4",
+    "status": "final",
+    "state_text": "Final",
     "overtime": false,
-    "winner": null,
+    "winner": "ATL",
     "kind": "none",
     "answer": "No stake",
     "root": null,
@@ -1049,9 +1049,9 @@
     "tags": [],
     "why": "Both teams are in the East, and neither one affects Phoenix's seed or pick.",
     "conflict": false,
-    "verdict": null,
-    "verdict_note": "",
-    "verdict_tag": ""
+    "verdict": "No stake",
+    "verdict_note": "Two East teams",
+    "verdict_tag": "Two East teams"
    },
    {
     "id": "21718200",
@@ -1062,7 +1062,7 @@
      "short": "LA Lakers",
      "record": "15-3",
      "logo": "img/lal.png",
-     "score": 34
+     "score": 54
     },
     "home": {
      "abbr": "SAS",
@@ -1070,14 +1070,14 @@
      "short": "San Antonio",
      "record": "15-4",
      "logo": "img/sas.png",
-     "score": 19
+     "score": 38
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 8:10",
+    "state_text": "In progress, half",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1101,7 +1101,7 @@
      "short": "New Orleans",
      "record": "5-14",
      "logo": "img/nop.png",
-     "score": 34
+     "score": 54
     },
     "home": {
      "abbr": "LAC",
@@ -1109,14 +1109,14 @@
      "short": "LA Clippers",
      "record": "4-13",
      "logo": "img/lac.png",
-     "score": 43
+     "score": 50
     },
     "date_utc": "2026-11-28T02:30Z",
     "date_az": "2026-11-27",
     "tip_az": "7:30 PM AZ",
     "time_valid": true,
     "status": "in_progress",
-    "state_text": "In progress, q2 6:29",
+    "state_text": "In progress, half",
     "overtime": false,
     "winner": null,
     "kind": "none",
@@ -1534,8 +1534,25 @@
    },
    {
     "place": 20,
-    "place_label": "20",
-    "tied": false,
+    "place_label": "T20",
+    "tied": true,
+    "abbr": "BOS",
+    "short": "Boston",
+    "name": "Boston Celtics",
+    "conference": "East",
+    "wins": 12,
+    "losses": 7,
+    "record": "12-7",
+    "pct": 0.6316,
+    "logo": "img/bos.png",
+    "mark": null,
+    "lands": false,
+    "note": ""
+   },
+   {
+    "place": 20,
+    "place_label": "T20",
+    "tied": true,
     "abbr": "NYK",
     "short": "New York",
     "name": "New York Knicks",
@@ -1550,35 +1567,18 @@
     "note": ""
    },
    {
-    "place": 21,
-    "place_label": "21",
-    "tied": false,
-    "abbr": "ATL",
-    "short": "Atlanta",
-    "name": "Atlanta Hawks",
-    "conference": "East",
-    "wins": 11,
-    "losses": 6,
-    "record": "11-6",
-    "pct": 0.6471,
-    "logo": "img/atl.png",
-    "mark": null,
-    "lands": false,
-    "note": ""
-   },
-   {
     "place": 22,
     "place_label": "T22",
     "tied": true,
-    "abbr": "BOS",
-    "short": "Boston",
-    "name": "Boston Celtics",
+    "abbr": "ATL",
+    "short": "Atlanta",
+    "name": "Atlanta Hawks",
     "conference": "East",
     "wins": 12,
     "losses": 6,
     "record": "12-6",
     "pct": 0.6667,
-    "logo": "img/bos.png",
+    "logo": "img/atl.png",
     "mark": null,
     "lands": false,
     "note": ""

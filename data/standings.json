@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T20:22:08-07:00",
- "as_of_display": "Fri Nov 27, 2026, 8:22 PM AZ",
+ "as_of": "2026-11-27T20:43:32-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 8:43 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -8,60 +8,52 @@
  "conference": "West",
  "games_in_progress": [
   {
-   "id": "21718197",
-   "away": "ATL",
-   "home": "BOS",
-   "away_score": 87,
-   "home_score": 86,
-   "detail": "END Q4"
-  },
-  {
    "id": "21718198",
    "away": "MEM",
    "home": "MIN",
-   "away_score": 91,
-   "home_score": 87,
-   "detail": "Q4 8:17"
+   "away_score": 109,
+   "home_score": 101,
+   "detail": "Q4 1:31"
   },
   {
    "id": "21718199",
    "away": "DAL",
    "home": "PHX",
-   "away_score": 53,
-   "home_score": 63,
-   "detail": "Half"
+   "away_score": 67,
+   "home_score": 78,
+   "detail": "Q3 5:29"
   },
   {
    "id": "21718200",
    "away": "LAL",
    "home": "SAS",
-   "away_score": 34,
-   "home_score": 19,
-   "detail": "Q2 8:10"
+   "away_score": 54,
+   "home_score": 38,
+   "detail": "Half"
   },
   {
    "id": "21718201",
    "away": "DEN",
    "home": "UTA",
-   "away_score": 42,
-   "home_score": 41,
-   "detail": "Q2 4:17"
+   "away_score": 52,
+   "home_score": 53,
+   "detail": "Half"
   },
   {
    "id": "21718202",
    "away": "NOP",
    "home": "LAC",
-   "away_score": 34,
-   "home_score": 43,
-   "detail": "Q2 6:29"
+   "away_score": 54,
+   "home_score": 50,
+   "detail": "Half"
   },
   {
    "id": "21718203",
    "away": "GSW",
    "home": "POR",
-   "away_score": 21,
-   "home_score": 49,
-   "detail": "Q2 7:42"
+   "away_score": 44,
+   "home_score": 67,
+   "detail": "Half"
   }
  ],
  "teams": [
@@ -473,7 +465,7 @@
  ],
  "league_records": {
   "ATL": {
-   "wins": 11,
+   "wins": 12,
    "losses": 6,
    "conference": "East",
    "bdl_id": 1,
@@ -501,7 +493,7 @@
   },
   "BOS": {
    "wins": 12,
-   "losses": 6,
+   "losses": 7,
    "conference": "East",
    "bdl_id": 2,
    "name": "Boston Celtics",
