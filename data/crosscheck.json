@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T17:12:58-07:00",
- "as_of_display": "Fri Nov 27, 2026, 5:12 PM AZ",
+ "as_of": "2026-11-27T17:30:44-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 5:30 PM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -8,7 +8,16 @@
   "provider": "balldontlie",
   "docs": "https://www.balldontlie.io/"
  },
- "games_in_progress": [],
+ "games_in_progress": [
+  {
+   "id": "21718193",
+   "away": "MIA",
+   "home": "NYK",
+   "away_score": 21,
+   "home_score": 16,
+   "detail": "Q1 4:05"
+  }
+ ],
  "teams": [
   {
    "team": "LAL",
@@ -293,7 +302,7 @@
     "wins": 12,
     "losses": 6
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }
@@ -341,7 +350,7 @@
     "wins": 10,
     "losses": 7
    },
-   "game_in_progress": false,
+   "game_in_progress": true,
    "match": {
     "bdl_game_results": true
    }

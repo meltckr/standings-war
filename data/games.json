@@ -1,13 +1,13 @@
 {
- "as_of": "2026-11-27T17:12:58-07:00",
- "as_of_display": "Fri Nov 27, 2026, 5:12 PM AZ",
+ "as_of": "2026-11-27T17:30:44-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 5:30 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie games",
  "counts": {
   "total": 1200,
   "final": 270,
-  "in_progress": 0,
+  "in_progress": 1,
   "remaining": 930
  },
  "unscheduled_by_team": {
@@ -5435,18 +5435,18 @@
    "tip_az": "5:00 PM AZ",
    "home": "NYK",
    "away": "MIA",
-   "home_score": null,
-   "away_score": null,
-   "status": "scheduled",
+   "home_score": 16,
+   "away_score": 21,
+   "status": "in_progress",
    "winner": null,
    "note": "East Group B",
    "venue": null,
    "time_valid": true,
    "overtime": false,
-   "period": 0,
-   "clock": null,
-   "bdl_status": "2026-11-28T00:00:00Z",
-   "bdl_status_state": "scheduled"
+   "period": 1,
+   "clock": "Q1 4:05",
+   "bdl_status": "1st Qtr",
+   "bdl_status_state": "in_progress"
   },
   {
    "id": "21718194",
