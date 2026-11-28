@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T19:02:09-07:00",
- "as_of_display": "Fri Nov 27, 2026, 7:02 PM AZ",
+ "as_of": "2026-11-27T19:20:29-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 7:20 PM AZ",
  "timezone": "America/Phoenix",
  "season": "2026-27",
  "source": "balldontlie",
@@ -11,49 +11,57 @@
    "id": "21718193",
    "away": "MIA",
    "home": "NYK",
-   "away_score": 88,
-   "home_score": 79,
-   "detail": "Q4 10:57"
+   "away_score": 93,
+   "home_score": 93,
+   "detail": "Q4 5:43"
   },
   {
    "id": "21718194",
    "away": "MIL",
    "home": "DET",
-   "away_score": 57,
-   "home_score": 62,
-   "detail": "Q3 6:57"
+   "away_score": 76,
+   "home_score": 90,
+   "detail": "Q3 :00.0"
   },
   {
    "id": "21718195",
    "away": "PHI",
    "home": "IND",
-   "away_score": 64,
-   "home_score": 46,
-   "detail": "Q3 9:39"
+   "away_score": 73,
+   "home_score": 52,
+   "detail": "Q3 4:01"
   },
   {
    "id": "21718196",
    "away": "BKN",
    "home": "TOR",
-   "away_score": 57,
-   "home_score": 70,
-   "detail": "Q3 9:39"
+   "away_score": 75,
+   "home_score": 91,
+   "detail": "Q3 2:46"
   },
   {
    "id": "21718197",
    "away": "ATL",
    "home": "BOS",
-   "away_score": 34,
-   "home_score": 48,
-   "detail": "Q2 2:22"
+   "away_score": 39,
+   "home_score": 51,
+   "detail": "Q3 12:00"
   },
   {
    "id": "21718198",
    "away": "MEM",
    "home": "MIN",
-   "away_score": 30,
-   "home_score": 19,
-   "detail": "Q1 1:39"
+   "away_score": 47,
+   "home_score": 37,
+   "detail": "Q2 6:41"
+  },
+  {
+   "id": "21718199",
+   "away": "DAL",
+   "home": "PHX",
+   "away_score": 18,
+   "home_score": 5,
+   "detail": "Q1 8:05"
   }
  ],
  "teams": [
@@ -271,7 +279,7 @@
    "conf_losses": 5,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "GSW",
@@ -325,7 +333,7 @@
    "conf_losses": 8,
    "games_listed": 80,
    "games_unscheduled": 2,
-   "game_in_progress": false
+   "game_in_progress": true
   },
   {
    "team": "OKC",

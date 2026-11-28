@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T19:02:09-07:00",
- "as_of_display": "Fri Nov 27, 2026, 7:02 PM AZ",
+ "as_of": "2026-11-27T19:20:29-07:00",
+ "as_of_display": "Fri Nov 27, 2026, 7:20 PM AZ",
  "timezone": "America/Phoenix",
  "team": "PHX",
  "record": {
@@ -292,7 +292,7 @@
    "date_utc": "2026-11-28T02:00Z",
    "opp": "DAL",
    "home_away": "home",
-   "status": "scheduled",
+   "status": "in_progress",
    "result": null,
    "score": null,
    "note": "West Group A",
