@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-27T22:50:16-07:00",
- "as_of_display": "Fri Nov 27, 2026, 10:50 PM AZ",
+ "as_of": "2026-11-28T01:30:06-07:00",
+ "as_of_display": "Sat Nov 28, 2026, 1:30 AM AZ",
  "timezone": "America/Phoenix",
  "sources": {
   "standings": "https://api.balldontlie.io/v1/standings?season=2026",
@@ -491,103 +491,8 @@
    }
   }
  ],
- "reconciled": [
-  {
-   "team": "GSW",
-   "conference": "West",
-   "bdl_standings": "10-8",
-   "game_results": "10-9",
-   "game_id": "21718203",
-   "date_az": "2026-11-27",
-   "opp": "POR",
-   "home_away": "road",
-   "result": "L",
-   "score": "94-116",
-   "seed_bdl": 9,
-   "seed_used": 10
-  },
-  {
-   "team": "LAC",
-   "conference": "West",
-   "bdl_standings": "4-13",
-   "game_results": "4-14",
-   "game_id": "21718202",
-   "date_az": "2026-11-27",
-   "opp": "NOP",
-   "home_away": "home",
-   "result": "L",
-   "score": "104-105",
-   "seed_bdl": 13,
-   "seed_used": 13
-  },
-  {
-   "team": "LAL",
-   "conference": "West",
-   "bdl_standings": "15-3",
-   "game_results": "15-4",
-   "game_id": "21718200",
-   "date_az": "2026-11-27",
-   "opp": "SAS",
-   "home_away": "road",
-   "result": "L",
-   "score": "96-99",
-   "seed_bdl": 1,
-   "seed_used": 2
-  },
-  {
-   "team": "NOP",
-   "conference": "West",
-   "bdl_standings": "5-14",
-   "game_results": "6-14",
-   "game_id": "21718202",
-   "date_az": "2026-11-27",
-   "opp": "LAC",
-   "home_away": "road",
-   "result": "W",
-   "score": "105-104",
-   "seed_bdl": 12,
-   "seed_used": 12
-  },
-  {
-   "team": "POR",
-   "conference": "West",
-   "bdl_standings": "12-6",
-   "game_results": "13-6",
-   "game_id": "21718203",
-   "date_az": "2026-11-27",
-   "opp": "GSW",
-   "home_away": "home",
-   "result": "W",
-   "score": "116-94",
-   "seed_bdl": 6,
-   "seed_used": 6
-  },
-  {
-   "team": "SAS",
-   "conference": "West",
-   "bdl_standings": "15-4",
-   "game_results": "16-4",
-   "game_id": "21718200",
-   "date_az": "2026-11-27",
-   "opp": "LAL",
-   "home_away": "home",
-   "result": "W",
-   "score": "99-96",
-   "seed_bdl": 2,
-   "seed_used": 1
-  }
- ],
- "reconciled_tiebreaks": [
-  {
-   "teams": [
-    "OKC",
-    "GSW"
-   ],
-   "record": "10-9",
-   "ahead": "OKC",
-   "step": "conference record GSW 7-9 vs OKC 7-6"
-  }
- ],
+ "reconciled": [],
+ "reconciled_tiebreaks": [],
  "league": {
   "provider": "balldontlie",
   "records_checked": 30,
